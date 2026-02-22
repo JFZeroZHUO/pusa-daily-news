@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-02-11</title>
+  <style>
+    :root {
+      --bg-primary: #0d1512;
+      --bg-card: #141f1a;
+      --bg-card-hover: #1a2922;
+      --border: #2d4a3e;
+      --text-primary: #e6f4ea;
+      --text-secondary: #81a894;
+      --accent-blue: #48bb78;
+      --accent-red: #f687b3;
+      --accent-green: #9ae6b4;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .newspaper-container {
+      width: 1600px;
+      min-height: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    @media (max-width: 1200px) {
+      .newspaper-container { width: 100%; }
+      .newspaper-grid { grid-template-columns: 1fr !important; }
+    }
+    .newspaper-header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .issue-info {
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+    .newspaper-title {
+      font-size: 32px;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--accent-blue), var(--accent-green));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stats-badge {
+      background: var(--bg-card);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: var(--accent-orange);
+      border: 1px solid var(--border);
+    }
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 20px;
+    }
+    .section {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+    }
+    .section:hover { background: var(--bg-card-hover); }
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title .icon { font-size: 20px; }
+    .highlight-blue { color: var(--accent-blue); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+    .highlight-purple { color: var(--accent-purple); font-weight: 700; }
+    .highlight-orange { color: var(--accent-orange); font-weight: 700; }
+    .bg-highlight { background: rgba(72,187,120,0.12); padding: 2px 6px; border-radius: 3px; }
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(214,188,250,0.06);
+      color: #c9d9c9;
+      font-style: italic;
+      border-radius: 0 8px 8px 0;
+    }
+    mark.blue { background: rgba(72,187,120,0.25); color: var(--accent-blue); padding: 1px 4px; border-radius: 3px; }
+    mark.orange { background: rgba(251,211,141,0.25); color: var(--accent-orange); padding: 1px 4px; border-radius: 3px; }
+    mark.green { background: rgba(154,230,180,0.25); color: var(--accent-green); padding: 1px 4px; border-radius: 3px; }
+    mark.purple { background: rgba(214,188,250,0.25); color: var(--accent-purple); padding: 1px 4px; border-radius: 3px; }
+    .link-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-blue);
+      color: var(--accent-blue);
+      font-size: 12px;
+      text-decoration: none;
+      margin: 4px 4px 4px 0;
+    }
+    .link-pill:hover { background: rgba(72,187,120,0.1); }
+    .block-announcement .alert-bar {
+      background: linear-gradient(90deg, var(--accent-red), #ffa0c0);
+      padding: 8px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .timeline-item {
+      border-left: 2px solid var(--accent-red);
+      padding-left: 16px;
+      margin-left: 8px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 8px;
+      width: 10px;
+      height: 10px;
+      background: var(--accent-red);
+      border-radius: 50%;
+    }
+    .block-teacher {
+      background: linear-gradient(135deg, #141f1a, #182520);
+    }
+    .block-teacher blockquote {
+      border-left: 4px solid var(--accent-purple);
+      font-size: 15px;
+    }
+    .teacher-avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+      border-radius: 50%;
+      font-weight: 700;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    .teacher-name {
+      font-weight: 600;
+      color: var(--accent-purple);
+      font-size: 16px;
+    }
+    .hot-badge {
+      background: var(--accent-red);
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 12px;
+      color: #fff;
+      margin-left: 8px;
+    }
+    .chat-bubble {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      max-width: 90%;
+    }
+    .chat-bubble.left { margin-right: auto; border-bottom-left-radius: 4px; }
+    .chat-bubble.right { margin-left: auto; border-bottom-right-radius: 4px; background: rgba(72,187,120,0.1); }
+    .chat-sender { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; }
+    .block-honor .medal-icon {
+      font-size: 28px;
+      text-shadow: 0 0 20px rgba(246,224,94,0.5);
+    }
+    .honor-card {
+      background: rgba(246,224,94,0.15);
+      border: 1px solid var(--accent-yellow);
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 10px 0;
+    }
+    .honor-name { color: var(--accent-yellow); font-weight: 700; }
+    .block-ai .tool-badge {
+      background: rgba(251,211,141,0.2);
+      border: 1px solid var(--accent-orange);
+      color: var(--accent-orange);
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-family: monospace;
+      margin: 2px;
+      display: inline-block;
+    }
+    .ai-highlight {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent-orange);
+    }
+    .block-community .mini-card {
+      background: var(--bg-card);
+      border: 1px solid #254035;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    .atmosphere-summary {
+      background: rgba(72,187,120,0.08);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 16px;
+      border-left: 3px solid var(--accent-blue);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-secondary);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 24px;
+    }
+    p { margin-bottom: 12px; }
+    .section-content { font-size: 14px; line-height: 1.8; }
+  </style>
+</head>
+<body>
+  <div class="newspaper-container">
+    <header class="newspaper-header">
+      <div class="header-top">
+        <span class="issue-info">第81期 · 2026年02月11日 星期二</span>
+        <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+        <span class="stats-badge">今日 500+ 条消息 · 48 人发言</span>
+      </div>
+    </header>
+
+    <main class="newspaper-grid">
+      <!-- 左栏 -->
+      <aside class="col-left">
+        <!-- 重要公告 -->
+        <section class="section block-announcement">
+          <h2 class="section-title"><span class="icon">📢</span> 重要公告</h2>
+          <div class="section-content">
+            <div class="alert-bar">比赛截止 · 课程提前</div>
+            <div class="timeline-item">
+              <p><strong>百家号AI撞春比赛</strong></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">截止时间：2月12日 23:59</p>
+              <p style="font-size: 13px; color: var(--text-secondary);">奖金总额：¥50,000</p>
+              <ul style="margin-left: 16px; font-size: 12px; color: var(--accent-orange);">
+                <li>金奖 ¥5,000 × 3</li>
+                <li>银奖 ¥2,000 × 5</li>
+                <li>铜奖 ¥500 × 20</li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <p><strong>课程时间调整</strong></p>
+              <blockquote>
+                明晚课程提前至 19:30 开始，菩萨老师加餐课！
+              </blockquote>
+            </div>
+            <div class="timeline-item">
+              <p><strong>世界AI视频大赛Vol.67</strong></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">主题：山河新春·红尘玫瑰</p>
+              <p style="font-size: 13px; color: var(--text-secondary);">截止：2月12日 21:00</p>
+            </div>
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 AI建议：</span>两场比赛明天截止，今晚是最后冲刺时间！汾酒集团赞助，赢了有酒喝。</p>
+          </div>
+        </section>
+
+        <!-- 荣誉时刻 -->
+        <section class="section block-honor">
+          <h2 class="section-title"><span class="icon medal-icon">🏆</span> 荣誉时刻</h2>
+          <div class="section-content">
+            <div class="honor-card">
+              <p><span class="medal-icon">🥉</span> <span class="honor-name">莓瑰Stella</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">WaytoAGI × 百度 × 乐华娱乐 AI数字人比赛季军</p>
+              <p style="font-size: 12px; color: var(--accent-blue);">前三名被风变学员包揽！冠军是蛋哥</p>
+            </div>
+            <div class="honor-card">
+              <p><span class="medal-icon">🔥</span> <span class="honor-name">紫薯有范</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">「撞年」视频播放量破10万，单日涨粉200+</p>
+            </div>
+            <div class="honor-card">
+              <p><span class="medal-icon">💰</span> <span class="honor-name">A瑞湫Rachel</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">从失业到靠课程每月固定收入，成功变现</p>
+            </div>
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 AI点评：</span>风变学员在各大比赛中屡获佳绩，证明了社群教学的实战价值。从学习到变现，这条路是走得通的。</p>
+          </div>
+        </section>
+      </aside>
+
+      <!-- 中栏 -->
+      <article class="col-center">
+        <!-- 师说 -->
+        <section class="section block-teacher">
+          <h2 class="section-title"><span class="icon">👨‍🏫</span> 师说</h2>
+          <div class="section-content">
+            <div style="display: flex; align-items: center; margin-bottom: 16px;">
+              <span class="teacher-avatar">菩</span>
+              <span class="teacher-name">菩萨老师</span>
+            </div>
+
+            <p><mark class="purple">核心观点</mark>：<strong>社群的核心是内容输出，不是运营服务。</strong></p>
+
+            <p>今日有学员提出"老师回复不够及时"的建议，菩萨老师直接回应：</p>
+
+            <blockquote>
+              开这个课的前提就是我不花时间运营，如果需要我运营就不开了，根本没时间。也不是这个价格。满意度我也无所谓，尽管差评就好。
+            </blockquote>
+
+            <p>这番话看似"刚"，实则是对社群定位的清晰表达：<span class="bg-highlight">高密度内容输出 + 低运营成本 = 超高性价比</span>。</p>
+
+            <div style="display: flex; align-items: center; margin: 20px 0 16px;">
+              <span class="teacher-avatar">清</span>
+              <span class="teacher-name">Aria清老师</span>
+            </div>
+
+            <blockquote>
+              我看到了同学们的问题基本上都会回复，说实话我一个月也就能分到几百块 hhhh 纯公益的。社群目的确实是想带出一批好学生，可以一起做项目。
+            </blockquote>
+
+            <blockquote>
+              我之前学剪辑的时候，也是进学习群，把群里出现的每一个问题都亲手解决一遍，一周出师。把学到的内容拆成最简单的逻辑，再讲给新手听。当你能讲清楚，你才是真的会了。
+            </blockquote>
+
+            <p><span class="highlight-purple">🔮 AI延伸解读：</span></p>
+            <p>Aria清老师分享的学习方法论极具价值：<strong>「教是最好的学」</strong>。不要只是被动接收，而是主动解决问题、输出内容。这也是社群鼓励大家互帮互助的深层原因。</p>
+            <p><span class="bg-highlight">实践建议：遇到问题先问AI，再问群友，最后问老师。把解决过的问题整理成笔记，分享给其他同学。</span></p>
+          </div>
+        </section>
+
+        <!-- 热议话题 -->
+        <section class="section block-hot">
+          <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+          <div class="section-content">
+            <h3 style="font-size: 16px; margin-bottom: 12px;">
+              社群价值大讨论：这个社团值不值？
+              <span class="hot-badge">30+人参与 · 100+条消息</span>
+            </h3>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">Clara</div>
+              每周的课程，同学们可以好好消化，有个同学群可以大家探讨，其实也很值这个社团费用了！我们不能既要又要~
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">不设限的烟火Firework</div>
+              这个价格已经超级良心了
+            </div>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">A瑞湫Rachel</div>
+              我朋友当时是其他渠道了解的，价格是现在的好几倍。现在已经靠着课程每个月赚点小钱了，固定收入属于。
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">Fanko</div>
+              风变的社团我个人几乎都待过了，菩萨老师这个社区，个人感觉是目前氛围最好、收益最大的。
+            </div>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">老张</div>
+              核心的还是老师高信息密度的商单拆解，加上组织我们锻炼的比赛，加上群里好多大神同学，讨论还是挺积极的。
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">空灵</div>
+              我印象最深的是老师说我们来学习是学会学习的能力，不单单是技法。
+            </div>
+
+            <p style="margin-top: 16px;"><span class="highlight-red">🎯 AI分析结论：</span></p>
+            <p>这场讨论的结论很明确：<span class="bg-highlight">社群的核心价值不在于"服务"，而在于"内容+圈子+实战机会"</span>。高密度的课程内容、真实的商单拆解、活跃的同学互助、频繁的比赛锻炼——这些才是真正的价值所在。</p>
+          </div>
+        </section>
+      </article>
+
+      <!-- 右栏 -->
+      <aside class="col-right">
+        <!-- AI资讯 -->
+        <section class="section block-ai">
+          <h2 class="section-title"><span class="icon">🤖</span> AI资讯</h2>
+          <div class="section-content">
+            <p><mark class="orange">今日AI焦点</mark></p>
+            <p class="ai-highlight">即梦年会员 5折促销</p>
+
+            <p style="margin-top: 12px;"><span class="tool-badge">即梦 Seedance 2.0</span></p>
+            <ul style="margin-left: 20px; color: var(--text-secondary); margin-bottom: 12px;">
+              <li>年会员官网价 2599元（原价5折）</li>
+              <li>排队依然严重，有同学等了2小时</li>
+              <li>S2.0 被吐槽"变弱智了"</li>
+            </ul>
+
+            <blockquote style="border-left-color: var(--accent-orange);">
+              老张：改图还是得香蕉为主力，即梦5.0也只是比以前多了个联网，能力还是赶不上香蕉，一分钱一分货。
+            </blockquote>
+
+            <p><span class="tool-badge">海艺 Vidu Q3 Pro</span></p>
+            <blockquote style="border-left-color: var(--accent-green);">
+              雾（May雾）：海艺viduQ3 pro直出，关键是免费，老师给我们参赛还提供工具。
+            </blockquote>
+
+            <p><span class="tool-badge">技术问题</span></p>
+            <p style="color: var(--text-secondary);">CH东X羽遇到剪映导出无声音问题，群友建议：检查音频勾选、尝试不同导出设置、问AI排查。</p>
+
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 使用建议：</span>即梦排队严重时可用海艺免费工具替代。改图首选香蕉，视频生成多平台对比择优。</p>
+          </div>
+        </section>
+
+        <!-- 社群动态 -->
+        <section class="section block-community">
+          <h2 class="section-title"><span class="icon">💬</span> 社群动态</h2>
+          <div class="section-content">
+            <div class="mini-card">
+              <div class="chat-sender">艾米Amy · 早间</div>
+              跟着逆流而上分享的信息去tapnow混了点积分，已经快挥霍完了 😂
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">紫薯有范</div>
+              其实我一开始上菩萨老师的课都要看三遍以上，因为一遍是看不懂的 哈哈 后来慢慢好了
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">LLLLLL</div>
+              有不少同学被一些老师相中推荐到风变的项目去了，我也是其中一个。也有做的很好的直接被大神拉着做商单了。
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">杨小二 · 新人</div>
+              弱弱的问一句，我们刚进群的从哪里开始学？感觉听不懂你们在说什么
+            </div>
+
+            <div class="atmosphere-summary">
+              <p><strong>📈 今日氛围总结</strong></p>
+              <p>今日社群经历了一场<span class="highlight-blue">"价值观大讨论"</span>，从学员建议到老师回应，再到群友力挺，最终形成共识：<strong>内容为王、互帮互助、实战为本</strong>。</p>
+              <p style="margin-top: 8px; color: var(--accent-purple);">「逆流而上」依然是社群信息枢纽，「紫薯有范」作品爆款激励人心。</p>
+            </div>
+
+            <p style="margin-top: 16px; text-align: center; color: var(--text-secondary); font-style: italic;">
+              "学会学习的能力，不单单是技法。" 🌟
+            </p>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-02-11 23:59:00</p>
+      <p style="margin-top: 8px; font-size: 12px;">Powered by AI · 内容基于群聊记录自动生成</p>
+    </footer>
+  </div>
+</body>
+</html>

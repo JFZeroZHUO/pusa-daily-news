@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>野菩萨AI社团 · 日报中心</title>
+  <style>
+    :root {
+      --bg-primary: #0d1117;
+      --bg-sidebar: #161b22;
+      --bg-card: #1c2128;
+      --border: #30363d;
+      --text-primary: #e6edf3;
+      --text-secondary: #8b949e;
+      --accent-blue: #58a6ff;
+      --accent-purple: #d2a8ff;
+      --accent-green: #3fb950;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* 侧边栏 */
+    .sidebar {
+      width: 280px;
+      min-width: 280px;
+      background: var(--bg-sidebar);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .sidebar.collapsed {
+      width: 60px;
+      min-width: 60px;
+    }
+    .sidebar.collapsed .sidebar-header {
+      padding: 12px 8px;
+      text-align: center;
+    }
+    .sidebar.collapsed .sidebar-logo {
+      font-size: 12px;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      margin: 0 auto;
+      letter-spacing: 2px;
+    }
+    .sidebar.collapsed .sidebar-subtitle {
+      display: none;
+    }
+    .sidebar.collapsed .latest-btn {
+      margin: 8px;
+      padding: 10px 8px;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .sidebar.collapsed .latest-btn .icon {
+      font-size: 20px;
+    }
+    .sidebar.collapsed .latest-btn span:not(.icon) {
+      display: none;
+    }
+    .sidebar.collapsed .month-title {
+      font-size: 10px;
+      padding: 8px 4px;
+      text-align: center;
+    }
+    .sidebar.collapsed .digest-item {
+      justify-content: center;
+      padding: 12px 8px;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .sidebar.collapsed .digest-dot {
+      width: 10px;
+      height: 10px;
+    }
+    .sidebar.collapsed .digest-date {
+      font-size: 11px;
+      writing-mode: horizontal-tb;
+    }
+    .sidebar.collapsed .digest-weekday {
+      display: none;
+    }
+    .sidebar.collapsed .sidebar-footer {
+      display: none;
+    }
+    .sidebar.collapsed .digest-item.active {
+      border-left: none;
+      border-bottom: 3px solid var(--accent-blue);
+    }
+    /* 收缩按钮 - 竖条拉手设计 */
+    .collapse-btn {
+      position: absolute;
+      top: 50%;
+      right: -12px;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 72px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      border: none;
+      border-radius: 0 12px 12px 0;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      z-index: 10;
+      transition: all 0.2s ease;
+      box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+      writing-mode: vertical-rl;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .collapse-btn:hover {
+      width: 28px;
+      right: -14px;
+      box-shadow: 3px 0 12px rgba(88,166,255,0.4);
+    }
+    .collapse-btn::before {
+      content: '◀ 收起';
+    }
+    .sidebar.collapsed .collapse-btn {
+      border-radius: 0 12px 12px 0;
+    }
+    .sidebar.collapsed .collapse-btn::before {
+      content: '▶ 展开';
+    }
+    .sidebar-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar-logo {
+      font-size: 18px;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+    .sidebar-subtitle {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    /* 最新日报按钮 */
+    .latest-btn {
+      margin: 16px;
+      padding: 12px 16px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+    .latest-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(88, 166, 255, 0.3);
+    }
+    .latest-btn .icon { font-size: 16px; }
+    .latest-badge {
+      background: rgba(255,255,255,0.2);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+      margin-left: auto;
+    }
+
+    /* 日报列表 */
+    .digest-list-container {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px;
+    }
+    .digest-list-container::-webkit-scrollbar {
+      width: 6px;
+    }
+    .digest-list-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .digest-list-container::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+    .month-group {
+      margin-bottom: 16px;
+    }
+    .month-title {
+      font-size: 12px;
+      color: var(--text-secondary);
+      padding: 8px 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .digest-item {
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      gap: 10px;
+    }
+    .digest-item:hover {
+      background: var(--bg-card);
+    }
+    .digest-item.active {
+      background: rgba(88, 166, 255, 0.15);
+      border-left: 3px solid var(--accent-blue);
+    }
+    .digest-date {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    .digest-weekday {
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-left: auto;
+    }
+    .digest-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    /* 每日不同颜色的点 */
+    .dot-mon { background: #63b3ed; }
+    .dot-tue { background: #48bb78; }
+    .dot-wed { background: #ed8936; }
+    .dot-thu { background: #9f7aea; }
+    .dot-fri { background: #f56565; }
+    .dot-sat { background: #ecc94b; }
+    .dot-sun { background: #ed64a6; }
+
+    /* 侧边栏底部 */
+    .sidebar-footer {
+      padding: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 11px;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+    .digest-count {
+      color: var(--accent-blue);
+      font-weight: 600;
+    }
+
+    /* 主内容区 */
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .content-header {
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--bg-sidebar);
+    }
+    .current-date {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .nav-btns {
+      display: flex;
+      gap: 8px;
+      margin-left: auto;
+    }
+    .nav-btn {
+      padding: 6px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .nav-btn:hover {
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      border-color: var(--accent-blue);
+    }
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* iframe 容器 */
+    .iframe-container {
+      flex: 1;
+      overflow: hidden;
+    }
+    .iframe-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* 空状态 */
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-secondary);
+    }
+    .empty-icon {
+      font-size: 64px;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+    .empty-text {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .empty-hint {
+      font-size: 13px;
+      opacity: 0.7;
+    }
+
+    /* 加载状态 */
+    .loading {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading.show { display: block; }
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent-blue);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* 响应式 */
+    @media (max-width: 900px) {
+      .sidebar {
+        position: fixed;
+        left: -280px;
+        z-index: 100;
+        transition: left 0.3s ease;
+      }
+      .sidebar.open { left: 0; }
+      .menu-toggle {
+        display: flex;
+        padding: 8px 12px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        color: var(--text-primary);
+        cursor: pointer;
+      }
+      .overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 99;
+      }
+      .overlay.show { display: block; }
+    }
+    @media (min-width: 901px) {
+      .menu-toggle, .overlay { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- 移动端遮罩 -->
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- 侧边栏 -->
+  <aside class="sidebar" id="sidebar">
+    <button class="collapse-btn" onclick="toggleCollapse()" title="收起/展开侧边栏"></button>
+    <div class="sidebar-header">
+      <div class="sidebar-logo">野菩萨AI社团</div>
+      <div class="sidebar-subtitle">风变AI视频社团A班 · 日报中心</div>
+    </div>
+
+    <button class="latest-btn" onclick="loadLatest()">
+      <span class="icon">📰</span>
+      最新日报
+      <span class="latest-badge" id="latestDate">--</span>
+    </button>
+
+    <div class="digest-list-container" id="digestList">
+      <!-- 动态生成日报列表 -->
+    </div>
+
+    <div class="sidebar-footer">
+      共 <span class="digest-count" id="totalCount">0</span> 期日报
+    </div>
+  </aside>
+
+  <!-- 主内容区 -->
+  <main class="main-content">
+    <header class="content-header">
+      <button class="menu-toggle" onclick="toggleSidebar()">☰ 目录</button>
+      <span class="current-date" id="currentDate">选择日报查看</span>
+      <div class="nav-btns">
+        <button class="nav-btn" id="prevBtn" onclick="loadPrev()" disabled>← 前一天</button>
+        <button class="nav-btn" id="nextBtn" onclick="loadNext()" disabled>后一天 →</button>
+      </div>
+    </header>
+
+    <div class="iframe-container" id="iframeContainer">
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">📋</div>
+        <div class="empty-text">欢迎来到日报中心</div>
+        <div class="empty-hint">点击左侧列表或「最新日报」按钮开始浏览</div>
+      </div>
+    </div>
+
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <script>
+    // 日报数据（内嵌，每次生成日报时自动更新）
+    // ===== DIGEST_DATA_START =====
+    let digests = [
+      {"date":"2026-02-21","file":"daily-2026-02-21.html","title":"老张万赞爆款与Seedance打戏提示词","messageCount":112,"speakerCount":12},
+      {"date":"2026-02-20","file":"daily-2026-02-20.html","title":"春节档电影审美讨论与AI动画震动","messageCount":43,"speakerCount":12},
+      {"date":"2026-02-19","file":"daily-2026-02-19.html","title":"Seedance 2.0 vs 可灵 3.0 深度解读","messageCount":42,"speakerCount":14},
+      {"date":"2026-02-12","file":"daily-2026-02-12.html","title":"即梦2.0更新与Seedance会员讨论","messageCount":238,"speakerCount":25},
+      {"date":"2026-02-11","file":"daily-2026-02-11.html","title":"社群价值大讨论与莓瑰Stella获奖","messageCount":500,"speakerCount":48}
+    ];
+    // ===== DIGEST_DATA_END =====
+
+    let currentIndex = -1;
+
+    // 星期映射
+    const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+    const dotClasses = ['dot-sun', 'dot-mon', 'dot-tue', 'dot-wed', 'dot-thu', 'dot-fri', 'dot-sat'];
+
+    // 初始化
+    async function init() {
+      // 优先使用内嵌数据，如果为空则尝试从 manifest.json 加载
+      if (digests.length === 0) {
+        try {
+          const response = await fetch('manifest.json?t=' + Date.now());
+          if (response.ok) {
+            const data = await response.json();
+            digests = data.digests || [];
+          }
+        } catch (e) {
+          console.log('No manifest found');
+        }
+      }
+
+      // 按日期降序排序
+      digests.sort((a, b) => b.date.localeCompare(a.date));
+
+      renderDigestList();
+      updateLatestBadge();
+
+      // 自动加载最新日报
+      if (digests.length > 0) {
+        loadDigest(0);
+      }
+    }
+
+    // 渲染日报列表
+    function renderDigestList() {
+      const container = document.getElementById('digestList');
+      const grouped = {};
+
+      // 按月份分组
+      digests.forEach((d, index) => {
+        const month = d.date.substring(0, 7); // YYYY-MM
+        if (!grouped[month]) grouped[month] = [];
+        grouped[month].push({ ...d, index });
+      });
+
+      let html = '';
+      for (const month in grouped) {
+        const [year, mon] = month.split('-');
+        html += `<div class="month-group">
+          <div class="month-title">${year}年${parseInt(mon)}月</div>`;
+
+        grouped[month].forEach(d => {
+          const date = new Date(d.date);
+          const dayOfWeek = date.getDay();
+          const dayNum = d.date.split('-')[2];
+
+          html += `<div class="digest-item" data-index="${d.index}" onclick="loadDigest(${d.index})">
+            <span class="digest-dot ${dotClasses[dayOfWeek]}"></span>
+            <span class="digest-date">${parseInt(dayNum)}日</span>
+            <span class="digest-weekday">周${weekdays[dayOfWeek]}</span>
+          </div>`;
+        });
+
+        html += '</div>';
+      }
+
+      container.innerHTML = html;
+      document.getElementById('totalCount').textContent = digests.length;
+    }
+
+    // 更新最新日报徽章
+    function updateLatestBadge() {
+      if (digests.length > 0) {
+        const latest = digests[0].date;
+        const [y, m, d] = latest.split('-');
+        document.getElementById('latestDate').textContent = `${parseInt(m)}/${parseInt(d)}`;
+      }
+    }
+
+    // 加载指定日报
+    function loadDigest(index) {
+      if (index < 0 || index >= digests.length) return;
+
+      currentIndex = index;
+      const digest = digests[index];
+
+      // 更新选中状态
+      document.querySelectorAll('.digest-item').forEach((el, i) => {
+        el.classList.toggle('active', parseInt(el.dataset.index) === index);
+      });
+
+      // 更新标题
+      const date = new Date(digest.date);
+      document.getElementById('currentDate').textContent =
+        `${digest.date} 周${weekdays[date.getDay()]}`;
+
+      // 更新导航按钮
+      document.getElementById('prevBtn').disabled = index >= digests.length - 1;
+      document.getElementById('nextBtn').disabled = index <= 0;
+
+      // 加载 iframe
+      const container = document.getElementById('iframeContainer');
+      document.getElementById('emptyState')?.remove();
+
+      // 显示加载状态
+      document.getElementById('loading').classList.add('show');
+
+      let iframe = container.querySelector('iframe');
+      if (!iframe) {
+        iframe = document.createElement('iframe');
+        container.appendChild(iframe);
+      }
+
+      iframe.onload = () => {
+        document.getElementById('loading').classList.remove('show');
+      };
+      iframe.src = digest.file;
+
+      // 移动端关闭侧边栏
+      closeSidebar();
+    }
+
+    // 加载最新日报
+    function loadLatest() {
+      if (digests.length > 0) {
+        loadDigest(0);
+      }
+    }
+
+    // 加载前一天
+    function loadPrev() {
+      if (currentIndex < digests.length - 1) {
+        loadDigest(currentIndex + 1);
+      }
+    }
+
+    // 加载后一天
+    function loadNext() {
+      if (currentIndex > 0) {
+        loadDigest(currentIndex - 1);
+      }
+    }
+
+    // 侧边栏收缩
+    function toggleCollapse() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('collapsed');
+      // 保存状态到 localStorage
+      localStorage.setItem('sidebarCollapsed', sidebar.classList.contains('collapsed'));
+    }
+
+    // 恢复侧边栏状态
+    function restoreSidebarState() {
+      const collapsed = localStorage.getItem('sidebarCollapsed') === 'true';
+      if (collapsed) {
+        document.getElementById('sidebar').classList.add('collapsed');
+      }
+    }
+
+    // 侧边栏切换（移动端）
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('show');
+    }
+
+    function closeSidebar() {
+      document.getElementById('sidebar').classList.remove('open');
+      document.getElementById('overlay').classList.remove('show');
+    }
+
+    // 键盘快捷键
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') loadPrev();
+      if (e.key === 'ArrowRight') loadNext();
+      if (e.key === 'Home') loadLatest();
+    });
+
+    // 启动
+    restoreSidebarState();
+    init();
+  </script>
+</body>
+</html>
