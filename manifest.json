@@ -1,13 +1,20 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-02-24",
   "digests": [
+    {
+      "date": "2026-02-23",
+      "file": "daily-2026-02-23.html",
+      "title": "Seedance真人限制与多工具切换策略",
+      "messageCount": 102,
+      "speakerCount": 21
+    },
     {
       "date": "2026-02-22",
       "file": "daily-2026-02-22.html",
       "title": "新年第一课与Seedance真人限制讨论",
-      "messageCount": 225,
+      "messageCount": 232,
       "speakerCount": 30
     },
     {
