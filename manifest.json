@@ -1,8 +1,15 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-02-25",
+  "lastUpdated": "2026-02-26",
   "digests": [
+    {
+      "date": "2026-02-25",
+      "file": "daily-2026-02-25.html",
+      "title": "张瑞嘉400万播放爆款复盘分享",
+      "messageCount": 70,
+      "speakerCount": 24
+    },
     {
       "date": "2026-02-24",
       "file": "daily-2026-02-24.html",
