@@ -1,8 +1,15 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-02-27",
+  "lastUpdated": "2026-02-28",
   "digests": [
+    {
+      "date": "2026-02-27",
+      "file": "daily-2026-02-27.html",
+      "title": "Seedance排队困境与Livecoding音乐预告",
+      "messageCount": 166,
+      "speakerCount": 27
+    },
     {
       "date": "2026-02-26",
       "file": "daily-2026-02-26.html",
