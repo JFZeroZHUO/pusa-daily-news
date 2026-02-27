@@ -6,188 +6,343 @@
   <title>风变野菩萨AI视频社团A班 · 日报 2026-02-26</title>
   <style>
     :root {
-      --bg-primary: #13111a;
-      --bg-card: #1a1725;
+      /* 星期四：星空紫配色 */
+      --bg-primary:    #13111a;
+      --bg-card:       #1a1725;
       --bg-card-hover: #231f30;
-      --border: #3d3654;
-      --text-primary: #f0e6fa;
-      --text-secondary: #9f8fbf;
-      --accent-primary: #9f7aea;
-      --accent-red: #f687b3;
-      --accent-green: #68d391;
+      --border:        #3d3654;
+      --text-primary:  #f0e6fa;
+      --text-secondary:#9f8fbf;
+      --accent-primary:#9f7aea;
+      --accent-red:    #f687b3;
+      --accent-green:  #68d391;
       --accent-purple: #d6bcfa;
       --accent-orange: #fbd38d;
       --accent-yellow: #f6e05e;
       --gradient-title: linear-gradient(90deg, #9f7aea, #805ad5);
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
-      line-height: 1.6;
+      line-height: 1.7;
       min-height: 100vh;
     }
-    .newspaper-container {
+
+    .container {
       max-width: 1600px;
       margin: 0 auto;
       padding: 20px;
     }
+
+    /* 报头样式 */
     .newspaper-header {
       text-align: center;
-      padding: 24px 0;
-      border-bottom: 3px double var(--border);
-      margin-bottom: 24px;
+      padding: 30px 20px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 30px;
     }
+
     .header-top {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
-      flex-wrap: wrap;
       gap: 12px;
     }
+
     .issue-info {
-      font-size: 13px;
+      font-size: 14px;
       color: var(--text-secondary);
-      background: var(--bg-card);
-      padding: 4px 12px;
-      border-radius: 4px;
+      letter-spacing: 2px;
     }
+
     .newspaper-title {
-      font-size: 32px;
+      font-size: 36px;
       font-weight: 800;
       background: var(--gradient-title);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
     }
+
     .stats-badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(159, 122, 234, 0.15);
+      border: 1px solid var(--accent-primary);
+      border-radius: 20px;
       font-size: 13px;
       color: var(--accent-primary);
-      background: rgba(159, 122, 234, 0.15);
-      padding: 4px 12px;
-      border-radius: 4px;
-      border: 1px solid rgba(159, 122, 234, 0.3);
     }
+
     .header-divider {
-      height: 2px;
+      height: 1px;
       background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
-      margin-top: 16px;
+      margin-top: 20px;
     }
+
+    /* 三栏布局 */
     .newspaper-grid {
       display: grid;
       grid-template-columns: 25% 45% 28%;
-      gap: 20px;
+      gap: 2%;
     }
+
     @media (max-width: 1200px) {
       .newspaper-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
       }
     }
-    .section-block {
+
+    /* 板块通用样式 */
+    .block {
       background: var(--bg-card);
       border-radius: 12px;
-      padding: 20px;
+      padding: 24px;
       margin-bottom: 20px;
       border: 1px solid var(--border);
-      transition: all 0.2s ease;
+      transition: all 0.3s ease;
     }
-    .section-block:hover {
+
+    .block:hover {
       background: var(--bg-card-hover);
       border-color: var(--accent-primary);
     }
-    .section-title {
+
+    .block-title {
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 16px;
-      padding-bottom: 8px;
-      border-bottom: 2px solid var(--border);
       display: flex;
       align-items: center;
       gap: 8px;
     }
-    .section-title .icon { font-size: 20px; }
-    .block-announcement .section-title { color: var(--accent-red); border-color: var(--accent-red); }
-    .block-teacher .section-title { color: var(--accent-purple); border-color: var(--accent-purple); }
-    .block-hot .section-title { color: var(--accent-orange); border-color: var(--accent-orange); }
-    .block-honor .section-title { color: var(--accent-yellow); border-color: var(--accent-yellow); }
-    .block-ai .section-title { color: var(--accent-orange); border-color: var(--accent-orange); }
-    .block-community .section-title { color: var(--accent-green); border-color: var(--accent-green); }
+
+    .block-title .icon {
+      font-size: 22px;
+    }
+
+    /* 公告板块 */
+    .block-announcement {
+      border-top: 3px solid var(--accent-red);
+    }
+
+    .block-announcement .block-title {
+      color: var(--accent-red);
+    }
+
+    .announcement-item {
+      border-left: 3px solid var(--accent-red);
+      padding-left: 16px;
+      margin-bottom: 20px;
+    }
+
+    .announcement-time {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    /* 师说板块 */
+    .block-teacher {
+      background: linear-gradient(135deg, var(--bg-card), #1f1a2e);
+      border-left: 4px solid var(--accent-purple);
+    }
+
+    .block-teacher .block-title {
+      color: var(--accent-purple);
+    }
+
+    .teacher-avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--accent-purple);
+      color: var(--bg-primary);
+      font-weight: 700;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+    .teacher-name {
+      color: var(--accent-purple);
+      font-weight: 600;
+    }
+
+    /* 热议话题 */
+    .block-hot .block-title {
+      color: var(--accent-orange);
+    }
+
+    .hot-topic {
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hot-topic:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .hot-topic-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent-orange);
+      margin-bottom: 8px;
+      border-bottom: 2px dashed var(--accent-orange);
+      display: inline-block;
+      padding-bottom: 2px;
+    }
+
+    .hot-badge {
+      display: inline-block;
+      padding: 2px 10px;
+      background: var(--accent-red);
+      color: white;
+      border-radius: 12px;
+      font-size: 11px;
+      margin-left: 8px;
+    }
+
+    /* 对话气泡 */
+    .chat-bubble {
+      background: rgba(159, 122, 234, 0.1);
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      position: relative;
+    }
+
+    .chat-bubble.right {
+      margin-left: 20%;
+      background: rgba(251, 211, 141, 0.1);
+    }
+
+    .chat-bubble .sender {
+      font-size: 12px;
+      color: var(--accent-primary);
+      margin-bottom: 4px;
+    }
+
+    /* 荣誉板块 */
+    .block-honor {
+      border-top: 3px solid var(--accent-yellow);
+    }
+
+    .block-honor .block-title {
+      color: var(--accent-yellow);
+      text-shadow: 0 0 20px rgba(246, 224, 94, 0.3);
+    }
+
+    .honor-item {
+      background: rgba(246, 224, 94, 0.08);
+      border: 1px solid rgba(246, 224, 94, 0.3);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+    }
+
+    .honor-rank {
+      font-size: 24px;
+      margin-right: 8px;
+    }
+
+    .honor-name {
+      color: var(--accent-yellow);
+      font-weight: 600;
+    }
+
+    .honor-prize {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    /* AI资讯板块 */
+    .block-ai {
+      border: 1px solid var(--accent-orange);
+    }
+
+    .block-ai .block-title {
+      color: var(--accent-orange);
+    }
+
+    .ai-tool-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      background: rgba(251, 211, 141, 0.2);
+      border: 1px solid var(--accent-orange);
+      color: var(--accent-orange);
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: monospace;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    /* 社群动态 */
+    .block-community .block-title {
+      color: var(--accent-green);
+    }
+
+    .community-card {
+      background: rgba(104, 211, 145, 0.05);
+      border: 1px solid rgba(104, 211, 145, 0.2);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    /* 引用样式 */
     blockquote {
       border-left: 3px solid var(--accent-purple);
       padding: 12px 16px;
       margin: 12px 0;
-      background: rgba(214, 188, 250, 0.08);
-      border-radius: 0 8px 8px 0;
+      background: rgba(214, 188, 250, 0.06);
+      color: var(--text-secondary);
       font-style: italic;
-      color: var(--text-secondary);
+      border-radius: 0 8px 8px 0;
     }
+
     blockquote .quote-author {
-      font-weight: 600;
-      color: var(--accent-purple);
-      font-style: normal;
       display: block;
-      margin-bottom: 4px;
-      font-size: 13px;
-    }
-    .highlight-purple { color: var(--accent-purple); font-weight: 600; }
-    .highlight-orange { color: var(--accent-orange); font-weight: 600; }
-    .highlight-green { color: var(--accent-green); font-weight: 600; }
-    .highlight-yellow { color: var(--accent-yellow); font-weight: 600; }
-    .honor-card {
-      background: linear-gradient(135deg, rgba(246, 224, 94, 0.1), rgba(251, 211, 141, 0.05));
-      border: 1px solid rgba(246, 224, 94, 0.3);
-      border-radius: 8px;
-      padding: 16px;
-      margin: 12px 0;
-    }
-    .honor-card .winner {
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--accent-yellow);
-    }
-    .honor-card .prize {
-      font-size: 13px;
-      color: var(--text-secondary);
-      margin-top: 4px;
-    }
-    .chat-bubble {
-      background: var(--bg-card-hover);
-      border-radius: 12px;
-      padding: 10px 14px;
-      margin: 8px 0;
-      border: 1px solid var(--border);
-    }
-    .chat-bubble .sender {
+      color: var(--accent-purple);
       font-size: 12px;
-      color: var(--accent-primary);
-      font-weight: 600;
-      margin-bottom: 4px;
+      margin-top: 8px;
+      font-style: normal;
     }
-    .chat-bubble .content {
-      font-size: 14px;
-      color: var(--text-primary);
+
+    /* 高亮样式 */
+    .highlight-blue { color: var(--accent-primary); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+    .highlight-orange { color: var(--accent-orange); font-weight: 700; }
+    .highlight-yellow { color: var(--accent-yellow); font-weight: 700; }
+
+    .bg-highlight {
+      background: rgba(159, 122, 234, 0.12);
+      padding: 2px 6px;
+      border-radius: 3px;
     }
-    .hot-badge {
-      display: inline-block;
-      background: var(--accent-red);
-      color: #fff;
-      font-size: 11px;
-      padding: 2px 8px;
-      border-radius: 10px;
-      margin-left: 8px;
-    }
-    .ai-tool-tag {
-      display: inline-block;
-      background: rgba(251, 211, 141, 0.2);
-      color: var(--accent-orange);
-      font-size: 12px;
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin: 2px 4px 2px 0;
-      border: 1px solid rgba(251, 211, 141, 0.3);
-    }
+
+    mark.purple { background: rgba(159, 122, 234, 0.25); color: var(--accent-primary); padding: 0 4px; border-radius: 2px; }
+    mark.orange { background: rgba(251, 211, 141, 0.25); color: var(--accent-orange); padding: 0 4px; border-radius: 2px; }
+    mark.green { background: rgba(104, 211, 145, 0.25); color: var(--accent-green); padding: 0 4px; border-radius: 2px; }
+
+    /* 链接胶囊 */
     .link-pill {
       display: inline-block;
       padding: 4px 12px;
@@ -196,112 +351,151 @@
       color: var(--accent-primary);
       font-size: 12px;
       text-decoration: none;
-      margin: 4px 4px 4px 0;
-      transition: all 0.2s ease;
+      transition: all 0.3s;
     }
+
     .link-pill:hover {
       background: var(--accent-primary);
-      color: #fff;
+      color: var(--bg-primary);
     }
-    .section-content { font-size: 14px; line-height: 1.8; }
-    .section-content p { margin-bottom: 12px; }
-    .section-content ul { margin: 12px 0; padding-left: 20px; }
-    .section-content li { margin-bottom: 6px; }
-    .ai-insight {
+
+    /* AI分析框 */
+    .ai-analysis {
       background: linear-gradient(135deg, rgba(159, 122, 234, 0.1), rgba(128, 90, 213, 0.05));
-      border-left: 3px solid var(--accent-primary);
-      padding: 12px 16px;
-      margin: 16px 0;
-      border-radius: 0 8px 8px 0;
+      border: 1px dashed var(--accent-primary);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
     }
-    .ai-insight-title {
+
+    .ai-analysis-title {
       font-size: 13px;
-      font-weight: 600;
       color: var(--accent-primary);
       margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
+
+    /* 页脚 */
     footer {
       text-align: center;
-      padding: 24px;
-      color: var(--text-secondary);
-      font-size: 12px;
+      padding: 30px 20px;
       border-top: 1px solid var(--border);
-      margin-top: 24px;
+      margin-top: 40px;
+      color: var(--text-secondary);
+      font-size: 13px;
+    }
+
+    /* 段落样式 */
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul, ol {
+      margin: 12px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
-  <div class="newspaper-container">
+  <div class="container">
+    <!-- 报头 -->
     <header class="newspaper-header">
       <div class="header-top">
-        <span class="issue-info">第10期 · 2026年02月26日 星期四</span>
+        <span class="issue-info">2026年02月26日 星期四</span>
         <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
-        <span class="stats-badge">今日 166 条消息 · 53 人发言</span>
+        <span class="stats-badge">今日 175 条消息 · 29 人发言</span>
       </div>
       <div class="header-divider"></div>
     </header>
 
+    <!-- 三栏主体 -->
     <main class="newspaper-grid">
       <!-- 左栏 -->
       <aside class="col-left">
         <!-- 重要公告 -->
-        <section class="section-block block-announcement">
-          <h2 class="section-title"><span class="icon">📢</span> 重要公告</h2>
-          <div class="section-content">
+        <section class="block block-announcement">
+          <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
+
+          <div class="announcement-item">
+            <div class="announcement-time">19:30 官方活动通知</div>
+            <h3 style="color: var(--accent-red); margin-bottom: 10px;">PB Showdown EP.64 擂台赛</h3>
             <blockquote>
-              <span class="quote-author">Andy老师 19:41</span>
-              🎉海艺【图片】大赛获奖 | 奖励已经发放，请查收自己的支付宝哦！🎉<br><br>
-              恭喜以下同学在海艺【图片】大赛中取得好名次👏<br><br>
-              第一名（奖金1000元）：✅@素语<br>
-              第二名（奖金500元）：✅@墨墨memory ✅@木江AI ✅@夏夏Mona<br>
-              第三名（奖金300元）：✅@黄英群
+              PB Showdown EP.64 今日20:00准时开打！本期守关大将：森破。参与出图者/投票者都有机会抽中红包奖励！擂主获胜可获得价值388元BattleSuit兢技战装或现金奖励。
+              <span class="quote-author">—— 官方活动</span>
             </blockquote>
-
-            <p><span class="highlight-yellow">要点提炼：</span></p>
+            <p><strong>要点提炼：</strong></p>
             <ul>
-              <li>海艺图片大赛结果公布，共5位同学获奖</li>
-              <li>奖金已通过支付宝发放，请获奖同学查收</li>
-              <li>一等奖1000元、二等奖500元、三等奖300元</li>
-              <li>获奖同学墨墨memory已确认收到奖金</li>
+              <li>时间：每周四 20:00</li>
+              <li>玩法：限时AI出图 → 票选晋级 → 挑战擂主</li>
+              <li>奖励：擂主可获388元奖励 + 2个PB积分</li>
+              <li>投稿：<a class="link-pill" href="http://www.battleverse.cn/" target="_blank">battleverse.cn</a></li>
             </ul>
+            <div class="ai-analysis">
+              <div class="ai-analysis-title">💡 AI建议</div>
+              <p>PBS擂台赛是锻炼AI出图能力的绝佳机会，限时创作能有效提升对提示词的把控能力。建议新同学先旁观学习，了解比赛节奏和评判标准，再参与实战。每周四固定活动，可以作为自我检验的周期性目标。</p>
+            </div>
+          </div>
 
-            <div class="ai-insight">
-              <div class="ai-insight-title">💡 AI行动建议</div>
-              <p>海艺平台作为AI图片创作的重要赛道，本次大赛为社团成员提供了展示实力的舞台。建议未参赛的同学关注后续比赛信息，积极参与实战练习。获奖作品可作为学习参考，分析其构图、提示词技巧和风格特点，提升自己的AI绘图能力。</p>
+          <div class="announcement-item">
+            <div class="announcement-time">19:41 获奖公告</div>
+            <h3 style="color: var(--accent-red); margin-bottom: 10px;">海艺图片大赛获奖名单公布</h3>
+            <blockquote>
+              海艺【图片】大赛获奖名单已揭晓，奖励已发放！第一名奖金1000元：素语；第二名奖金500元：墨墨memory、木江AI、夏夏Mona；第三名奖金300元：黄英群、不设限的烟火Firework等6位同学。
+              <span class="quote-author">—— Andy老师</span>
+            </blockquote>
+            <div class="ai-analysis">
+              <div class="ai-analysis-title">💡 AI建议</div>
+              <p>恭喜所有获奖同学！海艺大赛作为社团重点活动，获奖作品具有很高的参考价值。建议大家访问获奖作品展示页面学习优秀案例，分析获奖作品的构图、风格和技术特点，为下次比赛积累经验。</p>
             </div>
           </div>
         </section>
 
         <!-- 荣誉时刻 -->
-        <section class="section-block block-honor">
-          <h2 class="section-title"><span class="icon">🏆</span> 荣誉时刻</h2>
-          <div class="section-content">
-            <p>今日社团双喜临门！海艺大赛获奖名单公布的同时，老张同学再创佳绩！</p>
+        <section class="block block-honor">
+          <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
 
-            <div class="honor-card">
-              <div class="winner">🥇 素语 - 海艺大赛第一名</div>
-              <div class="prize">奖金 1000 元</div>
-            </div>
+          <h3 style="color: var(--accent-yellow); margin-bottom: 16px; font-size: 15px;">🎨 海艺图片大赛获奖榜单</h3>
 
-            <div class="honor-card">
-              <div class="winner">🥈 墨墨memory / 木江AI / 夏夏Mona</div>
-              <div class="prize">海艺大赛第二名 · 各获奖金 500 元</div>
-            </div>
+          <div class="honor-item">
+            <span class="honor-rank">🥇</span>
+            <span class="honor-name">素语(素语)</span>
+            <span class="honor-prize"> — 第一名 ¥1000</span>
+          </div>
 
-            <div class="honor-card">
-              <div class="winner">🥉 黄英群 - 海艺大赛第三名</div>
-              <div class="prize">奖金 300 元</div>
-            </div>
+          <div class="honor-item">
+            <span class="honor-rank">🥈</span>
+            <span class="honor-name">墨墨memory、木江AI、夏夏Mona</span>
+            <span class="honor-prize"> — 第二名 各¥500</span>
+          </div>
 
-            <div class="honor-card">
-              <div class="winner">🔥 老张 - 抖音视频近200万播放</div>
-              <div class="prize">邵氏武侠风格持续爆火，账号即将破万粉</div>
-            </div>
+          <div class="honor-item">
+            <span class="honor-rank">🥉</span>
+            <span class="honor-name">黄英群、不设限的烟火Firework、尹星懿、norchem、墨墨墨Ink、司尧YAO</span>
+            <span class="honor-prize"> — 第三名 各¥300</span>
+          </div>
 
-            <div class="ai-insight">
-              <div class="ai-insight-title">💡 AI点评</div>
-              <p>老张同学延续昨日400万播放的势头，今日又一条视频冲击200万播放，充分验证了"邵氏武侠+AI视频"这一内容方向的市场潜力。他在群里分享的经验——"多问真的多收获"，值得每位同学借鉴。同时，海艺大赛的获奖作品也展示了社团成员在AI图片领域的实力，期待更多同学在各类赛事中崭露头角！</p>
-            </div>
+          <h3 style="color: var(--accent-yellow); margin: 20px 0 16px; font-size: 15px;">📱 抖音数据突破</h3>
+
+          <div class="honor-item">
+            <span class="honor-rank">🔥</span>
+            <span class="honor-name">老张</span>
+            <span class="honor-prize"> — 单条视频突破400万播放，账号即将破万粉</span>
+          </div>
+
+          <blockquote>
+            "主要是四百多万那一条带动的，后续发的都还可以。最近邵氏武侠风格有点火。"
+            <span class="quote-author">—— 老张</span>
+          </blockquote>
+
+          <div class="ai-analysis">
+            <div class="ai-analysis-title">💡 AI点评</div>
+            <p>老张的案例展示了<mark class="orange">垂直内容+热门风格</mark>的威力。邵氏武侠作为怀旧题材，结合AI视频技术，形成了独特的内容差异化。值得注意的是，老张坚持"发到没流量就换"的策略，体现了对内容运营的灵活把控。建议同学们关注细分领域的风格红利期，快速试错迭代。</p>
           </div>
         </section>
       </aside>
@@ -309,94 +503,122 @@
       <!-- 中栏 -->
       <article class="col-center">
         <!-- 师说 -->
-        <section class="section-block block-teacher">
-          <h2 class="section-title"><span class="icon">👨‍🏫</span> 师说</h2>
-          <div class="section-content">
-            <p><span class="highlight-purple">菩萨老师</span>今日就AI技术发表了简短但精准的点评：</p>
+        <section class="block block-teacher">
+          <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
 
-            <blockquote>
-              <span class="quote-author">菩萨 11:26</span>
-              高斯泼溅但是精度不好
-            </blockquote>
-
-            <p>这条评论是针对群内分享的某AI生成内容，菩萨老师一针见血地指出了当前<span class="highlight-orange">高斯泼溅（Gaussian Splatting）</span>技术的核心问题——虽然整体效果看起来不错，但细节精度仍有待提升。</p>
-
-            <p>森破同学随即补充道：<em>"不放大看整体挺唬人的，放大看细节很不行"</em>，并分享了自己的实践经验：<em>"去年五一刚听说高斯泼溅这个技术我还以为挺厉害，一跑模型原来不少是吹的"</em>。</p>
-
-            <div class="ai-insight">
-              <div class="ai-insight-title">💡 AI延伸解读</div>
-              <p><strong>高斯泼溅（3D Gaussian Splatting）</strong>是2023年兴起的3D重建技术，通过将场景表示为大量3D高斯分布来实现快速渲染。相比传统NeRF，它的渲染速度更快，但正如菩萨老师指出的，精度问题仍是其短板。</p>
-              <p>对于AI视频创作者而言，这意味着：在选择技术方案时，不要被"新技术"的光环迷惑，要根据实际需求评估其成熟度。当前阶段，高斯泼溅更适合远景、整体氛围的呈现，近景特写仍需谨慎使用或后期修复。</p>
-            </div>
-
-            <p style="margin-top: 16px;"><span class="highlight-purple">逆流而上 lu-xh</span> 同学则从另一个角度给出了建议：</p>
-
-            <blockquote>
-              <span class="quote-author">逆流而上 lu-xh 11:29-11:32</span>
-              推荐，喜马拉雅，蒋勋《中国美术史》。一集35分钟，共120集。最近AI变化快，不如停下脚步👣听听故事。基本就是中国历史。
-            </blockquote>
-
-            <p>这个推荐引发了关于<span class="highlight-green">审美提升</span>的讨论。半日闲君总结道：<em>"审美是系统的，多维度的，是内心的感受"</em>。在AI工具日新月异的当下，夯实美学基础、提升审美素养，或许比追逐最新工具更为重要。</p>
+          <div style="display: flex; align-items: center; margin-bottom: 16px;">
+            <span class="teacher-avatar">菩</span>
+            <span class="teacher-name">菩萨老师</span>
           </div>
+
+          <h3 style="color: var(--accent-purple); margin-bottom: 12px; font-size: 15px;">关于高斯泼溅技术的观察</h3>
+
+          <blockquote>
+            "高斯泼溅但是精度不好"
+            <span class="quote-author">—— 菩萨 11:26</span>
+          </blockquote>
+
+          <p>菩萨老师今日分享了对<mark class="purple">高斯泼溅(Gaussian Splatting)</mark>技术的实测观察。这项3D重建技术去年一度被视为革命性突破，但实际应用中暴露出精度问题。</p>
+
+          <div class="ai-analysis">
+            <div class="ai-analysis-title">🔍 AI延伸解读</div>
+            <p><strong>什么是高斯泼溅？</strong></p>
+            <p>高斯泼溅是一种新型的3D场景表示方法，通过将场景分解为数百万个3D高斯分布来实现快速渲染。相比传统NeRF，它的渲染速度快100倍以上，这也是去年业界兴奋的原因。</p>
+
+            <p style="margin-top: 12px;"><strong>为什么"精度不好"？</strong></p>
+            <p>高斯泼溅的问题主要体现在：</p>
+            <ul>
+              <li>细节模糊：远看效果惊艳，放大后细节丢失严重</li>
+              <li>边缘处理差：物体边界容易出现伪影</li>
+              <li>依赖高质量输入：对拍摄角度和数量要求高</li>
+            </ul>
+
+            <p style="margin-top: 12px;"><strong>实践建议</strong></p>
+            <p>对于AI视频创作者而言，高斯泼溅目前更适合：整体氛围展示、快速原型验证。需要精细3D效果时，仍建议使用传统建模+渲染流程。技术在快速迭代，建议持续关注但暂时保持观望。</p>
+          </div>
+
+          <p style="margin-top: 16px; color: var(--text-secondary); font-style: italic;">* 今日Aria清老师暂无发言，期待明日精彩内容。</p>
         </section>
 
         <!-- 热议话题 -->
-        <section class="section-block block-hot">
-          <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
-          <div class="section-content">
+        <section class="block block-hot">
+          <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
 
-            <h3 style="font-size: 16px; margin: 16px 0 12px; color: var(--accent-orange);">
-              话题一：老张视频被下架之谜 <span class="hot-badge">12人参与</span>
-            </h3>
+          <!-- 话题1：Gemini音乐 -->
+          <div class="hot-topic">
+            <h3 class="hot-topic-title">Gemini音乐创作功能首测</h3>
+            <span class="hot-badge">10+ 参与讨论</span>
 
-            <p>老张同学今日遭遇了创作者最头疼的问题——爆款视频突然被下架。</p>
+            <p style="margin-top: 12px;">上午群内围绕<mark class="orange">Google Gemini新推出的音乐创作功能</mark>展开了热烈讨论。图图和憨憨同学率先体验并分享了作品。</p>
 
             <div class="chat-bubble">
-              <div class="sender">老张 16:18</div>
-              <div class="content">老师，我今天发这条都跑了近两百万播放，突然被显示无法查看了，是不是我写的角色名侵权了还是啥原因，这种可以改一下重发吗</div>
+              <div class="sender">图图和憨憨</div>
+              感觉Gemini做的歌还不错，请大家品鉴
             </div>
 
-            <div class="chat-bubble">
-              <div class="sender">老张 16:25</div>
-              <div class="content">跑了马上两百万播放了给我下架了</div>
-            </div>
-
-            <div class="chat-bubble">
-              <div class="sender">学习有问题 16:19</div>
-              <div class="content">你有抖音官方运营的联系方式不？这个得找他们查一下</div>
+            <div class="chat-bubble right">
+              <div class="sender">雾（May雾）</div>
+              高嘉丰老师上周就说了呀
             </div>
 
             <div class="chat-bubble">
-              <div class="sender">三月 16:27</div>
-              <div class="content">直接下架了？没接到任何通知</div>
+              <div class="sender">饮悦小站</div>
+              不在区域是啥意思？
             </div>
 
-            <div class="ai-insight">
-              <div class="ai-insight-title">💡 AI分析</div>
-              <p>老张的遭遇揭示了AI视频创作者面临的平台风险。视频在没有任何违规通知的情况下被下架，可能原因包括：1）角色名称涉及版权问题；2）内容被误判为违规；3）流量异常触发风控。建议创作者：保持与平台运营的沟通渠道，创作时注意规避明显的版权风险，同时做好内容备份，以便申诉或修改后重发。</p>
+            <div class="chat-bubble right">
+              <div class="sender">不设限的烟火Firework</div>
+              不在可用范围，不是梯不行，就是你选的国不行。要多刷新，关机开机，刚开始也不行，后来就行了。
             </div>
 
-            <h3 style="font-size: 16px; margin: 24px 0 12px; color: var(--accent-orange);">
-              话题二：Gemini音乐创作功能初体验 <span class="hot-badge">8人参与</span>
-            </h3>
+            <div class="ai-analysis">
+              <div class="ai-analysis-title">🎵 AI分析结论</div>
+              <p><strong>Gemini音乐 vs Suno：</strong></p>
+              <ul>
+                <li><mark class="purple">访问门槛</mark>：Gemini需要科学上网且部分地区受限，Suno相对易用</li>
+                <li><mark class="purple">风格特点</mark>：从群友分享来看，Gemini在古典/纯音乐领域表现不错</li>
+                <li><mark class="purple">使用建议</mark>：建议先用Suno完成主要创作，Gemini作为风格补充尝试</li>
+              </ul>
+              <p style="margin-top: 8px;">访问地址：<a class="link-pill" href="https://gemini.google.com/app" target="_blank">gemini.google.com/app</a>（需科学上网）</p>
+            </div>
+          </div>
 
-            <p>CH东X羽同学率先抛出话题：<em>"Gemini新出了个音乐创作，不知道对比suno咋样"</em>，引发群内热议。</p>
+          <!-- 话题2：老张视频下架 -->
+          <div class="hot-topic">
+            <h3 class="hot-topic-title">抖音视频下架风波</h3>
+            <span class="hot-badge">15+ 参与讨论</span>
+
+            <p style="margin-top: 12px;">老张同学的爆款视频（近200万播放）突然被平台下架，引发群内对<mark class="orange">AI视频内容合规问题</mark>的讨论。</p>
 
             <div class="chat-bubble">
-              <div class="sender">图图和憨憨 09:53</div>
-              <div class="content">感觉Gemini做的歌还不错，请大家品鉴</div>
+              <div class="sender">老张</div>
+              今天发这条都跑了近两百万播放，突然被显示无法查看了，是不是我写的角色名侵权了还是啥原因
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="sender">学习有问题@三月</div>
+              你有抖音官方运营的联系方式不？这个得找他们查一下
             </div>
 
             <div class="chat-bubble">
-              <div class="sender">图图和憨憨 11:18</div>
-              <div class="content">模仿《渔舟唱晚》给我来一段同风格的，没有选择要混合制作的曲目</div>
+              <div class="sender">老张</div>
+              没有，官方也没给我发违规通知。跑了马上两百万播放了给我下架了
             </div>
 
-            <p>不过，部分同学在访问时遇到了困难。饮悦小站和阿珂表示即使有梯子也打不开，不设限的烟火Firework给出了解决方案：<em>"要多刷新，然后关机开机，一般用新加坡或日本的🪜会好点"</em>。</p>
-
-            <div class="ai-insight">
-              <div class="ai-insight-title">💡 AI分析</div>
-              <p>Google Gemini进军AI音乐创作领域，与Suno形成竞争态势。从群内反馈来看，Gemini在中国风音乐（如《渔舟唱晚》风格）的生成上表现不俗。但访问门槛较高，需要稳定的海外网络环境。建议有条件的同学可以尝试体验，对比不同平台的音乐生成效果，为自己的视频配乐储备更多选择。</p>
+            <div class="ai-analysis">
+              <div class="ai-analysis-title">⚠️ AI风险提示</div>
+              <p>老张的案例暴露了AI视频创作的<span class="highlight-red">潜在合规风险</span>：</p>
+              <ul>
+                <li><strong>IP侵权风险</strong>：使用知名角色名称可能触发平台版权保护机制</li>
+                <li><strong>无预警下架</strong>：平台可能在爆款期间自动审核更严格</li>
+                <li><strong>申诉困难</strong>：无明确违规通知，难以针对性修改</li>
+              </ul>
+              <p style="margin-top: 8px;"><strong>建议措施：</strong></p>
+              <ul>
+                <li>避免直接使用影视IP角色名，可用近似或原创名称</li>
+                <li>保留创作过程记录，便于申诉时证明原创性</li>
+                <li>建立官方运营联系渠道，遇问题可快速沟通</li>
+              </ul>
             </div>
           </div>
         </section>
@@ -405,74 +627,83 @@
       <!-- 右栏 -->
       <aside class="col-right">
         <!-- AI资讯 -->
-        <section class="section-block block-ai">
-          <h2 class="section-title"><span class="icon">🤖</span> AI资讯</h2>
-          <div class="section-content">
-            <p><span class="highlight-orange">今日AI焦点：</span>多款AI工具动态引发讨论</p>
+        <section class="block block-ai">
+          <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
 
-            <p style="margin-top: 12px;"><span class="ai-tool-tag">Gemini</span> Google Gemini新增音乐创作功能，群内同学实测效果不错，尤其在中国风音乐生成方面表现亮眼。</p>
+          <h3 style="color: var(--accent-orange); margin-bottom: 12px; font-size: 15px;">今日AI焦点</h3>
 
-            <p><span class="ai-tool-tag">高斯泼溅</span> 3D Gaussian Splatting技术讨论，菩萨老师指出其精度问题，提醒大家理性看待新技术。</p>
+          <p>今日群内讨论涉及多个AI工具和技术：</p>
 
-            <p><span class="ai-tool-tag">即梦</span> 老张提到"即梦现在瘫痪了"，询问可灵3和Vidu Q2 Pro作为写实转动漫的替代方案。</p>
+          <div style="margin: 16px 0;">
+            <span class="ai-tool-badge">Gemini</span>
+            <span class="ai-tool-badge">高斯泼溅</span>
+            <span class="ai-tool-badge">可灵3</span>
+            <span class="ai-tool-badge">即梦</span>
+            <span class="ai-tool-badge">ViduQ2Pro</span>
+          </div>
 
-            <blockquote>
-              <span class="quote-author">老张 13:50</span>
-              老师们同学们，我请教下，把一分钟的写实转绘成动漫，哪个模型好用点，即梦现在瘫痪了，用可灵3和viduq2pro可以吗
-            </blockquote>
+          <h4 style="color: var(--text-primary); margin: 16px 0 8px; font-size: 14px;">🎵 Gemini音乐创作</h4>
+          <p>Google Gemini新增音乐生成能力，群友实测显示在纯音乐/古典风格方面表现不错，可作为Suno的补充选项。</p>
 
-            <div class="ai-insight">
-              <div class="ai-insight-title">💡 使用建议</div>
-              <p>当主力工具出现问题时，保持多工具切换能力很重要。写实转动漫场景下，可灵3.0在风格一致性上表现较好，Vidu Q2 Pro则在动态效果上有优势。建议根据具体需求选择，或组合使用以达到最佳效果。</p>
-            </div>
+          <h4 style="color: var(--text-primary); margin: 16px 0 8px; font-size: 14px;">🎬 写实转绘动漫讨论</h4>
+          <blockquote>
+            "把一分钟的写实转绘成动漫，哪个模型好用点，即梦现在瘫痪了，用可灵3和viduq2pro可以吗"
+            <span class="quote-author">—— 老张 13:50</span>
+          </blockquote>
 
-            <p style="margin-top: 16px;"><span class="highlight-orange">活动预告：</span></p>
-            <blockquote>
-              <span class="quote-author">PBS官方 19:30</span>
-              🌟 PB Showdown EP.64<br>
-              💡 森破不simple，一起来攻擂！！！<br>
-              🛎️ 2026年02月26日20:00，准时开打！<br>
-              🗣️ 今日MC：巧 & 周周
-            </blockquote>
-            <a href="https://meeting.tencent.com/dm/Ei0oPFimMDEs" class="link-pill" target="_blank">📺 腾讯会议入场</a>
+          <div class="ai-analysis">
+            <div class="ai-analysis-title">📊 AI工具趋势判断</div>
+            <p><strong>当前格局：</strong></p>
+            <ul>
+              <li><mark class="orange">即梦</mark>：服务不稳定，建议备选方案</li>
+              <li><mark class="orange">可灵3</mark>：写实转绘能力较强，推荐首选</li>
+              <li><mark class="orange">ViduQ2Pro</mark>：可作为补充测试</li>
+            </ul>
+            <p style="margin-top: 12px;"><strong>实践建议：</strong>写实转动漫是高频需求，建议同学们多工具并行测试，根据具体场景选择最优方案。当主力工具宕机时，及时切换备选方案保证产出效率。</p>
           </div>
         </section>
 
         <!-- 社群动态 -->
-        <section class="section-block block-community">
-          <h2 class="section-title"><span class="icon">💬</span> 社群动态</h2>
-          <div class="section-content">
-            <p>今日社群氛围热烈，海艺大赛获奖公告发布后，群内掀起了一波祝贺热潮，超过30位同学接力送上祝福。</p>
+        <section class="block block-community">
+          <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
 
-            <div class="chat-bubble">
-              <div class="sender">墨墨memory 19:56</div>
-              <div class="content">收到奖金了，谢谢[呲牙][呲牙][呲牙]</div>
-            </div>
+          <div class="community-card">
+            <div style="font-size: 13px; color: var(--accent-green); margin-bottom: 6px;">📚 学习资源推荐</div>
+            <p><strong>逆流而上</strong> 推荐喜马拉雅《蒋勋·中国美术史》：</p>
+            <blockquote style="margin: 8px 0; font-size: 13px;">
+              "最近Ai变化快，不如停下脚步听听故事。一集35分钟，共120集。基本就是中国历史。"
+            </blockquote>
+            <p style="font-size: 13px; color: var(--text-secondary);">小贴士：艺术史学习有助于提升AI创作的审美底蕴</p>
+          </div>
 
-            <div class="chat-bubble">
-              <div class="sender">Kyrix启析 10:39</div>
-              <div class="content">好巧，周元老师的社团和菩萨老师的社团会同时有不同的同学问到gemini的问题，然后都同时是 @不设限的烟火Firework 同学在回答问题[捂脸]</div>
-            </div>
+          <div class="community-card">
+            <div style="font-size: 13px; color: var(--accent-green); margin-bottom: 6px;">🎉 获奖喜报接龙</div>
+            <p>海艺大赛获奖公告发布后，<span class="highlight-green">超过30位同学</span>发送祝贺消息，素语同学也第一时间确认收到奖金。</p>
+            <p style="font-size: 13px; color: var(--text-secondary); margin-top: 8px;">社群氛围温暖，大家互相鼓励支持！</p>
+          </div>
 
-            <div class="chat-bubble">
-              <div class="sender">设计师lucia 14:30</div>
-              <div class="content">好厉害的，前面的视频数据反正比起我是很好了，最近出的这几个真是太厉害了[强]刚刚把你视频都刷了一遍[强]</div>
-            </div>
+          <div class="community-card">
+            <div style="font-size: 13px; color: var(--accent-green); margin-bottom: 6px;">💡 审美话题延伸</div>
+            <p>有同学分享了小红书上的审美提升社群，引发简短讨论：</p>
+            <blockquote style="margin: 8px 0; font-size: 13px;">
+              "审美是系统的，多维度的，是内心的感受。"
+            </blockquote>
+          </div>
 
-            <p style="margin-top: 16px;"><span class="highlight-green">新成员加入：</span>Andy老师邀请"侯建丽(清凝之水）"加入群聊，欢迎新同学！</p>
-
-            <div class="ai-insight">
-              <div class="ai-insight-title">💬 小编寄语</div>
-              <p>今天的社群充满了正能量！从海艺大赛的获奖喜讯，到老张同学的爆款分享，再到技术讨论和互帮互助，每一条消息都展现了这个社团的活力与温度。不设限的烟火Firework同学更是"跨社团答疑"，堪称社群热心人典范。期待明天更多精彩！</p>
-            </div>
+          <div class="ai-analysis">
+            <div class="ai-analysis-title">📝 今日氛围总结</div>
+            <p>今日社群活跃度较高，<span class="highlight-green">29位同学参与发言</span>，共计175条消息。上午以技术讨论为主，下午聚焦老张视频事件，晚间获奖公告引发温馨祝贺潮。整体氛围积极向上，学习互助氛围浓厚。</p>
+            <p style="margin-top: 12px; text-align: center; color: var(--accent-primary);">✨ 持续学习，共同进步！明天见！</p>
           </div>
         </section>
       </aside>
     </main>
 
+    <!-- 页脚 -->
     <footer>
-      <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-02-26 23:59:00</p>
-      <p style="margin-top: 8px; opacity: 0.7;">本日报由AI自动生成，内容基于群聊记录整理分析</p>
+      <p>风变野菩萨AI视频社团A班 · 每日资讯</p>
+      <p>生成时间：2026-02-27 23:10</p>
+      <p style="margin-top: 8px; font-size: 12px; color: var(--text-secondary);">本日报由 AI 自动生成，仅供社团内部交流参考</p>
     </footer>
   </div>
 </body>
