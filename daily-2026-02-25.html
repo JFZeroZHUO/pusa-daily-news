@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -246,6 +246,56 @@
       padding-bottom: 8px;
       border-bottom: 1px dashed var(--border);
     }
+  
+    /* ── 主题切换按钮 ── */
+    .theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-primary);
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      padding: 0;
+      line-height: 1;
+    }
+    .theme-toggle:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    /* ── 亮色主题变量覆盖 ── */
+    [data-theme="light"] {
+      --bg-primary:    #f5f3ee;
+      --bg-card:       #ffffff;
+      --bg-card-hover: #edeae0;
+      --border:        #d4cfc0;
+      --text-primary:  #1e1b14;
+      --text-secondary:#6b6555;
+    }
+    [data-theme="light"] blockquote {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .analysis-box {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .newspaper-header {
+      background: linear-gradient(135deg, #f0ede2, #f7f5ee);
+    }
+    [data-theme="light"] .block-teacher {
+      background: linear-gradient(135deg, #f0ede2, #edeae0);
+    }
   </style>
 </head>
 <body>
@@ -255,6 +305,8 @@
       <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
       <span class="stats-badge">今日 68 条消息 · 30 人发言</span>
     </div>
+  
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换亮色/暗色主题">☀️</button>
   </header>
 
   <main class="newspaper-grid">
@@ -429,5 +481,25 @@
     <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-02-26 00:00:00</p>
     <p style="margin-top: 8px; font-size: 12px;">Powered by AI · 内容基于群聊记录自动生成</p>
   </footer>
+
+  <script>
+    /* ── 主题切换 ── */
+    (function () {
+      const saved = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+      document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+      });
+    })();
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('pusa-theme', next);
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+    }
+  </script>
 </body>
 </html>
