@@ -15,8 +15,19 @@
 
 ---
 
-### 2. CSS 变量（`:root`）
-必须声明以下 6 个背景/文字 CSS 变量，以确保亮色主题覆盖生效：
+### 2. CSS 变量（`:root`）与字体规范
+
+**字体：** 统一使用系统字体栈，不指定中文特定字体：
+
+```css
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+```
+
+**CSS 变量（必须声明）：**
 
 ```css
 :root {
@@ -30,36 +41,38 @@
 }
 ```
 
+**各元素字号参考（基于 16px body）：**
+
+| 元素 | 字号 |
+|---|---|
+| `body` | `16px` |
+| `.newspaper-title` | `28px` |
+| `.issue-info` / `.stats-badge` | `11px` |
+| `.section-title` / `.block-title` | `15px` |
+| `blockquote` / `.analysis-box` | `13px` |
+| `.chat-sender` / `.bubble-sender` | `11px` |
+| `footer` | `11px` |
+
 ---
 
 ### 3. 亮色主题 CSS 覆盖（必须包含，放在 `</style>` 前）
 
 ```css
 /* ── 主题切换按钮 ── */
-.theme-toggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  border: 2px solid var(--border);
+.theme-btn {
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
   background: var(--bg-card);
-  color: var(--text-primary);
-  font-size: 20px;
+  color: var(--text-secondary);
+  font-size: 11px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  padding: 0;
-  line-height: 1;
+  transition: all 0.15s ease;
+  white-space: nowrap;
 }
-.theme-toggle:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+.theme-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-card-hover);
 }
 /* ── 亮色主题变量覆盖 ── */
 [data-theme="light"] {
@@ -88,27 +101,46 @@
 
 ---
 
-### 4. 主题切换按钮 HTML（放在 `</header>` 前）
+### 4. 主题切换按钮 HTML（放在 `<div class="header-top">` 末尾，`</div>` 前）
 
 ```html
-<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换亮色/暗色主题">☀️</button>
+<div class="header-top">
+  <span class="issue-info">...</span>
+  <h1 class="newspaper-title">...</h1>
+  <span class="stats-badge">...</span>
+  <button class="theme-btn" id="themeToggle" onclick="toggleTheme()">☀️ 明亮</button>
+</div>
 ```
 
-> 按钮图标含义：☀️ = 当前深色（点击切换亮色）；🌙 = 当前亮色（点击切换深色）
+> 按钮文字：`☀️ 明亮` = 当前深色（点击切换亮色）；`🌙 暗黑` = 当前亮色（点击切换深色）
 
 ---
 
-### 5. 主题切换 JavaScript（放在 `</body>` 前，独立 `<script>` 块）
+### 5. FOUC 防闪烁脚本（放在 `<head>` 内，`<style>` 之前）
+
+```html
+<script>
+  /* 防闪烁：阻塞执行，在样式渲染前设定主题 */
+  (function () {
+    const t = localStorage.getItem('pusa-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+```
+
+---
+
+### 6. 主题切换 JavaScript（放在 `</body>` 前，独立 `<script>` 块）
 
 ```html
 <script>
   /* ── 主题切换 ── */
   (function () {
+    /* data-theme 已在 <head> 设置，这里只更新按钮图标 */
     const saved = localStorage.getItem('pusa-theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', saved);
     document.addEventListener('DOMContentLoaded', function () {
       const btn = document.getElementById('themeToggle');
-      if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+      if (btn) btn.textContent = saved === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
     });
   })();
   function toggleTheme() {
@@ -117,8 +149,18 @@
     html.setAttribute('data-theme', next);
     localStorage.setItem('pusa-theme', next);
     const btn = document.getElementById('themeToggle');
-    if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+    if (btn) btn.textContent = next === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
   }
+  /* 接收父页面（index.html）的主题同步消息 */
+  window.addEventListener('message', function (e) {
+    if (e.data && e.data.type === 'pusa-theme') {
+      const theme = e.data.theme;
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('pusa-theme', theme);
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.textContent = theme === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+    }
+  });
 </script>
 ```
 
@@ -130,19 +172,17 @@
 
 - **accent 颜色**（蓝/绿/橙/紫/金）在亮色背景下保持不变，无需覆盖。
 - 若日报中有硬编码深色背景的 class（如 `.block-teacher`），需在亮色覆盖块中单独处理。
-- `index.html` 额外需要在 `toggleTheme()` 中同步 iframe：
+- `index.html` 的主题按钮放在 `.nav-btns` 内，`toggleTheme()` 额外用 postMessage 同步 iframe：
   ```javascript
   const iframe = document.querySelector('#iframeContainer iframe');
-  if (iframe && iframe.contentDocument) {
-    try {
-      iframe.contentDocument.documentElement.setAttribute('data-theme', next);
-    } catch(e) {}
+  if (iframe && iframe.contentWindow) {
+    try { iframe.contentWindow.postMessage({ type: 'pusa-theme', theme: next }, '*'); } catch(e) {}
   }
   ```
-  以及在 `iframe.onload` 中同步：
+  `iframe.onload` 中也同步：
   ```javascript
-  const currentTheme = document.documentElement.getAttribute('data-theme');
-  try {
-    iframe.contentDocument.documentElement.setAttribute('data-theme', currentTheme);
-  } catch(e) {}
+  iframe.onload = () => {
+    const theme = document.documentElement.getAttribute('data-theme');
+    try { iframe.contentWindow.postMessage({ type: 'pusa-theme', theme }, '*'); } catch(e) {}
+  };
   ```
