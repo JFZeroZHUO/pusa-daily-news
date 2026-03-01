@@ -22,7 +22,7 @@
 ```css
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
 }
 ```
@@ -41,17 +41,17 @@ body {
 }
 ```
 
-**各元素字号参考（基于 16px body）：**
+**各元素字号参考（基于 14px body）：**
 
 | 元素 | 字号 |
 |---|---|
-| `body` | `16px` |
+| `body` / 正文段落 | `14px` |
 | `.newspaper-title` | `28px` |
 | `.issue-info` / `.stats-badge` | `11px` |
 | `.section-title` / `.block-title` | `15px` |
-| `blockquote` / `.analysis-box` | `13px` |
+| `blockquote` / `.analysis-box` | `12px` |
 | `.chat-sender` / `.bubble-sender` | `11px` |
-| `footer` | `11px` |
+| `footer` | `13px` |
 
 ---
 
