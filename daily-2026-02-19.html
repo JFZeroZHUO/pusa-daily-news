@@ -258,30 +258,20 @@
     .section-content { font-size: 14px; line-height: 1.8; }
   
     /* ── 主题切换按钮 ── */
-    .theme-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      border: 2px solid var(--border);
+    .theme-btn {
+      padding: 5px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
       background: var(--bg-card);
-      color: var(--text-primary);
-      font-size: 20px;
+      color: var(--text-secondary);
+      font-size: 11px;
       cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-      transition: all 0.2s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-      padding: 0;
-      line-height: 1;
+      transition: all 0.15s ease;
+      white-space: nowrap;
     }
-    .theme-toggle:hover {
-      transform: scale(1.1);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    .theme-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-card-hover);
     }
     /* ── 亮色主题变量覆盖 ── */
     [data-theme="light"] {
@@ -315,9 +305,9 @@
         <span class="issue-info">第89期 · 2026年02月19日 星期四</span>
         <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
         <span class="stats-badge">今日 42 条消息 · 14 人发言</span>
-      </div>
+              <button class="theme-btn" id="themeToggle" onclick="toggleTheme()">☀️ 明亮</button>
+</div>
     
-  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="切换亮色/暗色主题">☀️</button>
   </header>
 
     <main class="newspaper-grid">
@@ -531,7 +521,7 @@
       const saved = localStorage.getItem('pusa-theme') || 'dark';
       document.addEventListener('DOMContentLoaded', function () {
         const btn = document.getElementById('themeToggle');
-        if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+        if (btn) btn.textContent = saved === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
       });
     })();
     function toggleTheme() {
@@ -540,7 +530,7 @@
       html.setAttribute('data-theme', next);
       localStorage.setItem('pusa-theme', next);
       const btn = document.getElementById('themeToggle');
-      if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+      if (btn) btn.textContent = next === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
     }
     /* 接收父页面（index.html）的主题同步消息 */
     window.addEventListener('message', function (e) {
@@ -549,7 +539,7 @@
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('pusa-theme', theme);
         const btn = document.getElementById('themeToggle');
-        if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        if (btn) btn.textContent = theme === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
       }
     });
   </script>
