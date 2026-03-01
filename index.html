@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>野菩萨AI社团 · 日报中心</title>
+  <script>
+    /* 阻塞执行，防止亮色主题闪烁（FOUC） */
+    (function () {
+      const t = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
   <style>
     :root {
       --bg-primary: #0d1117;
@@ -616,10 +623,10 @@
 
       iframe.onload = () => {
         document.getElementById('loading').classList.remove('show');
-        // 同步主题到 iframe
+        // 同步主题到 iframe（postMessage 兼容 file:// 协议）
         const currentTheme = document.documentElement.getAttribute('data-theme');
         try {
-          iframe.contentDocument.documentElement.setAttribute('data-theme', currentTheme);
+          iframe.contentWindow.postMessage({ type: 'pusa-theme', theme: currentTheme }, '*');
         } catch(e) {}
       };
       iframe.src = digest.file;
@@ -691,7 +698,7 @@
     /* ── 主题切换 ── */
     (function () {
       const saved = localStorage.getItem('pusa-theme') || 'dark';
-      document.documentElement.setAttribute('data-theme', saved);
+      /* data-theme 已在 <head> IIFE 设置，这里只更新按钮图标 */
       document.addEventListener('DOMContentLoaded', function () {
         const btn = document.getElementById('themeToggle');
         if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
@@ -704,11 +711,11 @@
       localStorage.setItem('pusa-theme', next);
       const btn = document.getElementById('themeToggle');
       if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
-      // 同步 iframe 中的日报
+      // 用 postMessage 同步 iframe（兼容 file:// 协议）
       const iframe = document.querySelector('#iframeContainer iframe');
-      if (iframe && iframe.contentDocument) {
+      if (iframe && iframe.contentWindow) {
         try {
-          iframe.contentDocument.documentElement.setAttribute('data-theme', next);
+          iframe.contentWindow.postMessage({ type: 'pusa-theme', theme: next }, '*');
         } catch(e) {}
       }
     }

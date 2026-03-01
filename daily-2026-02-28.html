@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html data-patched="v2" lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>风变野菩萨AI视频社团A班 · 日报 2026-02-28</title>
+  <script>
+    /* 防闪烁：阻塞执行，在样式渲染前设定主题 */
+    (function () {
+      const t = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
   <style>
     :root {
       --bg-primary:    #1a1810;
@@ -894,8 +901,8 @@
   <script>
     /* ── 主题切换 ── */
     (function () {
+      /* data-theme 已在 <head> 设置，这里只更新按钮图标 */
       const saved = localStorage.getItem('pusa-theme') || 'dark';
-      document.documentElement.setAttribute('data-theme', saved);
       document.addEventListener('DOMContentLoaded', function () {
         const btn = document.getElementById('themeToggle');
         if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
@@ -909,6 +916,16 @@
       const btn = document.getElementById('themeToggle');
       if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
     }
+    /* 接收父页面（index.html）的主题同步消息 */
+    window.addEventListener('message', function (e) {
+      if (e.data && e.data.type === 'pusa-theme') {
+        const theme = e.data.theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('pusa-theme', theme);
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      }
+    });
   </script>
 </body>
 </html>
