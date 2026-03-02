@@ -4,3 +4,9 @@ raw-*.txt
 # Ignore temp files
 temp_*.json
 generate_*.js
+gen_raw_txt.js
+parse_chatlog.js
+chatlog_*.json
+
+# Windows reserved device name (防止误创建)
+nul
