@@ -1,8 +1,15 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-03-01",
+  "lastUpdated": "2026-03-02",
   "digests": [
+    {
+      "date": "2026-03-01",
+      "file": "daily-2026-03-01.html",
+      "title": "Livecoding代码音乐首课与Claude登顶App Store",
+      "messageCount": 120,
+      "speakerCount": 31
+    },
     {
       "date": "2026-02-28",
       "file": "daily-2026-02-28.html",
