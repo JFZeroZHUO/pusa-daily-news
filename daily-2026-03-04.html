@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>风变野菩萨AI视频社团A班 · 日报 2026-03-04</title>
   <style>
     :root {
-      /* ===== 暖阳橙 Wednesday ===== */
+      /* ===== 星期三：暖阳橙 (Wednesday Orange) ===== */
       --bg-primary:    #1a1410;
       --bg-card:       #231c16;
       --bg-card-hover: #2d241c;
@@ -22,43 +22,45 @@
       --gradient-title: linear-gradient(90deg, #ed8936, #dd6b20);
 
       /* ===== 字体大小系统 ===== */
-      --font-base:   16px;
-      --font-xs:     14px;
-      --font-sm:     15px;
-      --font-md:     16px;
-      --font-lg:     18px;
-      --font-xl:     21px;
-      --font-2xl:    27px;
-      --font-3xl:    31px;
-      --font-data:   23px;
-    }
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
-      font-size: var(--font-base);
-      background: var(--bg-primary);
-      color: var(--text-primary);
-      min-height: 100vh;
-      line-height: 1.6;
+      --font-base:        16px;
+      --font-xs:          14px;
+      --font-sm:          15px;
+      --font-md:          16px;
+      --font-lg:          18px;
+      --font-xl:          21px;
+      --font-2xl:         27px;
+      --font-3xl:         31px;
+      --font-data:        23px;
     }
 
-    /* ===== 报头 ===== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
     .newspaper-header {
-      background: var(--bg-card);
-      border-bottom: 1px solid var(--border);
-      padding: 14px 32px 10px;
+      max-width: 1600px;
+      margin: 0 auto 30px;
+      text-align: center;
     }
     .header-top {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      gap: 16px;
+      align-items: center;
+      margin-bottom: 12px;
     }
-    .issue-info {
+    .issue-info, .stats-badge {
       font-size: var(--font-xs);
       color: var(--text-secondary);
-      white-space: nowrap;
+      background: var(--bg-card);
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
     }
     .newspaper-title {
       font-size: var(--font-3xl);
@@ -67,348 +69,229 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      letter-spacing: 1px;
-      text-align: center;
-      flex: 1;
-    }
-    .stats-badge {
-      font-size: var(--font-xs);
-      color: var(--accent-orange);
-      background: rgba(251,211,141,0.12);
-      border: 1px solid rgba(251,211,141,0.3);
-      padding: 4px 10px;
-      border-radius: 12px;
-      white-space: nowrap;
-    }
-    .header-divider {
-      height: 2px;
-      background: var(--gradient-title);
-      margin-top: 10px;
-      border-radius: 1px;
-    }
-    .header-subtitle {
-      text-align: center;
-      font-size: var(--font-xs);
-      color: var(--text-secondary);
-      margin-top: 6px;
       letter-spacing: 2px;
     }
+    .header-divider {
+      height: 3px;
+      background: var(--gradient-title);
+      border-radius: 2px;
+      margin-top: 12px;
+    }
 
-    /* ===== 三栏布局 ===== */
     .newspaper-grid {
-      display: grid;
-      grid-template-columns: 25% 45% 28%;
-      gap: 0 1%;
-      padding: 16px 24px;
       max-width: 1600px;
       margin: 0 auto;
-      align-items: start;
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
     }
 
-    @media (max-width: 1200px) {
-      .newspaper-grid { grid-template-columns: 1fr; }
+    .col-left, .col-center, .col-right {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
     }
 
-    /* ===== 卡片基础 ===== */
-    .block-card {
+    section {
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 14px;
-      transition: background 0.2s;
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.3s ease;
     }
-    .block-card:hover { background: var(--bg-card-hover); }
+    section:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-primary);
+    }
 
     .block-title {
       font-size: var(--font-lg);
       font-weight: 700;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
       display: flex;
       align-items: center;
       gap: 8px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 8px;
-    }
-    .block-title .icon { font-size: var(--font-xl); }
-
-    /* ===== 板块一：重要公告 ===== */
-    .block-announcement .block-title { color: var(--accent-red); }
-    .announcement-empty {
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      font-style: italic;
-      padding: 12px;
-      border-left: 3px solid var(--accent-red);
-      background: rgba(252,129,129,0.06);
-      border-radius: 0 6px 6px 0;
-      line-height: 1.7;
-    }
-
-    /* ===== 板块二：师说 ===== */
-    .block-teacher .block-title { color: var(--accent-purple); }
-    .teacher-empty {
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      font-style: italic;
-      padding: 12px;
-      border-left: 4px solid var(--accent-purple);
-      background: rgba(214,188,250,0.06);
-      border-radius: 0 6px 6px 0;
-      line-height: 1.7;
-    }
-
-    /* ===== 板块三：热议话题 ===== */
-    .block-hot .block-title { color: var(--accent-red); }
-    .hot-topic { margin-bottom: 16px; }
-    .hot-topic-title {
-      font-size: var(--font-lg);
-      font-weight: 700;
       color: var(--text-primary);
-      margin-bottom: 8px;
     }
-    .heat-stats {
-      font-size: var(--font-xs);
-      color: var(--accent-orange);
-      background: rgba(251,211,141,0.12);
-      border-radius: 10px;
-      padding: 2px 10px;
-      display: inline-block;
-      margin-bottom: 10px;
+    .block-title .icon {
+      font-size: var(--font-xl);
     }
+
     blockquote {
       border-left: 3px solid var(--accent-purple);
-      padding: 8px 14px;
-      margin: 10px 0;
-      background: rgba(214,188,250,0.06);
-      color: var(--text-secondary);
+      padding: 8px 16px;
+      margin: 12px 0;
+      background: rgba(210,168,255,0.06);
+      color: #c9d1d9;
       font-style: italic;
       font-size: var(--font-sm);
-      border-radius: 0 6px 6px 0;
+      border-radius: 4px;
     }
-    blockquote .q-name {
-      font-style: normal;
-      font-weight: 600;
-      color: var(--accent-orange);
-      font-size: var(--font-xs);
-      display: block;
-      margin-bottom: 4px;
-    }
-    .analysis-box {
-      background: rgba(237,137,54,0.08);
-      border: 1px solid rgba(237,137,54,0.25);
-      border-radius: 8px;
-      padding: 12px;
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      margin-top: 10px;
-      line-height: 1.7;
-    }
-    .analysis-box strong { color: var(--accent-orange); }
+
     .chat-bubble {
-      font-size: var(--font-md);
+      background: rgba(237,137,54,0.08);
+      border-left: 3px solid var(--accent-orange);
       padding: 10px 14px;
-      border-radius: 18px;
-      margin-bottom: 8px;
-      max-width: 88%;
-      line-height: 1.6;
-    }
-    .chat-bubble.left {
-      background: rgba(251,211,141,0.1);
-      border: 1px solid rgba(251,211,141,0.2);
-      align-self: flex-start;
-    }
-    .chat-bubble.right {
-      background: rgba(104,211,145,0.1);
-      border: 1px solid rgba(104,211,145,0.2);
-      margin-left: auto;
-      align-self: flex-end;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-size: var(--font-md);
     }
     .bubble-sender {
       font-size: var(--font-xs);
       color: var(--accent-orange);
       font-weight: 600;
-      margin-bottom: 3px;
+      margin-bottom: 4px;
     }
-    .bubble-container { display: flex; flex-direction: column; gap: 6px; }
 
-    /* ===== 板块四：荣誉时刻 ===== */
-    .block-honor .block-title { color: var(--accent-yellow); }
-    .honor-card {
-      background: rgba(246,224,94,0.08);
-      border: 1px solid rgba(246,224,94,0.25);
-      border-radius: 10px;
+    .analysis-box {
+      background: rgba(237,137,54,0.06);
+      border: 1px dashed var(--accent-orange);
       padding: 14px;
-      margin-bottom: 12px;
+      margin: 14px 0;
+      border-radius: 8px;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: var(--accent-primary);
+      margin: 16px 0 10px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent-primary);
+    }
+
+    .heat-stats {
+      display: inline-block;
+      background: var(--accent-red);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    .honor-item {
+      background: rgba(246,224,94,0.08);
+      border: 1px solid var(--accent-yellow);
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 10px;
     }
     .honor-icon {
       font-size: var(--font-2xl);
-      text-shadow: 0 0 12px rgba(246,224,94,0.6);
-      margin-bottom: 6px;
-      display: block;
+      margin-right: 8px;
     }
     .honor-name {
       font-size: var(--font-md);
       font-weight: 700;
       color: var(--accent-yellow);
     }
-    .honor-prize {
-      font-size: var(--font-md);
-      color: var(--text-secondary);
-      margin-top: 4px;
-    }
-    .honor-comment {
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      margin-top: 10px;
-      padding-top: 10px;
-      border-top: 1px solid var(--border);
-      line-height: 1.7;
-    }
-    .hw-list { list-style: none; margin-top: 8px; }
-    .hw-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 0;
-      border-bottom: 1px solid rgba(74,63,53,0.5);
-      font-size: var(--font-sm);
-    }
-    .hw-badge {
-      background: rgba(104,211,145,0.15);
-      border: 1px solid rgba(104,211,145,0.3);
-      color: var(--accent-green);
+
+    .ai-tool-tag {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #1a1410;
+      padding: 3px 10px;
+      border-radius: 6px;
       font-size: var(--font-xs);
-      padding: 2px 8px;
-      border-radius: 10px;
+      font-weight: 600;
+      margin: 4px 4px 4px 0;
     }
 
-    /* ===== 板块五：AI资讯 ===== */
-    .block-ai .block-title { color: var(--accent-orange); }
-    .ai-item {
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px;
-      margin-bottom: 12px;
-      font-size: var(--font-sm);
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
-    }
-    .ai-item-title {
-      font-weight: 700;
-      color: var(--text-primary);
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .ai-tool-badge {
-      background: rgba(237,137,54,0.15);
-      border: 1px solid rgba(237,137,54,0.35);
-      color: var(--accent-orange);
-      font-size: var(--font-xs);
-      padding: 2px 8px;
-      border-radius: 10px;
-      font-family: monospace;
-    }
     .ai-data-number {
       font-size: var(--font-data);
       font-weight: 800;
       color: var(--accent-orange);
+      font-family: "Courier New", monospace;
     }
-    .ai-tool-tag {
-      background: rgba(104,211,145,0.12);
-      border: 1px solid rgba(104,211,145,0.3);
-      color: var(--accent-green);
-      font-size: var(--font-xs);
-      padding: 2px 8px;
-      border-radius: 10px;
-    }
+
     .link-pill {
       display: inline-block;
-      padding: 3px 12px;
+      padding: 4px 12px;
       border-radius: 20px;
-      border: 1px solid var(--accent-orange);
-      color: var(--accent-orange);
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
       font-size: var(--font-xs);
       text-decoration: none;
-      margin-top: 6px;
+      margin: 8px 4px;
+      transition: all 0.2s;
     }
-    .link-pill:hover { background: rgba(237,137,54,0.12); }
-
-    /* ===== 板块六：社群动态 ===== */
-    .block-community .block-title { color: var(--accent-green); }
-    .community-card {
-      background: rgba(35,28,22,0.8);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 12px;
-      margin-bottom: 10px;
-    }
-    .community-speaker {
-      font-size: var(--font-xs);
-      color: var(--accent-green);
-      font-weight: 600;
-    }
-    .community-content {
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      margin-top: 4px;
-      line-height: 1.6;
-    }
-    .community-time {
-      font-size: var(--font-xs);
-      color: rgba(168,152,136,0.6);
-      margin-top: 4px;
-    }
-    .community-summary {
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      line-height: 1.7;
-      padding: 10px 12px;
-      border-left: 3px solid var(--accent-green);
-      background: rgba(104,211,145,0.05);
-      border-radius: 0 6px 6px 0;
-      margin-top: 10px;
-    }
-    .community-closing {
-      font-size: var(--font-xs);
-      color: var(--accent-orange);
-      text-align: center;
-      margin-top: 10px;
-      padding: 6px;
-      border-top: 1px solid var(--border);
-      font-style: italic;
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: var(--bg-primary);
     }
 
-    /* ===== 高亮 ===== */
-    .highlight-blue  { color: #63b3ed; font-weight: 700; }
-    .highlight-red   { color: var(--accent-red); font-weight: 700; }
-    .highlight-green { color: var(--accent-green); font-weight: 700; }
     .highlight-orange { color: var(--accent-orange); font-weight: 700; }
-    mark.orange { background: rgba(237,137,54,0.2); color: var(--accent-orange); padding: 1px 4px; border-radius: 3px; }
-    mark.green  { background: rgba(104,211,145,0.2); color: var(--accent-green); padding: 1px 4px; border-radius: 3px; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
 
-    /* ===== 分隔线 ===== */
-    .topic-divider {
-      border: none;
-      border-top: 1px dashed var(--border);
-      margin: 14px 0;
+    .empty-notice {
+      text-align: center;
+      color: var(--text-secondary);
+      font-style: italic;
+      padding: 20px;
+      font-size: var(--font-sm);
     }
 
-    /* ===== footer ===== */
     footer {
+      max-width: 1600px;
+      margin: 30px auto 0;
       text-align: center;
-      padding: 16px;
-      font-size: var(--font-xs);
       color: var(--text-secondary);
+      font-size: var(--font-xs);
+      padding: 20px;
       border-top: 1px solid var(--border);
-      margin-top: 8px;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Theme Toggle Button */
+    .theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      transition: all 0.3s ease;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .theme-toggle:hover {
+      transform: scale(1.1);
+      border-color: var(--accent-primary);
+    }
+
+    /* Light Theme Overrides */
+    [data-theme="light"] {
+      --bg-primary:    #f5f3ee;
+      --bg-card:       #ffffff;
+      --bg-card-hover: #faf8f3;
+      --border:        #d4cfc4;
+      --text-primary:  #2c2416;
+      --text-secondary:#6b6456;
     }
   </style>
 </head>
 <body>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">
+    <span class="theme-icon">☀️</span>
+  </button>
 
-  <!-- 报头 -->
   <header class="newspaper-header">
     <div class="header-top">
       <span class="issue-info">第16期 · 2026年03月04日 星期三</span>
@@ -416,244 +299,225 @@
       <span class="stats-badge">今日 33 条消息 · 7 人发言</span>
     </div>
     <div class="header-divider"></div>
-    <p class="header-subtitle">Gemini 3.1降维打击 · Strudel音乐出声互助日</p>
   </header>
 
-  <!-- 三栏主体 -->
   <main class="newspaper-grid">
-
-    <!-- ===== 左栏 ===== -->
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
     <aside class="col-left">
-
-      <!-- 重要公告 -->
-      <section class="block-card block-announcement">
-        <div class="block-title">
-          <span class="icon">📢</span>重要公告
-        </div>
-        <div class="announcement-empty">
-          今日群内暂无重要公告，社群运营平稳进行中。<br><br>
-          3月4日是正式开课后的第一个周三，群内以自学探索为主。老师们的正式课程通知请留意企微消息，本日群聊以学员互助为主旋律，氛围轻松友好。
-        </div>
+      <section class="block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <div class="empty-notice">今日群内暂无重要公告，社群运营平稳进行中。</div>
       </section>
 
-      <!-- 荣誉时刻 -->
-      <section class="block-card block-honor">
-        <div class="block-title">
-          <span class="icon">🏆</span>荣誉时刻
-        </div>
-        <div class="honor-card">
-          <span class="honor-icon">📹</span>
-          <div class="honor-name">果果（果果）</div>
-          <div class="honor-prize">#交作业 · 视频作品提交</div>
-          <div class="honor-comment">
-            今日果果在中午12:12准时提交了一份视频作业，打上了 <mark class="green">#交作业</mark> 标签，展现出认真学习的态度。
-            <br><br>
-            在社团的日常运营中，按时交作业本身就是一种难得的自律精神体现。视频类作业往往需要从选题、提示词构思、到生成调整，耗费大量心血。每一次提交，都是对AI工具理解的一次总结与输出。
-            <br><br>
-            <strong style="color: var(--accent-yellow)">继续加油，期待更多精彩作品！🎬</strong>
-          </div>
-        </div>
-        <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 8px;">
-          今日交作业汇总：
-        </p>
-        <ul class="hw-list">
-          <li class="hw-item">
-            <span class="hw-badge">已提交</span>
-            <span>果果（果果） — 视频作业</span>
-          </li>
-        </ul>
-      </section>
+      <section class="block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
 
+        <div class="honor-item">
+          <span class="honor-icon">🎵</span>
+          <span class="honor-name">侯建丽</span>
+          <p style="margin-top:8px; color:var(--text-secondary); font-size:var(--font-sm);">
+            在社群音乐创作交流中，侯建丽对同学作品给予了"好听"的正面评价，体现了社群成员之间的相互鼓励与支持氛围。
+          </p>
+        </div>
+
+        <div class="honor-item">
+          <span class="honor-icon">📝</span>
+          <span class="honor-name">果果</span>
+          <p style="margin-top:8px; color:var(--text-secondary); font-size:var(--font-sm);">
+            果果同学按时提交作业（#交作业），展现了良好的学习态度和执行力。持续的作业提交是技能进步的关键，值得其他学员学习。
+          </p>
+        </div>
+
+        <div class="analysis-box">
+          <strong style="color:var(--accent-yellow);">AI点评：</strong>
+          今日荣誉时刻虽然没有重大奖项公布，但社群成员之间的相互认可和按时完成作业的习惯，正是学习型社群的核心价值所在。每一次"好听"的肯定，每一次按时交作业的坚持，都在积累通往优秀作品的基石。
+        </div>
+      </section>
     </aside>
 
-    <!-- ===== 中栏 ===== -->
+    <!-- 中栏：师说 + 热议话题 -->
     <article class="col-center">
-
-      <!-- 师说 -->
-      <section class="block-card block-teacher">
-        <div class="block-title">
-          <span class="icon">👨‍🏫</span>师说
-        </div>
-        <div class="teacher-empty">
-          今日菩萨与Aria清老师暂无重要发言，学员们以自学探索模式运转。<br><br>
-          这是一种颇具意味的"沉默"——在社团的日常中，老师不发言的日子恰恰是学员自驱力最受考验的时刻。今日群内的互助行为（柳条绿了帮助饮悦小站解决Strudel出声问题）正是社群自治精神的体现。<br><br>
-          正如菩萨在此前课程中所强调的"授人以渔"哲学：最好的教育，是让学员在老师不在场时，依然能找到解决问题的路径。今日的群聊，就是这一理念的生动实践。
-        </div>
+      <section class="block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        <div class="empty-notice">今日两位老师暂无重要发言，期待明日精彩内容。</div>
       </section>
 
-      <!-- 热议话题 -->
-      <section class="block-card block-hot">
-        <div class="block-title">
-          <span class="icon">🔥</span>热议话题
+      <section class="block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <h3 class="hot-topic-title">
+          Strudel音乐创作平台技术交流
+          <span class="heat-stats">🔥 7人参与 · 20+条消息</span>
+        </h3>
+
+        <p style="margin:12px 0; color:var(--text-secondary);">
+          今日社群围绕<span class="highlight-orange">Strudel音乐创作平台</span>展开了一场深入的技术交流。饮悦小站同学在使用过程中遇到音频输出问题，柳条绿了同学提供了详细的技术指导，展现了社群互助学习的良好氛围。
+        </p>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">饮悦小站 10:17</div>
+          是不是我的音箱有问题，它发不出声音来，怎么样才能让它唱出来
         </div>
 
-        <!-- 话题1 -->
-        <div class="hot-topic">
-          <div class="hot-topic-title">🎵 Strudel代码音乐无声之谜：扬声器设置是关键</div>
-          <span class="heat-stats">👥 4人参与 · 💬 15条消息 · ⏱️ 10:17-11:40</span>
-
-          <div class="bubble-container" style="margin-top: 10px;">
-            <div class="chat-bubble left">
-              <div class="bubble-sender">饮悦小站 [10:17]</div>
-              是不是我的音箱有问题，它发不出声音来，怎么样才能让它唱出来
-            </div>
-            <div class="chat-bubble right">
-              <div class="bubble-sender">柳条绿了 [10:30]</div>
-              这个settings里边要选择你的扬声器
-            </div>
-            <div class="chat-bubble left">
-              <div class="bubble-sender">New soul [10:31]</div>
-              你没有报错吗？
-            </div>
-            <div class="chat-bubble right">
-              <div class="bubble-sender">柳条绿了 [10:31]</div>
-              也有过报错，改了七八次才出来声音
-            </div>
-            <div class="chat-bubble right">
-              <div class="bubble-sender">柳条绿了 [10:34]</div>
-              点击右侧的console 按钮会显示错误信息，我也是直接截图发给AI，让它来给我改。
-            </div>
-          </div>
-
-          <blockquote>
-            <span class="q-name">饮悦小站 [11:13]</span>
-            做了8 9次提示词怎么还是一个音，放鞭炮一样的 😅
-          </blockquote>
-
-          <div class="analysis-box">
-            <strong>AI分析：</strong>Strudel是基于Web Audio API的代码音乐平台，在不同浏览器和操作系统中，扬声器/音频输出设备的选择是一个常见的新手障碍。
-            <br><br>
-            柳条绿了给出的解法精准实用：① 进入Settings手动选择扬声器输出设备；② 打开Console面板查看具体报错信息；③ 截图报错直接交给AI修正代码。
-            <br><br>
-            饮悦小站反映"做了8、9次提示词还是只有一个音"，这背后是<mark class="orange">音色(timbre)与节拍(rhythm)分离</mark>的编程逻辑问题——仅修改音色不会改变节奏的单调感，需要同步学习 <code>fast()</code>、<code>stack()</code>、<code>.n()</code> 等节奏函数。柳条绿了分享的官方Workshop教程正是解决这一学习瓶颈的最佳切入口。
-          </div>
+        <div class="chat-bubble">
+          <div class="bubble-sender">柳条绿了 10:27</div>
+          我是把我的截图直接发给AI，让它给我找出问题。
         </div>
 
-        <hr class="topic-divider">
-
-        <!-- 话题2 -->
-        <div class="hot-topic">
-          <div class="hot-topic-title">🚀 Gemini 3.1深夜掀桌：363 token/s碾压 · 1/4价格暴击</div>
-          <span class="heat-stats">👥 1人分享 · 📰 行业快讯 · ⏱️ 06:43</span>
-
-          <blockquote>
-            <span class="q-name">逆流而上 lu-xh [06:43] 分享资讯</span>
-            谷歌Gemini 3.1新模型深夜掀桌，每秒狂飙363 token! 1/4价格暴击Claude
-          </blockquote>
-
-          <div class="analysis-box">
-            <strong>AI分析：</strong>逆流而上在清晨6:43第一时间转发了Gemini 3.1发布的相关资讯，敏锐的行业嗅觉令人印象深刻。
-            <br><br>
-            <span class="ai-data-number">363</span> token/s 的推理速度是个相当显著的数字——目前 Claude Sonnet 4.6 的典型推理速度在约100-150 token/s，GPT-4o约在100-200 token/s 区间。如果Gemini 3.1能稳定达到363 token/s，这意味着实时对话体验将有质的飞跃。
-            <br><br>
-            "1/4价格"的定价策略更值得关注。谷歌凭借自研TPU基础设施，在算力成本上天然具备优势，这种价格攻势对于OpenAI和Anthropic的商业化路线构成直接压力。
-            <br><br>
-            对于社团学员而言：<mark class="orange">价格降低 = 可以更高频地用AI辅助创作</mark>。持续关注各大平台的pricing动态，合理配置自己的AI工具组合，是实现高效低成本创作的重要策略。
-          </div>
+        <div class="chat-bubble">
+          <div class="bubble-sender">柳条绿了 10:30</div>
+          这个settings里边要选择你的扬声器
         </div>
 
+        <div class="chat-bubble">
+          <div class="bubble-sender">柳条绿了 10:34</div>
+          点击右侧的console 按钮会显示错误信息，我也是直接截图发给AI，让它来给我改。
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">饮悦小站 11:13</div>
+          做了8 9次提示词怎么还是一个音，放鞭炮一样的[捂脸]
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">柳条绿了 11:33</div>
+          我开始做的时候也是这样，后来我给了它那个学习的网站，它就有点变化了，你试试。
+          <br><br>
+          你仔细看一下这个网址里面的内容，再好好学习一下这个平台的音乐创作技巧，来帮助我创作更好听的音乐
+        </div>
+
+        <a href="https://strudel.cc/workshop/getting-started/" class="link-pill" target="_blank">🔗 Strudel官方教程</a>
+
+        <div class="analysis-box">
+          <strong style="color:var(--accent-primary);">AI深度分析：</strong><br><br>
+
+          这场技术交流展现了三个值得关注的学习方法论：<br><br>
+
+          <strong>1. AI辅助调试法</strong><br>
+          柳条绿了同学提到"把截图直接发给AI，让它给我找出问题"，这是一种高效的现代调试方法。通过截图分享错误信息，AI可以快速定位问题并提供解决方案，大大缩短了试错周期。这种方法特别适合初学者，因为它降低了技术门槛，让学习者可以专注于创作本身而非技术细节。<br><br>
+
+          <strong>2. 系统化学习路径</strong><br>
+          当饮悦小站遇到"提示词重复8-9次仍然只有一个音"的问题时，柳条绿了分享了自己的经验："后来我给了它那个学习的网站，它就有点变化了"。这说明<span class="highlight-orange">系统化学习平台文档</span>比盲目尝试更有效。Strudel官方教程提供了完整的音乐创作语法和技巧，掌握这些基础知识后，AI才能更好地理解你的创作意图。<br><br>
+
+          <strong>3. 社群互助的价值</strong><br>
+          从"改了七八次才出来声音"到能够指导他人，柳条绿了的成长轨迹体现了<span class="highlight-green">实践-总结-分享</span>的学习闭环。社群中有经验的成员主动分享踩坑经验和解决方案，这种互助文化能够显著提升整体学习效率。<br><br>
+
+          <strong>实践建议：</strong><br>
+          • 遇到技术问题时，先查看console错误信息，截图发给AI辅助诊断<br>
+          • 在使用新工具前，先系统学习官方文档，建立基础认知框架<br>
+          • 将学习过程中的问题和解决方案记录下来，形成个人知识库<br>
+          • 积极参与社群互助，教学相长是最好的学习方式
+        </div>
       </section>
-
     </article>
 
-    <!-- ===== 右栏 ===== -->
+    <!-- 右栏：AI资讯 + 社群动态 -->
     <aside class="col-right">
+      <section class="block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
 
-      <!-- AI资讯 -->
-      <section class="block-card block-ai">
-        <div class="block-title">
-          <span class="icon">🤖</span>AI资讯
-        </div>
+        <h3 style="font-size:var(--font-lg); font-weight:700; color:var(--accent-orange); margin-bottom:10px;">
+          今日AI焦点：Gemini 3.1性能突破
+        </h3>
 
-        <div class="ai-item">
-          <div class="ai-item-title">
-            <span class="ai-tool-badge">Gemini 3.1</span>
-            速度与价格双杀
-          </div>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary); line-height: 1.7;">
-            谷歌深夜发布 Gemini 3.1 新模型，官方宣称推理速度达到
+        <blockquote>
+          逆流而上 lu-xh 分享：<br>
+          谷歌Gemini 3.1新模型深夜掀桌, 每秒狂飙363 token! 1/4价格暴击Claude
+        </blockquote>
+
+        <p style="margin:12px 0; color:var(--text-secondary); font-size:var(--font-sm);">
+          谷歌在AI大模型竞赛中再次发力，Gemini 3.1新模型在性能和价格两个维度上实现了重大突破：
+        </p>
+
+        <div style="background:rgba(251,211,141,0.1); padding:14px; border-radius:8px; margin:12px 0;">
+          <div style="margin-bottom:8px;">
+            <span style="color:var(--text-secondary); font-size:var(--font-sm);">推理速度：</span>
             <span class="ai-data-number">363</span>
-            <span style="font-size: var(--font-xs); color: var(--accent-orange);"> token/s</span>，
-            定价仅为 Claude 同级模型的 <strong style="color: var(--accent-red)">1/4</strong>。
-          </p>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 8px; line-height: 1.7;">
-            此次发布被媒体描述为"深夜掀桌"，剑指Anthropic和OpenAI的市场份额。高速推理使其特别适合实时对话类应用场景，价格优势则对API开发者极具吸引力。
-          </p>
-          <p style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px;">
-            <span class="ai-tool-tag">速度</span>
-            <span class="ai-tool-tag">定价</span>
-            <span class="ai-tool-tag">竞争格局</span>
-          </p>
-        </div>
-
-        <div class="ai-item">
-          <div class="ai-item-title">
-            <span class="ai-tool-badge">Strudel</span>
-            代码音乐教程资源
+            <span style="color:var(--accent-orange); font-weight:600;"> tokens/秒</span>
           </div>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary); line-height: 1.7;">
-            柳条绿了在群内分享了 Strudel 官方入门教程，这是解决代码音乐出声问题和掌握节奏编排的权威学习路径。
-          </p>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 8px; line-height: 1.7;">
-            Strudel基于TidalCycles模式语言，支持实时代码演奏（Live Coding），Workshop覆盖：基础节拍 → 音色叠加 → 节奏变换 → 效果器应用，是从零到能演出的完整路线。
-          </p>
-          <a href="https://strudel.cc/workshop/getting-started/" target="_blank" class="link-pill">📖 Strudel Getting Started →</a>
-          <p style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px;">
-            <span class="ai-tool-tag">Livecoding</span>
-            <span class="ai-tool-tag">音乐创作</span>
-            <span class="ai-tool-tag">入门教程</span>
-          </p>
+          <div>
+            <span style="color:var(--text-secondary); font-size:var(--font-sm);">价格优势：</span>
+            <span class="ai-data-number">1/4</span>
+            <span style="color:var(--accent-orange); font-weight:600;"> Claude价格</span>
+          </div>
         </div>
 
-        <div class="analysis-box" style="margin-top: 4px;">
-          <strong>今日AI焦点总结：</strong>
-          本日AI圈最大事件是Gemini 3.1以极低价格+极高速度对标Claude的正面挑战。对社团学员的实践建议：<br>
-          ① 视频制作工具链暂时无需切换，Seedance/即梦仍是主力；<br>
-          ② 文字辅助创作可关注Gemini API的价格优势；<br>
-          ③ Strudel音乐创作建议从官方Workshop第一课开始，配合Console报错截图给AI修改的工作流。
+        <div class="analysis-box">
+          <strong style="color:var(--accent-orange);">趋势判断：</strong><br><br>
+
+          Gemini 3.1的发布标志着AI大模型进入<span class="highlight-orange">"性能-成本"双优化时代</span>。363 tokens/秒的推理速度意味着更流畅的实时交互体验，而1/4的价格优势将显著降低企业和个人开发者的使用成本。<br><br>
+
+          这对AI视频创作领域的影响值得关注：更快的推理速度可以支持实时脚本生成、分镜设计等创作环节，更低的成本则让大规模批量创作成为可能。<br><br>
+
+          <strong style="color:var(--accent-orange);">使用建议：</strong><br>
+          • 对于需要大量文本生成的视频脚本创作，可以考虑尝试Gemini 3.1以降低成本<br>
+          • 关注Gemini 3.1在多模态能力（图像、视频理解）上的表现，评估是否适合视频创作工作流<br>
+          • 保持对多个AI模型的关注，根据具体任务选择最合适的工具，避免"工具锁定"<br>
+          • 价格战背后是技术进步，作为创作者应该把节省的成本投入到更多创作实验中
         </div>
+
+        <span class="ai-tool-tag">Gemini 3.1</span>
+        <span class="ai-tool-tag">大模型</span>
+        <span class="ai-tool-tag">性能优化</span>
       </section>
 
-      <!-- 社群动态 -->
-      <section class="block-card block-community">
-        <div class="block-title">
-          <span class="icon">💬</span>社群动态
+      <section class="block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+
+        <div style="background:rgba(237,137,54,0.06); padding:12px; border-radius:8px; margin:12px 0; border-left:3px solid var(--accent-orange);">
+          <div style="font-size:var(--font-xs); color:var(--accent-orange); margin-bottom:4px;">柳条绿了 06:55</div>
+          <div style="font-size:var(--font-md);">谢谢！</div>
         </div>
 
-        <div class="community-card">
-          <div class="community-speaker">逆流而上 lu-xh</div>
-          <div class="community-content">清晨6:43发来Gemini 3.1快讯，随后附上一句"分享 [抱拳][社会社会]"，既是信息源的自谦，也是社区贡献者的日常姿态。</div>
-          <div class="community-time">06:43 — 行业动态先驱</div>
+        <div style="background:rgba(237,137,54,0.06); padding:12px; border-radius:8px; margin:12px 0; border-left:3px solid var(--accent-orange);">
+          <div style="font-size:var(--font-xs); color:var(--accent-orange); margin-bottom:4px;">由纪（由纪AIGC） 07:15</div>
+          <div style="font-size:var(--font-md);">[表情包]</div>
         </div>
 
-        <div class="community-card">
-          <div class="community-speaker">柳条绿了</div>
-          <div class="community-content">上午主动为饮悦小站的Strudel出声问题提供截图指导，分享了Settings扬声器设置和Strudel Workshop链接，还附上个人经验"改了七八次才出来声音"。热心助人，技术与温度并存。</div>
-          <div class="community-time">10:27 - 11:39 — 技术支持志愿者</div>
+        <div style="background:rgba(237,137,54,0.06); padding:12px; border-radius:8px; margin:12px 0; border-left:3px solid var(--accent-orange);">
+          <div style="font-size:var(--font-xs); color:var(--accent-orange); margin-bottom:4px;">逆流而上 lu-xh 07:19</div>
+          <div style="font-size:var(--font-md);">分享[抱拳][社会社会]</div>
         </div>
 
-        <div class="community-card">
-          <div class="community-speaker">侯建丽</div>
-          <div class="community-content">上午10:41分享了一条内容，保持社群活跃。</div>
-          <div class="community-time">10:41</div>
-        </div>
+        <div class="analysis-box">
+          <strong>氛围总结：</strong><br><br>
+          今日社群整体呈现<span class="highlight-orange">技术交流与互助学习</span>的氛围。虽然消息量不大（33条），但质量较高，主要集中在Strudel音乐创作平台的实战问题解决上。<br><br>
 
-        <div class="community-summary">
-          今日社群呈现<mark class="green">小而精</mark>的互助氛围：仅7位成员活跃，却完成了一次完整的技术问答闭环——从提问、到多人响应、到分享教程、到实操反馈。这正是优质社群的价值所在：不在于人多声大，而在于每一条消息都有温度与价值。
-        </div>
+          社群成员展现出良好的互助精神，有经验的同学主动分享调试技巧和学习资源，初学者也积极提问和尝试。这种"问题-解答-实践-反馈"的良性循环，正是学习型社群的核心价值。<br><br>
 
-        <div class="community-closing">
-          「小群聊，大互助——每一次帮助，都是社群凝聚力的叠加。」
+          <strong style="color:var(--accent-orange);">小编寄语：</strong><br>
+          学习的路上没有孤岛，每一次提问都是进步的开始，每一次分享都是成长的见证。继续保持这份热情，明天会更精彩！
         </div>
       </section>
-
     </aside>
-
   </main>
 
   <footer>
-    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 第16期 · 生成时间：2026-03-05 · 本刊由 Claude Sonnet 4.6 辅助生成</p>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-05 11:15:53</p>
   </footer>
 
+  <script>
+    // Theme Toggle Logic
+    function toggleTheme() {
+      const html = document.documentElement;
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('pusa-theme', newTheme);
+      updateThemeIcon(newTheme);
+    }
+
+    function updateThemeIcon(theme) {
+      const icon = document.querySelector('.theme-icon');
+      icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+
+    // Initialize theme from localStorage
+    (function() {
+      const savedTheme = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      updateThemeIcon(savedTheme);
+    })();
+  </script>
 </body>
 </html>
