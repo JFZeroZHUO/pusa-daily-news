@@ -1,66 +1,934 @@
 [
   {
-    "sender": "wxid_test001",
-    "senderName": "测试用户A",
-    "time": "09:00:00",
-    "content": "大家好，今天分享一个Seedance 2.0的新功能，支持人物动作捕捉了！",
+    "sender": "Amber)(wxid_28m3zf6vdmj052",
+    "senderName": "Lili in London",
+    "time": "00:43:24",
+    "content": "#交作业",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test002",
-    "senderName": "菩萨",
-    "time": "09:15:00",
-    "content": "AI视频创作的核心不是工具，而是你对故事的理解。工具只是放大你的创作力，而不是替代它。学好提示词，先学会讲故事。",
+    "sender": "Amber)(wxid_28m3zf6vdmj052",
+    "senderName": "Lili in London",
+    "time": "00:43:38",
+    "content": "[链接|我发布了一篇笔记：AI短剧：利益与情感的终极对决 沉鳞逐月](https://www.xiaohongshu.com/discovery/item/69b2ec6c000000001d0120be?app_platform=android&ignoreEngage=true&app_version=9.20.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBYSnktOpUu-ojuXI1mPGHr3U1htkODhm2ijkn5bR6r8I%3D&author_share=1&xhsshare=&shareRedId=OD46Qjc3OEs2NzUyOTgwNjg7OTlJNTs_&apptime=1773333692&share_id=506fc83ca8fe4b24822729daa90ec999&share_channel=wechat)",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test003",
-    "senderName": "张三",
-    "time": "09:30:00",
-    "content": "可灵3.0和Seedance对比，哪个更适合做人物特写镜头？",
+    "sender": "MY_Mask_Mask",
+    "senderName": "Open Your Eyes",
+    "time": "00:48:09",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=1b56c383d3b356b63c5811b5f027a56a&filekey=30340201010420301e020201060402534804101b56c383d3b356b63c5811b5f027a56a020228da040d00000004627466730000000132&hy=SH&storeid=26305891e000319dd000000000000010600004f5053480d767b40b657cef03&bizid=1023)",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test004",
-    "senderName": "李四",
-    "time": "09:32:00",
-    "content": "我用可灵3.0做了一个测试，人物细节保持得很好，推荐试试",
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "10:49:59",
+    "content": "太好了",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test005",
-    "senderName": "王五",
-    "time": "09:35:00",
-    "content": "Seedance在运动镜头上更流畅，可灵在静态特写上更细腻，各有优势",
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "10:50:08",
+    "content": "[强][强]",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test001",
-    "senderName": "测试用户A",
-    "time": "10:00:00",
-    "content": "恭喜小明同学获得本周最佳作品奖！他的AI短片《城市脉搏》获得了评审团的一致好评",
+    "sender": "wxid_20lgjk4seq4422",
+    "senderName": "大鹏坚持住",
+    "time": "10:50:13",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6424616ac8e4a33c416931be57d591c6&filekey=30350201010421301f020201060402534804106424616ac8e4a33c416931be57d591c60203053c60040d00000004627466730000000132&hy=SH&storeid=26310c8710001c5d5000000000000010600004f5053480d167b40b67e003dc&bizid=1023)",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test006",
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:50:14",
+    "content": "[强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "梅紫清歌）(wxid_5e4105isf9ek21",
+    "senderName": "紫蝶",
+    "time": "10:50:17",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=ca36f828c43f10033a192f158cc68399&filekey=30350201010421301f02020106040253480410ca36f828c43f10033a192f158cc683990203016cda040d00000004627466730000000132&hy=SH&storeid=2631ee05a000a1dc4000000000000010600004f5053482c067b40b765b13bb&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tjchenhm",
+    "senderName": "无树",
+    "time": "10:50:19",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r37k69jrumlw21",
+    "senderName": "孟超超（艾梦Mcc）",
+    "time": "10:50:21",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6e273f914d23e479522630510589d4f1&filekey=30350201010421301f020201060402534804106e273f914d23e479522630510589d4f102030628d8040d00000004627466730000000132&hy=SH&storeid=26313fa6e0005935b000000000000010600004f50534808367b40b70b0d71c&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "yinghualei851032",
+    "senderName": "大脸猫",
+    "time": "10:50:28",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=3eccb9e113f73e038c9c50455ecceecb&filekey=30340201010420301e020201060402534804103eccb9e113f73e038c9c50455ecceecb02025bdf040d00000004627466730000000132&hy=SH&storeid=2630c1021000cb9fd000000000000010600004f5053482df67b40b76b4e1f7&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_sdwqma3bhf8b22",
+    "senderName": "Maggie Wang",
+    "time": "10:50:29",
+    "content": "[耶][耶][耶]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_43hetxdlncrl22",
+    "senderName": "昨天再见青杰",
+    "time": "10:50:39",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=4577a89a1a54c26eca943ee8a6d2af32&filekey=30340201010420301e020201130402534804104577a89a1a54c26eca943ee8a6d2af32020250b7040d00000004627466730000000132&hy=SH&storeid=2661cf9fd000657e6b43857a70000011300004f5053481f47e0d156daed428&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mdd3byvkev3r21",
+    "senderName": "月",
+    "time": "10:50:45",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=c50a5f614ae7fd08e8c34d56fcf2afd9&filekey=30350201010421301f02020113040253480410c50a5f614ae7fd08e8c34d56fcf2afd9020302b5a0040d00000004627466730000000132&hy=SH&storeid=26785d26c000e2741b40aee220000011300004f505348195ef17156a0e68cd&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_2gptawcd1tfq22",
+    "senderName": "樊志鹏",
+    "time": "10:50:49",
+    "content": "太好了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_suamkfvmda2c12",
+    "senderName": "海洋",
+    "time": "10:50:52",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=fdd80cabcafe00ea92898e3b87c258d7&filekey=30350201010421301f02020106040253480410fdd80cabcafe00ea92898e3b87c258d70203028426040d00000004627466730000000132&hy=SH&storeid=2659a6f3e000402a7159a1ed70000010600004f5053482e0f4171568603d66&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:50:57",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6424616ac8e4a33c416931be57d591c6&filekey=30350201010421301f020201060402534804106424616ac8e4a33c416931be57d591c60203053c60040d00000004627466730000000132&hy=SH&storeid=26310c8710001c5d5000000000000010600004f5053480d167b40b67e003dc&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_er76lsy7xp0j21",
+    "senderName": "CH东X羽",
+    "time": "10:51:01",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=db67ff4ee403be19bba0e2244712cfc9&filekey=30440201010430302e02016e04025348042064623637666634656534303362653139626261306532323434373132636663390203072526040d00000004627466730000000132&hy=SH&storeid=264888c0400060ce8915b453c0000006e01004fb15348108008b0b7aa5ea0e&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "10:51:02",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=1a777c36ec93e9fdb86d88a211ed3ca6&filekey=30350201010421301f020201060402535a04101a777c36ec93e9fdb86d88a211ed3ca602030f08c7040d00000004627466730000000132&hy=SZ&storeid=2641af763000cabe9bd6f3d340000010600004f50535a0649a970b644bcc36&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "10:51:04",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=7edb59abbe35bcd9e7937a0a8a5337e9&filekey=30350201010421301f020201060402535a04107edb59abbe35bcd9e7937a0a8a5337e9020303ea90040d00000004627466730000000132&hy=SZ&storeid=26315177300030e6f000000000000010600004f50535a20f27880966c342cf&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_gxfzjzl6rhag21",
+    "senderName": "New soul",
+    "time": "10:51:08",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=b268d412d2eeb73f742d7ef9a6df4135&filekey=30350201010421301f02020106040253480410b268d412d2eeb73f742d7ef9a6df41350203015189040d00000004627466730000000132&hy=SH&storeid=2631c6a97000d3997000000000000010600004f5053482ee64b40b7019b9d1&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wkdorxiylwtg21",
+    "senderName": "guokeci",
+    "time": "10:51:20",
+    "content": "太好了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_nou80ju13j4r21",
+    "senderName": "Aster",
+    "time": "10:51:48",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=ab0e1d47414fa683a474786231dbe764&filekey=30340201010420301e020201060402535a0410ab0e1d47414fa683a474786231dbe764020237c7040d00000004627466730000000132&hy=SZ&storeid=2639ea0950002bf8b4be9c0100000010600004f50535a0fb0c950b6986c638&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_hfu6tnrzjc9u21",
+    "senderName": "记忆碎片",
+    "time": "10:51:53",
+    "content": "[庆祝][庆祝][庆祝]真棒~",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_8rldazraf0yu22",
+    "senderName": "喵喵Aurora",
+    "time": "10:51:56",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=32aa430838bbcdd0a4d142059fcf0bfd&filekey=30440201010430302e02016e040253480420333261613433303833386262636464306134643134323035396663663062666402030b620d040d00000004627466730000000132&hy=SH&storeid=268d3a02300093281138f86ff0000006e01004fb1534810661b01e69bf3bc6&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_iuo27pix6vwb21",
+    "senderName": "River 小华",
+    "time": "10:52:58",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2d1d3b41a7b03b7ce376056fa94ed7cf&filekey=30440201010430302e02016e0402535a042032643164336234316137623033623763653337363035366661393465643763660203014f6f040d00000004627466730000000132&hy=SZ&storeid=2635be87f00007ef847897aa10000006e01004fb1535a1d994910b64235f9d&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_x8516m0h44sr22",
+    "senderName": "Amy",
+    "time": "10:53:11",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=ea56bf64560ca60cec777ce0e344917e&filekey=30350201010421301f02020113040253480410ea56bf64560ca60cec777ce0e344917e020302d272040d00000004627466730000000132&hy=SH&storeid=267600cc6000cbbc7b4574a950000011300004f5053481b93f03156d1212fa&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "10:53:28",
+    "content": "![动画表情](http://mmbiz.qpic.cn/mmemoticon/ajNVdqHZLLAszSAQ4gJlh88UZcsFDfq16JupJWibXBG3IfAgdupibJpZfm4puMkX6x/0)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_0d26w8iohm4k12",
+    "senderName": "阳谷",
+    "time": "10:53:55",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "laz1314",
+    "senderName": "MK",
+    "time": "10:53:57",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6e273f914d23e479522630510589d4f1&filekey=30350201010421301f020201060402534804106e273f914d23e479522630510589d4f102030628d8040d00000004627466730000000132&hy=SH&storeid=26313fa6e0005935b000000000000010600004f50534808367b40b70b0d71c&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wetvynn488n521",
+    "senderName": "飞翔",
+    "time": "10:55:31",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=6f23e0bfb6be65e5fbe571f568b6a101&filekey=3043020101042f302d02016e0402535a0420366632336530626662366265363565356662653537316635363862366131303102026c9d040d00000004627466730000000131&hy=SZ&storeid=323032323034313232323335333230303061336530386166313739643531623935363838303930303030303036653031303034666231&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "oOfishbabyOo",
+    "senderName": "urey柚梨",
+    "time": "10:55:41",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=83b54d8dc81205fc9ec674eeea61985c&filekey=30340201010420301e0202010604025348041083b54d8dc81205fc9ec674eeea61985c02022e99040d00000004627466730000000132&hy=SH&storeid=2631793fb00077628000000000000010600004f5053482166fb40b6497a803&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "linggan206",
+    "senderName": "雪山胖狐",
+    "time": "10:55:47",
+    "content": "> 为了给大家提供更专业、更及时的学习支持，社团特别邀请了五位在各自领域表现卓越的同学担任“课代表”。让我们一起认识下他们：\n> 🎬 剪辑课代表： @凌（凌潇） \n> 🎵 音乐课代表： @Open Your Eyes \n> 🎨 图片课代表： @司尧YAO Siyi\n> 📹 视频课代表： @紫薯有范（原范范W） 、@南山 \n> ——————\n> 【如何寻求帮助？】\n> 以后在学习过程中，如果你遇到了关于剪辑、音乐、图片或视频方面的技术难题，欢迎随时在群内@相应的课代表。他们会利用专业知识为大家答疑解惑，陪伴大家共同进步。💬\n> 再次欢迎几位课代表，让我们共同打造一个互助共赢的学习社群！👏✨\n太好了，老师，建议课代表群昵称也改一下，不然容易忘记网名哈哈",
+    "quotedMsg": {
+      "sender": "Andy老师｜野菩萨社团(25984983373303532@openim)",
+      "time": "03-13 10:49:29",
+      "content": "@所有人 各位同学，早上好！📢"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_re8c8ku74fpj21",
+    "senderName": "果果（果果）",
+    "time": "10:57:20",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=4df6e82059d73fa60f3d17e8e1b74dfe&filekey=30340201010420301e020201130402534804104df6e82059d73fa60f3d17e8e1b74dfe02022615040d00000004627466730000000132&hy=SH&storeid=26479b8550004a9b0000000000000011300004f50534819f268e0b69d9e437&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_u8zyda6klf1g21",
+    "senderName": "楼蓝（嘎嘎嘣嘣）",
+    "time": "10:58:29",
+    "content": "[强][强][强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_76hno7nrydvz22",
+    "senderName": "不设限的烟火Firework",
+    "time": "10:59:16",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=7986fc0bc208270a1df2700b771e6696&filekey=30350201010421301f020201060402535a04107986fc0bc208270a1df2700b771e6696020300a9a0040d00000004627466730000000131&hy=SZ&storeid=32303232303831303034313231393030306535636337396438353663373062633536383830393030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "Wenyuan3",
+    "senderName": "努力努力再努力",
+    "time": "11:00:27",
+    "content": "太好鸟",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wqvj54i7c66612",
+    "senderName": "睢康",
+    "time": "11:00:36",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=bb676911c4f2c7a5f5a54719dc84864a&filekey=30350201010421301f020201060402535a0410bb676911c4f2c7a5f5a54719dc84864a020301074e040d00000004627466730000000131&hy=SZ&storeid=32303232303530343131323031313030306133613637363730363839393332383631383830393030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_0gdxg7rcxxhi22",
+    "senderName": "风",
+    "time": "11:01:11",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wq0wg1bnz4p321",
+    "senderName": "空灵（空灵）",
+    "time": "11:03:26",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d93ac6b5479212ec57021a4507a8a428&filekey=30350201010421301f020201060402535a0410d93ac6b5479212ec57021a4507a8a428020302e70c040d00000004627466730000000132&hy=SZ&storeid=2645c830c00009b6ea3c7524c0000010600004f50535a23f988e0b66b71927&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_txslaa5lq7cc22",
+    "senderName": "徐艳清",
+    "time": "11:04:21",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d60a302337e058acab193bc9950b6059&filekey=30340201010420301e02020106040253480410d60a302337e058acab193bc9950b6059020243a3040d00000004627466730000000132&hy=SH&storeid=263205b7f0002c02d000000000000010600004f5053481ec67b40b79aed8f4&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "Chizhi",
+    "senderName": "苍澜🌤🌊",
+    "time": "11:04:56",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=01585dba543bae2ddd6ac312f6f53c1d&filekey=30350201010421301f0202010604025348041001585dba543bae2ddd6ac312f6f53c1d020300da03040d00000004627466730000000131&hy=SH&storeid=32303232303831353135353031303030303631633035303030303030303063643564393930623030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "bank850012",
+    "senderName": "Jason Hsu",
+    "time": "11:05:11",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=e4cc6d476e6b9ecbbfa939c93983637e&filekey=30340201010420301e02020113040253480410e4cc6d476e6b9ecbbfa939c93983637e0202249a040d00000004627466730000000132&hy=SH&storeid=26479c95e0002c8a4000000000000011300004f505348072248e0b69e5fdfd&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "bank850012",
+    "senderName": "Jason Hsu",
+    "time": "11:05:19",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=c50a5f614ae7fd08e8c34d56fcf2afd9&filekey=30350201010421301f02020113040253480410c50a5f614ae7fd08e8c34d56fcf2afd9020302b5a0040d00000004627466730000000132&hy=SH&storeid=26785d26c000e2741b40aee220000011300004f505348195ef17156a0e68cd&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "11:05:24",
+    "content": "惶恐，一定竭尽所能，希望能帮到大家，有服务不周到的还请同学们多多包涵[委屈]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "MY_Mask_Mask",
+    "senderName": "Open Your Eyes",
+    "time": "11:05:52",
+    "content": "互相学习 共同进步",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_bobdqtci274b21",
+    "senderName": "图片课代表-司尧",
+    "time": "11:09:15",
+    "content": "同学们有遇到什么问题可以艾特我们一起探讨一下[嘿哈]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mcru0oh35elm22",
+    "senderName": "喵喵宅🐱",
+    "time": "11:09:53",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=83b54d8dc81205fc9ec674eeea61985c&filekey=30340201010420301e0202010604025348041083b54d8dc81205fc9ec674eeea61985c02022e99040d00000004627466730000000132&hy=SH&storeid=2631793fb00077628000000000000010600004f5053482166fb40b6497a803&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_4mias415tecs51",
+    "senderName": "浅韵",
+    "time": "11:10:36",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6e273f914d23e479522630510589d4f1&filekey=30350201010421301f020201060402534804106e273f914d23e479522630510589d4f102030628d8040d00000004627466730000000132&hy=SH&storeid=26313fa6e0005935b000000000000010600004f50534808367b40b70b0d71c&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_hfu6tnrzjc9u21",
+    "senderName": "记忆碎片",
+    "time": "11:10:36",
+    "content": "感谢热心的课代表们~[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wwzz1m5xp0wf22",
+    "senderName": "柳条绿了",
+    "time": "11:11:04",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "11:11:42",
+    "content": "大家互相学习 有问题一起探讨哟[机智]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_4h865l4euohb22",
+    "senderName": "太阳花",
+    "time": "11:11:43",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "dyq-1014",
+    "senderName": "刁刁",
+    "time": "11:12:14",
+    "content": "太棒啦(๑•̀ㅂ•́)و✧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_27ptlifnoxqm21",
+    "senderName": "🦉GoingZen",
+    "time": "11:19:03",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ygaocrny8g9k52",
+    "senderName": "Vera",
+    "time": "11:21:08",
+    "content": "",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ygaocrny8g9k52",
+    "senderName": "Vera",
+    "time": "11:21:24",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=80d3d1a1b28462f901958238bc03461c&filekey=30350201010421301f0202010604025348041080d3d1a1b28462f901958238bc03461c020303f99f040d00000004627466730000000132&hy=SH&storeid=263171ca300057815000000000000010600004f5053480166fb40b63535754&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_rondij3hbztg11",
+    "senderName": "艾米Amy",
+    "time": "11:22:30",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6edbc0de1e0ede8687171611b5dbe8a9&filekey=30340201010420301e020201060402534804106edbc0de1e0ede8687171611b5dbe8a902024c94040d00000004627466730000000132&hy=SH&storeid=265b901ae00030c9b52a503520000010600004f5053481aa841b1566415217&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_8j5e28o3beu311",
+    "senderName": "懿真",
+    "time": "11:23:46",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jafaqsn6b70k12",
+    "senderName": "Mature",
+    "time": "11:26:26",
+    "content": "[庆祝][庆祝][庆祝]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "11:43:10",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "isabelladu",
+    "senderName": "Ms. 猫牙",
+    "time": "11:43:55",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=acdeadb8d0199d3edc8654246b652622&filekey=30440201010430302e02016e0402535a0420616364656164623864303139396433656463383635343234366236353236323202030709a1040d00000004627466730000000132&hy=SZ&storeid=2648c347100018a2225d088680000006e01004fb1535a11db4970b03109b7e&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_4x8zthu0cteg22",
+    "senderName": "宁静致远",
+    "time": "11:49:20",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=457f65e6c8b6ae42185087166856e373&filekey=30350201010421301f020201060402535a0410457f65e6c8b6ae42185087166856e373020301c7f0040d00000004627466730000000132&hy=SZ&storeid=26325d1e2000404807d0b0b0a0000010600004f50535a16c82910b74f39157&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "babyxia1102",
+    "senderName": "夏夏Mona",
+    "time": "11:54:50",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=8d69e7dd5227e49595e0c658cf49d0e5&filekey=30350201010421301f020201060402534804108d69e7dd5227e49595e0c658cf49d0e50203014512040d00000004627466730000000132&hy=SH&storeid=2631786b20009c6a3000000000000010600004f5053481a865b40b64783144&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_smuqbgnsv84722",
+    "senderName": "辰星守望",
+    "time": "11:55:03",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=8d69e7dd5227e49595e0c658cf49d0e5&filekey=30350201010421301f020201060402534804108d69e7dd5227e49595e0c658cf49d0e50203014512040d00000004627466730000000132&hy=SH&storeid=2631786b20009c6a3000000000000010600004f5053481a865b40b64783144&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_t29xl7ix83e421",
+    "senderName": "kuroiwa（黑岩Kuroiwa）",
+    "time": "11:57:28",
+    "content": "[强][强][强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ualo5jm7p47z21",
+    "senderName": "苏太",
+    "time": "12:00:11",
+    "content": "@凌（凌潇）  @Open Your Eyes  @图片课代表-司尧  @视频课代表—紫薯有范  @视频课代表-南山 ，先感谢你们愿意拨空为同学解惑！",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ualo5jm7p47z21",
+    "senderName": "苏太",
+    "time": "12:00:27",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_kpgoc237amu922",
     "senderName": "Aria清",
-    "time": "10:30:00",
-    "content": "今天给大家分享一个构图技巧：用AI生成视频时，先在脑海里想好镜头语言，三分法构图+黄金比例，能让画面瞬间高级很多。",
+    "time": "12:03:34",
+    "content": "[强][强][强]",
     "quotedMsg": null,
     "type": 1
   },
   {
-    "sender": "wxid_test003",
-    "senderName": "张三",
-    "time": "11:00:00",
-    "content": "分享一个即梦AI的免费教程链接，讲得很详细！https://example.com/tutorial",
+    "sender": "wxid_2wkeefy8olzz22",
+    "senderName": "Maria",
+    "time": "12:03:56",
+    "content": "[强][强][强]",
     "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "crespo17",
+    "senderName": "大师兄",
+    "time": "12:04:25",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=bdea78eac7621fd62b2ef4ae838f3bcc&filekey=30350201010421301f02020113040253480410bdea78eac7621fd62b2ef4ae838f3bcc0203013cde040d00000004627466730000000132&hy=SH&storeid=26901b8520000f780b43c743d0000011300004f505348060451b156eec1521&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "MY_Mask_Mask",
+    "senderName": "Open Your Eyes",
+    "time": "12:06:05",
+    "content": "三人行必有我师 大家互相学习 共同进步",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_a3uh5ne7snp611",
+    "senderName": "yoyo",
+    "time": "12:06:59",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=e9a41df1064d40d1e400312ac19ad32b&filekey=30350201010421301f02020113040253480410e9a41df1064d40d1e400312ac19ad32b020300e01f040d00000004627466730000000132&hy=SH&storeid=264795a3c000cc12f000000000000011300004f5053482f4048e0b65c5458c&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "12:09:06",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_yipg6fciygcl21",
+    "senderName": "LXM",
+    "time": "12:09:09",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=c434d675d5a130b8cef4fdf376756e36&filekey=30350201010421301f02020113040253480410c434d675d5a130b8cef4fdf376756e36020303df53040d00000004627466730000000132&hy=SH&storeid=26479e87c0007b154000000000000011300004f5053482e08cb01e680df882&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "12:09:30",
+    "content": "![动画表情](http://snsvideo.c2c.wechat.com/262/20304/stodownload?m=c44eac913d41313d92ab5178fbb6968e&filekey=30350201010421301f020201060402484b0410c44eac913d41313d92ab5178fbb6968e020302c60f040d00000004627466730000000132&hy=HK&storeid=2685cd7d9000a175fb41db9ce0000010600004f50484b07b9fba0b6b2451ed&dotrans=0&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "12:09:32",
+    "content": "![动画表情](http://snsvideo.c2c.wechat.com/262/20304/stodownload?m=9aa608a8e89404379bb70fc3fa2e4edf&filekey=30350201010421301f020201060402484b04109aa608a8e89404379bb70fc3fa2e4edf020303d676040d00000004627466730000000131&hy=HK&storeid=32303231303632343136343931343030303965373035336239653439383164343961626130623030303030313036&dotrans=0&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "a40806883",
+    "senderName": "李鸿",
+    "time": "12:13:08",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=1940f6fba08d68b87064e626327e94ba&filekey=30350201010421301f020201060402534804101940f6fba08d68b87064e626327e94ba02030488d8040d00000004627466730000000132&hy=SH&storeid=263053774000272c4000000000000010600004f5053481fe67b40b64af9f3a&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "chuanhongwuxiedetuzi",
+    "senderName": "Li🌰",
+    "time": "12:14:42",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=ab0668f11fec30f5b3f5a3fa119ba677&filekey=30340201010420301e02020113040253480410ab0668f11fec30f5b3f5a3fa119ba677020216be040d00000004627466730000000132&hy=SH&storeid=26479c864000e7a23000000000000011300004f5053480f60c8e0b6b5fd347&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wkdorxiylwtg21",
+    "senderName": "guokeci",
+    "time": "12:27:27",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=a8ea7c3778097e668edc25c5e94f9a4b&filekey=30350201010421301f020201060402535a0410a8ea7c3778097e668edc25c5e94f9a4b020301f2ac040d00000004627466730000000132&hy=SZ&storeid=263f6c6de000d5d95086313700000010600004f50535a14b998e0b77e711e8&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_q4k2lmjry7u322",
+    "senderName": "正",
+    "time": "12:39:40",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=1d2d32204d74044144762fe5d3dd1482&filekey=30440201010430302e02016e0402535a0420316432643332323034643734303434313434373632666535643364643134383202030c623b040d00000004627466730000000131&hy=SZ&storeid=323032303032313530303538303930303063353466363033353736316164653738393964303930303030303036653031303034666231&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r59pjo6vonzq12",
+    "senderName": "air",
+    "time": "12:55:19",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=26cff38f7ef8e30f70f8efa99e253d40&filekey=30340201010420301e020201060402535a041026cff38f7ef8e30f70f8efa99e253d4002020643040d00000004627466730000000132&hy=SZ&storeid=26308334c000cb395000000000000010600004f50535a00f27880964ff6d98&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_tqx4kha912so21",
+    "senderName": "侯建丽",
+    "time": "13:05:46",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d21e8f65a350350572a03ed3babfd4b1&filekey=30340201010420301e02020106040253480410d21e8f65a350350572a03ed3babfd4b102025b54040d00000004627466730000000132&hy=SH&storeid=2631fb020000c9387000000000000010600004f50534826fd2a00b787c53f8&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_tqx4kha912so21",
+    "senderName": "侯建丽",
+    "time": "13:06:42",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=8fda3e2e27400e55b2907096f65a163e&filekey=30340201010420301e020201060402534804108fda3e2e27400e55b2907096f65a163e02025695040d00000004627466730000000132&hy=SH&storeid=263193bc50002e96d000000000000010600004f505348079d2a00b689c582c&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_smuqbgnsv84722",
+    "senderName": "辰星守望",
+    "time": "13:07:20",
+    "content": "[视频号|可灵3.0动作控制，带你感受AI演员的演技大爆发#可灵AI #可灵AI动作控制3#野神殿#风变ai#风变科技](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibusn4vVFEyiaoPEZobmb2DaKw0rFXxqkibrh3I0yhUwWNeqQVqYlWCDsHn8Z9qQkgb0Bn8qZ3QOJHWUNS9mAibBdcgfbWEbuQgYtfKpll88slh0dvkCLlxicCSg&hy=SZ&idx=1&m=d5e7c124e8710bf929712850125a894c&uzid=7a206&token=ic1n0xDG6awib7AMyEsicSp3ft9ia1aBQ5gwGhtyP2kqgicFFhjhMbjjXoPsX9Mt2Py8UJDz50xMqLYsKPGiaAklf4icichcogYfBqccE4HYGsRkUtb2OxsYdVzV1MyAdRCYfiaavcytFLDNhYL7G9yrjCE1n8mcMO7wesgBCAxAPbiaibjXiaKrZbXcibLr4D0iactCJuLTOHMTC3rmZ5LicFHScrpAOPL7ZBnbhmyhibCMWcnjA034qkc&basedata=CAE&sign=8JtmtCx50ptqWBZmIDx8ow6n-yOaIL8AfY35qQQbCXKDv1hhK9pGVVOxy-wfPIb_AArAVqEbZvHuvH124c_qbQ&extg=2ec500&ftype=8&svrbypass=AAuL%2FQsFAAABAAAAAABMj9awbJMQtqDJf5izaRAAAADnaHZTnGbFfAj9RgZXfw6VtTsFiNFz%2F%2FDJnW0tBuq3e3wu0xWPpqtr7Btg11E9wgoIj0zR425KRWg%3D&svrnonce=1773377663)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_smuqbgnsv84722",
+    "senderName": "辰星守望",
+    "time": "13:07:22",
+    "content": "用可灵新出的3.0动作控制功能测了一下演绎演员深情独白的戏份，感觉真的将角色内心的情感表达和传递的蛮到位，感兴趣同学可以尝试一下，挺不错的。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "13:12:38",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=7edb59abbe35bcd9e7937a0a8a5337e9&filekey=30350201010421301f020201060402535a04107edb59abbe35bcd9e7937a0a8a5337e9020303ea90040d00000004627466730000000132&hy=SZ&storeid=26315177300030e6f000000000000010600004f50535a20f27880966c342cf&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "13:25:45",
+    "content": "哇哦 不错哟",
+    "quotedMsg": {
+      "sender": "辰星守望(wxid_smuqbgnsv84722)",
+      "time": "03-13 13:07:20",
+      "content": "[视频号|可灵3.0动作控制，带你感受AI演员的演技大爆发#可灵AI #可灵AI动作控制3#野神殿#风变ai#风变科技](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibusn4vVFEyiaoPEZobmb2DaKw0rFXxqkibrh3I0yhUwWNeqQVqYlWCDsHn8Z9qQkgb0Bn8qZ3QOJHWUNS9mAibBdcgfbWEbuQgYtfKpll88slh0dvkCLlxicCSg&hy=SZ&idx=1&m=d5e7c124e8710bf929712850125a894c&uzid=7a206&token=ic1n0xDG6awib7AMyEsicSp3ft9ia1aBQ5gwGhtyP2kqgicFFhjhMbjjXoPsX9Mt2Py8UJDz50xMqLYsKPGiaAklf4icichcogYfBqccE4HYGsRkUtb2OxsYdVzV1MyAdRCYfiaavcytFLDNhYL7G9yrjCE1n8mcMO7wesgBCAxAPbiaibjXiaKrZbXcibLr4D0iactCJuLTOHMTC3rmZ5LicFHScrpAOPL7ZBnbhmyhibCMWcnjA034qkc&basedata=CAE&sign=8JtmtCx50ptqWBZmIDx8ow6n-yOaIL8AfY35qQQbCXKDv1hhK9pGVVOxy-wfPIb_AArAVqEbZvHuvH124c_qbQ&extg=2ec500&ftype=8&svrbypass=AAuL%2FQsFAAABAAAAAABMj9awbJMQtqDJf5izaRAAAADnaHZTnGbFfAj9RgZXfw6VtTsFiNFz%2F%2FDJnW0tBuq3e3wu0xWPpqtr7Btg11E9wgoIj0zR425KRWg%3D&svrnonce=1773377663)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_smuqbgnsv84722",
+    "senderName": "辰星守望",
+    "time": "13:30:26",
+    "content": "老爷子本身演技就牛，算是强强联合了，功能好用就没怎么抽卡。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "13:38:07",
+    "content": "这个老头演的戏 无论正面反面角色 不知道为啥 每次看他我都感觉阴测测的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "Wenyuan3",
+    "senderName": "努力努力再努力",
+    "time": "13:50:32",
+    "content": "阔以",
+    "quotedMsg": {
+      "sender": "辰星守望(wxid_smuqbgnsv84722)",
+      "time": "03-13 13:07:20",
+      "content": "[视频号|可灵3.0动作控制，带你感受AI演员的演技大爆发#可灵AI #可灵AI动作控制3#野神殿#风变ai#风变科技](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibusn4vVFEyiaoPEZobmb2DaKw0rFXxqkibrh3I0yhUwWNeqQVqYlWCDsHn8Z9qQkgb0Bn8qZ3QOJHWUNS9mAibBdcgfbWEbuQgYtfKpll88slh0dvkCLlxicCSg&hy=SZ&idx=1&m=d5e7c124e8710bf929712850125a894c&uzid=7a206&token=ic1n0xDG6awib7AMyEsicSp3ft9ia1aBQ5gwGhtyP2kqgicFFhjhMbjjXoPsX9Mt2Py8UJDz50xMqLYsKPGiaAklf4icichcogYfBqccE4HYGsRkUtb2OxsYdVzV1MyAdRCYfiaavcytFLDNhYL7G9yrjCE1n8mcMO7wesgBCAxAPbiaibjXiaKrZbXcibLr4D0iactCJuLTOHMTC3rmZ5LicFHScrpAOPL7ZBnbhmyhibCMWcnjA034qkc&basedata=CAE&sign=8JtmtCx50ptqWBZmIDx8ow6n-yOaIL8AfY35qQQbCXKDv1hhK9pGVVOxy-wfPIb_AArAVqEbZvHuvH124c_qbQ&extg=2ec500&ftype=8&svrbypass=AAuL%2FQsFAAABAAAAAABMj9awbJMQtqDJf5izaRAAAADnaHZTnGbFfAj9RgZXfw6VtTsFiNFz%2F%2FDJnW0tBuq3e3wu0xWPpqtr7Btg11E9wgoIj0zR425KRWg%3D&svrnonce=1773377663)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "Wenyuan3",
+    "senderName": "努力努力再努力",
+    "time": "13:50:37",
+    "content": "厉害",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "13:51:27",
+    "content": "[视频号|出场前我还在抱怨死亡逆光，没想到甜茶出来就释怀了#甜茶 #TimotheeChalamet #至尊马蒂](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFFU0fR7DbXgxbjkicaziaegKOiagRZWHJia8rXb7JdGibicB7lDH0bjo9XXQNshtRHRfdzhlvTMy08hMXfOT1OqXH4pCnYszkIoziaM0GFuU6S0Gib6HQ&hy=SH&idx=1&m=3cee869b45316aa747d670a3393aecf4&uzid=7a166)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "13:51:44",
+    "content": "来欣赏顶级帅哥",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_smuqbgnsv84722",
+    "senderName": "辰星守望",
+    "time": "14:00:43",
+    "content": "以前看过他演绣春刀的魏忠贤，阴笑声的确很瘆人哈哈",
+    "quotedMsg": {
+      "sender": "视频课代表—紫薯有范(wxid_cgo9gxywdua022)",
+      "time": "03-13 13:38:07",
+      "content": "这个老头演的戏 无论正面反面角色 不知道为啥 每次看他我都感觉阴测测的"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:04:41",
+    "content": "他是老戏骨了，是台湾的金士杰， 我看过他一部片子《阳光普照》，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "14:10:01",
+    "content": "[视频号|第二部自制作品《Ai留级生》第一季全12话今天搓完了。上周发完第一个作品感觉挺欢乐的，就想继续做第二季，然后剧本写着写着又翻到以前很喜欢的日本芬达广告系列，就想转头立刻做一个校园主题的日系片。周日开始抽卡，忙碌而充实的周一就做完了，借着这部片也是想把自己对Ai的一些浅薄理解实践一下，也希望和各位同行们一起在这个新工具中找寻一点做影片最原始的快乐。](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFE4WmaOSeBOahhePNKzrIQI41dSDP9YK0JzMSkTFXicvf8Byh6icfyTnibu9srPj6sB7w7c9ByGcbTDAFlSXHok64Fqq0affZtfoEvVQkug3ia9Eg&hy=SH&idx=1&m=3f5cafdc295829b209472a089f880fd5&uzid=7a22e&token=2lt8WBSnjTnFpmib7fSURD6AictfBfHMaRg5SCULbgOcqcIrAAY6JKnVXSC2BdGQOh2lJMqyicOjBriaCuW4SvvaeVqRSXtBIWfiaraA7I1RIZLUOmpfgaL9kU4VhaMWicYnBsk0zyPVwWjE5fRia0aZiczVsuR0SbK24W5LAo449iafYiaHxSH6d8uP9HDFwEnw0N8dxqQWibXgbzicYmrzISpjg8xx1v03T2UGhlxIibibtqtSXlnes&basedata=CAESBnhXVDE1NiJaCgoKBnhXVDE1NhAACgoKBnhXVDE1OBAACgoKBnhXVDE1NxABCgoKBnhXVDExMxAACgoKBnhXVDExMhABCgoKBnhXVDExMRAACgcKA3hBMBAACgcKA3hBMhAA&sign=PUoo9B35Cqg_kkGcTE8pupxw1m9W8SsMXhDGIuq9r6MzBXuMKN1y9VYKKILlhmGLpM1-3XUwm82Kp_baFnJv1Q&extg=108c500&ftype=605&svrbypass=AAuL%2FQsFAAABAAAAAADbTZxaxDIBkvu7NIiyaRAAAADnaHZTnGbFfAj9RgZXfw6VjvcWBFmCGTLveIw7UhRPzusg7dpm16IZ%2BT1KYCkcN3D5XYzbGZRs%2F7U%3D&svrnonce=1773307956)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "14:10:01",
+    "content": "哈哈哈",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_76hno7nrydvz22",
+    "senderName": "不设限的烟火Firework",
+    "time": "14:13:24",
+    "content": "好好玩啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tjchenhm",
+    "senderName": "无树",
+    "time": "14:14:11",
+    "content": "厉害啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tjchenhm",
+    "senderName": "无树",
+    "time": "14:14:19",
+    "content": "脑洞是好东西",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "Wenyuan3",
+    "senderName": "努力努力再努力",
+    "time": "14:39:00",
+    "content": "这个好厉害",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "03-13 14:10:01",
+      "content": "[视频号|第二部自制作品《Ai留级生》第一季全12话今天搓完了。上周发完第一个作品感觉挺欢乐的，就想继续做第二季，然后剧本写着写着又翻到以前很喜欢的日本芬达广告系列，就想转头立刻做一个校园主题的日系片。周日开始抽卡，忙碌而充实的周一就做完了，借着这部片也是想把自己对Ai的一些浅薄理解实践一下，也希望和各位同行们一起在这个新工具中找寻一点做影片最原始的快乐。](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFE4WmaOSeBOahhePNKzrIQI41dSDP9YK0JzMSkTFXicvf8Byh6icfyTnibu9srPj6sB7w7c9ByGcbTDAFlSXHok64Fqq0affZtfoEvVQkug3ia9Eg&hy=SH&idx=1&m=3f5cafdc295829b209472a089f880fd5&uzid=7a22e&token=2lt8WBSnjTnFpmib7fSURD6AictfBfHMaRg5SCULbgOcqcIrAAY6JKnVXSC2BdGQOh2lJMqyicOjBriaCuW4SvvaeVqRSXtBIWfiaraA7I1RIZLUOmpfgaL9kU4VhaMWicYnBsk0zyPVwWjE5fRia0aZiczVsuR0SbK24W5LAo449iafYiaHxSH6d8uP9HDFwEnw0N8dxqQWibXgbzicYmrzISpjg8xx1v03T2UGhlxIibibtqtSXlnes&basedata=CAESBnhXVDE1NiJaCgoKBnhXVDE1NhAACgoKBnhXVDE1OBAACgoKBnhXVDE1NxABCgoKBnhXVDExMxAACgoKBnhXVDExMhABCgoKBnhXVDExMRAACgcKA3hBMBAACgcKA3hBMhAA&sign=PUoo9B35Cqg_kkGcTE8pupxw1m9W8SsMXhDGIuq9r6MzBXuMKN1y9VYKKILlhmGLpM1-3XUwm82Kp_baFnJv1Q&extg=108c500&ftype=605&svrbypass=AAuL%2FQsFAAABAAAAAADbTZxaxDIBkvu7NIiyaRAAAADnaHZTnGbFfAj9RgZXfw6VjvcWBFmCGTLveIw7UhRPzusg7dpm16IZ%2BT1KYCkcN3D5XYzbGZRs%2F7U%3D&svrnonce=1773307956)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_m2epeyff2ldy22",
+    "senderName": "耘石子",
+    "time": "14:45:50",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=5900402380b1dfef99ef1bf2f5783d2d&filekey=30350201010421301f020201060402534804105900402380b1dfef99ef1bf2f5783d2d0203055962040d00000004627466730000000132&hy=SH&storeid=263108b00000bf95b000000000000010600004f5053482166fb40b6739013b&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "qhmysjx",
+    "senderName": "晓光aube",
+    "time": "14:46:17",
+    "content": "@设计师lucia（开工大吉） 太厉害了！好有梗啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "14:46:55",
+    "content": "不是我做的，是我看到的分享给大家",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r59pjo6vonzq12",
+    "senderName": "air",
+    "time": "15:57:10",
+    "content": "有意思[呲牙]",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "03-13 14:10:01",
+      "content": "[视频号|第二部自制作品《Ai留级生》第一季全12话今天搓完了。上周发完第一个作品感觉挺欢乐的，就想继续做第二季，然后剧本写着写着又翻到以前很喜欢的日本芬达广告系列，就想转头立刻做一个校园主题的日系片。周日开始抽卡，忙碌而充实的周一就做完了，借着这部片也是想把自己对Ai的一些浅薄理解实践一下，也希望和各位同行们一起在这个新工具中找寻一点做影片最原始的快乐。](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFE4WmaOSeBOahhePNKzrIQI41dSDP9YK0JzMSkTFXicvf8Byh6icfyTnibu9srPj6sB7w7c9ByGcbTDAFlSXHok64Fqq0affZtfoEvVQkug3ia9Eg&hy=SH&idx=1&m=3f5cafdc295829b209472a089f880fd5&uzid=7a22e&token=2lt8WBSnjTnFpmib7fSURD6AictfBfHMaRg5SCULbgOcqcIrAAY6JKnVXSC2BdGQOh2lJMqyicOjBriaCuW4SvvaeVqRSXtBIWfiaraA7I1RIZLUOmpfgaL9kU4VhaMWicYnBsk0zyPVwWjE5fRia0aZiczVsuR0SbK24W5LAo449iafYiaHxSH6d8uP9HDFwEnw0N8dxqQWibXgbzicYmrzISpjg8xx1v03T2UGhlxIibibtqtSXlnes&basedata=CAESBnhXVDE1NiJaCgoKBnhXVDE1NhAACgoKBnhXVDE1OBAACgoKBnhXVDE1NxABCgoKBnhXVDExMxAACgoKBnhXVDExMhABCgoKBnhXVDExMRAACgcKA3hBMBAACgcKA3hBMhAA&sign=PUoo9B35Cqg_kkGcTE8pupxw1m9W8SsMXhDGIuq9r6MzBXuMKN1y9VYKKILlhmGLpM1-3XUwm82Kp_baFnJv1Q&extg=108c500&ftype=605&svrbypass=AAuL%2FQsFAAABAAAAAADbTZxaxDIBkvu7NIiyaRAAAADnaHZTnGbFfAj9RgZXfw6VjvcWBFmCGTLveIw7UhRPzusg7dpm16IZ%2BT1KYCkcN3D5XYzbGZRs%2F7U%3D&svrnonce=1773307956)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "tutuer8024",
+    "senderName": "G.邹",
+    "time": "16:49:56",
+    "content": "笑不活了，但感觉很有道理怎么办",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "03-13 14:10:01",
+      "content": "[视频号|第二部自制作品《Ai留级生》第一季全12话今天搓完了。上周发完第一个作品感觉挺欢乐的，就想继续做第二季，然后剧本写着写着又翻到以前很喜欢的日本芬达广告系列，就想转头立刻做一个校园主题的日系片。周日开始抽卡，忙碌而充实的周一就做完了，借着这部片也是想把自己对Ai的一些浅薄理解实践一下，也希望和各位同行们一起在这个新工具中找寻一点做影片最原始的快乐。](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFE4WmaOSeBOahhePNKzrIQI41dSDP9YK0JzMSkTFXicvf8Byh6icfyTnibu9srPj6sB7w7c9ByGcbTDAFlSXHok64Fqq0affZtfoEvVQkug3ia9Eg&hy=SH&idx=1&m=3f5cafdc295829b209472a089f880fd5&uzid=7a22e&token=2lt8WBSnjTnFpmib7fSURD6AictfBfHMaRg5SCULbgOcqcIrAAY6JKnVXSC2BdGQOh2lJMqyicOjBriaCuW4SvvaeVqRSXtBIWfiaraA7I1RIZLUOmpfgaL9kU4VhaMWicYnBsk0zyPVwWjE5fRia0aZiczVsuR0SbK24W5LAo449iafYiaHxSH6d8uP9HDFwEnw0N8dxqQWibXgbzicYmrzISpjg8xx1v03T2UGhlxIibibtqtSXlnes&basedata=CAESBnhXVDE1NiJaCgoKBnhXVDE1NhAACgoKBnhXVDE1OBAACgoKBnhXVDE1NxABCgoKBnhXVDExMxAACgoKBnhXVDExMhABCgoKBnhXVDExMRAACgcKA3hBMBAACgcKA3hBMhAA&sign=PUoo9B35Cqg_kkGcTE8pupxw1m9W8SsMXhDGIuq9r6MzBXuMKN1y9VYKKILlhmGLpM1-3XUwm82Kp_baFnJv1Q&extg=108c500&ftype=605&svrbypass=AAuL%2FQsFAAABAAAAAADbTZxaxDIBkvu7NIiyaRAAAADnaHZTnGbFfAj9RgZXfw6VjvcWBFmCGTLveIw7UhRPzusg7dpm16IZ%2BT1KYCkcN3D5XYzbGZRs%2F7U%3D&svrnonce=1773307956)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "linggan206",
+    "senderName": "雪山胖狐",
+    "time": "16:51:05",
+    "content": "做得太好了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "linggan206",
+    "senderName": "雪山胖狐",
+    "time": "16:51:12",
+    "content": "这两天自己做一个好痛苦",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "linggan206",
+    "senderName": "雪山胖狐",
+    "time": "16:51:17",
+    "content": "各种出不来想要的效果",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "Amber)(wxid_28m3zf6vdmj052",
+    "senderName": "Lili in London",
+    "time": "17:14:07",
+    "content": "> 为了给大家提供更专业、更及时的学习支持，社团特别邀请了五位在各自领域表现卓越的同学担任“课代表”。让我们一起认识下他们：\n> 🎬 剪辑课代表： @凌（凌潇） \n> 🎵 音乐课代表： @Open Your Eyes \n> 🎨 图片课代表： @司尧YAO Siyi\n> 📹 视频课代表： @紫薯有范（原范范W） 、@南山 \n> ——————\n> 【如何寻求帮助？】\n> 以后在学习过程中，如果你遇到了关于剪辑、音乐、图片或视频方面的技术难题，欢迎随时在群内@相应的课代表。他们会利用专业知识为大家答疑解惑，陪伴大家共同进步。💬\n> 再次欢迎几位课代表，让我们共同打造一个互助共赢的学习社群！👏✨\n[微笑][强]",
+    "quotedMsg": {
+      "sender": "Andy老师｜野菩萨社团(25984983373303532@openim)",
+      "time": "03-13 10:49:29",
+      "content": "@所有人 各位同学，早上好！📢"
+    },
+    "type": 1
+  },
+  {
+    "sender": "Amber)(wxid_28m3zf6vdmj052",
+    "senderName": "Lili in London",
+    "time": "17:15:18",
+    "content": "谢谢[微笑]",
+    "quotedMsg": {
+      "sender": "Open Your Eyes(MY_Mask_Mask)",
+      "time": "03-13 00:48:09",
+      "content": "![动画表情](http*#*//wxapp.tc.qq.com/262/20304/stodownload?m=1b56c383d3b356b63c5811b5f027a56a&filekey=30340201010420301e020201060402534804101b56c383d3b356b63c5811b5f027a56a020228da040d00000004627466730000000132&hy=SH&storeid=26305891e000319dd000000000000010600004f5053480d767b40b657cef03&bizid=1023)"
+    },
     "type": 1
   }
 ]
