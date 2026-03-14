@@ -1,0 +1,66 @@
+[
+  {
+    "sender": "wxid_test001",
+    "senderName": "测试用户A",
+    "time": "09:00:00",
+    "content": "大家好，今天分享一个Seedance 2.0的新功能，支持人物动作捕捉了！",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test002",
+    "senderName": "菩萨",
+    "time": "09:15:00",
+    "content": "AI视频创作的核心不是工具，而是你对故事的理解。工具只是放大你的创作力，而不是替代它。学好提示词，先学会讲故事。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test003",
+    "senderName": "张三",
+    "time": "09:30:00",
+    "content": "可灵3.0和Seedance对比，哪个更适合做人物特写镜头？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test004",
+    "senderName": "李四",
+    "time": "09:32:00",
+    "content": "我用可灵3.0做了一个测试，人物细节保持得很好，推荐试试",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test005",
+    "senderName": "王五",
+    "time": "09:35:00",
+    "content": "Seedance在运动镜头上更流畅，可灵在静态特写上更细腻，各有优势",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test001",
+    "senderName": "测试用户A",
+    "time": "10:00:00",
+    "content": "恭喜小明同学获得本周最佳作品奖！他的AI短片《城市脉搏》获得了评审团的一致好评",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test006",
+    "senderName": "Aria清",
+    "time": "10:30:00",
+    "content": "今天给大家分享一个构图技巧：用AI生成视频时，先在脑海里想好镜头语言，三分法构图+黄金比例，能让画面瞬间高级很多。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_test003",
+    "senderName": "张三",
+    "time": "11:00:00",
+    "content": "分享一个即梦AI的免费教程链接，讲得很详细！https://example.com/tutorial",
+    "quotedMsg": null,
+    "type": 1
+  }
+]
