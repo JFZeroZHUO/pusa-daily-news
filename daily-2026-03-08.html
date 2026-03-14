@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-08</title>
+  <style>
+:root {
+  /* ===== 配色系统 - 星期日：玫瑰粉 ===== */
+  --bg-primary:    #1a1015;
+  --bg-card:       #251620;
+  --bg-card-hover: #301c28;
+  --border:        #5c3a4a;
+  --text-primary:  #fef2f6;
+  --text-secondary:#c9a0b0;
+  --accent-primary:#ed64a6;
+  --accent-red:    #f687b3;
+  --accent-green:  #68d391;
+  --accent-purple: #d6bcfa;
+  --accent-orange: #fbd38d;
+  --accent-yellow: #f6e05e;
+  --gradient-title: linear-gradient(90deg, #ed64a6, #d53f8c);
+
+  /* ===== 字体大小系统 ===== */
+  --font-base:        16px;
+  --font-xs:          14px;
+  --font-sm:          15px;
+  --font-md:          16px;
+  --font-lg:          18px;
+  --font-xl:          21px;
+  --font-2xl:         27px;
+  --font-3xl:         31px;
+  --font-data:        23px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg-primary); color: var(--text-primary); font-size: var(--font-base); line-height: 1.6; min-height: 100vh; }
+.newspaper-header { background: linear-gradient(180deg, #1a1015 0%, #251620 100%); padding: 24px 40px; border-bottom: 2px solid var(--border); }
+.header-top { display: flex; align-items: center; justify-content: space-between; max-width: 1600px; margin: 0 auto; }
+.issue-info { font-size: var(--font-xs); color: var(--text-secondary); font-weight: 500; }
+.newspaper-title { font-size: var(--font-3xl); font-weight: 800; background: var(--gradient-title); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.stats-badge { font-size: var(--font-xs); color: var(--accent-primary); background: rgba(237, 100, 166, 0.15); padding: 4px 12px; border-radius: 20px; }
+.header-divider { max-width: 1600px; margin: 16px auto 0; height: 3px; background: var(--gradient-title); border-radius: 2px; }
+.newspaper-grid { display: grid; grid-template-columns: 25% 45% 28%; gap: 2%; max-width: 1600px; margin: 24px auto; padding: 0 40px; }
+@media (max-width: 1200px) { .newspaper-grid { grid-template-columns: 1fr; padding: 0 20px; } }
+section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; transition: all 0.3s ease; }
+section:hover { background: var(--bg-card-hover); }
+.block-title { font-size: var(--font-lg); font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.block-title .icon { font-size: var(--font-xl); }
+.block-announcement { border-left: 4px solid var(--accent-red); }
+.block-announcement .block-title { color: var(--accent-red); }
+.block-teacher { border-left: 4px solid var(--accent-purple); background: linear-gradient(135deg, #251620, #2a1c24); }
+.block-teacher .block-title { color: var(--accent-purple); }
+.block-hot { border-left: 4px solid var(--accent-primary); }
+.block-hot .block-title { color: var(--accent-primary); }
+.block-honor { border-left: 4px solid var(--accent-yellow); background: linear-gradient(135deg, #251a1a, #251620); }
+.block-honor .block-title { color: var(--accent-yellow); }
+.honor-icon { font-size: var(--font-2xl); text-shadow: 0 0 20px rgba(246, 224, 94, 0.5); }
+.block-ai { border-left: 4px solid var(--accent-orange); }
+.block-ai .block-title { color: var(--accent-orange); }
+.block-community { border-left: 4px solid var(--text-secondary); }
+.block-community .block-title { color: var(--text-secondary); }
+.ai-tool-badge { display: inline-block; padding: 2px 8px; background: rgba(251, 211, 141, 0.2); border: 1px solid var(--accent-orange); border-radius: 12px; font-size: var(--font-xs); color: var(--accent-orange); margin-right: 6px; }
+.ai-data-number { font-size: var(--font-data); font-weight: 700; color: var(--accent-orange); }
+blockquote { border-left: 3px solid var(--accent-purple); padding: 10px 16px; margin: 12px 0; background: rgba(214, 188, 250, 0.06); color: var(--text-secondary); font-style: italic; font-size: var(--font-sm); }
+p { margin-bottom: 12px; font-size: var(--font-md); }
+ul { margin: 12px 0; padding-left: 20px; }
+li { margin-bottom: 8px; color: var(--text-secondary); font-size: var(--font-sm); }
+.highlight-blue  { color: var(--accent-primary); font-weight: 700; }
+.highlight-red   { color: var(--accent-red); font-weight: 700; }
+.highlight-green { color: var(--accent-green); font-weight: 700; }
+mark.blue   { background: rgba(237, 100, 166, 0.25); color: var(--accent-primary); padding: 2px 6px; border-radius: 3px; }
+mark.orange { background: rgba(251, 211, 141, 0.25); color: var(--accent-orange); padding: 2px 6px; border-radius: 3px; }
+mark.green  { background: rgba(104, 211, 145, 0.25); color: var(--accent-green); padding: 2px 6px; border-radius: 3px; }
+mark.purple { background: rgba(214, 188, 250, 0.25); color: var(--accent-purple); padding: 2px 6px; border-radius: 3px; }
+footer { text-align: center; padding: 24px; color: var(--text-secondary); font-size: var(--font-xs); border-top: 1px solid var(--border); margin-top: 24px; }
+footer p { margin: 0; }
+.hot-topic { margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px dashed var(--border); }
+.hot-topic:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.hot-topic-title { font-size: var(--font-lg); font-weight: 700; color: var(--accent-primary); margin-bottom: 12px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.heat-stats { font-size: var(--font-xs); color: var(--accent-orange); background: rgba(251, 211, 141, 0.15); padding: 2px 8px; border-radius: 10px; }
+.author-tag { display: inline-block; background: var(--accent-purple); color: #1a1015; padding: 2px 8px; border-radius: 4px; font-size: var(--font-xs); font-weight: 600; margin-right: 6px; }
+.chat-bubble { background: var(--bg-card-hover); border-radius: 12px; padding: 12px 16px; margin: 8px 0; }
+.chat-sender { font-size: var(--font-xs); color: var(--accent-primary); font-weight: 600; margin-bottom: 4px; }
+.chat-content { font-size: var(--font-md); color: var(--text-primary); }
+.ai-item { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.ai-item:last-child { border-bottom: none; }
+.ai-item-title { font-weight: 600; color: var(--text-primary); margin-bottom: 8px; }
+.honor-card { background: rgba(246, 224, 94, 0.1); border: 1px solid rgba(246, 224, 94, 0.3); border-radius: 8px; padding: 12px 16px; margin: 12px 0; }
+.honor-name { font-weight: 600; color: var(--accent-yellow); font-size: var(--font-md); }
+.honor-prize { color: var(--text-secondary); font-size: var(--font-sm); margin-top: 4px; }
+.work-card { background: var(--bg-card-hover); border-radius: 8px; padding: 12px; margin: 8px 0; border-left: 3px solid var(--accent-primary); }
+.work-author { font-size: var(--font-xs); color: var(--accent-purple); font-weight: 600; margin-bottom: 4px; }
+.work-title { font-size: var(--font-md); color: var(--text-primary); font-weight: 500; }
+.节日-badge { display: inline-block; background: linear-gradient(90deg, #ed64a6, #d53f8c); color: #fff; padding: 2px 10px; border-radius: 20px; font-size: var(--font-xs); font-weight: 600; margin-right: 8px; }
+.live-badge { display: inline-block; background: #f56565; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: var(--font-xs); font-weight: 600; margin-left: 8px; }
+</style>
+</head>
+<body>
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第29期 · 2026年03月08日 星期日</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 69 条消息 · ~25 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <main class="newspaper-grid">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <section class="block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <p><span class="节日-badge">三八妇女节</span></p>
+        <blockquote>
+          <strong>上课啦！！</strong><br>
+          主讲老师：Bao保罗老师<br>
+          主题：拆解【昆汀 vs 老塔】视频
+        </blockquote>
+        <p style="margin-top: 12px;">
+          <mark class="blue">今晚8:30</mark> 保罗老师带来直播公开课，拆解AI视频创作中的动作设计思路。课后布置作业：做人物对话短视频（30-60秒），练习正反打和切镜技巧。
+        </p>
+      </section>
+
+      <section class="block-honor">
+        <h2 class="block-title"><span class="icon honor-icon">🏆</span>荣誉时刻</h2>
+        <div class="honor-card">
+          <div class="honor-name">🏆 昨日海艺挑战赛获奖学员</div>
+          <div class="honor-prize">
+            <strong>ヒーロー見参！（ヒーロー見参！）</strong><br>
+            <strong>雾（May雾）</strong><br>
+            <strong>记忆碎片</strong>（海王钓手"慕慕凝"）
+          </div>
+        </div>
+        <p style="margin-top: 12px;">
+          <mark class="green">获奖秘笈：</mark>有亮点、有创意才能被选中！每日出图打卡比憋长故事更容易产出。
+        </p>
+      </section>
+    </aside>
+
+    <!-- 中栏 -->
+    <article class="col-center">
+      <section class="block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        <blockquote>
+          <strong>Aria清老师解答：</strong><br>
+          "ov是什么？" — 大师兄<br>
+          "ov是旁白"<br>
+          "vo哈哈哈"<br>
+          <br>
+          <strong>关于港剧配音：</strong><br>
+          老张：想生成tvb港剧或邵氏老式配音<br>
+          Aria清：可灵3.0使用指南...港剧这个你试试，我也没试过<br>
+          "好像早上6-9点，会比较好"<br>
+          <br>
+          <strong>结论：</strong>目前也就seedance可以
+        </blockquote>
+        <p style="margin-top: 12px;">
+          <mark class="purple">AI延伸：</mark>Aria清老师分享了可灵3.0使用指南，并指出港剧配音目前只有Seedance 2.0效果较好，建议在凌晨6-9点使用可能效果更佳。LLLLLL同学补充：可以尝试提取连续剧中同一角色的音色进行训练。
+        </p>
+      </section>
+
+      <section class="block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <!-- 话题1：三八妇女节作品祝福 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            🎀 三八妇女节·群友献礼致敬女性
+            <span class="heat-stats">👥 10+人参与</span>
+          </div>
+
+          <div class="work-card">
+            <div class="work-author">📹 不设限的烟火Firework 作品</div>
+            <div class="work-title">《共生体》MV选段 — 商汤Seko创作，愿爱与和平！</div>
+          </div>
+          <div class="chat-bubble">
+            <div class="chat-sender">由纪（由纪AIGC）：</div>
+            <div class="chat-content">好听</div>
+          </div>
+
+          <div class="work-card" style="margin-top: 12px;">
+            <div class="work-author">📹 王小冠 作品</div>
+            <div class="work-title">致闪闪发光的她 — #AI视频 #三八妇女节 #女神节</div>
+          </div>
+
+          <div class="work-card" style="margin-top: 12px;">
+            <div class="work-author">📹 Nina 作品</div>
+            <div class="work-title">妇女节在天津，就是姐姐节 — #天津话 #女性力量</div>
+          </div>
+
+          <p style="margin-top: 12px;">
+            <mark class="blue">AI分析：</mark>三八妇女节当天，社群掀起创作热潮。学员们用AI视频致敬女性，不设限的烟火使用商汤Seko创作MV，王小冠和Nina则用AI表达女性力量主题。
+          </p>
+        </div>
+
+        <!-- 话题2：保罗老师直播课 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            📺 保罗老师直播课：昆汀 vs 老塔
+            <span class="heat-stats">👥 8人参与</span>
+          </div>
+          <div class="chat-bubble">
+            <div class="chat-sender">系统通知：</div>
+            <div class="chat-content">@所有人 上课啦！！ 主讲老师：Bao保罗老师 主题：拆解【昆汀 vs 老塔】视频</div>
+          </div>
+          <div class="chat-bubble">
+            <div class="chat-sender">Nina：</div>
+            <div class="chat-content">哈哈哈，老塔说俄语就更酷</div>
+          </div>
+          <p style="margin-top: 12px;">
+            <mark class="blue">AI分析：</mark>晚间8:30的直播课引发期待，Nina提议让"老塔"（塔可夫斯基）说俄语会更有风格。课程笔记由皮皮咩整理发布在学习群。
+          </p>
+        </div>
+
+        <!-- 话题3：Seedance 2.0 vs 可灵 3.0 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            ⚔️ Seedance 2.0 vs 可灵 3.0 评测热议
+            <span class="heat-stats">💬 5人参与</span>
+          </div>
+          <div class="work-card">
+            <div class="work-author">📹 楼蓝（嘎嘎嘣嘣）作品</div>
+            <div class="work-title">新版 狸猫换太子 — #即梦Seedance 2.0 #宫斗剧</div>
+          </div>
+          <div class="work-card" style="margin-top: 12px;">
+            <div class="work-author">📹 Jason Hsu 分享</div>
+            <div class="work-title">评测 | 即梦Seedance2.0 vs 可灵3.0 omni，到底谁更强！？</div>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <section class="block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+
+        <div class="ai-item">
+          <div class="ai-item-title">
+            <span class="ai-tool-badge">即梦</span>
+            Seedance 2.0 宫斗剧新作
+          </div>
+          <blockquote>
+            楼蓝（嘎嘎嘣嘣）：新版 狸猫换太子 #即梦Seedance 2.0 #宫斗剧
+          </blockquote>
+          <p>
+            <mark class="orange">工具亮点：</mark>Seedance 2.0在宫斗剧等传统题材上表现稳定，狸猫换太子这样的民间故事新演绎效果出色。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <div class="ai-item-title">
+            <span class="ai-tool-badge">可灵</span>
+            3.0使用指南发布
+          </div>
+          <blockquote>
+            Aria清：可灵3.0使用指南 https://docs.qingque.cn/d/home/...
+          </blockquote>
+          <p>
+            <mark class="orange">工具更新：</mark>清老师分享了可灵3.0官方使用指南，建议港剧配音在凌晨6-9点使用效果更佳。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <div class="ai-item-title">
+            <span class="ai-tool-badge">行业</span>
+            第三方API假货问题
+          </div>
+          <blockquote>
+            逆流而上 lu-xh：你花真金白银买的第三方API，有一半都是假的
+          </blockquote>
+          <p>
+            <mark class="orange">行业警示：</mark>提醒学员警惕第三方API骗局，建议通过官方渠道使用AI工具。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <div class="ai-item-title">
+            <span class="ai-tool-badge">海艺</span>
+            每日挑战赛持续进行
+          </div>
+          <p>
+            <mark class="orange">实践机会：</mark>海艺每日出图挑战赛正在进行中，参与可获得70-500+算力奖励，昨天的获奖者包括ヒーロー見参！、雾（May雾）、记忆碎片。
+          </p>
+        </div>
+      </section>
+
+      <section class="block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+        <p>
+          <span class="节日-badge">三八妇女节</span> 今日是三八国际妇女节，群里格外热闹！
+        </p>
+        <ul>
+          <li><strong>风</strong> 祝群里各位女同胞节日快乐</li>
+          <li><strong>Mr insulation</strong> 群里女士们节日快乐[玫瑰]</li>
+          <li><strong>皮皮咩</strong> 分享课程笔记，获众人点赞</li>
+        </ul>
+
+        <p style="margin-top: 16px;">
+          <mark class="green">今日社群氛围：</mark>非常温馨！上午以三八节祝福和作品为主，下午Aria清老师解答配音问题，晚间保罗老师直播课。皮皮咩主动分享课程笔记，被同学称为"中国好同学"。
+        </p>
+
+        <p style="margin-top: 12px; font-style: italic; color: var(--text-secondary);">
+          💡 River 小华："@皮皮咩 中国好同学"
+        </p>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-11 18:35:00</p>
+  </footer>
+</body>
+</html>
