@@ -1,0 +1,82 @@
+name: 生成每日AI日报
+
+on:
+  push:
+    paths:
+      - 'raw-*.txt'   # 本地推送原始记录时触发
+  workflow_dispatch:  # 支持手动触发
+    inputs:
+      date:
+        description: '日期 (YYYY-MM-DD)，留空则自动检测'
+        required: false
+        default: ''
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GIT_TOKEN }}
+          fetch-depth: 1
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装依赖
+        run: npm install @anthropic-ai/sdk
+
+      - name: 检测目标日期
+        id: detect_date
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            TARGET_DATE="${{ github.event.inputs.date }}"
+          else
+            # 从最新推送的 raw-*.txt 文件中提取日期
+            LATEST_RAW=$(ls raw-*.txt 2>/dev/null | sort -r | head -1)
+            if [ -n "$LATEST_RAW" ]; then
+              TARGET_DATE=$(echo $LATEST_RAW | sed 's/raw-//;s/.txt//')
+            else
+              # 默认昨天
+              TARGET_DATE=$(date -d 'yesterday' '+%Y-%m-%d')
+            fi
+          fi
+          echo "date=$TARGET_DATE" >> $GITHUB_OUTPUT
+          echo "目标日期: $TARGET_DATE"
+
+      - name: 检查日报是否已存在
+        id: check_exists
+        run: |
+          DATE="${{ steps.detect_date.outputs.date }}"
+          if [ -f "daily-${DATE}.html" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "✅ 日报已存在: daily-${DATE}.html，跳过生成"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "📝 需要生成: daily-${DATE}.html"
+          fi
+
+      - name: 生成 AI 日报
+        if: steps.check_exists.outputs.exists == 'false'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          TARGET_DATE: ${{ steps.detect_date.outputs.date }}
+        run: node .github/scripts/generate-report.js
+
+      - name: 提交并推送生成的日报
+        if: steps.check_exists.outputs.exists == 'false'
+        run: |
+          DATE="${{ steps.detect_date.outputs.date }}"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add daily-${DATE}.html manifest.json index.html || true
+          git diff --staged --quiet || git commit -m "📰 日报 ${DATE} | AI自动生成"
+          git push

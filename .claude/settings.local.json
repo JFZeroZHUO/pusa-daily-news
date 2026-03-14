@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"console.log\\(process.env.PATH.split\\('';''\\).join\\(''\\\\n''\\)\\)\")",
+      "Bash(MSYS_NO_PATHCONV=1 powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\92860\\\\AppData\\\\Local\\\\Programs\\\\Trae\\\\resources\\\\app\\\\bin'' -ErrorAction SilentlyContinue | Select-Object Name\")",
+      "Bash(node -e \":*)"
+    ]
+  }
+}

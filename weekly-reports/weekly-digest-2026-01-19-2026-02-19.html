@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风变野菩萨AI视频社团A班 · 本月资讯 (2026年1月19日 - 2月19日)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --primary: #2c3e50;
+            --accent: #e67e22;
+            --accent-light: #f39c12;
+            --bg: #fafafa;
+            --card-bg: #fff;
+            --text: #333;
+            --text-light: #666;
+            --border: #eee;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.9;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 40px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #34495e 50%, var(--accent) 100%);
+            color: #fff;
+            padding: 56px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 400px;
+            height: 400px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 300px;
+            height: 300px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+        }
+
+        header h1 {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 2px;
+        }
+
+        header .subtitle {
+            font-size: 18px;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+        }
+
+        header time {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 8px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 24px;
+            font-size: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Main Content */
+        main { padding: 40px; }
+
+        section {
+            margin-bottom: 52px;
+        }
+
+        section:last-child { margin-bottom: 0; }
+
+        section h2 {
+            font-size: 24px;
+            color: var(--primary);
+            padding-bottom: 14px;
+            border-bottom: 3px solid var(--accent);
+            margin-bottom: 28px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+        }
+
+        section h2 .icon {
+            font-size: 28px;
+        }
+
+        /* Cards */
+        .card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            transform: translateY(-2px);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--accent);
+            border-radius: 12px 0 0 12px;
+        }
+
+        .card .meta {
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .card .sender {
+            font-size: 15px;
+            color: var(--accent);
+            font-weight: 600;
+            background: rgba(230, 126, 34, 0.1);
+            padding: 4px 14px;
+            border-radius: 16px;
+        }
+
+        .card .time {
+            font-size: 13px;
+            color: #999;
+        }
+
+        .card .quote {
+            background: #fff;
+            border-radius: 8px;
+            padding: 18px 20px;
+            margin: 14px 0;
+            color: #444;
+            font-size: 15px;
+            line-height: 1.8;
+            border-left: 3px solid #ddd;
+            position: relative;
+        }
+
+        .card .quote::before {
+            content: '"';
+            position: absolute;
+            top: 8px;
+            left: 12px;
+            font-size: 32px;
+            color: #ddd;
+            font-family: Georgia, serif;
+        }
+
+        .card .analysis {
+            color: var(--text-light);
+            font-size: 14px;
+            line-height: 1.8;
+            padding-left: 12px;
+            border-left: 2px solid var(--accent-light);
+        }
+
+        /* Stats Section */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
+            border-radius: 12px;
+            padding: 28px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .stat-card .number {
+            font-size: 42px;
+            font-weight: 800;
+            display: block;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-card .label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 8px;
+        }
+
+        .top-senders {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .sender-tag {
+            background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+            border: 1px solid var(--accent);
+            border-radius: 20px;
+            padding: 8px 18px;
+            font-size: 14px;
+            color: var(--accent);
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .sender-tag:hover {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        /* Section-specific accents */
+        #highlight .card::before { background: #e74c3c; }
+        #honor .card::before { background: #f1c40f; }
+        #skill .card::before { background: #3498db; }
+        #welfare .card::before { background: #9b59b6; }
+        #discussion .card::before { background: #1abc9c; }
+        #activity .card::before { background: #e67e22; }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: #fff;
+            text-align: center;
+            padding: 32px;
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 14px;
+        }
+
+        footer .brand {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            opacity: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            header {
+                padding: 40px 24px;
+            }
+            header h1 {
+                font-size: 24px;
+            }
+            main {
+                padding: 24px;
+            }
+            .card {
+                padding: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>风变野菩萨AI视频社团A班 · 本月资讯</h1>
+            <p class="subtitle">让每一位社员都不错过社群的重要价值</p>
+            <time>2026年1月19日 - 2月19日</time>
+        </header>
+
+        <main>
+            <!-- 统计数据 -->
+            <section id="stats">
+                <h2><span class="icon">📊</span> 一月数据</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="number">3000</span>
+                        <span class="label">消息总数</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">2019</span>
+                        <span class="label">文本消息</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">135</span>
+                        <span class="label">发言人数</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="number">225</span>
+                        <span class="label">高质量讨论</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom: 16px; color: var(--primary);">👥 活跃社员榜 TOP 20</h3>
+                    <div class="top-senders">
+                        <span class="sender-tag">逆流而上 lu-xh（逆流而上lu-xh） (329条)</span>
+                        <span class="sender-tag">Aria清 (268条)</span>
+                        <span class="sender-tag">tiantrose (156条)</span>
+                        <span class="sender-tag">由纪（由纪AIGC） (98条)</span>
+                        <span class="sender-tag">ヒーロー見参！（ヒーロー見参！） (82条)</span>
+                        <span class="sender-tag">vip138233003 (64条)</span>
+                        <span class="sender-tag">wxid_n8hloow0rhgz22 (48条)</span>
+                        <span class="sender-tag">wxid_0gdxg7rcxxhi22 (41条)</span>
+                        <span class="sender-tag">墨墨memory (40条)</span>
+                        <span class="sender-tag">文途逐光 (40条)</span>
+                        <span class="sender-tag">wozj81 (38条)</span>
+                        <span class="sender-tag">正 (31条)</span>
+                        <span class="sender-tag">wxid_xkfqi5a2pfml22 (31条)</span>
+                        <span class="sender-tag">素语(素语) (30条)</span>
+                        <span class="sender-tag">wxid_g7kwna6q389a22 (30条)</span>
+                        <span class="sender-tag">不设限的烟火Firework (29条)</span>
+                        <span class="sender-tag">饮悦小站 (29条)</span>
+                        <span class="sender-tag">wxid_bsopfbft1pn122 (28条)</span>
+                        <span class="sender-tag">wxid_urkctlav3v4722 (22条)</span>
+                        <span class="sender-tag">25984985413445599@openim (21条)</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 本月焦点 -->
+            <section id="highlight">
+                <h2><span class="icon">🔥</span> 本月焦点</h2>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984985413445599@openim</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">【📌野菩萨AI视频社团: 0118作业】
+ 
+感谢老师的分享，昨晚的课收获满满 ✅
+
+💰课后作业来啦🤗
+
+【🚩 课后作业】
+
+找一个心里认为最符合【无目的性的合目的性】的表情包，别人发过的也可以，引用后写个+1都可以
+
+📝 提交方式：
+1、群里发 #作业0118
+
+———————————
+【📌课程相关】
+
+🎬0118回放：https://fclive.pandacollege.cn/p/wGss0...</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984981742006334@openim</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">2026京东首届AI影视创作大赛（截至2026.2.1），来啦！
+
+希望社团同学们，都能积极参与，“陪你一起去看红包雨，落在这社团里”！
+
+大赛规则&素材见（AI马、数字人男团形象已公布）
+https://forchangesz.feishu.cn/wiki/KFgowiOKgiH8ktkpwY4cjU8Dnkc?from=from_copylink
+
+诚邀大家用AI释放脑洞与才华
+>> 以指定I...</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984985413445599@openim</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">【📌野菩萨AI视频社团:AI影视创作大赛】
+
+AI影视创作大赛来啦！
+
+希望社团同学们，都能积极参与，“陪你一起去看红包雨，落在这社团里”！
+
+大赛规则&素材见（AI马、数字人男团形象已公布）
+https://forchangesz.feishu.cn/wiki/KFgowiOKgiH8ktkpwY4cjU8Dnkc?from=from_copylink
+
+诚邀大家用AI释放脑洞与才华
+&gt;&...</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984981742006334@openim</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">希望大家都能踊跃参与，拿奖是其次，更重要的是一次锻炼的机会##</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Urey柚梨</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">大赛规则&素材见（AI马形象已公布）
+https://doc.weixin.qq.com/doc/w3_AaoAUgbEADwCNXB3eYAoETcaOwEFj?scode=ACsAEQdVACIFvGoq6cAaoAUgbEADw
+
+诚邀大家用AI释放脑洞与才华
+以指定IP形象与产品为灵感，制作15秒以上AI短片
+瓜分千万流量，单人最高可得10万元现金大奖🏆
+
+⏰时间安排
+作品征集：2026年...</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">海艺版本已更新
+个人中心设置去掉ai生成水印
+会员去掉品牌水印</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">【风变周元AI短剧导演公开课】现在开课！你可以进来啦
+
+主题🔥：《全球短剧出海进入工业化时代》
+链接🔗：https://fclive.pandacollege.cn/p/2jMqXf</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_g9sdp64gtr1p21</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">点哪发布啊</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">紫薯有范（原范范W）</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">这个报名页面在哪里呢 没找到</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">不设限的烟火Firework</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">报名入口</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">弓長</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@Aria清 老师 京东pc端的发布找半天没找到</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984985413445599@openim</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">【📌野菩萨AI视频社团:周日晚20:30准时参加直播】
+
+⏰ 已预约
+
+🚩直播链接：
+https://fclive.pandacollege.cn/p/HepzRV
+
+🎨周日晚八点半
+
+滋滋老师带大家一起拆片子！
+
+😆期待ing，周日晚不见不散哟～✨
+
+————————
+【🎯AI影视创作大赛】
+
+大赛规则&素材见（AI马、数字人男团形象已公布）
+https://forchangesz.feishu...</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">由纪（由纪AIGC）</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">我现在全部用来参加AI年货节了
+2025年我们和40个城市、几千名小伙伴一起举办了各种主题非常热闹的切磋大会。2026年第一场，一起用AI搓点新年作品出来！
+	
+三个小组，挑一个你感兴趣的来玩：
+🔧 AI Coding组
+喜欢写代码的集合！一起搓点过年小工具：祝福应用、手势互动、祈福求签系统等。过年发给亲戚朋友，绝对有创意。
+	
+🎬 AI视频组
+想玩视频的看这里！用AI做出你家乡的年味儿，本地风俗...</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">由纪（由纪AIGC）</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">都可以，你报名就好了</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@素语(素语) 你得填公告里的链接</div>
+                    <div class="analysis">本月重要通知与公告，社员需密切关注。</div>
+                </div>
+            </section>
+
+            <!-- 荣誉时刻 -->
+            <section id="honor">
+                <h2><span class="icon">🏆</span> 荣誉时刻</h2>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">墨墨memory</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">这神仙公司干了点啥这么厉害？</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">@所有人 🎬 「执将星，制胜全局」创作挑战赛圆满收官❗❗❗
+✨ 高能混剪来袭！获奖名单正式揭晓！
+海艺 AI × 七彩虹联动大赛完美落幕，创作者们用视频构建制胜世界，精彩作品火力全开！
+
+🏆 获奖名单：
+
+🥇 全局制胜奖：@辰星守望 
+▸奖励：将星 X16 游戏本 + SVIP大师版年卡 + 100,000算力
+
+🥈 崛起先锋奖：@DIGIMONSTER 
+▸ 奖励：星驰87巅峰版键盘 + 限量版...</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">ヒーロー見参！（ヒーロー見参！）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">想看获奖作品</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">你这比赛牛，几年的学费都攒了.</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_h17cpacbx3r512</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">牛蛙</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984983898501337@openim</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">太牛辣！！！</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984983898501337@openim</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">恭喜恭喜~</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">墨墨memory</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">恭喜🎉恭喜</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">ヒーロー見参！（ヒーロー見参！）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">大佬的获奖作品想看看</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">tiantrose</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">恭喜恭喜</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Nina</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">[庆祝][庆祝][庆祝]祝贺祝贺</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">jason419017</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">@辰星守望 恭喜恭喜[强][强][庆祝][庆祝]</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Nina</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">祝贺努力的人</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">tiantrose</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">牛</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984985413445599@openim</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">【📌野菩萨AI视频社团：Video Battle】
+
+新一期V活动已经新鲜上线啦！🥳 快来看看有哪些新内容吧！
+
+🌈 温馨提醒： 【此活动为自愿参加的活动哦~】
+请大家完全依照自己的兴趣和当前的学习节奏来决定，轻松上阵，享受过程，收获快乐！
+
+——————————
+【🎯世界AI视频大赛Vol.65 | 然后呢】
+
+🙋本期大赛以“同一个开头，不同的结局”为核心创作机制
+
+🎬 参赛要求
+创作主题：所有...</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">ヒーロー見参！（ヒーロー見参！）</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">[捂脸]牛逼</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">New soul</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">牛啊</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">紫薯有范（原范范W）</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">太棒了👏</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984983898501337@openim</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">@所有人 
+
+悄咪咪告诉大家：京东这边 这几个产品植入的，参加的人少 
+
+大家可以尝试做产品相关的视频，获奖机会更大点哦～</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984985413445599@openim</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">🎉海艺大赛获奖名单揭晓！🎉
+
+🎉 本次海艺大赛的最终获奖名单终于热腾腾地出炉啦！
+
+恭喜以下同学在此次海艺大赛中取得好名次👏
+
+第一名（奖金1000元）：
+✅@素语(素语)
+
+第二名（奖金500元）:
+✅@墨墨memory
+✅@李鸿
+✅@夏夏Mona
+
+第三名（奖金300元）：
+✅@不设限的烟火Firework
+✅@尹星懿（诸葛司马）
+✅@墨墨墨Ink
+✅@司尧YAO（Siyi）
+
+📌 特别提醒：...</div>
+                    <div class="analysis">学员成就展示，恭喜获得荣誉的同学们！</div>
+                </div>
+            </section>
+
+            <!-- 技能干货 -->
+            <section id="skill">
+                <h2><span class="icon">📚</span> 技能干货</h2>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">Sora是它公司的吧.我感觉GPT挺悬的.</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">海螺，我看群里是说，生图用的是千问，不是香蕉.</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">ヒーロー見参！（ヒーロー見参！）</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">这个跳舞是数字人弄的吗？还是就提示词让她跳舞就有这效果？</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">磨磨大王momoking</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">用可灵的Q1做的，在B站上找了一段视频，让她模仿</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">对白画面切的好自然呀.可灵2.6？</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">[社会社会]学习了.</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">海螺不久他们就吗，他不太注重国内市场感觉.</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">带动大家学习热情❤️‍🔥[社会社会]</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">ヒーロー見参！（ヒーロー見参！）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">飞书的链接怎么在飞书软件里打开？一直没搞明白。。</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">这是json格式提示词吧</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">请教一下，有大佬会直到怎么写景深模糊变焦的提示词吗？</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">小红书，抖音，b站都找过教程，几乎没有视频景深模糊的。不知道是不是先阶段还做不出来</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">这个提示词应该怎么用？</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">我现在的提示词是这样的</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">tiantrose</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">用Gemini让他优化提示词。试试。再把失败的视频给他，</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">tiantrose</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">让他总结一下怎么样才能出来你想要的效果</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">好荣幸能给你启发，互相学习[机智]</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">tiantrose</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">多学习一下导演思维。</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">我这两天出了上百个视频，发现seedance 1.5模型简直是神器</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">所以分群解答</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984981742006334@openim</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">谢谢超超同学[呲牙]我来围观大家的学习</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_g9sdp64gtr1p21</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">那个《大东北》那首歌，让它重新生成，几遍它都唱成“大东北，我的家家乡，或我的家乡乡”[流泪][衰]，各位大神，这种情况怎么弄？</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_g9sdp64gtr1p21</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">不知道怎么回事</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_n8hloow0rhgz22</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">#世界AI视频大赛Vol.65 | 然后呢</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_n8hloow0rhgz22</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">#世界AI视频大赛Vol.65 | 然后呢</div>
+                    <div class="analysis">AI视频制作技巧、工具使用心得、学习经验分享。</div>
+                </div>
+            </section>
+
+            <!-- 福利分享 -->
+            <section id="welfare">
+                <h2><span class="icon">🎁</span> 福利分享</h2>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">早上朋友圈广告推送的就是这个.</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">提交完整作品就有红包，门槛又不高</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Urey柚梨</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">因为我老早就知道这个活动，大家加油投稿啊~哪里有这么好的老师，付费支持大家参赛[亲亲]</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_7459mwhwiwco22</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">🌟 PB Showdown EP.61
+
+🔎 攻擂者集结，目标锁定森破！！！
+
+⏱️ 2026年01月22日20:00，准时开打！
+
+🎬 今日MC：巧 & 周周
+
+💻 点击链接入场观战：https://meeting.tencent.com/dm/Ei0oPFimMDEs
+
+#腾讯会议：305-7076-4609
+
+🥊 本期守关大将：森破
+📧投稿方式：网页 http://www.battlever...</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">tiantrose</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">捡到一只小狗，又送回去了。就很有趣。</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">25984983898501337@openim</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">提交了京东参赛链接的【isabelladu】同学，这个同学是谁？？清老师发红包找不到人呢[捂脸]</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">老张</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">tapnow虽然有点小贵，但是每月积分不清零是真的不浪费</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">老张</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">tapTV还送积分，昨天传个视频，都不是tapnow做的，送了700</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">老张</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">现在想用的话可以锁一下马年的65折活动</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_3r5pk90n0pp912</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">tapnow的积分月付多少好呢，小白试问</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">老张</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">主要这是我目前遇到第一个积分不清零的整合平台，我觉得确实挺好</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">积分花的不多</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@山音 送我吗</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_mgl7746rbdft11</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">送</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_xkfqi5a2pfml22</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">那我这就是掉线了？ 图没有出来 积分没有了</div>
+                    <div class="analysis">社群福利、资源分享、红包雨等活动信息。</div>
+                </div>
+            </section>
+
+            <!-- 热议话题 -->
+            <section id="discussion">
+                <h2><span class="icon">💬</span> 热议话题</h2>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">dreaming_xdn</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">尼古拉斯凯奇这段憋笑的表情包我觉得挺符合“无目的的合目的性”，因为他当时忘记台词之后随便说了一句台词，然后又觉得那句即兴的台词挺搞笑，憋不住</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">我又突发奇想，现在虚拟人像越做越真，以后是不是可以替代群演了…那我们做的数字人是不是就变成了新的群演？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">chongchongc001</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@Aria清 老师，我发了京东圈子短视频，现在找不到了，在哪里找到自己发的短视频呀？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">弓長</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@Aria清 https://h5.m.jd.com/active/faxian/video/index.html?id=1108616094</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_kvk6r9jni5l321</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@Aria清 感谢清老师的激励，胜比拿到 5 百压岁钱！刚完成 80级武侠+爱情剧本，如果完成分镜剧本和角色定稿图，分给同学们生成短剧，能不能按老师的销售渠道给大家挣些碎银呀[玫瑰][玫瑰][玫瑰]</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">vip138233003</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">你打开任务管理器看看使用了多少内存？如果内存使用的太多的话lovart会傻掉，需要关闭一些其他的进程</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wozj81</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">https://h5.m.jd.com/active/faxian/video/index.html?id=1108795771&style=2&subPosition=42&wh5video=2&playtype=5&type=link</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">墨墨memory</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">https://vod.300hu.com/1030/4c1f7a6atransbjngwcloud1oss/001981501067125610474790913/1096_3000_1_ae0bdca42_f.mp4?source=1&h265=1138_3000_1_b22f6abd0_f.mp4</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_g7kwna6q389a22</span>
+                        <span class="time">2026-01-23</span>
+                    </div>
+                    <div class="quote">@Aria清 老师好，请教您：象这种参加比赛的片子，音乐用剪映素材库里的可以么？例如 蓝色多瑙河之种？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_xkfqi5a2pfml22</span>
+                        <span class="time">2026-01-24</span>
+                    </div>
+                    <div class="quote">https://h5.m.jd.com/active/faxian/video/index.html?id=1109374710&style=2&subPosition=42&wh5video=2&playtype=5&type=link</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">墨墨memory</span>
+                        <span class="time">2026-01-25</span>
+                    </div>
+                    <div class="quote">大赛规则&素材见（AI马形象已公布）
+https://doc.weixin.qq.com/doc/w3_AaoAUgbEADwCNXB3eYAoETcaOwEFj?scode=ACsAEQdVACIFvGoq6cAaoAUgbEADw@风 在这里顺着话题搜</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_bsopfbft1pn122</span>
+                        <span class="time">2026-01-25</span>
+                    </div>
+                    <div class="quote">又要我花钱啊？上次的Vidu差点抢走了我2148，后来退给我了[偷笑][偷笑][偷笑]</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">凌（凌潇）</span>
+                        <span class="time">2026-01-25</span>
+                    </div>
+                    <div class="quote">https://app.klingai.com/cn/ai-shorts-video/ai-shorts-video/836626251330248794?from=share  最近整的小短片 点头像可以看后续[让我看看] 还没更完</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_g7kwna6q389a22</span>
+                        <span class="time">2026-01-25</span>
+                    </div>
+                    <div class="quote">@星尘   (星尘)  @尹星懿（诸葛司马） 谢谢两位，流程看明白了，看来**-1是写自己的名字，不是作品名。但是我没有微博，可以只在抖音、小红书和视频号上发么？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">bank850012</span>
+                        <span class="time">2026-01-26</span>
+                    </div>
+                    <div class="quote">https://h5.m.jd.com/active/faxian/video/index.html?id=1110144805&style=2&subPosition=42&wh5video=2&playtype=5&type=link</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wozj81</span>
+                        <span class="time">2026-01-26</span>
+                    </div>
+                    <div class="quote">@逆流而上 lu-xh（逆流而上lu-xh）  想请教下你这些风格图都是用p值出的么？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wozj81</span>
+                        <span class="time">2026-01-26</span>
+                    </div>
+                    <div class="quote">@逆流而上 lu-xh（逆流而上lu-xh） 这样去找了值，然后到MJ里面去练图？然后把符合审美的收集下来练成自己的P值？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_0gdxg7rcxxhi22</span>
+                        <span class="time">2026-01-26</span>
+                    </div>
+                    <div class="quote">分镜抽卡抽到崩溃！所以我搭了个AI分镜师Agent_哔哩哔哩_bilibili  https://www.bilibili.com/video/BV1y8qMBsER8/?spm_id_from=333.1007.tianma.5-3-16.click&vd_source=e6a63470bea06c397ea35c579272b167</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-27</span>
+                    </div>
+                    <div class="quote">【京东】https://3.cn/-2CoECAz 「Patchi马年限定好彩头，一飞冲天！」
+
+ @Echo 🎶（Ekho迴) 请问下，这是你的嘛？</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">St（Strong）</span>
+                        <span class="time">2026-01-27</span>
+                    </div>
+                    <div class="quote">@Aria清   老师这回对了吗？【京东】https://3.cn/2CsPh-Gk 「过个清爽利落的新年！」
+点击链接直接打开</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">Aria清</span>
+                        <span class="time">2026-01-27</span>
+                    </div>
+                    <div class="quote">@wendy https://h5.m.jd.com/active/faxian/video/index.html?id=1111492043&style=11&des=VideoImmersion&adid=&referpageid=MvideoDetail&origin=jdapp&playtype=35&projectid=&hotListId=&modeid=2&entrance=1&subjectId=&playInfo=%7B%22screenType%22%3A0%2C%22vh%22%3A1280%2C%22videoDuration%2...</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_3epr11jmhegw22</span>
+                        <span class="time">2026-01-28</span>
+                    </div>
+                    <div class="quote">京东参赛视频链接：https://h5.m.jd.com/active/faxian/video/index.html?id=1111611638&style=2&subPosition=42&wh5video=2&playtype=5&type=link</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wozj81</span>
+                        <span class="time">2026-01-28</span>
+                    </div>
+                    <div class="quote">【当国际足联用AI做了一款世界杯游戏】 https://www.bilibili.com/video/BV1yAmZBpEUN/?share_source=copy_web&vd_source=10423c09a286d5231435a845ec549bd0</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">wxid_xkfqi5a2pfml22</span>
+                        <span class="time">2026-01-29</span>
+                    </div>
+                    <div class="quote">上次发的那个椒图ai  我这有个邀请码  想要自取https://www.jiaotuai.cn/?invite=6L976</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">正</span>
+                        <span class="time">2026-01-29</span>
+                    </div>
+                    <div class="quote">https://app.klingai.com/cn/activity-zone?id=822955220262473759</div>
+                    <div class="analysis">引发社员热烈讨论的话题，碰撞思维火花。</div>
+                </div>
+            </section>
+
+            <!-- 社群活动 -->
+            <section id="activity">
+                <h2><span class="icon">🎉</span> 社群活动</h2>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-19</span>
+                    </div>
+                    <div class="quote">本来可口可乐的广告也行.我是是看着个两广告的内容过春节的.[悠闲][憨笑][憨笑][憨笑]</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-20</span>
+                    </div>
+                    <div class="quote">期待春节有破局的黑马，让Ai技术再上一层楼.</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">孟超超（艾梦Mcc）</span>
+                        <span class="time">2026-01-21</span>
+                    </div>
+                    <div class="quote">欢迎圆圆老师[呲牙]</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">由纪（由纪AIGC）</span>
+                        <span class="time">2026-01-22</span>
+                    </div>
+                    <div class="quote">我刚好做了一个春节的短剧，放空调不合适</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">逆流而上 lu-xh（逆流而上lu-xh）</span>
+                        <span class="time">2026-01-25</span>
+                    </div>
+                    <div class="quote">大家记得每天打卡。</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">chongchongc001</span>
+                        <span class="time">2026-01-25</span>
+                    </div>
+                    <div class="quote">今天额直播链接在哪？</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+                <div class="card">
+                    <div class="meta">
+                        <span class="sender">紫薯有范（原范范W）</span>
+                        <span class="time">2026-01-30</span>
+                    </div>
+                    <div class="quote">短剧试水片 欢迎大家拍砖[偷笑]</div>
+                    <div class="analysis">社群互动、活动通知、节日祝福等精彩瞬间。</div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="brand">风变野菩萨AI视频社团A班 · 资讯中心</p>
+            <p>生成时间：2026年2月19日 | 每月更新，让价值流动</p>
+        </footer>
+    </div>
+</body>
+</html>

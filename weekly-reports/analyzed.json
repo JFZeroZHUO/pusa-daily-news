@@ -1,0 +1,4801 @@
+{
+  "total": 381,
+  "text_count": 264,
+  "sender_count": 55,
+  "top_senders": [
+    [
+      "逆流而上 lu-xh（逆流而上lu-xh）",
+      45
+    ],
+    [
+      "老张",
+      18
+    ],
+    [
+      "ヒーロー見参！（ヒーロー見参！）",
+      18
+    ],
+    [
+      "Aria清",
+      14
+    ],
+    [
+      "wxid_g9sdp64gtr1p21",
+      14
+    ],
+    [
+      "tiantrose",
+      11
+    ],
+    [
+      "由纪（由纪AIGC）",
+      10
+    ],
+    [
+      "wxid_lj2fdceqh2se22",
+      8
+    ],
+    [
+      "正",
+      7
+    ],
+    [
+      "fanko_wx",
+      7
+    ]
+  ],
+  "messages": [
+    {
+      "content": "快点到逆流派里，有惊喜",
+      "sender": "wxid_4nw6nb7ltyne11",
+      "time": "2026-02-12T07:53:17+08:00",
+      "msg": {
+        "seq": 1770853997000,
+        "time": "2026-02-12T07:53:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_4nw6nb7ltyne11",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "快点到逆流派里，有惊喜"
+      }
+    },
+    {
+      "content": "@由纪（由纪AIGC）   好开心  能被你赞美[捂脸][捂脸]  感谢[合十]",
+      "sender": "饮悦小站",
+      "time": "2026-02-12T08:02:46+08:00",
+      "msg": {
+        "seq": 1770854566000,
+        "time": "2026-02-12T08:02:46+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7p6zbm2s1ydr12",
+        "senderName": "饮悦小站",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@由纪（由纪AIGC）   好开心  能被你赞美[捂脸][捂脸]  感谢[合十]"
+      }
+    },
+    {
+      "content": "昨晚上听完老师的课 一直在想怎么做好它[捂脸][捂脸][捂脸]",
+      "sender": "饮悦小站",
+      "time": "2026-02-12T08:04:06+08:00",
+      "msg": {
+        "seq": 1770854646000,
+        "time": "2026-02-12T08:04:06+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7p6zbm2s1ydr12",
+        "senderName": "饮悦小站",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "昨晚上听完老师的课 一直在想怎么做好它[捂脸][捂脸][捂脸]"
+      }
+    },
+    {
+      "content": "这两瓶酒，大家都是从哪找的产品图啊？",
+      "sender": "wxid_0gdxg7rcxxhi22",
+      "time": "2026-02-12T08:32:24+08:00",
+      "msg": {
+        "seq": 1770856344000,
+        "time": "2026-02-12T08:32:24+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_0gdxg7rcxxhi22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这两瓶酒，大家都是从哪找的产品图啊？"
+      }
+    },
+    {
+      "content": "[抱拳][抱拳][抱拳]谢谢同学",
+      "sender": "wxid_0gdxg7rcxxhi22",
+      "time": "2026-02-12T08:34:57+08:00",
+      "msg": {
+        "seq": 1770856497000,
+        "time": "2026-02-12T08:34:57+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_0gdxg7rcxxhi22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[抱拳][抱拳][抱拳]谢谢同学"
+      }
+    },
+    {
+      "content": "🎬 参赛要求：https://forchangesz.feishu.cn/wiki/GBdewG4YiiXhSJkyESLcRro8n2c?from=from_copylink\n（内附产品图）",
+      "sender": "饮悦小站",
+      "time": "2026-02-12T08:35:50+08:00",
+      "msg": {
+        "seq": 1770856550000,
+        "time": "2026-02-12T08:35:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7p6zbm2s1ydr12",
+        "senderName": "饮悦小站",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "🎬 参赛要求：https://forchangesz.feishu.cn/wiki/GBdewG4YiiXhSJkyESLcRro8n2c?from=from_copylink\n（内附产品图）"
+      }
+    },
+    {
+      "content": "77 【千古情缘，寻找属于你的那一份 - MOLLY | 小红书 - 你的生活兴趣社区】 😆 84ez3KTVPri24LX 😆 https://www.xiaohongshu.com/discovery/item/698d2b1d000000000a033cac?source=webshare&xhsshare=pc_web&xsec_token=YBkhj4vu6AzPoEbsd7laGj_XKuoxvq7Q38Qg3kPJP0btU=&xsec_source=pc_share",
+      "sender": "紫蝶(梅紫清歌）",
+      "time": "2026-02-12T09:23:05+08:00",
+      "msg": {
+        "seq": 1770859385000,
+        "time": "2026-02-12T09:23:05+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_5e4105isf9ek21",
+        "senderName": "紫蝶(梅紫清歌）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "77 【千古情缘，寻找属于你的那一份 - MOLLY | 小红书 - 你的生活兴趣社区】 😆 84ez3KTVPri24LX 😆 https://www.xiaohongshu.com/discovery/item/698d2b1d000000000a033cac?source=webshare&xhsshare=pc_web&xsec_token=YBkhj4vu6AzPoEbsd7laGj_XKuoxvq7Q38Qg3kPJP0btU=&xsec_source=pc_share"
+      }
+    },
+    {
+      "content": "47 【唐代最美冬日茶诗 - MOLLY | 小红书 - 你的生活兴趣社区】 😆 6YIgbEpWqnCSzSI 😆 https://www.xiaohongshu.com/discovery/item/698d29f9000000001a020e2e?source=webshare&xhsshare=pc_web&xsec_token=YBkhj4vu6AzPoEbsd7laGj_Y4Zc0SPpcrYIL00UvZOxHk=&xsec_source=pc_share",
+      "sender": "紫蝶(梅紫清歌）",
+      "time": "2026-02-12T09:23:22+08:00",
+      "msg": {
+        "seq": 1770859402000,
+        "time": "2026-02-12T09:23:22+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_5e4105isf9ek21",
+        "senderName": "紫蝶(梅紫清歌）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "47 【唐代最美冬日茶诗 - MOLLY | 小红书 - 你的生活兴趣社区】 😆 6YIgbEpWqnCSzSI 😆 https://www.xiaohongshu.com/discovery/item/698d29f9000000001a020e2e?source=webshare&xhsshare=pc_web&xsec_token=YBkhj4vu6AzPoEbsd7laGj_Y4Zc0SPpcrYIL00UvZOxHk=&xsec_source=pc_share"
+      }
+    },
+    {
+      "content": "2 【藏在山洞里的酒，被光“吻”到了✨ - MOLLY | 小红书 - 你的生活兴趣社区】 😆 xj1SL9y6aKEflLE 😆 https://www.xiaohongshu.com/discovery/item/698c8795000000001b014437?source=webshare&xhsshare=pc_web&xsec_token=YBovd13MBs4cin0nORbslzRj8rV4O9g23iSA3ipXW-pQ4=&xsec_source=pc_share",
+      "sender": "紫蝶(梅紫清歌）",
+      "time": "2026-02-12T09:23:36+08:00",
+      "msg": {
+        "seq": 1770859416000,
+        "time": "2026-02-12T09:23:36+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_5e4105isf9ek21",
+        "senderName": "紫蝶(梅紫清歌）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "2 【藏在山洞里的酒，被光“吻”到了✨ - MOLLY | 小红书 - 你的生活兴趣社区】 😆 xj1SL9y6aKEflLE 😆 https://www.xiaohongshu.com/discovery/item/698c8795000000001b014437?source=webshare&xhsshare=pc_web&xsec_token=YBovd13MBs4cin0nORbslzRj8rV4O9g23iSA3ipXW-pQ4=&xsec_source=pc_share"
+      }
+    },
+    {
+      "content": "9 【穿越时空的宴会你有兴趣吗 - MOLLY | 小红书 - 你的生活兴趣社区】 😆 H094TyRDCvAd1aN 😆 https://www.xiaohongshu.com/discovery/item/698d2b48000000000e00de61?source=webshare&xhsshare=pc_web&xsec_token=YBkhj4vu6AzPoEbsd7laGj_d2bVdGPzrNXm1tpINFeT5U=&xsec_source=pc_share",
+      "sender": "紫蝶(梅紫清歌）",
+      "time": "2026-02-12T09:23:50+08:00",
+      "msg": {
+        "seq": 1770859430000,
+        "time": "2026-02-12T09:23:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_5e4105isf9ek21",
+        "senderName": "紫蝶(梅紫清歌）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "9 【穿越时空的宴会你有兴趣吗 - MOLLY | 小红书 - 你的生活兴趣社区】 😆 H094TyRDCvAd1aN 😆 https://www.xiaohongshu.com/discovery/item/698d2b48000000000e00de61?source=webshare&xhsshare=pc_web&xsec_token=YBkhj4vu6AzPoEbsd7laGj_d2bVdGPzrNXm1tpINFeT5U=&xsec_source=pc_share"
+      }
+    },
+    {
+      "content": "同学们，看看我试用的seedan",
+      "sender": "紫蝶(梅紫清歌）",
+      "time": "2026-02-12T09:25:06+08:00",
+      "msg": {
+        "seq": 1770859506000,
+        "time": "2026-02-12T09:25:06+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_5e4105isf9ek21",
+        "senderName": "紫蝶(梅紫清歌）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "同学们，看看我试用的seedan"
+      }
+    },
+    {
+      "content": "看来导演才是王道，可惜我脑袋空空，没有创意！",
+      "sender": "紫蝶(梅紫清歌）",
+      "time": "2026-02-12T09:25:45+08:00",
+      "msg": {
+        "seq": 1770859545000,
+        "time": "2026-02-12T09:25:45+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_5e4105isf9ek21",
+        "senderName": "紫蝶(梅紫清歌）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "看来导演才是王道，可惜我脑袋空空，没有创意！"
+      }
+    },
+    {
+      "content": "#交作业",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T09:44:58+08:00",
+      "msg": {
+        "seq": 1770860698000,
+        "time": "2026-02-12T09:44:58+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "#交作业"
+      }
+    },
+    {
+      "content": "我不知道，反正我加了",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T09:59:30+08:00",
+      "msg": {
+        "seq": 1770861570000,
+        "time": "2026-02-12T09:59:30+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我不知道，反正我加了"
+      }
+    },
+    {
+      "content": "不建议加的",
+      "sender": "Aria清",
+      "time": "2026-02-12T10:00:16+08:00",
+      "msg": {
+        "seq": 1770861616000,
+        "time": "2026-02-12T10:00:16+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "不建议加的"
+      }
+    },
+    {
+      "content": "那我去掉",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T10:00:49+08:00",
+      "msg": {
+        "seq": 1770861649000,
+        "time": "2026-02-12T10:00:49+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "那我去掉"
+      }
+    },
+    {
+      "content": "终于有赶出来了",
+      "sender": "wxid_g7kwna6q389a22",
+      "time": "2026-02-12T10:01:32+08:00",
+      "msg": {
+        "seq": 1770861692000,
+        "time": "2026-02-12T10:01:32+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g7kwna6q389a22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "终于有赶出来了"
+      }
+    },
+    {
+      "content": "今晚9点好像",
+      "sender": "wxid_g7kwna6q389a22",
+      "time": "2026-02-12T10:03:10+08:00",
+      "msg": {
+        "seq": 1770861790000,
+        "time": "2026-02-12T10:03:10+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g7kwna6q389a22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "今晚9点好像"
+      }
+    },
+    {
+      "content": "@由纪（由纪AIGC） [玫瑰][玫瑰]",
+      "sender": "wxid_g7kwna6q389a22",
+      "time": "2026-02-12T10:03:37+08:00",
+      "msg": {
+        "seq": 1770861817000,
+        "time": "2026-02-12T10:03:37+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g7kwna6q389a22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@由纪（由纪AIGC） [玫瑰][玫瑰]"
+      }
+    },
+    {
+      "content": "音乐和旁白不要的",
+      "sender": "Aria清",
+      "time": "2026-02-12T10:04:07+08:00",
+      "msg": {
+        "seq": 1770861847000,
+        "time": "2026-02-12T10:04:07+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "音乐和旁白不要的"
+      }
+    },
+    {
+      "content": "好的",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T10:04:13+08:00",
+      "msg": {
+        "seq": 1770861853000,
+        "time": "2026-02-12T10:04:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "好的"
+      }
+    },
+    {
+      "content": "[OK]",
+      "sender": "wxid_0gdxg7rcxxhi22",
+      "time": "2026-02-12T10:06:42+08:00",
+      "msg": {
+        "seq": 1770862002000,
+        "time": "2026-02-12T10:06:42+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_0gdxg7rcxxhi22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[OK]"
+      }
+    },
+    {
+      "content": "#交作业 ",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T10:10:03+08:00",
+      "msg": {
+        "seq": 1770862203000,
+        "time": "2026-02-12T10:10:03+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "#交作业 "
+      }
+    },
+    {
+      "content": "同学们，海艺和Tapnow的比赛作品可以投百度的比赛吧？",
+      "sender": "New soul",
+      "time": "2026-02-12T10:14:07+08:00",
+      "msg": {
+        "seq": 1770862447000,
+        "time": "2026-02-12T10:14:07+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_gxfzjzl6rhag21",
+        "senderName": "New soul",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "同学们，海艺和Tapnow的比赛作品可以投百度的比赛吧？"
+      }
+    },
+    {
+      "content": "懒得做了 准备一稿多投[捂脸][捂脸][捂脸]",
+      "sender": "New soul",
+      "time": "2026-02-12T10:14:44+08:00",
+      "msg": {
+        "seq": 1770862484000,
+        "time": "2026-02-12T10:14:44+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_gxfzjzl6rhag21",
+        "senderName": "New soul",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "懒得做了 准备一稿多投[捂脸][捂脸][捂脸]"
+      }
+    },
+    {
+      "content": "投了再说[呲牙]，最后一天了",
+      "sender": "雾（May雾）",
+      "time": "2026-02-12T10:16:17+08:00",
+      "msg": {
+        "seq": 1770862577000,
+        "time": "2026-02-12T10:16:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_mpf7c42aoe7i22",
+        "senderName": "雾（May雾）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "投了再说[呲牙]，最后一天了"
+      }
+    },
+    {
+      "content": "改一下",
+      "sender": "tiantrose",
+      "time": "2026-02-12T10:17:00+08:00",
+      "msg": {
+        "seq": 1770862620000,
+        "time": "2026-02-12T10:17:00+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "改一下"
+      }
+    },
+    {
+      "content": "哈哈哈，我也这么觉得，谢谢同学们",
+      "sender": "New soul",
+      "time": "2026-02-12T10:33:23+08:00",
+      "msg": {
+        "seq": 1770863603000,
+        "time": "2026-02-12T10:33:23+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_gxfzjzl6rhag21",
+        "senderName": "New soul",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "哈哈哈，我也这么觉得，谢谢同学们"
+      }
+    },
+    {
+      "content": "我的也是收尾就不行了，字会变，试了海艺的，也试了即梦2.0[捂脸]",
+      "sender": "雾（May雾）",
+      "time": "2026-02-12T10:42:53+08:00",
+      "msg": {
+        "seq": 1770864173000,
+        "time": "2026-02-12T10:42:53+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_mpf7c42aoe7i22",
+        "senderName": "雾（May雾）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我的也是收尾就不行了，字会变，试了海艺的，也试了即梦2.0[捂脸]"
+      }
+    },
+    {
+      "content": "#交作业",
+      "sender": "素语(素语)",
+      "time": "2026-02-12T10:47:59+08:00",
+      "msg": {
+        "seq": 1770864479000,
+        "time": "2026-02-12T10:47:59+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_8omel9zdphpt22",
+        "senderName": "素语(素语)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "#交作业"
+      }
+    },
+    {
+      "content": "老师，昨晚的课啥时候上传",
+      "sender": "cy87501793",
+      "time": "2026-02-12T10:48:31+08:00",
+      "msg": {
+        "seq": 1770864511000,
+        "time": "2026-02-12T10:48:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "cy87501793",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "老师，昨晚的课啥时候上传"
+      }
+    },
+    {
+      "content": "#交作业",
+      "sender": "阿珂（安琪拉）",
+      "time": "2026-02-12T10:49:21+08:00",
+      "msg": {
+        "seq": 1770864561000,
+        "time": "2026-02-12T10:49:21+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tang278941",
+        "senderName": "阿珂（安琪拉）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "#交作业"
+      }
+    },
+    {
+      "content": "@由纪（由纪AIGC） 好的，马上改",
+      "sender": "素语(素语)",
+      "time": "2026-02-12T10:49:47+08:00",
+      "msg": {
+        "seq": 1770864587000,
+        "time": "2026-02-12T10:49:47+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_8omel9zdphpt22",
+        "senderName": "素语(素语)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@由纪（由纪AIGC） 好的，马上改"
+      }
+    },
+    {
+      "content": "这里感觉有点别扭，穿模，其他都挺好的",
+      "sender": "tiantrose",
+      "time": "2026-02-12T10:51:47+08:00",
+      "msg": {
+        "seq": 1770864707000,
+        "time": "2026-02-12T10:51:47+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这里感觉有点别扭，穿模，其他都挺好的"
+      }
+    },
+    {
+      "content": "@Rachel瑞湫_DESIGN 那再改改",
+      "sender": "素语(素语)",
+      "time": "2026-02-12T10:54:37+08:00",
+      "msg": {
+        "seq": 1770864877000,
+        "time": "2026-02-12T10:54:37+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_8omel9zdphpt22",
+        "senderName": "素语(素语)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Rachel瑞湫_DESIGN 那再改改"
+      }
+    },
+    {
+      "content": "感谢感谢",
+      "sender": "cy87501793",
+      "time": "2026-02-12T11:00:16+08:00",
+      "msg": {
+        "seq": 1770865216000,
+        "time": "2026-02-12T11:00:16+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "cy87501793",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "感谢感谢"
+      }
+    },
+    {
+      "content": "＃交作业",
+      "sender": "素语(素语)",
+      "time": "2026-02-12T11:15:39+08:00",
+      "msg": {
+        "seq": 1770866139000,
+        "time": "2026-02-12T11:15:39+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_8omel9zdphpt22",
+        "senderName": "素语(素语)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "＃交作业"
+      }
+    },
+    {
+      "content": "把竹叶青去掉配音，重新上传了。",
+      "sender": "素语(素语)",
+      "time": "2026-02-12T11:27:22+08:00",
+      "msg": {
+        "seq": 1770866842000,
+        "time": "2026-02-12T11:27:22+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_8omel9zdphpt22",
+        "senderName": "素语(素语)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "把竹叶青去掉配音，重新上传了。"
+      }
+    },
+    {
+      "content": "我用我的年兽姥爷IP做了个汾酒的视频  感觉没有配音有点没意思",
+      "sender": "紫薯有范（原范范W）",
+      "time": "2026-02-12T11:53:46+08:00",
+      "msg": {
+        "seq": 1770868426000,
+        "time": "2026-02-12T11:53:46+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_cgo9gxywdua022",
+        "senderName": "紫薯有范（原范范W）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我用我的年兽姥爷IP做了个汾酒的视频  感觉没有配音有点没意思"
+      }
+    },
+    {
+      "content": "@Andy老师｜野菩萨社团 老师在吗？我昨天交的百度ai撞春的作业。提交链接的ID码填错了，我今天需要再提交一次吗？百度ai撞春截止到今天几点？",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T12:04:50+08:00",
+      "msg": {
+        "seq": 1770869090000,
+        "time": "2026-02-12T12:04:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Andy老师｜野菩萨社团 老师在吗？我昨天交的百度ai撞春的作业。提交链接的ID码填错了，我今天需要再提交一次吗？百度ai撞春截止到今天几点？"
+      }
+    },
+    {
+      "content": "@Andy老师｜野菩萨社团 ",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T12:05:02+08:00",
+      "msg": {
+        "seq": 1770869102000,
+        "time": "2026-02-12T12:05:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Andy老师｜野菩萨社团 "
+      }
+    },
+    {
+      "content": "晚上23.59好像",
+      "sender": "不设限的烟火Firework",
+      "time": "2026-02-12T12:21:55+08:00",
+      "msg": {
+        "seq": 1770870115000,
+        "time": "2026-02-12T12:21:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_76hno7nrydvz22",
+        "senderName": "不设限的烟火Firework",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "晚上23.59好像"
+      }
+    },
+    {
+      "content": "重新提交一下",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:27:47+08:00",
+      "msg": {
+        "seq": 1770870467000,
+        "time": "2026-02-12T12:27:47+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "重新提交一下"
+      }
+    },
+    {
+      "content": "好的谢谢你们",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T12:29:14+08:00",
+      "msg": {
+        "seq": 1770870554000,
+        "time": "2026-02-12T12:29:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "好的谢谢你们"
+      }
+    },
+    {
+      "content": "刚刚在找时间",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:29:35+08:00",
+      "msg": {
+        "seq": 1770870575000,
+        "time": "2026-02-12T12:29:35+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "刚刚在找时间"
+      }
+    },
+    {
+      "content": "那需要把之前的那条删除了再提交，不然会判重复了，所以问一下时间是不是来得及",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T12:31:28+08:00",
+      "msg": {
+        "seq": 1770870688000,
+        "time": "2026-02-12T12:31:28+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "那需要把之前的那条删除了再提交，不然会判重复了，所以问一下时间是不是来得及"
+      }
+    },
+    {
+      "content": "删除很快吧？",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:32:15+08:00",
+      "msg": {
+        "seq": 1770870735000,
+        "time": "2026-02-12T12:32:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "删除很快吧？"
+      }
+    },
+    {
+      "content": "我之前也发错了。删除了",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:32:27+08:00",
+      "msg": {
+        "seq": 1770870747000,
+        "time": "2026-02-12T12:32:27+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我之前也发错了。删除了"
+      }
+    },
+    {
+      "content": "但是那个审核时间比较慢",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:32:45+08:00",
+      "msg": {
+        "seq": 1770870765000,
+        "time": "2026-02-12T12:32:45+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "但是那个审核时间比较慢"
+      }
+    },
+    {
+      "content": "第一次提交还在审核，然后那个id审核通过变了还",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:33:05+08:00",
+      "msg": {
+        "seq": 1770870785000,
+        "time": "2026-02-12T12:33:05+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "第一次提交还在审核，然后那个id审核通过变了还"
+      }
+    },
+    {
+      "content": "我以为今天12点就截止了",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T12:33:14+08:00",
+      "msg": {
+        "seq": 1770870794000,
+        "time": "2026-02-12T12:33:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我以为今天12点就截止了"
+      }
+    },
+    {
+      "content": "一般都24点",
+      "sender": "tiantrose",
+      "time": "2026-02-12T12:33:27+08:00",
+      "msg": {
+        "seq": 1770870807000,
+        "time": "2026-02-12T12:33:27+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "一般都24点"
+      }
+    },
+    {
+      "content": "嗯嗯好的[玫瑰]",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T12:33:40+08:00",
+      "msg": {
+        "seq": 1770870820000,
+        "time": "2026-02-12T12:33:40+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "嗯嗯好的[玫瑰]"
+      }
+    },
+    {
+      "content": "@正 即梦交作品赚积分是必须用即梦做的么？",
+      "sender": "wxid_g7kwna6q389a22",
+      "time": "2026-02-12T12:56:10+08:00",
+      "msg": {
+        "seq": 1770872170000,
+        "time": "2026-02-12T12:56:10+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g7kwna6q389a22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@正 即梦交作品赚积分是必须用即梦做的么？"
+      }
+    },
+    {
+      "content": "你提交的作品去掉水印就行了",
+      "sender": "正",
+      "time": "2026-02-12T12:56:58+08:00",
+      "msg": {
+        "seq": 1770872218000,
+        "time": "2026-02-12T12:56:58+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "你提交的作品去掉水印就行了"
+      }
+    },
+    {
+      "content": "它管的还没那么宽",
+      "sender": "正",
+      "time": "2026-02-12T12:57:42+08:00",
+      "msg": {
+        "seq": 1770872262000,
+        "time": "2026-02-12T12:57:42+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "它管的还没那么宽"
+      }
+    },
+    {
+      "content": "爬楼600+级，看到昨天真的上课了...好在有回放，有课代表的笔记 @皮皮咩（皮皮咩） [玫瑰]",
+      "sender": "wxid_g7kwna6q389a22",
+      "time": "2026-02-12T12:57:47+08:00",
+      "msg": {
+        "seq": 1770872267000,
+        "time": "2026-02-12T12:57:47+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g7kwna6q389a22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "爬楼600+级，看到昨天真的上课了...好在有回放，有课代表的笔记 @皮皮咩（皮皮咩） [玫瑰]"
+      }
+    },
+    {
+      "content": "老师正在下载课程回放，下午给大家发回放嗷",
+      "sender": "25984983898501337@openim",
+      "time": "2026-02-12T12:58:31+08:00",
+      "msg": {
+        "seq": 1770872311000,
+        "time": "2026-02-12T12:58:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "25984983898501337@openim",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "老师正在下载课程回放，下午给大家发回放嗷"
+      }
+    },
+    {
+      "content": "@团团老师 looking forward...[色]",
+      "sender": "wxid_g7kwna6q389a22",
+      "time": "2026-02-12T13:00:52+08:00",
+      "msg": {
+        "seq": 1770872452000,
+        "time": "2026-02-12T13:00:52+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g7kwna6q389a22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@团团老师 looking forward...[色]"
+      }
+    },
+    {
+      "content": "[旺柴]PB这期的入选名单哪个是你？",
+      "sender": "正",
+      "time": "2026-02-12T13:08:50+08:00",
+      "msg": {
+        "seq": 1770872930000,
+        "time": "2026-02-12T13:08:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[旺柴]PB这期的入选名单哪个是你？"
+      }
+    },
+    {
+      "content": "@团团老师 | 最近被AI附身了... ",
+      "sender": "正",
+      "time": "2026-02-12T13:08:55+08:00",
+      "msg": {
+        "seq": 1770872935000,
+        "time": "2026-02-12T13:08:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@团团老师 | 最近被AI附身了... "
+      }
+    },
+    {
+      "content": "即梦上传作品给积分比tapnow小气多了",
+      "sender": "老张",
+      "time": "2026-02-12T13:16:49+08:00",
+      "msg": {
+        "seq": 1770873409000,
+        "time": "2026-02-12T13:16:49+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "即梦上传作品给积分比tapnow小气多了"
+      }
+    },
+    {
+      "content": "主要是tapnow花的也快",
+      "sender": "wxid_h17cpacbx3r512",
+      "time": "2026-02-12T13:19:35+08:00",
+      "msg": {
+        "seq": 1770873575000,
+        "time": "2026-02-12T13:19:35+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_h17cpacbx3r512",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "主要是tapnow花的也快"
+      }
+    },
+    {
+      "content": "哈哈 也是哈 ，一条可灵3要三百多分",
+      "sender": "老张",
+      "time": "2026-02-12T13:20:25+08:00",
+      "msg": {
+        "seq": 1770873625000,
+        "time": "2026-02-12T13:20:25+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "哈哈 也是哈 ，一条可灵3要三百多分"
+      }
+    },
+    {
+      "content": "我们当评委",
+      "sender": "正",
+      "time": "2026-02-12T13:36:12+08:00",
+      "msg": {
+        "seq": 1770874572000,
+        "time": "2026-02-12T13:36:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我们当评委"
+      }
+    },
+    {
+      "content": "[旺柴]奖金再发给我们",
+      "sender": "正",
+      "time": "2026-02-12T13:37:02+08:00",
+      "msg": {
+        "seq": 1770874622000,
+        "time": "2026-02-12T13:37:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[旺柴]奖金再发给我们"
+      }
+    },
+    {
+      "content": "即梦的5折优惠好像没了？",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T13:41:15+08:00",
+      "msg": {
+        "seq": 1770874875000,
+        "time": "2026-02-12T13:41:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "即梦的5折优惠好像没了？"
+      }
+    },
+    {
+      "content": "就持续了一天？",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T13:41:25+08:00",
+      "msg": {
+        "seq": 1770874885000,
+        "time": "2026-02-12T13:41:25+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "就持续了一天？"
+      }
+    },
+    {
+      "content": "有的吧。",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T13:42:52+08:00",
+      "msg": {
+        "seq": 1770874972000,
+        "time": "2026-02-12T13:42:52+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "有的吧。"
+      }
+    },
+    {
+      "content": "哦 可能我买过了就没了",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T13:43:10+08:00",
+      "msg": {
+        "seq": 1770874990000,
+        "time": "2026-02-12T13:43:10+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "哦 可能我买过了就没了"
+      }
+    },
+    {
+      "content": "只限年卡。",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T13:43:12+08:00",
+      "msg": {
+        "seq": 1770874992000,
+        "time": "2026-02-12T13:43:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "只限年卡。"
+      }
+    },
+    {
+      "content": "如果之前是基础会员，升级标准可以享受5折的。",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T13:43:57+08:00",
+      "msg": {
+        "seq": 1770875037000,
+        "time": "2026-02-12T13:43:57+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "如果之前是基础会员，升级标准可以享受5折的。"
+      }
+    },
+    {
+      "content": "只有一次机会 买了便宜会员的半价的话想换高级的就没这个价了",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T13:43:58+08:00",
+      "msg": {
+        "seq": 1770875038000,
+        "time": "2026-02-12T13:43:58+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "只有一次机会 买了便宜会员的半价的话想换高级的就没这个价了"
+      }
+    },
+    {
+      "content": "我这里显示是原价诶",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T13:44:07+08:00",
+      "msg": {
+        "seq": 1770875047000,
+        "time": "2026-02-12T13:44:07+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我这里显示是原价诶"
+      }
+    },
+    {
+      "content": "不过我之前没有会员",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T13:44:13+08:00",
+      "msg": {
+        "seq": 1770875053000,
+        "time": "2026-02-12T13:44:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "不过我之前没有会员"
+      }
+    },
+    {
+      "content": "哦，那就不清楚了，我之前半价基础，后来又半价买了标准，正好在2.0出来前。",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T13:46:22+08:00",
+      "msg": {
+        "seq": 1770875182000,
+        "time": "2026-02-12T13:46:22+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "哦，那就不清楚了，我之前半价基础，后来又半价买了标准，正好在2.0出来前。"
+      }
+    },
+    {
+      "content": "你们都买即梦年会员了吗？",
+      "sender": "dayse8748899",
+      "time": "2026-02-12T14:02:14+08:00",
+      "msg": {
+        "seq": 1770876134000,
+        "time": "2026-02-12T14:02:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "dayse8748899",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "你们都买即梦年会员了吗？"
+      }
+    },
+    {
+      "content": "我买了， 高级会员积分4折，15秒只要45分",
+      "sender": "老张",
+      "time": "2026-02-12T14:07:29+08:00",
+      "msg": {
+        "seq": 1770876449000,
+        "time": "2026-02-12T14:07:29+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我买了， 高级会员积分4折，15秒只要45分"
+      }
+    },
+    {
+      "content": "加了视频参考15秒才90积分",
+      "sender": "老张",
+      "time": "2026-02-12T14:07:51+08:00",
+      "msg": {
+        "seq": 1770876471000,
+        "time": "2026-02-12T14:07:51+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "加了视频参考15秒才90积分"
+      }
+    },
+    {
+      "content": "@老张   年费多少钱？在哪买？",
+      "sender": "wxid_de5ma5nvd0a011",
+      "time": "2026-02-12T14:09:17+08:00",
+      "msg": {
+        "seq": 1770876557000,
+        "time": "2026-02-12T14:09:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_de5ma5nvd0a011",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@老张   年费多少钱？在哪买？"
+      }
+    },
+    {
+      "content": "即梦",
+      "sender": "wxid_de5ma5nvd0a011",
+      "time": "2026-02-12T14:09:21+08:00",
+      "msg": {
+        "seq": 1770876561000,
+        "time": "2026-02-12T14:09:21+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_de5ma5nvd0a011",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "即梦"
+      }
+    },
+    {
+      "content": "[强][强][强]我还在犹豫，高级会员要不要买，现在变化太快了",
+      "sender": "dayse8748899",
+      "time": "2026-02-12T14:09:50+08:00",
+      "msg": {
+        "seq": 1770876590000,
+        "time": "2026-02-12T14:09:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "dayse8748899",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[强][强][强]我还在犹豫，高级会员要不要买，现在变化太快了"
+      }
+    },
+    {
+      "content": "手机不知道，网页版在主页这个位置，点一下就会弹出来了",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:10:26+08:00",
+      "msg": {
+        "seq": 1770876626000,
+        "time": "2026-02-12T14:10:26+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "手机不知道，网页版在主页这个位置，点一下就会弹出来了"
+      }
+    },
+    {
+      "content": "《布包裹春》\n\n那蓝布包磨出的毛边，是时光啃出的温柔齿痕；新旧交叠的针脚里，藏着三代人没说出口的默契——太婆把桂花香缝进鞋尖，是怕日子太苦；儿媳添上虎爪，是盼孩子能闯；孙女塞进蜡笔太阳，是觉得春天就该亮堂堂。\n \n其实哪有什么永恒的物件？不过是一代又一代人，把自己的心意叠进同一个布包，让旧布裹着新暖，让老故事长出新枝芽。就像那布面上的梅，太婆绣时是含苞，儿媳补时是半开，到孙女画太阳时，早成了满枝春。\n \n原来所谓“家”，就是这样一个能“裹住春”的布包——不必华丽，却能把每个人的岁月，都酿成后人手里的暖；不必不朽，却能让每一份牵挂，都在时光里，生生不息地发芽。",
+      "sender": "weibojiushini",
+      "time": "2026-02-12T14:12:55+08:00",
+      "msg": {
+        "seq": 1770876775000,
+        "time": "2026-02-12T14:12:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "weibojiushini",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "《布包裹春》\n\n那蓝布包磨出的毛边，是时光啃出的温柔齿痕；新旧交叠的针脚里，藏着三代人没说出口的默契——太婆把桂花香缝进鞋尖，是怕日子太苦；儿媳添上虎爪，是盼孩子能闯；孙女塞进蜡笔太阳，是觉得春天就该亮堂堂。\n \n其实哪有什么永恒的物件？不过是一代又一代人，把自己的心意叠进同一个布包，让旧布裹着新暖，让老故事长出新枝芽。就像那布面上的梅，太婆绣时是含苞，儿媳补时是半开，到孙女画太阳时，早成了满枝春。\n \n原来所谓“家”，就是这样一个能“裹住春”的布包——不必华丽，却能把每个人的岁月，都酿成后人手里的暖；不必不朽，却能让每一份牵挂，都在时光里，生生不息地发芽。"
+      }
+    },
+    {
+      "content": "@Elizabeth 首页顶部就有活动，点进去就是年费半价界面",
+      "sender": "老张",
+      "time": "2026-02-12T14:13:14+08:00",
+      "msg": {
+        "seq": 1770876794000,
+        "time": "2026-02-12T14:13:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Elizabeth 首页顶部就有活动，点进去就是年费半价界面"
+      }
+    },
+    {
+      "content": "好的谢谢",
+      "sender": "wxid_de5ma5nvd0a011",
+      "time": "2026-02-12T14:13:26+08:00",
+      "msg": {
+        "seq": 1770876806000,
+        "time": "2026-02-12T14:13:26+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_de5ma5nvd0a011",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "好的谢谢"
+      }
+    },
+    {
+      "content": "原价五千多，半价两千多，一个月两百多一点，我觉得还是划算，加上高级会员模型4折，跑seedance2.0很便宜",
+      "sender": "老张",
+      "time": "2026-02-12T14:14:12+08:00",
+      "msg": {
+        "seq": 1770876852000,
+        "time": "2026-02-12T14:14:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "原价五千多，半价两千多，一个月两百多一点，我觉得还是划算，加上高级会员模型4折，跑seedance2.0很便宜"
+      }
+    },
+    {
+      "content": "是啊 要不是没钱我就冲高级了",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:16:20+08:00",
+      "msg": {
+        "seq": 1770876980000,
+        "time": "2026-02-12T14:16:20+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "是啊 要不是没钱我就冲高级了"
+      }
+    },
+    {
+      "content": "高级好像是插队的，但是也要排，白天排十几个，晚上不排",
+      "sender": "老张",
+      "time": "2026-02-12T14:16:50+08:00",
+      "msg": {
+        "seq": 1770877010000,
+        "time": "2026-02-12T14:16:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "高级好像是插队的，但是也要排，白天排十几个，晚上不排"
+      }
+    },
+    {
+      "content": "我刚刚就被插队了",
+      "sender": "wxid_nrd5t8wpfhsk21",
+      "time": "2026-02-12T14:17:03+08:00",
+      "msg": {
+        "seq": 1770877023000,
+        "time": "2026-02-12T14:17:03+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_nrd5t8wpfhsk21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我刚刚就被插队了"
+      }
+    },
+    {
+      "content": "@ヒーロー見参！（ヒーロー見参！） 你超预算了可以花呗分期呀，不一下就变成月费了",
+      "sender": "老张",
+      "time": "2026-02-12T14:17:08+08:00",
+      "msg": {
+        "seq": 1770877046001,
+        "time": "2026-02-12T14:17:08+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@ヒーロー見参！（ヒーロー見参！） 你超预算了可以花呗分期呀，不一下就变成月费了"
+      }
+    },
+    {
+      "content": "分12期",
+      "sender": "老张",
+      "time": "2026-02-12T14:17:17+08:00",
+      "msg": {
+        "seq": 1770877046003,
+        "time": "2026-02-12T14:17:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "分12期"
+      }
+    },
+    {
+      "content": "这倒是个方法 不过没开通花呗[破涕为笑]",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:18:11+08:00",
+      "msg": {
+        "seq": 1770877091000,
+        "time": "2026-02-12T14:18:11+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这倒是个方法 不过没开通花呗[破涕为笑]"
+      }
+    },
+    {
+      "content": "不喜欢超前消费",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:18:17+08:00",
+      "msg": {
+        "seq": 1770877097000,
+        "time": "2026-02-12T14:18:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "不喜欢超前消费"
+      }
+    },
+    {
+      "content": "高级也排队[旺柴]",
+      "sender": "Urey柚梨",
+      "time": "2026-02-12T14:24:46+08:00",
+      "msg": {
+        "seq": 1770877486000,
+        "time": "2026-02-12T14:24:46+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "oOfishbabyOo",
+        "senderName": "Urey柚梨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "高级也排队[旺柴]"
+      }
+    },
+    {
+      "content": "高级只跟高级排，我刚刚从基础年费升级到高级年费，深有体会[苦涩]",
+      "sender": "老张",
+      "time": "2026-02-12T14:29:24+08:00",
+      "msg": {
+        "seq": 1770877764000,
+        "time": "2026-02-12T14:29:24+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "高级只跟高级排，我刚刚从基础年费升级到高级年费，深有体会[苦涩]"
+      }
+    },
+    {
+      "content": "高级现在要排多久？",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T14:30:20+08:00",
+      "msg": {
+        "seq": 1770877820000,
+        "time": "2026-02-12T14:30:20+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "高级现在要排多久？"
+      }
+    },
+    {
+      "content": "我基本都是晚上用  晚上没排过",
+      "sender": "老张",
+      "time": "2026-02-12T14:31:05+08:00",
+      "msg": {
+        "seq": 1770877865000,
+        "time": "2026-02-12T14:31:05+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我基本都是晚上用  晚上没排过"
+      }
+    },
+    {
+      "content": "但是生成还是超慢的",
+      "sender": "老张",
+      "time": "2026-02-12T14:31:17+08:00",
+      "msg": {
+        "seq": 1770877877000,
+        "time": "2026-02-12T14:31:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "但是生成还是超慢的"
+      }
+    },
+    {
+      "content": "排20分钟了，显示从7分钟变成6分钟",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:31:57+08:00",
+      "msg": {
+        "seq": 1770877917000,
+        "time": "2026-02-12T14:31:57+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "排20分钟了，显示从7分钟变成6分钟"
+      }
+    },
+    {
+      "content": "据说api有特权，可以留意整合平台上线",
+      "sender": "老张",
+      "time": "2026-02-12T14:32:02+08:00",
+      "msg": {
+        "seq": 1770877922000,
+        "time": "2026-02-12T14:32:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "据说api有特权，可以留意整合平台上线"
+      }
+    },
+    {
+      "content": "我是标准",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:32:09+08:00",
+      "msg": {
+        "seq": 1770877929000,
+        "time": "2026-02-12T14:32:09+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我是标准"
+      }
+    },
+    {
+      "content": "这个你们有吗？",
+      "sender": "Aria清",
+      "time": "2026-02-12T14:32:24+08:00",
+      "msg": {
+        "seq": 1770877944000,
+        "time": "2026-02-12T14:32:24+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这个你们有吗？"
+      }
+    },
+    {
+      "content": "把梯子关了会好",
+      "sender": "wxid_n8hloow0rhgz22",
+      "time": "2026-02-12T14:32:31+08:00",
+      "msg": {
+        "seq": 1770877951000,
+        "time": "2026-02-12T14:32:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_n8hloow0rhgz22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "把梯子关了会好"
+      }
+    },
+    {
+      "content": "api平台也分369等[捂脸]",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:32:34+08:00",
+      "msg": {
+        "seq": 1770877954000,
+        "time": "2026-02-12T14:32:34+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "api平台也分369等[捂脸]"
+      }
+    },
+    {
+      "content": "我也有～",
+      "sender": "Clara🌺²⁰²⁵(AI女巫only3岁)",
+      "time": "2026-02-12T14:32:58+08:00",
+      "msg": {
+        "seq": 1770877978000,
+        "time": "2026-02-12T14:32:58+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "clara8161",
+        "senderName": "Clara🌺²⁰²⁵(AI女巫only3岁)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我也有～"
+      }
+    },
+    {
+      "content": "有的",
+      "sender": "老张",
+      "time": "2026-02-12T14:33:31+08:00",
+      "msg": {
+        "seq": 1770878011000,
+        "time": "2026-02-12T14:33:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "有的"
+      }
+    },
+    {
+      "content": "梯子不能关啊 还在用着lovart[捂脸]",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:33:48+08:00",
+      "msg": {
+        "seq": 1770878028000,
+        "time": "2026-02-12T14:33:48+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "梯子不能关啊 还在用着lovart[捂脸]"
+      }
+    },
+    {
+      "content": "暂时",
+      "sender": "wxid_n8hloow0rhgz22",
+      "time": "2026-02-12T14:33:58+08:00",
+      "msg": {
+        "seq": 1770878038000,
+        "time": "2026-02-12T14:33:58+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_n8hloow0rhgz22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "暂时"
+      }
+    },
+    {
+      "content": "目前即梦上了一个2.0 Fast版本，大家手头有着急的可以用这个版本，快、性价比高，效果略弱一点点",
+      "sender": "Aria清",
+      "time": "2026-02-12T14:34:11+08:00",
+      "msg": {
+        "seq": 1770878051000,
+        "time": "2026-02-12T14:34:11+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "目前即梦上了一个2.0 Fast版本，大家手头有着急的可以用这个版本，快、性价比高，效果略弱一点点"
+      }
+    },
+    {
+      "content": "准备入年卡了",
+      "sender": "wxid_n8hloow0rhgz22",
+      "time": "2026-02-12T14:34:20+08:00",
+      "msg": {
+        "seq": 1770878060000,
+        "time": "2026-02-12T14:34:20+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_n8hloow0rhgz22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "准备入年卡了"
+      }
+    },
+    {
+      "content": "我这还没有fast的",
+      "sender": "Urey柚梨",
+      "time": "2026-02-12T14:34:57+08:00",
+      "msg": {
+        "seq": 1770878097000,
+        "time": "2026-02-12T14:34:57+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "oOfishbabyOo",
+        "senderName": "Urey柚梨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我这还没有fast的"
+      }
+    },
+    {
+      "content": "反正字节也跑不了",
+      "sender": "wxid_n8hloow0rhgz22",
+      "time": "2026-02-12T14:35:11+08:00",
+      "msg": {
+        "seq": 1770878111000,
+        "time": "2026-02-12T14:35:11+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_n8hloow0rhgz22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "反正字节也跑不了"
+      }
+    },
+    {
+      "content": "@尹星懿 我觉得可入，入了就不需要考虑fast直接上全量",
+      "sender": "老张",
+      "time": "2026-02-12T14:35:27+08:00",
+      "msg": {
+        "seq": 1770878127000,
+        "time": "2026-02-12T14:35:27+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@尹星懿 我觉得可入，入了就不需要考虑fast直接上全量"
+      }
+    },
+    {
+      "content": "平时用量多的可以考虑入一下， 性价比不错的",
+      "sender": "Aria清",
+      "time": "2026-02-12T14:36:07+08:00",
+      "msg": {
+        "seq": 1770878167000,
+        "time": "2026-02-12T14:36:07+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "平时用量多的可以考虑入一下， 性价比不错的"
+      }
+    },
+    {
+      "content": "但是fast可以2条抵1条，加上速度优势，还是不错的。谢谢清老师的提醒。",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T14:36:48+08:00",
+      "msg": {
+        "seq": 1770878208000,
+        "time": "2026-02-12T14:36:48+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "但是fast可以2条抵1条，加上速度优势，还是不错的。谢谢清老师的提醒。"
+      }
+    },
+    {
+      "content": "清零真是要吐血了[大哭]",
+      "sender": "wxid_lw5nl2j485qm22",
+      "time": "2026-02-12T14:37:36+08:00",
+      "msg": {
+        "seq": 1770878256000,
+        "time": "2026-02-12T14:37:36+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lw5nl2j485qm22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "清零真是要吐血了[大哭]"
+      }
+    },
+    {
+      "content": "tapnow虽然贵，但是是唯一不清零的平台",
+      "sender": "Aria清",
+      "time": "2026-02-12T14:38:18+08:00",
+      "msg": {
+        "seq": 1770878298000,
+        "time": "2026-02-12T14:38:18+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "tapnow虽然贵，但是是唯一不清零的平台"
+      }
+    },
+    {
+      "content": "higgsfield算了一下也挺贵的",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:38:51+08:00",
+      "msg": {
+        "seq": 1770878331000,
+        "time": "2026-02-12T14:38:51+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "higgsfield算了一下也挺贵的"
+      }
+    },
+    {
+      "content": "但是那个视频编辑功能很香",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:39:15+08:00",
+      "msg": {
+        "seq": 1770878355000,
+        "time": "2026-02-12T14:39:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "但是那个视频编辑功能很香"
+      }
+    },
+    {
+      "content": "用的人越多，即梦的智力越低哎...跑出来的视频没有前两天的好了",
+      "sender": "vip138233003",
+      "time": "2026-02-12T14:39:16+08:00",
+      "msg": {
+        "seq": 1770878356000,
+        "time": "2026-02-12T14:39:16+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "vip138233003",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "用的人越多，即梦的智力越低哎...跑出来的视频没有前两天的好了"
+      }
+    },
+    {
+      "content": "我没有fast。。。",
+      "sender": "Echo 🎶（Ekho迴)",
+      "time": "2026-02-12T14:39:19+08:00",
+      "msg": {
+        "seq": 1770878359000,
+        "time": "2026-02-12T14:39:19+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "echo_5566",
+        "senderName": "Echo 🎶（Ekho迴)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我没有fast。。。"
+      }
+    },
+    {
+      "content": "我也没有fast",
+      "sender": "wxid_lw5nl2j485qm22",
+      "time": "2026-02-12T14:39:42+08:00",
+      "msg": {
+        "seq": 1770878382000,
+        "time": "2026-02-12T14:39:42+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lw5nl2j485qm22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我也没有fast"
+      }
+    },
+    {
+      "content": "seedance2.0这次真的是新手友好，娱乐性很强。",
+      "sender": "fanko_wx",
+      "time": "2026-02-12T14:41:02+08:00",
+      "msg": {
+        "seq": 1770878462000,
+        "time": "2026-02-12T14:41:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "fanko_wx",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "seedance2.0这次真的是新手友好，娱乐性很强。"
+      }
+    },
+    {
+      "content": "@Andy老师｜野菩萨社团 老师，百度ai撞春的这个链接提交不了，是超时了吗？需要怎么弄",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T14:42:15+08:00",
+      "msg": {
+        "seq": 1770878535000,
+        "time": "2026-02-12T14:42:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Andy老师｜野菩萨社团 老师，百度ai撞春的这个链接提交不了，是超时了吗？需要怎么弄"
+      }
+    },
+    {
+      "content": "网络问题哈@柳暗花明 ",
+      "sender": "Alan",
+      "time": "2026-02-12T14:43:06+08:00",
+      "msg": {
+        "seq": 1770878586000,
+        "time": "2026-02-12T14:43:06+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kq9sc4t9s6mp21",
+        "senderName": "Alan",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "网络问题哈@柳暗花明 "
+      }
+    },
+    {
+      "content": "要等上传成功才行",
+      "sender": "Alan",
+      "time": "2026-02-12T14:43:16+08:00",
+      "msg": {
+        "seq": 1770878596000,
+        "time": "2026-02-12T14:43:16+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kq9sc4t9s6mp21",
+        "senderName": "Alan",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "要等上传成功才行"
+      }
+    },
+    {
+      "content": "太赞了 越排越久",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:49:07+08:00",
+      "msg": {
+        "seq": 1770878947000,
+        "time": "2026-02-12T14:49:07+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "太赞了 越排越久"
+      }
+    },
+    {
+      "content": "好的，Alan",
+      "sender": "wxid_lj2fdceqh2se22",
+      "time": "2026-02-12T14:50:50+08:00",
+      "msg": {
+        "seq": 1770879050000,
+        "time": "2026-02-12T14:50:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_lj2fdceqh2se22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "好的，Alan"
+      }
+    },
+    {
+      "content": "大家都买即梦什么年会员啊？",
+      "sender": "素语(素语)",
+      "time": "2026-02-12T14:52:32+08:00",
+      "msg": {
+        "seq": 1770879152000,
+        "time": "2026-02-12T14:52:32+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_8omel9zdphpt22",
+        "senderName": "素语(素语)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "大家都买即梦什么年会员啊？"
+      }
+    },
+    {
+      "content": "同问",
+      "sender": "wxid_pguxevxb9vvl51",
+      "time": "2026-02-12T14:53:48+08:00",
+      "msg": {
+        "seq": 1770879228000,
+        "time": "2026-02-12T14:53:48+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_pguxevxb9vvl51",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "同问"
+      }
+    },
+    {
+      "content": "同问",
+      "sender": "wxid_0gdxg7rcxxhi22",
+      "time": "2026-02-12T14:53:58+08:00",
+      "msg": {
+        "seq": 1770879238000,
+        "time": "2026-02-12T14:53:58+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_0gdxg7rcxxhi22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "同问"
+      }
+    },
+    {
+      "content": "看经济实力来",
+      "sender": "ヒーロー見参！（ヒーロー見参！）",
+      "time": "2026-02-12T14:54:24+08:00",
+      "msg": {
+        "seq": 1770879264000,
+        "time": "2026-02-12T14:54:24+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7301023053611",
+        "senderName": "ヒーロー見参！（ヒーロー見参！）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "看经济实力来"
+      }
+    },
+    {
+      "content": "即梦seedance2.0要内测账号吗？开放了没有？",
+      "sender": "q64322869",
+      "time": "2026-02-12T14:58:28+08:00",
+      "msg": {
+        "seq": 1770879508000,
+        "time": "2026-02-12T14:58:28+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "q64322869",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "即梦seedance2.0要内测账号吗？开放了没有？"
+      }
+    },
+    {
+      "content": "我今天 才有",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T15:03:20+08:00",
+      "msg": {
+        "seq": 1770879800000,
+        "time": "2026-02-12T15:03:20+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我今天 才有"
+      }
+    },
+    {
+      "content": "这两天都是在用新模型",
+      "sender": "wozj81",
+      "time": "2026-02-12T15:05:00+08:00",
+      "msg": {
+        "seq": 1770879900000,
+        "time": "2026-02-12T15:05:00+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wozj81",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这两天都是在用新模型"
+      }
+    },
+    {
+      "content": "图片有5.0了，但seedance还是1.5pro",
+      "sender": "q64322869",
+      "time": "2026-02-12T15:06:28+08:00",
+      "msg": {
+        "seq": 1770879988000,
+        "time": "2026-02-12T15:06:28+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "q64322869",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "图片有5.0了，但seedance还是1.5pro"
+      }
+    },
+    {
+      "content": "海艺过年能接入？",
+      "sender": "正",
+      "time": "2026-02-12T15:22:12+08:00",
+      "msg": {
+        "seq": 1770880932000,
+        "time": "2026-02-12T15:22:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_q4k2lmjry7u322",
+        "senderName": "正",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "海艺过年能接入？"
+      }
+    },
+    {
+      "content": "百度ai撞春那个要求全程植入的指定logo我为什么打不开啊",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:35:13+08:00",
+      "msg": {
+        "seq": 1770881713000,
+        "time": "2026-02-12T15:35:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "百度ai撞春那个要求全程植入的指定logo我为什么打不开啊"
+      }
+    },
+    {
+      "content": "谁有那个麻烦给发一下",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:35:43+08:00",
+      "msg": {
+        "seq": 1770881743000,
+        "time": "2026-02-12T15:35:43+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "谁有那个麻烦给发一下"
+      }
+    },
+    {
+      "content": "这个啊",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:36:10+08:00",
+      "msg": {
+        "seq": 1770881770000,
+        "time": "2026-02-12T15:36:10+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这个啊"
+      }
+    },
+    {
+      "content": "[抱拳]",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:36:13+08:00",
+      "msg": {
+        "seq": 1770881773000,
+        "time": "2026-02-12T15:36:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[抱拳]"
+      }
+    },
+    {
+      "content": "对的",
+      "sender": "雾（May雾）",
+      "time": "2026-02-12T15:36:17+08:00",
+      "msg": {
+        "seq": 1770881777000,
+        "time": "2026-02-12T15:36:17+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_mpf7c42aoe7i22",
+        "senderName": "雾（May雾）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "对的"
+      }
+    },
+    {
+      "content": "这个怎么植入呢",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:36:25+08:00",
+      "msg": {
+        "seq": 1770881785000,
+        "time": "2026-02-12T15:36:25+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这个怎么植入呢"
+      }
+    },
+    {
+      "content": "你下载，他是png格式的，你直接拉剪映里想放哪放哪",
+      "sender": "雾（May雾）",
+      "time": "2026-02-12T15:37:13+08:00",
+      "msg": {
+        "seq": 1770881833000,
+        "time": "2026-02-12T15:37:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_mpf7c42aoe7i22",
+        "senderName": "雾（May雾）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "你下载，他是png格式的，你直接拉剪映里想放哪放哪"
+      }
+    },
+    {
+      "content": "明白了，只要做好了的视频放了这个就可以了对吧",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:38:19+08:00",
+      "msg": {
+        "seq": 1770881899000,
+        "time": "2026-02-12T15:38:19+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "明白了，只要做好了的视频放了这个就可以了对吧"
+      }
+    },
+    {
+      "content": "[抱拳]好的，明白了",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:39:06+08:00",
+      "msg": {
+        "seq": 1770881946000,
+        "time": "2026-02-12T15:39:06+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[抱拳]好的，明白了"
+      }
+    },
+    {
+      "content": "我说全程植入还以为是像PPT那样全程放在视频的一个角落里呢[捂脸]",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:40:18+08:00",
+      "msg": {
+        "seq": 1770882018000,
+        "time": "2026-02-12T15:40:18+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我说全程植入还以为是像PPT那样全程放在视频的一个角落里呢[捂脸]"
+      }
+    },
+    {
+      "content": "也是这么个意思啊",
+      "sender": "雾（May雾）",
+      "time": "2026-02-12T15:40:43+08:00",
+      "msg": {
+        "seq": 1770882043000,
+        "time": "2026-02-12T15:40:43+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_mpf7c42aoe7i22",
+        "senderName": "雾（May雾）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "也是这么个意思啊"
+      }
+    },
+    {
+      "content": "我理解的哈",
+      "sender": "雾（May雾）",
+      "time": "2026-02-12T15:41:51+08:00",
+      "msg": {
+        "seq": 1770882111000,
+        "time": "2026-02-12T15:41:51+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_mpf7c42aoe7i22",
+        "senderName": "雾（May雾）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我理解的哈"
+      }
+    },
+    {
+      "content": "我就直接把它拉满轴放在左下角了",
+      "sender": "楼蓝（嘎嘎嘣嘣）",
+      "time": "2026-02-12T15:42:47+08:00",
+      "msg": {
+        "seq": 1770882167000,
+        "time": "2026-02-12T15:42:47+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_u8zyda6klf1g21",
+        "senderName": "楼蓝（嘎嘎嘣嘣）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我就直接把它拉满轴放在左下角了"
+      }
+    },
+    {
+      "content": "哦，缩小放在角落里了？",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:43:29+08:00",
+      "msg": {
+        "seq": 1770882209000,
+        "time": "2026-02-12T15:43:29+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "哦，缩小放在角落里了？"
+      }
+    },
+    {
+      "content": "然后还扣图了吗？",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:43:50+08:00",
+      "msg": {
+        "seq": 1770882230000,
+        "time": "2026-02-12T15:43:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "然后还扣图了吗？"
+      }
+    },
+    {
+      "content": "我还在做呢",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:44:36+08:00",
+      "msg": {
+        "seq": 1770882276000,
+        "time": "2026-02-12T15:44:36+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我还在做呢"
+      }
+    },
+    {
+      "content": "今天最后一天了",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:44:45+08:00",
+      "msg": {
+        "seq": 1770882285000,
+        "time": "2026-02-12T15:44:45+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "今天最后一天了"
+      }
+    },
+    {
+      "content": "不用扣",
+      "sender": "楼蓝（嘎嘎嘣嘣）",
+      "time": "2026-02-12T15:44:51+08:00",
+      "msg": {
+        "seq": 1770882291000,
+        "time": "2026-02-12T15:44:51+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_u8zyda6klf1g21",
+        "senderName": "楼蓝（嘎嘎嘣嘣）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "不用扣"
+      }
+    },
+    {
+      "content": "缩小，大小你看着顺眼就行，",
+      "sender": "楼蓝（嘎嘎嘣嘣）",
+      "time": "2026-02-12T15:45:15+08:00",
+      "msg": {
+        "seq": 1770882315000,
+        "time": "2026-02-12T15:45:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_u8zyda6klf1g21",
+        "senderName": "楼蓝（嘎嘎嘣嘣）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "缩小，大小你看着顺眼就行，"
+      }
+    },
+    {
+      "content": "嗯[抱拳]",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T15:46:32+08:00",
+      "msg": {
+        "seq": 1770882392000,
+        "time": "2026-02-12T15:46:32+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "嗯[抱拳]"
+      }
+    },
+    {
+      "content": "那我买年费了",
+      "sender": "dayse8748899",
+      "time": "2026-02-12T15:49:04+08:00",
+      "msg": {
+        "seq": 1770882544000,
+        "time": "2026-02-12T15:49:04+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "dayse8748899",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "那我买年费了"
+      }
+    },
+    {
+      "content": "豆包也能用了",
+      "sender": "moon",
+      "time": "2026-02-12T15:50:32+08:00",
+      "msg": {
+        "seq": 1770882632000,
+        "time": "2026-02-12T15:50:32+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "namedhuku",
+        "senderName": "moon",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "豆包也能用了"
+      }
+    },
+    {
+      "content": "第一集撞春的“泼天”流量不知道第二集接的住不。感谢小伙伴们支持[抱拳][抱拳][抱拳]",
+      "sender": "紫薯有范（原范范W）",
+      "time": "2026-02-12T16:19:02+08:00",
+      "msg": {
+        "seq": 1770884342000,
+        "time": "2026-02-12T16:19:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_cgo9gxywdua022",
+        "senderName": "紫薯有范（原范范W）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "第一集撞春的“泼天”流量不知道第二集接的住不。感谢小伙伴们支持[抱拳][抱拳][抱拳]"
+      }
+    },
+    {
+      "content": "豆包里也有2.0",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T16:37:55+08:00",
+      "msg": {
+        "seq": 1770885475000,
+        "time": "2026-02-12T16:37:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "豆包里也有2.0"
+      }
+    },
+    {
+      "content": "嚯",
+      "sender": "Aria清",
+      "time": "2026-02-12T16:38:48+08:00",
+      "msg": {
+        "seq": 1770885528000,
+        "time": "2026-02-12T16:38:48+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "嚯"
+      }
+    },
+    {
+      "content": "@紫薯有范（原范范W） 请教一下，配音一般用哪个平台的比较稳定？能有情绪起伏这些的？",
+      "sender": "vip138233003",
+      "time": "2026-02-12T16:38:52+08:00",
+      "msg": {
+        "seq": 1770885532000,
+        "time": "2026-02-12T16:38:52+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "vip138233003",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@紫薯有范（原范范W） 请教一下，配音一般用哪个平台的比较稳定？能有情绪起伏这些的？"
+      }
+    },
+    {
+      "content": "剪映上也有.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T16:41:28+08:00",
+      "msg": {
+        "seq": 1770885688000,
+        "time": "2026-02-12T16:41:28+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "剪映上也有."
+      }
+    },
+    {
+      "content": "现在海螺情绪还是比较多的 还可以自己设计角色音色",
+      "sender": "紫薯有范（原范范W）",
+      "time": "2026-02-12T16:45:13+08:00",
+      "msg": {
+        "seq": 1770885913000,
+        "time": "2026-02-12T16:45:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_cgo9gxywdua022",
+        "senderName": "紫薯有范（原范范W）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "现在海螺情绪还是比较多的 还可以自己设计角色音色"
+      }
+    },
+    {
+      "content": "范范同学真是高产，又快又好[强][强]",
+      "sender": "teddybear",
+      "time": "2026-02-12T16:56:10+08:00",
+      "msg": {
+        "seq": 1770886570000,
+        "time": "2026-02-12T16:56:10+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "teddybear298146",
+        "senderName": "teddybear",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "范范同学真是高产，又快又好[强][强]"
+      }
+    },
+    {
+      "content": "今天坐高铁 8个小时太无聊了[偷笑]",
+      "sender": "紫薯有范（原范范W）",
+      "time": "2026-02-12T17:00:42+08:00",
+      "msg": {
+        "seq": 1770886842000,
+        "time": "2026-02-12T17:00:42+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_cgo9gxywdua022",
+        "senderName": "紫薯有范（原范范W）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "今天坐高铁 8个小时太无聊了[偷笑]"
+      }
+    },
+    {
+      "content": "用我最喜欢的“惊涛落日”第一次混[社会社会]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:01:31+08:00",
+      "msg": {
+        "seq": 1770886891000,
+        "time": "2026-02-12T17:01:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "用我最喜欢的“惊涛落日”第一次混[社会社会]"
+      }
+    },
+    {
+      "content": "大家看看我的首混，看的懂吗？[社会社会][得意][呲牙][呲牙][呲牙]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:03:40+08:00",
+      "msg": {
+        "seq": 1770887020000,
+        "time": "2026-02-12T17:03:40+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "大家看看我的首混，看的懂吗？[社会社会][得意][呲牙][呲牙][呲牙]"
+      }
+    },
+    {
+      "content": "感觉还可以再碎一点[得意]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:09:14+08:00",
+      "msg": {
+        "seq": 1770887354000,
+        "time": "2026-02-12T17:09:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "感觉还可以再碎一点[得意]"
+      }
+    },
+    {
+      "content": "请问琐呐是怎么用AI生成出来的？",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T17:09:59+08:00",
+      "msg": {
+        "seq": 1770887399000,
+        "time": "2026-02-12T17:09:59+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "请问琐呐是怎么用AI生成出来的？"
+      }
+    },
+    {
+      "content": "很赞[强]作品真多",
+      "sender": "Echo 🎶（Ekho迴)",
+      "time": "2026-02-12T17:10:40+08:00",
+      "msg": {
+        "seq": 1770887440000,
+        "time": "2026-02-12T17:10:40+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "echo_5566",
+        "senderName": "Echo 🎶（Ekho迴)",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "很赞[强]作品真多"
+      }
+    },
+    {
+      "content": "那是原曲",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:11:10+08:00",
+      "msg": {
+        "seq": 1770887470000,
+        "time": "2026-02-12T17:11:10+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "那是原曲"
+      }
+    },
+    {
+      "content": "我没改.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:11:16+08:00",
+      "msg": {
+        "seq": 1770887476000,
+        "time": "2026-02-12T17:11:16+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我没改."
+      }
+    },
+    {
+      "content": "真不错，一键三连",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T17:11:34+08:00",
+      "msg": {
+        "seq": 1770887494000,
+        "time": "2026-02-12T17:11:34+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "真不错，一键三连"
+      }
+    },
+    {
+      "content": "教咱混剪课的老师在群里吗？",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:11:48+08:00",
+      "msg": {
+        "seq": 1770887508000,
+        "time": "2026-02-12T17:11:48+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "教咱混剪课的老师在群里吗？"
+      }
+    },
+    {
+      "content": "琐呐的声音真的很燃",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-12T17:12:11+08:00",
+      "msg": {
+        "seq": 1770887531000,
+        "time": "2026-02-12T17:12:11+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "琐呐的声音真的很燃"
+      }
+    },
+    {
+      "content": "这首歌前面太平，我铺了半天…",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:12:13+08:00",
+      "msg": {
+        "seq": 1770887533000,
+        "time": "2026-02-12T17:12:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这首歌前面太平，我铺了半天…"
+      }
+    },
+    {
+      "content": "可以剪短，但感觉不好，我就没剪.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:12:55+08:00",
+      "msg": {
+        "seq": 1770887575000,
+        "time": "2026-02-12T17:12:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "可以剪短，但感觉不好，我就没剪."
+      }
+    },
+    {
+      "content": "@GHOST_1911 老师我初次混剪，咋样[抱拳]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:24:31+08:00",
+      "msg": {
+        "seq": 1770888271000,
+        "time": "2026-02-12T17:24:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@GHOST_1911 老师我初次混剪，咋样[抱拳]"
+      }
+    },
+    {
+      "content": "关键还有红包封面赠送[呲牙][呲牙]",
+      "sender": "wxid_pxwnjcb7z9jn22",
+      "time": "2026-02-12T17:25:45+08:00",
+      "msg": {
+        "seq": 1770888345000,
+        "time": "2026-02-12T17:25:45+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_pxwnjcb7z9jn22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "关键还有红包封面赠送[呲牙][呲牙]"
+      }
+    },
+    {
+      "content": "[笑脸]最后我还用赛车推了一把情绪.[偷笑]学老师🚀.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T17:28:57+08:00",
+      "msg": {
+        "seq": 1770888537000,
+        "time": "2026-02-12T17:28:57+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[笑脸]最后我还用赛车推了一把情绪.[偷笑]学老师🚀."
+      }
+    },
+    {
+      "content": "多了个2.0fast，没有2.0",
+      "sender": "q64322869",
+      "time": "2026-02-12T18:16:02+08:00",
+      "msg": {
+        "seq": 1770891362000,
+        "time": "2026-02-12T18:16:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "q64322869",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "多了个2.0fast，没有2.0"
+      }
+    },
+    {
+      "content": "简易版.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:17:12+08:00",
+      "msg": {
+        "seq": 1770891432000,
+        "time": "2026-02-12T18:17:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "简易版."
+      }
+    },
+    {
+      "content": "那个2.0要不要账号，还是到时候也会有的？",
+      "sender": "q64322869",
+      "time": "2026-02-12T18:18:19+08:00",
+      "msg": {
+        "seq": 1770891499000,
+        "time": "2026-02-12T18:18:19+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "q64322869",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "那个2.0要不要账号，还是到时候也会有的？"
+      }
+    },
+    {
+      "content": "fast应该更便宜的",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:19:43+08:00",
+      "msg": {
+        "seq": 1770891583000,
+        "time": "2026-02-12T18:19:43+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "fast应该更便宜的"
+      }
+    },
+    {
+      "content": "效果尼？",
+      "sender": "q64322869",
+      "time": "2026-02-12T18:19:52+08:00",
+      "msg": {
+        "seq": 1770891592000,
+        "time": "2026-02-12T18:19:52+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "q64322869",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "效果尼？"
+      }
+    },
+    {
+      "content": "估计会差一点",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:20:12+08:00",
+      "msg": {
+        "seq": 1770891612000,
+        "time": "2026-02-12T18:20:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "估计会差一点"
+      }
+    },
+    {
+      "content": "现在即梦Agent里面可以用5.0图，和s2.0",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:21:07+08:00",
+      "msg": {
+        "seq": 1770891667000,
+        "time": "2026-02-12T18:21:07+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "现在即梦Agent里面可以用5.0图，和s2.0"
+      }
+    },
+    {
+      "content": "刚开的",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:21:36+08:00",
+      "msg": {
+        "seq": 1770891696000,
+        "time": "2026-02-12T18:21:36+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "刚开的"
+      }
+    },
+    {
+      "content": "喜欢用Agent得可以试试.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:22:01+08:00",
+      "msg": {
+        "seq": 1770891721000,
+        "time": "2026-02-12T18:22:01+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "喜欢用Agent得可以试试."
+      }
+    },
+    {
+      "content": "豆包和剪映都有S2.0了，看新闻说.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:25:09+08:00",
+      "msg": {
+        "seq": 1770891909000,
+        "time": "2026-02-12T18:25:09+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "豆包和剪映都有S2.0了，看新闻说."
+      }
+    },
+    {
+      "content": "所以能用的地方多了",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:25:29+08:00",
+      "msg": {
+        "seq": 1770891929000,
+        "time": "2026-02-12T18:25:29+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "所以能用的地方多了"
+      }
+    },
+    {
+      "content": "香蕉pro在哪里能用啊？",
+      "sender": "q64322869",
+      "time": "2026-02-12T18:32:24+08:00",
+      "msg": {
+        "seq": 1770892344000,
+        "time": "2026-02-12T18:32:24+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "q64322869",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "香蕉pro在哪里能用啊？"
+      }
+    },
+    {
+      "content": "椒图",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:34:49+08:00",
+      "msg": {
+        "seq": 1770892489000,
+        "time": "2026-02-12T18:34:49+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "椒图"
+      }
+    },
+    {
+      "content": "Seedance队伍好长，排到时，估计都天亮了",
+      "sender": "bank850012",
+      "time": "2026-02-12T18:40:00+08:00",
+      "msg": {
+        "seq": 1770892800000,
+        "time": "2026-02-12T18:40:00+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "bank850012",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "Seedance队伍好长，排到时，估计都天亮了"
+      }
+    },
+    {
+      "content": "同学，我下午排到现在了",
+      "sender": "wxid_er76lsy7xp0j21",
+      "time": "2026-02-12T18:41:15+08:00",
+      "msg": {
+        "seq": 1770892875000,
+        "time": "2026-02-12T18:41:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_er76lsy7xp0j21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "同学，我下午排到现在了"
+      }
+    },
+    {
+      "content": "其他平台的如何？",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T18:59:37+08:00",
+      "msg": {
+        "seq": 1770893977000,
+        "time": "2026-02-12T18:59:37+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "其他平台的如何？"
+      }
+    },
+    {
+      "content": "最高会员需要等10分钟",
+      "sender": "Aria清",
+      "time": "2026-02-12T19:04:00+08:00",
+      "msg": {
+        "seq": 1770894240000,
+        "time": "2026-02-12T19:04:00+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "最高会员需要等10分钟"
+      }
+    },
+    {
+      "content": "即梦火爆全球[皱眉]",
+      "sender": "Aria清",
+      "time": "2026-02-12T19:04:09+08:00",
+      "msg": {
+        "seq": 1770894249000,
+        "time": "2026-02-12T19:04:09+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "即梦火爆全球[皱眉]"
+      }
+    },
+    {
+      "content": "[悠闲]我已经封机…过完年再开机…哈哈哈.本周末还有课吗？",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:05:26+08:00",
+      "msg": {
+        "seq": 1770894326000,
+        "time": "2026-02-12T19:05:26+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[悠闲]我已经封机…过完年再开机…哈哈哈.本周末还有课吗？"
+      }
+    },
+    {
+      "content": "休息",
+      "sender": "Aria清",
+      "time": "2026-02-12T19:08:55+08:00",
+      "msg": {
+        "seq": 1770894535000,
+        "time": "2026-02-12T19:08:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "休息"
+      }
+    },
+    {
+      "content": "@Aria清 是不是年后才有课了 清老师",
+      "sender": "老张",
+      "time": "2026-02-12T19:10:14+08:00",
+      "msg": {
+        "seq": 1770894614000,
+        "time": "2026-02-12T19:10:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Aria清 是不是年后才有课了 清老师"
+      }
+    },
+    {
+      "content": "22号有",
+      "sender": "Aria清",
+      "time": "2026-02-12T19:15:23+08:00",
+      "msg": {
+        "seq": 1770894923001,
+        "time": "2026-02-12T19:15:23+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "22号有"
+      }
+    },
+    {
+      "content": "兄弟姐妹们打字领钱",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:15:35+08:00",
+      "msg": {
+        "seq": 1770894935000,
+        "time": "2026-02-12T19:15:35+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "兄弟姐妹们打字领钱"
+      }
+    },
+    {
+      "content": "到时候助教老师应该会通知",
+      "sender": "Aria清",
+      "time": "2026-02-12T19:15:37+08:00",
+      "msg": {
+        "seq": 1770894937000,
+        "time": "2026-02-12T19:15:37+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "到时候助教老师应该会通知"
+      }
+    },
+    {
+      "content": "我已领",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:15:41+08:00",
+      "msg": {
+        "seq": 1770894941000,
+        "time": "2026-02-12T19:15:41+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我已领"
+      }
+    },
+    {
+      "content": "元宝",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:15:49+08:00",
+      "msg": {
+        "seq": 1770894949000,
+        "time": "2026-02-12T19:15:49+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "元宝"
+      }
+    },
+    {
+      "content": "密语",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:16:02+08:00",
+      "msg": {
+        "seq": 1770894962000,
+        "time": "2026-02-12T19:16:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "密语"
+      }
+    },
+    {
+      "content": "@逆流而上 lu-xh（逆流而上lu-xh） 赚钱小能手[强][强][偷笑]",
+      "sender": "wxid_v78vqwgbeso22",
+      "time": "2026-02-12T19:23:40+08:00",
+      "msg": {
+        "seq": 1770895420000,
+        "time": "2026-02-12T19:23:40+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_v78vqwgbeso22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@逆流而上 lu-xh（逆流而上lu-xh） 赚钱小能手[强][强][偷笑]"
+      }
+    },
+    {
+      "content": "你拿到了吗",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:24:38+08:00",
+      "msg": {
+        "seq": 1770895478000,
+        "time": "2026-02-12T19:24:38+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "你拿到了吗"
+      }
+    },
+    {
+      "content": "拿到了",
+      "sender": "wxid_v78vqwgbeso22",
+      "time": "2026-02-12T19:25:21+08:00",
+      "msg": {
+        "seq": 1770895521000,
+        "time": "2026-02-12T19:25:21+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_v78vqwgbeso22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "拿到了"
+      }
+    },
+    {
+      "content": "海艺最后一天奖励了，13号到期.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:29:41+08:00",
+      "msg": {
+        "seq": 1770895781000,
+        "time": "2026-02-12T19:29:41+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "海艺最后一天奖励了，13号到期."
+      }
+    },
+    {
+      "content": "赶紧领.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:29:49+08:00",
+      "msg": {
+        "seq": 1770895789000,
+        "time": "2026-02-12T19:29:49+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "赶紧领."
+      }
+    },
+    {
+      "content": "没啥用，每次只能出2张图，还慢得要死",
+      "sender": "wxid_v78vqwgbeso22",
+      "time": "2026-02-12T19:30:14+08:00",
+      "msg": {
+        "seq": 1770895814000,
+        "time": "2026-02-12T19:30:14+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_v78vqwgbeso22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "没啥用，每次只能出2张图，还慢得要死"
+      }
+    },
+    {
+      "content": "我13[偷笑]",
+      "sender": "wxid_v78vqwgbeso22",
+      "time": "2026-02-12T19:31:00+08:00",
+      "msg": {
+        "seq": 1770895860000,
+        "time": "2026-02-12T19:31:00+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_v78vqwgbeso22",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我13[偷笑]"
+      }
+    },
+    {
+      "content": "我都攒了10000点了",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:31:04+08:00",
+      "msg": {
+        "seq": 1770895864000,
+        "time": "2026-02-12T19:31:04+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我都攒了10000点了"
+      }
+    },
+    {
+      "content": "反正上面啥平台的都有，万一需要可以救急.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:31:51+08:00",
+      "msg": {
+        "seq": 1770895911000,
+        "time": "2026-02-12T19:31:51+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "反正上面啥平台的都有，万一需要可以救急."
+      }
+    },
+    {
+      "content": "永不过期",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:32:21+08:00",
+      "msg": {
+        "seq": 1770895941000,
+        "time": "2026-02-12T19:32:21+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "永不过期"
+      }
+    },
+    {
+      "content": "可以用可灵3.0",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T19:33:02+08:00",
+      "msg": {
+        "seq": 1770895982000,
+        "time": "2026-02-12T19:33:02+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "可以用可灵3.0"
+      }
+    },
+    {
+      "content": "现在网上都开始玩25宫了[闭嘴]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T20:00:37+08:00",
+      "msg": {
+        "seq": 1770897637000,
+        "time": "2026-02-12T20:00:37+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "现在网上都开始玩25宫了[闭嘴]"
+      }
+    },
+    {
+      "content": "咱技术要更新一下.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T20:00:55+08:00",
+      "msg": {
+        "seq": 1770897655000,
+        "time": "2026-02-12T20:00:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "咱技术要更新一下."
+      }
+    },
+    {
+      "content": "撒问题？主要是",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T20:08:04+08:00",
+      "msg": {
+        "seq": 1770898084000,
+        "time": "2026-02-12T20:08:04+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "撒问题？主要是"
+      }
+    },
+    {
+      "content": "15秒视频4-6个画面就差不多了",
+      "sender": "wxid_wetvynn488n521",
+      "time": "2026-02-12T20:08:34+08:00",
+      "msg": {
+        "seq": 1770898114000,
+        "time": "2026-02-12T20:08:34+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_wetvynn488n521",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "15秒视频4-6个画面就差不多了"
+      }
+    },
+    {
+      "content": "25宫的画质能用吗？",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T20:09:06+08:00",
+      "msg": {
+        "seq": 1770898146000,
+        "time": "2026-02-12T20:09:06+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "25宫的画质能用吗？"
+      }
+    },
+    {
+      "content": "不行，视频只有15秒，应付不过来，容易出问题。如果是快切，也不需要25宫图",
+      "sender": "wxid_wetvynn488n521",
+      "time": "2026-02-12T20:10:24+08:00",
+      "msg": {
+        "seq": 1770898224000,
+        "time": "2026-02-12T20:10:24+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_wetvynn488n521",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "不行，视频只有15秒，应付不过来，容易出问题。如果是快切，也不需要25宫图"
+      }
+    },
+    {
+      "content": "等后面技术再强大，时长加长，再试一下。",
+      "sender": "wxid_wetvynn488n521",
+      "time": "2026-02-12T20:11:26+08:00",
+      "msg": {
+        "seq": 1770898286000,
+        "time": "2026-02-12T20:11:26+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_wetvynn488n521",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "等后面技术再强大，时长加长，再试一下。"
+      }
+    },
+    {
+      "content": "@逆流而上 lu-xh（逆流而上lu-xh） 你那个混剪挺好的[强][强][强]。里面mj出的图是9:16，和视频画幅16:9不符合。你可以把mj的图有反推提示词，再用原来的参数改到16:9重新生图，这样就可以改版。mj目前我也只会这样改版[抱拳][抱拳][抱拳]",
+      "sender": "wxid_wetvynn488n521",
+      "time": "2026-02-12T20:25:53+08:00",
+      "msg": {
+        "seq": 1770899153000,
+        "time": "2026-02-12T20:25:53+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_wetvynn488n521",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@逆流而上 lu-xh（逆流而上lu-xh） 你那个混剪挺好的[强][强][强]。里面mj出的图是9:16，和视频画幅16:9不符合。你可以把mj的图有反推提示词，再用原来的参数改到16:9重新生图，这样就可以改版。mj目前我也只会这样改版[抱拳][抱拳][抱拳]"
+      }
+    },
+    {
+      "content": "当然前后生成会有些差异，但观众都是第一次看到[坏笑]",
+      "sender": "wxid_wetvynn488n521",
+      "time": "2026-02-12T20:27:18+08:00",
+      "msg": {
+        "seq": 1770899238000,
+        "time": "2026-02-12T20:27:18+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_wetvynn488n521",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "当然前后生成会有些差异，但观众都是第一次看到[坏笑]"
+      }
+    },
+    {
+      "content": "学习了",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T20:36:59+08:00",
+      "msg": {
+        "seq": 1770899819000,
+        "time": "2026-02-12T20:36:59+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "学习了"
+      }
+    },
+    {
+      "content": "专业电影分镜制作工具：\nhttp://xluo.ai/?invite=XLUO-61562AB6\n专属邀请码：XLUO-61562AB6",
+      "sender": "wxid_1563185630411",
+      "time": "2026-02-12T20:37:04+08:00",
+      "msg": {
+        "seq": 1770899824000,
+        "time": "2026-02-12T20:37:04+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_1563185630411",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "专业电影分镜制作工具：\nhttp://xluo.ai/?invite=XLUO-61562AB6\n专属邀请码：XLUO-61562AB6"
+      }
+    },
+    {
+      "content": "我直接用了原来的视频素材，做了发现是显示有问题.后面再弄我就有经验了.[抱拳]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-12T20:38:35+08:00",
+      "msg": {
+        "seq": 1770899915000,
+        "time": "2026-02-12T20:38:35+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我直接用了原来的视频素材，做了发现是显示有问题.后面再弄我就有经验了.[抱拳]"
+      }
+    },
+    {
+      "content": "#交作业 Vol.67 |",
+      "sender": "ᥬ 竹ૢ竹ૢ竹ૢ ᩤ小红薯62622F74",
+      "time": "2026-02-12T20:52:22+08:00",
+      "msg": {
+        "seq": 1770900742000,
+        "time": "2026-02-12T20:52:22+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_42f8374l15t421",
+        "senderName": "ᥬ 竹ૢ竹ૢ竹ૢ ᩤ小红薯62622F74",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "#交作业 Vol.67 |"
+      }
+    },
+    {
+      "content": "#过年了，交酒凑热闹",
+      "sender": "wxid_kvk6r9jni5l321",
+      "time": "2026-02-12T20:57:03+08:00",
+      "msg": {
+        "seq": 1770901023000,
+        "time": "2026-02-12T20:57:03+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kvk6r9jni5l321",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "#过年了，交酒凑热闹"
+      }
+    },
+    {
+      "content": "https://forchangesz.feishu.cn/wiki/VUyywTgfcikNJhkOOOFc5ExPnKe\n百度AI 撞春今晚截稿嗷～",
+      "sender": "Alan",
+      "time": "2026-02-12T21:18:16+08:00",
+      "msg": {
+        "seq": 1770902296000,
+        "time": "2026-02-12T21:18:16+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kq9sc4t9s6mp21",
+        "senderName": "Alan",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "https://forchangesz.feishu.cn/wiki/VUyywTgfcikNJhkOOOFc5ExPnKe\n百度AI 撞春今晚截稿嗷～"
+      }
+    },
+    {
+      "content": "可能我把酒瓶搞错了",
+      "sender": "wxid_g9sdp64gtr1p21",
+      "time": "2026-02-12T21:21:45+08:00",
+      "msg": {
+        "seq": 1770902505000,
+        "time": "2026-02-12T21:21:45+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_g9sdp64gtr1p21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "可能我把酒瓶搞错了"
+      }
+    },
+    {
+      "content": "@春天 谢谢[合十][合十]",
+      "sender": "ᥬ 竹ૢ竹ૢ竹ૢ ᩤ小红薯62622F74",
+      "time": "2026-02-12T21:45:50+08:00",
+      "msg": {
+        "seq": 1770903950000,
+        "time": "2026-02-12T21:45:50+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_42f8374l15t421",
+        "senderName": "ᥬ 竹ૢ竹ૢ竹ૢ ᩤ小红薯62622F74",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@春天 谢谢[合十][合十]"
+      }
+    },
+    {
+      "content": "@Aria清   清老师 可以拉我进群吗[玫瑰]",
+      "sender": "饮悦小站",
+      "time": "2026-02-19T07:22:29+08:00",
+      "msg": {
+        "seq": 1771456949000,
+        "time": "2026-02-19T07:22:29+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_7p6zbm2s1ydr12",
+        "senderName": "饮悦小站",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@Aria清   清老师 可以拉我进群吗[玫瑰]"
+      }
+    },
+    {
+      "content": "早安",
+      "sender": "由纪（由纪AIGC）",
+      "time": "2026-02-19T09:12:18+08:00",
+      "msg": {
+        "seq": 1771463538000,
+        "time": "2026-02-19T09:12:18+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r9c0x4kotomo22",
+        "senderName": "由纪（由纪AIGC）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "早安"
+      }
+    },
+    {
+      "content": "这次活动是我们和拍我一起做的专项活动群～\n因为风变课程这边有合作规则，我不能私自从课程群拉人出去🙏\n且这次他们也不提供算力，大家需要自己充钱参赛，拿到的可能不及会员费，综合考量了下，觉得不太合适，就没有在风变群里宣传。\n\n不过大家放心，福利大的活动，我一般都会第一时间同步给大家，不会错过的～",
+      "sender": "Aria清",
+      "time": "2026-02-19T12:33:15+08:00",
+      "msg": {
+        "seq": 1771475595000,
+        "time": "2026-02-19T12:33:15+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "这次活动是我们和拍我一起做的专项活动群～\n因为风变课程这边有合作规则，我不能私自从课程群拉人出去🙏\n且这次他们也不提供算力，大家需要自己充钱参赛，拿到的可能不及会员费，综合考量了下，觉得不太合适，就没有在风变群里宣传。\n\n不过大家放心，福利大的活动，我一般都会第一时间同步给大家，不会错过的～"
+      }
+    },
+    {
+      "content": "希望各位多多理解[玫瑰]",
+      "sender": "Aria清",
+      "time": "2026-02-19T12:34:13+08:00",
+      "msg": {
+        "seq": 1771475653000,
+        "time": "2026-02-19T12:34:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_kpgoc237amu922",
+        "senderName": "Aria清",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "希望各位多多理解[玫瑰]"
+      }
+    },
+    {
+      "content": "看完飞驰人生3，马上想起菩萨老师之前作业…看来要重做一下[悠闲][加油][嘿哈]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-19T12:35:03+08:00",
+      "msg": {
+        "seq": 1771475703001,
+        "time": "2026-02-19T12:35:03+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "看完飞驰人生3，马上想起菩萨老师之前作业…看来要重做一下[悠闲][加油][嘿哈]"
+      }
+    },
+    {
+      "content": "可以看完飞驰人生，再把菩萨老师的课看一遍，就非常有感觉了.[社会社会]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-19T12:36:26+08:00",
+      "msg": {
+        "seq": 1771475786000,
+        "time": "2026-02-19T12:36:26+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "可以看完飞驰人生，再把菩萨老师的课看一遍，就非常有感觉了.[社会社会]"
+      }
+    },
+    {
+      "content": "先要刷出个好音乐",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-19T12:37:23+08:00",
+      "msg": {
+        "seq": 1771475843000,
+        "time": "2026-02-19T12:37:23+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "先要刷出个好音乐"
+      }
+    },
+    {
+      "content": "@CH东X羽 好的，谢谢[玫瑰]",
+      "sender": "果果（果果）",
+      "time": "2026-02-19T14:10:25+08:00",
+      "msg": {
+        "seq": 1771481425000,
+        "time": "2026-02-19T14:10:25+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_re8c8ku74fpj21",
+        "senderName": "果果（果果）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@CH东X羽 好的，谢谢[玫瑰]"
+      }
+    },
+    {
+      "content": "关于最近大热的 seedance 2.0 和可灵 3.0，体验了一周，有感而发。\n\n这是一次杜撰的对谈。\n但 AI 时代，我们每天都在和“并不存在的作者”对话：\n模型、风格、类型、算法偏好。\n\n昆汀代表的是“可被无限调用的类型数据库”从而创造全新的视听语言，\n塔可夫斯基代表的是“拒绝被加速的时间”。\n\n问题不在他们说了什么，\n而在于——你在用什么样的工具，变成了哪一种作者。",
+      "sender": "菩萨",
+      "time": "2026-02-19T17:40:31+08:00",
+      "msg": {
+        "seq": 1771494031001,
+        "time": "2026-02-19T17:40:31+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "关于最近大热的 seedance 2.0 和可灵 3.0，体验了一周，有感而发。\n\n这是一次杜撰的对谈。\n但 AI 时代，我们每天都在和“并不存在的作者”对话：\n模型、风格、类型、算法偏好。\n\n昆汀代表的是“可被无限调用的类型数据库”从而创造全新的视听语言，\n塔可夫斯基代表的是“拒绝被加速的时间”。\n\n问题不在他们说了什么，\n而在于——你在用什么样的工具，变成了哪一种作者。"
+      }
+    },
+    {
+      "content": "[强][强][强]",
+      "sender": "tiantrose",
+      "time": "2026-02-19T17:45:38+08:00",
+      "msg": {
+        "seq": 1771494338000,
+        "time": "2026-02-19T17:45:38+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[强][强][强]"
+      }
+    },
+    {
+      "content": "老师总是会思考画面之外的东西。",
+      "sender": "tiantrose",
+      "time": "2026-02-19T17:46:01+08:00",
+      "msg": {
+        "seq": 1771494361000,
+        "time": "2026-02-19T17:46:01+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "tiantrose",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "老师总是会思考画面之外的东西。"
+      }
+    },
+    {
+      "content": "[强][强][强]",
+      "sender": "aya",
+      "time": "2026-02-19T17:50:34+08:00",
+      "msg": {
+        "seq": 1771494634000,
+        "time": "2026-02-19T17:50:34+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_t6gcayrdhal911",
+        "senderName": "aya",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[强][强][强]"
+      }
+    },
+    {
+      "content": "老师，请问这个对白是可灵直出的还是后期配音的？",
+      "sender": "teddybear",
+      "time": "2026-02-19T18:07:41+08:00",
+      "msg": {
+        "seq": 1771495661000,
+        "time": "2026-02-19T18:07:41+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "teddybear298146",
+        "senderName": "teddybear",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "老师，请问这个对白是可灵直出的还是后期配音的？"
+      }
+    },
+    {
+      "content": "[强][强][强][强][强]",
+      "sender": "River",
+      "time": "2026-02-19T18:16:27+08:00",
+      "msg": {
+        "seq": 1771496187000,
+        "time": "2026-02-19T18:16:27+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_iuo27pix6vwb21",
+        "senderName": "River",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "[强][强][强][强][强]"
+      }
+    },
+    {
+      "content": "@菩萨 菩萨老师这次真的帮我这个没有文化的人非常精准表达出了一些想法， 我在面对可灵3.0操作界面时，感到的是在强大的工具面前的束手无策，脑海里有千万种想法不知道如何专业表达，对于导演来讲，每一帧都能做出自己想要的画面，对于我来讲，每一个分镜的对话框我都没有办法让它产生价值，同时也害怕比我更专业的作者通过这个工具做出非常精准且优质的内容，这个时候工具是强大的我是弱小的；\n\n面对seedance2.0我像一个提着很大的空桶去打窝的钓鱼佬，我的窝料没有旁边的人多，口味也没有他们丰富，他们能通过不同的饵料吊起来不同的鱼，并且有充足的窝料没日没夜一直打窝，从河里不停吊出名贵的好鱼，而且他们可以一直挖掘不同的惊喜，我在同一条河吊起来的是非常普通的鱼，这个时候别人手里的seedance2.0是多彩的，我的是灰色的，我只是每个月定时充值的普通用户，对于我这个水平的人来说这种感觉真的很焦虑",
+      "sender": "老张",
+      "time": "2026-02-19T18:19:41+08:00",
+      "msg": {
+        "seq": 1771496381000,
+        "time": "2026-02-19T18:19:41+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "@菩萨 菩萨老师这次真的帮我这个没有文化的人非常精准表达出了一些想法， 我在面对可灵3.0操作界面时，感到的是在强大的工具面前的束手无策，脑海里有千万种想法不知道如何专业表达，对于导演来讲，每一帧都能做出自己想要的画面，对于我来讲，每一个分镜的对话框我都没有办法让它产生价值，同时也害怕比我更专业的作者通过这个工具做出非常精准且优质的内容，这个时候工具是强大的我是弱小的；\n\n面对seedance2.0我像一个提着很大的空桶去打窝的钓鱼佬，我的窝料没有旁边的人多，口味也没有他们丰富，他们能通过不同的饵料吊起来不同的鱼，并且有充足的窝料没日没夜一直打窝，从河里不停吊出名贵的好鱼，而且他们可以一直挖掘不同的惊喜，我在同一条河吊起来的是非常普通的鱼，这个时候别人手里的seedance2.0是多彩的，我的是灰色的，我只是每个月定时充值的普通用户，对于我这个水平的人来说这种感觉真的很焦虑"
+      }
+    },
+    {
+      "content": "面对 Seedance 的时候，组合型的创意更为吃香。",
+      "sender": "菩萨",
+      "time": "2026-02-19T18:21:12+08:00",
+      "msg": {
+        "seq": 1771496472000,
+        "time": "2026-02-19T18:21:12+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "面对 Seedance 的时候，组合型的创意更为吃香。"
+      }
+    },
+    {
+      "content": "什么皮卡丘大战葫芦娃，变形金刚 hellokitty 配色。",
+      "sender": "菩萨",
+      "time": "2026-02-19T18:21:27+08:00",
+      "msg": {
+        "seq": 1771496487000,
+        "time": "2026-02-19T18:21:27+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "什么皮卡丘大战葫芦娃，变形金刚 hellokitty 配色。"
+      }
+    },
+    {
+      "content": "李小龙大战哥斯拉。",
+      "sender": "菩萨",
+      "time": "2026-02-19T18:21:36+08:00",
+      "msg": {
+        "seq": 1771496496000,
+        "time": "2026-02-19T18:21:36+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "李小龙大战哥斯拉。"
+      }
+    },
+    {
+      "content": "但是可灵，更适合有思路的创作者，知道每一个镜头怎么接，怎么搓。",
+      "sender": "菩萨",
+      "time": "2026-02-19T18:21:55+08:00",
+      "msg": {
+        "seq": 1771496515000,
+        "time": "2026-02-19T18:21:55+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "但是可灵，更适合有思路的创作者，知道每一个镜头怎么接，怎么搓。"
+      }
+    },
+    {
+      "content": "现在阶段可以先玩玩 Seedance 2.0 找找影像感觉。",
+      "sender": "菩萨",
+      "time": "2026-02-19T18:22:13+08:00",
+      "msg": {
+        "seq": 1771496533000,
+        "time": "2026-02-19T18:22:13+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "现在阶段可以先玩玩 Seedance 2.0 找找影像感觉。"
+      }
+    },
+    {
+      "content": "加油！",
+      "sender": "菩萨",
+      "time": "2026-02-19T18:22:18+08:00",
+      "msg": {
+        "seq": 1771496538000,
+        "time": "2026-02-19T18:22:18+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "unclered",
+        "senderName": "菩萨",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "加油！"
+      }
+    },
+    {
+      "content": "每一句话都是我的心声，谢谢菩萨老师",
+      "sender": "老张",
+      "time": "2026-02-19T18:22:48+08:00",
+      "msg": {
+        "seq": 1771496568000,
+        "time": "2026-02-19T18:22:48+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_r36i3ouw7wxk22",
+        "senderName": "老张",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "每一句话都是我的心声，谢谢菩萨老师"
+      }
+    },
+    {
+      "content": "感觉一个像快餐，速度快。一个像定制餐，根据需求定制。",
+      "sender": "wxid_a3uh5ne7snp611",
+      "time": "2026-02-19T18:24:37+08:00",
+      "msg": {
+        "seq": 1771496677000,
+        "time": "2026-02-19T18:24:37+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_a3uh5ne7snp611",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "感觉一个像快餐，速度快。一个像定制餐，根据需求定制。"
+      }
+    },
+    {
+      "content": "我把四张用 Seedance 2.0 搓成一个视频，感觉还行，但是已经注明了不要音乐不要字幕，它非要给我出音乐[捂脸]",
+      "sender": "wxid_f9h5r3b7foon21",
+      "time": "2026-02-19T19:33:00+08:00",
+      "msg": {
+        "seq": 1771500780000,
+        "time": "2026-02-19T19:33:00+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_f9h5r3b7foon21",
+        "senderName": "",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "我把四张用 Seedance 2.0 搓成一个视频，感觉还行，但是已经注明了不要音乐不要字幕，它非要给我出音乐[捂脸]"
+      }
+    },
+    {
+      "content": "看完飞驰，我也开了一圈.[嘿哈]玩起来.",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-19T20:08:59+08:00",
+      "msg": {
+        "seq": 1771502939000,
+        "time": "2026-02-19T20:08:59+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "看完飞驰，我也开了一圈.[嘿哈]玩起来."
+      }
+    },
+    {
+      "content": "s2.0，剧本来源于生活[悠闲]",
+      "sender": "逆流而上 lu-xh（逆流而上lu-xh）",
+      "time": "2026-02-19T20:14:05+08:00",
+      "msg": {
+        "seq": 1771503245000,
+        "time": "2026-02-19T20:14:05+08:00",
+        "talker": "43988234971@chatroom",
+        "talkerName": "",
+        "isChatRoom": true,
+        "sender": "wxid_531c1a5cxpuj11",
+        "senderName": "逆流而上 lu-xh（逆流而上lu-xh）",
+        "isSelf": false,
+        "type": 1,
+        "subType": 0,
+        "content": "s2.0，剧本来源于生活[悠闲]"
+      }
+    }
+  ]
+}
