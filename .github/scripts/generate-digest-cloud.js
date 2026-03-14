@@ -4,7 +4,7 @@
  * 读取本地上传的 raw JSON 数据，调用 Claude API 生成日报
  */
 
-const Anthropic = require('@anthropic-ai/sdk');
+const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
@@ -20,6 +20,11 @@ const CONFIG = {
 
 if (!CONFIG.anthropicApiKey) {
   console.error('❌ 错误: 未找到 ANTHROPIC_API_KEY 环境变量');
+  process.exit(1);
+}
+
+if (!CONFIG.targetDate) {
+  console.error('❌ 错误: 未找到 TARGET_DATE 环境变量');
   process.exit(1);
 }
 
@@ -87,14 +92,59 @@ function generateTXT(messages, targetDate) {
   };
 }
 
+// ============ 原生 HTTPS 调用 API ============
+function callClaudeAPI(prompt) {
+  return new Promise((resolve, reject) => {
+    const baseUrl = new URL(CONFIG.anthropicBaseUrl);
+    const postData = JSON.stringify({
+      model: CONFIG.modelId,
+      max_tokens: 8000,
+      messages: [{ role: 'user', content: prompt }]
+    });
+
+    const options = {
+      hostname: baseUrl.hostname,
+      port: 443,
+      path: '/v1/messages',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': CONFIG.anthropicApiKey,
+        'anthropic-version': '2023-06-01',
+        'Content-Length': Buffer.byteLength(postData)
+      }
+    };
+
+    console.log(`   请求地址: ${baseUrl.hostname}/v1/messages`);
+    console.log(`   模型: ${CONFIG.modelId}`);
+
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        console.log(`   HTTP 状态码: ${res.statusCode}`);
+        if (res.statusCode !== 200) {
+          reject(new Error(`${res.statusCode} ${data}`));
+          return;
+        }
+        try {
+          const response = JSON.parse(data);
+          resolve(response.content[0].text);
+        } catch (e) {
+          reject(new Error('解析响应失败: ' + e.message));
+        }
+      });
+    });
+
+    req.on('error', reject);
+    req.write(postData);
+    req.end();
+  });
+}
+
 // ============ AI 分析 ============
 async function analyzeWithClaude(messages, targetDate) {
   console.log(`🤖 [进度] 步骤3/5: 正在分析6个板块内容...`);
-
-  const client = new Anthropic({
-    apiKey: CONFIG.anthropicApiKey,
-    baseURL: CONFIG.anthropicBaseUrl
-  });
 
   const chatText = messages
     .map(m => `[${m.time}] ${m.senderName}：${m.content}`)
@@ -131,13 +181,7 @@ ${chatText}
 
 如果某个板块确实没有相关内容，填写「今日暂无相关讨论」。`;
 
-  const response = await client.messages.create({
-    model: CONFIG.modelId,
-    max_tokens: 8000,
-    messages: [{ role: 'user', content: prompt }],
-  });
-
-  const text = response.content[0].text;
+  const text = await callClaudeAPI(prompt);
   const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/);
 
   if (!jsonMatch) {
