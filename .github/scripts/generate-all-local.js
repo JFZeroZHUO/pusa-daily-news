@@ -44,7 +44,7 @@ async function main() {
     console.log('🚀 [3/3] 正在推送到 GitHub...');
     process.chdir(REPO_PATH);
 
-    execSync(`git add DailyNews/daily-${targetDate}.html DailyNews/raw-${targetDate}.txt data/raw-${targetDate}.json`, { stdio: 'inherit' });
+    execSync(`git add DailyNews/daily-${targetDate}.html data/raw-${targetDate}.json`, { stdio: 'inherit' });
 
     try {
       execSync(`git commit -m "📰 日报 ${targetDate} | 自动生成"`, { stdio: 'inherit' });
