@@ -3,290 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>风变野菩萨AI视频社团A班 · 2026-03-13 日报</title>
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-13</title>
   <style>
     :root {
-      --bg-primary: #0a0a0a;
-      --bg-card: #1a1a1a;
-      --bg-card-hover: #252525;
-      --border: #2a2a2a;
-      --text-primary: #e8e8e8;
-      --text-secondary: #a0a0a0;
-      --accent-blue: #3b82f6;
-      --accent-purple: #8b5cf6;
-      --accent-green: #10b981;
-      --accent-orange: #f59e0b;
+      --bg-primary: #1a1011;
+      --bg-card: #251618;
+      --bg-card-hover: #301c1f;
+      --border: #5c3a3e;
+      --text-primary: #fef2f2;
+      --text-secondary: #c9a0a5;
+      --accent-primary: #f56565;
+      --accent-red: #fc8181;
+      --accent-green: #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #f56565, #e53e3e);
+      --font-base: 16px;
+      --font-xs: 14px;
+      --font-sm: 15px;
+      --font-md: 16px;
+      --font-lg: 18px;
+      --font-xl: 21px;
+      --font-2xl: 27px;
+      --font-3xl: 31px;
+      --font-data: 23px;
     }
-
     [data-theme="light"] {
       --bg-primary: #f5f3ee;
       --bg-card: #ffffff;
-      --bg-card-hover: #f8f6f1;
-      --border: #e0ddd5;
-      --text-primary: #2c2c2c;
-      --text-secondary: #666666;
+      --bg-card-hover: #faf8f3;
+      --border: #d4cfc4;
+      --text-primary: #2c2416;
+      --text-secondary: #6b6456;
+      --accent-primary: #d84545;
     }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      background: var(--bg-primary);
-      color: var(--text-primary);
-      line-height: 1.8;
-      padding: 2rem;
-      transition: background 0.3s, color 0.3s;
-    }
-
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 2px solid var(--border);
-    }
-
-    .masthead {
-      font-size: 2.5rem;
-      font-weight: 900;
-      letter-spacing: 0.5rem;
-      margin-bottom: 0.5rem;
-      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .date-line {
-      font-size: 1.1rem;
-      color: var(--text-secondary);
-      margin-bottom: 1rem;
-    }
-
-    .stats {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      font-size: 0.9rem;
-      color: var(--text-secondary);
-    }
-
-    .columns {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      margin-bottom: 3rem;
-    }
-
-    .section {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.5rem;
-      transition: all 0.3s;
-    }
-
-    .section:hover {
-      background: var(--bg-card-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-
-    .section-header {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 2px solid var(--border);
-    }
-
-    .section-icon {
-      font-size: 1.5rem;
-    }
-
-    .section-title {
-      font-size: 1.3rem;
-      font-weight: 700;
-    }
-
-    .section-content {
-      font-size: 0.95rem;
-      color: var(--text-secondary);
-    }
-
-    .section-content p {
-      margin-bottom: 1rem;
-      text-align: justify;
-    }
-
-    .section-content p:last-child {
-      margin-bottom: 0;
-    }
-
-    footer {
-      text-align: center;
-      padding-top: 2rem;
-      border-top: 2px solid var(--border);
-      color: var(--text-secondary);
-      font-size: 0.9rem;
-    }
-
-    .theme-toggle {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      transition: all 0.3s;
-      z-index: 1000;
-    }
-
-    .theme-toggle:hover {
-      transform: scale(1.1);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    @media (max-width: 1200px) {
-      .columns {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 768px) {
-      .columns {
-        grid-template-columns: 1fr;
-      }
-
-      .masthead {
-        font-size: 1.8rem;
-        letter-spacing: 0.3rem;
-      }
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif; font-size: var(--font-base); background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; padding: 20px; }
+    .newspaper-header { max-width: 1600px; margin: 0 auto 30px; padding: 20px 0; border-bottom: 3px solid var(--accent-primary); }
+    .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .newspaper-title { font-size: var(--font-3xl); font-weight: 900; background: var(--gradient-title); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-align: center; letter-spacing: 2px; }
+    .issue-info, .stats-badge { font-size: var(--font-xs); color: var(--text-secondary); padding: 4px 12px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border); }
+    .header-divider { height: 2px; background: var(--gradient-title); margin-top: 15px; opacity: 0.6; }
+    .newspaper-grid { max-width: 1600px; margin: 0 auto; display: grid; grid-template-columns: 25% 45% 28%; gap: 2%; }
+    .block-title { font-size: var(--font-lg); font-weight: 700; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid var(--border); display: flex; align-items: center; gap: 8px; }
+    .block-title .icon { font-size: var(--font-xl); }
+    section { background: var(--bg-card); padding: 20px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 20px; transition: background 0.2s; }
+    section:hover { background: var(--bg-card-hover); }
+    blockquote { border-left: 4px solid var(--accent-purple); padding: 12px 16px; margin: 15px 0; background: rgba(210, 168, 255, 0.08); color: var(--text-primary); font-size: var(--font-sm); font-style: italic; border-radius: 4px; }
+    footer { max-width: 1600px; margin: 30px auto 0; padding: 20px 0; text-align: center; font-size: var(--font-xs); color: var(--text-secondary); border-top: 1px solid var(--border); }
+    .theme-toggle { position: fixed; bottom: 20px; right: 20px; width: 44px; height: 44px; border-radius: 50%; background: var(--bg-card); border: 2px solid var(--border); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; transition: all 0.3s; z-index: 1000; }
+    .theme-toggle:hover { background: var(--bg-card-hover); transform: scale(1.1); }
+    @media (max-width: 1200px) { .newspaper-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1 class="masthead">风变野菩萨AI视频社团A班</h1>
-      <div class="date-line">2026-03-13 星期五</div>
-      <div class="stats">
-        <span>📊 消息总数：112 条</span>
-        <span>👥 发言人数：77 人</span>
-      </div>
-    </header>
-
-    <div class="columns">
-
-    <article class="section">
-      <div class="section-header">
-        <span class="section-icon">🔥</span>
-        <h2 class="section-title">今日热议</h2>
-      </div>
-      <div class="section-content">
-        <p>今日群内最热烈的讨论集中在「课代表制度」的正式启动上。社团宣布任命五位在各自领域表现卓越的同学担任课代表，分别负责剪辑、音乐、图片和视频等专业方向。这一举措获得了群内成员的广泛认可和热烈响应，从早上10点50分开始，持续有近50位成员通过表情、文字等方式表达支持，互动密度极高。值得关注的是，课代表们展现出了良好的服务意识和谦逊态度，南山表示「惶恐，一定竭尽所能」，司尧主动邀请「有遇到什么问题可以艾特我们一起探讨」，Open Your Eyes多次强调「互相学习 共同进步」的理念。这种平等互助的氛围定调，为社群的知识共享机制奠定了良好基础。雪山胖狐还提出了实用建议，建议课代表修改群昵称以便识别，体现了成员对制度落地细节的关注。苏太代表群体感谢课代表「愿意拨空为同学解惑」，这种仪式感的表达进一步强化了社群的凝聚力。整体来看，这次讨论不仅是对新制度的认可，更反映出社群成员对专业成长和互助学习的强烈需求。</p>
-      </div>
-    </article>
-
-    <article class="section">
-      <div class="section-header">
-        <span class="section-icon">🚀</span>
-        <h2 class="section-title">技术前沿</h2>
-      </div>
-      <div class="section-content">
-        <p>今日技术讨论的焦点是可灵AI 3.0动作控制功能的实战应用。辰星守望分享了使用该功能制作演员深情独白戏份的实践经验，并配发了视频号链接展示成果。他评价该功能「将角色内心的情感表达和传递的蛮到位」，这一分享引发了视频课代表紫薯有范的关注和肯定。值得注意的是，辰星守望透露了创作细节：「老爷子本身演技就牛，算是强强联合了，功能好用就没怎么抽卡」，这揭示了AI工具应用中「素材选择」与「技术参数」的协同关系——优质的原始素材可以降低对算法调优的依赖。紫薯有范和Nina还就视频中的演员金士杰展开了讨论，提到其在《阳光普照》等作品中的表演风格，这种从AI技术延伸到影视表演艺术的讨论，体现了社群成员对「内容质量」的深层思考。辰星守望补充提到金士杰在《绣春刀》中饰演魏忠贤的表演细节，说明AI创作者对传统影视作品的研究和借鉴意识。这次讨论展现了AI工具从「技术测试」到「艺术表达」的进阶路径，以及创作者如何通过理解表演艺术来提升AI生成内容的质量。</p>
-      </div>
-    </article>
-
-    <article class="section">
-      <div class="section-header">
-        <span class="section-icon">💡</span>
-        <h2 class="section-title">创作灵感</h2>
-      </div>
-      <div class="section-content">
-        <p>设计师lucia分享的《AI留级生》系列作品成为今日创作灵感的重要来源。这部自制作品第一季共12话，创作周期极短——「周日开始抽卡，忙碌而充实的周一就做完了」，展现了AI工具对创作效率的革命性提升。更值得关注的是其创作动机的转变：原本计划做第二季，但「剧本写着写着又翻到以前很喜欢的日本芬达广告系列」，于是立即转向校园主题的日系风格。这种灵活的创作路径调整，体现了AI时代创作者可以更自由地追随灵感而非受制于制作成本。lucia明确表达了创作理念：「想把自己对AI的一些浅薄理解实践一下」「在这个新工具中找寻一点做影片最原始的快乐」，这种回归创作本质的思考引发了群内共鸣。不设限���烟火Firework评价「好好玩啊」，无树强调「脑洞是好东西」，晓光aube赞叹「太厉害了！好有梗啊」。G.邹的评论「笑不活了，但感觉很有道理怎么办」则揭示了作品在娱乐性与思想性之间的平衡。雪山胖狐的回应「这两天自己做一个好痛苦，各种出不来想要的效果」形成对比，说明创作过程中技术掌握与创意实现之间的挑战依然存在。</p>
-      </div>
-    </article>
-
-    <article class="section">
-      <div class="section-header">
-        <span class="section-icon">📦</span>
-        <h2 class="section-title">资源共享</h2>
-      </div>
-      <div class="section-content">
-        <p>今日资源共享主要体现在作品链接的分享上。Lili in London在凌晨00:43分享了小红书笔记链接《AI短剧：利益与情感的终极对决 沉鳞逐月》，这是典型的作业提交行为，展示了社群成员的学习成果。辰星守望分享的可灵3.0动作控制测试视频，不仅是技术展示，也为其他成员提供了功能应用的参考案例。Jennie分享的视频号内容「出场前我还在抱怨死亡逆光，没想到甜茶出来就释怀了」，虽然是娱乐向内容，但其「来欣赏顶级帅哥」的分享语境，反映了社群氛围的轻松多元。设计师lucia分享的《AI留级生》视频号链接，配以详细的创作说明，是最具价值的资源共享——不仅展示成品，还阐述创作思路和工具应用心得。这些分享呈现出社群资源流动的特点：从学习作业到技术测试，从娱乐内容到创作案例，形成了多层次的知识传递网络。值得注意的是，所有分享都附带了创作者的个人见解或使用体验，而非单纯的链接堆砌，这提升了资源的实用价值和启发性。</p>
-      </div>
-    </article>
-
-    <article class="section">
-      <div class="section-header">
-        <span class="section-icon">💬</span>
-        <h2 class="section-title">问答互助</h2>
-      </div>
-      <div class="section-content">
-        <p>今日问答互助主要体现在课代表制度建立后的互动承诺上。虽然没有出现具体的技术问题提问，但课代表们主动表达了服务意愿，为后续的问答互助奠定了基础。南山的表态「惶恐，一定竭尽所能，希望能帮到大家，有服务不周到的还请同学们多多包涵」，展现了谦逊的服务态度。Open Your Eyes两次强调「互相学习 共同进步」「三人行必有我师 大家互相学习 共同进步」，明确了平等互助的定位。司尧的邀请「同学们有遇到什么问题可以艾特我们一起探讨一下」，降低了提问的心理门槛。紫薯有范的表态「大家互相学习 有问题一起探讨哟」，进一步强化了开放讨论的氛围。记忆碎片代表普通成员表达感谢「感谢热心的课代表们」，形成了良性的互动循环。雪山胖狐的实际困扰「这两天自己做一个好痛苦，各种出不来想要的效果」虽未形成正式提问，但反映了成员的真实需求。这种需求的显性化，预示着后续问答互助机制将有实际应用场景。整体来看，今日虽无具体问答案例，但通过制度建设和氛围营造，为知识传递搭建了有效的组织框架。</p>
-      </div>
-    </article>
-
-    <article class="section">
-      <div class="section-header">
-        <span class="section-icon">📊</span>
-        <h2 class="section-title">社群动态</h2>
-      </div>
-      <div class="section-content">
-        <p>今日社群呈现出高度活跃和积极向上的氛围。从时间分布看，讨论从凌晨00:43持续到下午17:15，跨越16个小时，参与人数超过60人，互动频次密集。课代表制度的宣布成为全天的核心事件，引发了持续性的集体响应。成员互动方式多样，既有大量表情包的情感表达，也有文字评论的理性讨论，还有作品分享的实践展示。值得关注的是社群文化的形成：「交作业」标签的使用（Lili in London）体现了学习型社群的特征；「太好了」「厉害」等高频赞美词汇营造了正向激励氛围；课代表们的谦逊表态和成员的感谢回应，形成了良好的互动礼仪。雪山胖狐提出的昵称修改建议，以及苏太代表群体的正式感谢，都体现了成员对社群建设的主动参与意识。从内容质量看，讨论既有技术深度（可灵3.0功能测试），也有创作广度（AI留级生系列），还有娱乐调剂（甜茶视频分享），形成了专业与轻松并存的社群生态。整体而言，今日社群展现出强烈的学习热情、互助精神和创作活力，课代表制度的建立标志着社群从自发交流向组织化学习的转型升级。</p>
-      </div>
-    </article>
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">2026年03月13日 星期五</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 112 条消息 · 77 人发言</span>
     </div>
-
-    <footer>
-      <p>本日报由 AI 自动生成 · 数据来源：微信群聊天记录</p>
-      <p>生成时间：2026-03-14 19:52:53</p>
-    </footer>
-  </div>
-
+    <div class="header-divider"></div>
+  </header>
+  <main class="newspaper-grid">
+    <aside class="col-left">
+      <section class="block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        📢 重要公告<br><br><blockquote>@所有人 各位同学，早上好！为了给大家提供更专业、更及时的学习支持，社团特别邀请了五位在各自领域表现卓越的同学担任"课代表"。让我们一起认识下他们：🎬 剪辑课代表：@凌（凌潇）🎵 音乐课代表：@Open Your Eyes 🎨 图片课代��：@司尧YAO Siyi 📹 视频课代表：@紫薯有范（原范范W）、@南山。以后在学习过程中，如果你遇到了关于剪辑、音乐、图片或视频方面的技术难题，欢迎随时在群内@相应的课代表。他们会利用专业知识为大家答疑解惑，陪伴大家共同进步。</blockquote><br><br>AI分析：这是社团建立学习支持体系的重要举措，通过设立专项课代表机制，将技术支持从单一的老师答疑扩展为多维度的同伴互助模式。这种安排有三个显著优势：一是响应速度更快，课代表可以在不同时段及时解答问题；二是降低学习门槛，同学之间的交流往往更轻松自然；三是促进知识共享，课代表在答疑过程中也能巩固自己的技能。建议同学们在遇到技术问题时，先明确问题属于哪个领域，然后@对应课代表并附上具体的问题描述和截图，这样能获得更精准的帮助。同时，课代表们也可以定期整理常见问题，形成FAQ文档，进一步提升社群学习效率。
+      </section>
+      <section class="block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+        🏆 荣誉时刻<br><br><blockquote>Lili in London：#交作业 [链接|我发布了一篇笔记：AI短剧：利益与情感的终极对决 沉鳞逐月]</blockquote><br><br>群内同学纷纷为Lili的作品点赞，由纪、Kelly、紫蝶、无树、孟超超等数十位同学发送了鼓励表情和"太好了"、"厉害"等评价。这种积极的反馈氛围体现了社群的互助精神。<br><br>AI点评：Lili in London作为伦敦时区的学员，能够在凌晨时段完成作业提交，展现了极强的学习热情和时间管理能力。从作品标题"AI短剧：利益与情感的终极对决"可以看出，这是一个具有戏剧冲突和深度主题的创作，"沉鳞逐月"这个富有诗意的名称也显示出创作者的文学素养。<br><br>更值得关注的是社群的反馈机制：作品发布后短时间内获得了大量正向反馈，这种即时的认可对创作者是巨大的激励。建议其他同学也积极参与作品点评，不仅是简单的点赞，更可以提出具体的观察和建议，比如"镜头切换很流畅"、"配乐选择很贴合情绪"等，这样的反馈对创作者更有价值，也能促进整个社群的创作水平提升。
+      </section>
+    </aside>
+    <article class="col-center">
+      <section class="block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        👨‍🏫 师说<br><br>今日暂无老师深度发言内容。不过从Andy老师发布的课代表公告可以看出，社团正在构建更完善的学习生态系统。这种"去中心化"的知识传播模式，实际上是在培养学员的自主学习能力和互助精神。<br><br>AI延伸解读：在AI视频创作学习中，技术问题往往具有即时性和多样性的特点。传统的"老师-学生"单向答疑模式容易造成响应延迟和知识传递瓶颈。通过设立分领域课代表，实际上是在社群内部建立了"知识节点网络"，每个课代表都是一个知识传播的中继站。这种模式在技术社区中被证明非常有效，比如开源社区的maintainer机制、技术论坛的版主制度等。<br><br>对于学员来说，这意味着学习路径更加清晰：剪辑问题找凌潇、音乐问题找Open Your Eyes、图片问题找司尧、视频问题找紫薯有范或南山。这种明确的分工不仅提高了问题解决效率，也让学员在提问前会更认真地思考和描述问题，从而提升整体学习质量。建议大家在向课代表请教时，尽量提供完整的问题背景、已尝试的解决方案和具体的报错信息，这样能让课代表更快定位问题并给出针对性建议。
+      </section>
+      <section class="block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+        🔥 热议话题：可灵3.0动作控制功能实测<br><br><blockquote>辰星守望：用可灵新出的3.0动作控制功能测了一下演绎演员深情独白的戏份，感觉真的将角色内心的情感表达和传递的蛮到位，感兴趣同学可以尝试一下，挺不错的。</blockquote><br><br><blockquote>视频课代表—紫薯有范：哇哦 不错哟</blockquote><br><br><blockquote>辰星守望：老爷子本���演技就牛，算是强强联合了，功能好用就没怎么抽卡。</blockquote><br><br><blockquote>视频课代表—紫薯有范：这个老头演的戏 无论正面反面角色 不知道为啥 每次看他我都感觉阴测测的</blockquote><br><br><blockquote>Nina：他是老戏骨了，是台湾的金士杰，我看过他一部片子《阳光普照》</blockquote><br><br>AI深度分析：这个讨论串揭示了AI视频生成技术的一个重要突破点——动作控制精度的提升。可灵3.0的动作控制功能显然在情感表达层面有了质的飞跃，能够准确捕捉和呈现"深情独白"这种需要细腻面部表情和肢体语言配合的复杂场景。辰星守望提到"没怎么抽卡"，说明新功能大幅降低了生成理想效果所需的尝试次数，这对创作效率是巨大提升。<br><br>从技术角度看，动作控制3.0可能在以下方面有所改进：更精准的关键帧插值算法、更强的情感语义理解能力、以及更好的人物一致性保持。选择金士杰这样的老戏骨作为素材也很聪明，因为优秀演员的表演本身就具有强烈的情感张力，AI在此基础上进行动作控制，能够事半功倍。建议同学们在使用时注意：选择表现力强的原始素材、给出明确的情感指令、适当调整动作幅度参数，这样能更好地发挥新功能的优势。
+      </section>
+    </article>
+    <aside class="col-right">
+      <section class="block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+        🤖 AI资讯：可灵3.0动作控制功能引发热议<br><br>本日社群重点讨论了可灵AI最新推出的3.0动作控制功能。根据辰星守望的实测反馈，该功能在处理"演员深情独白"等需要细腻情感表达的场景时表现出色，能够准确传递角色内心情感，且生成成功率显著提升，"没怎么抽卡"就能获得满意效果。<br><br>另有设计师lucia分享了一个《AI留级生》系列作品的视频号链接，该作品用AI制作了12集校园主题日系短片，创作者从周日开始抽卡，周一就完成了全部制作，展现了AI工具在提升创作效率方面的巨大潜力。作品灵感来源于日本芬达广告系列，体现了创作者对经典广告美学的致敬和AI技术的创新应用。<br><br>AI趋势判断：从这两个案例可以看出，AI视频生成工具正在经历两个重要转变：一是从"碰运气式生成"向"可控精准生成"演进，动作控制功能的升级让创作者能更准确地实现创意构想；二是从"单镜头实验"向"系列化内容生产"发展，12集短片的快速完成说明AI工具已经具备了支撑规模化内容创作的能力。<br><br>建议同学们关注以下实践方向：尝试可灵3.0的动作控制功能，特别是在需要情感表达的场景中；学习系列化内容的策划和制作流程；研究如何将经典影视语言与AI技术结合。同时要注意，工具的进步不能替代创意和审美，技术是手段，好的故事和表达才是核心。
+      </section>
+      <section class="block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+        💬 社群动态<br><br>今日社群氛围热烈，77位成员共产生112条消息。课代表任命公告发布后，Open Your Eyes表示"三人行必有我师 大家互相学习 共同进步"，视频课代表南山谦虚地说"惶恐，一定竭尽所能，希望能帮到大家"，图片课代表司尧主动邀请"同学们有遇到什么问题可以艾特我们一起探讨"，展现��课代表们的责任心和服务意识。<br><br>雪山胖狐同学分享了自己的创作困境："这两天自己做一个好痛苦，各种出不来想要的效果"，这种真实的学习状态引发了不少同学的共鸣。苏太同学专门@了五位课代表表示感谢，体现了社群成员之间的相互尊重和支持。<br><br>氛围总结：社群呈现出积极向上、互帮互助的良好氛围。成员们不仅关注技术学习，也注重情感交流和相互鼓励。课代表机制的建立进一步强化了社群的凝聚力，让每个人都能在这个学习共同体中找到归属感。建议大家继续保持这种开放分享的态度，遇到问题大胆提问，看到好作品积极点赞，共同营造更好的学习环境。
+      </section>
+    </aside>
+  </main>
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-15 00:00:00</p>
+  </footer>
   <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">
-    <span id="theme-icon">🌙</span>
+    <span id="theme-icon">☀️</span>
   </button>
-
   <script>
-    const STORAGE_KEY = 'pusa-theme';
-
     function toggleTheme() {
       const html = document.documentElement;
       const currentTheme = html.getAttribute('data-theme');
       const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
       html.setAttribute('data-theme', newTheme);
-      localStorage.setItem(STORAGE_KEY, newTheme);
-
-      document.getElementById('theme-icon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+      document.getElementById('theme-icon').textContent = newTheme === 'dark' ? '☀️' : '🌙';
+      localStorage.setItem('pusa-theme', newTheme);
     }
-
-    // 初始化主题
-    (function() {
-      const savedTheme = localStorage.getItem(STORAGE_KEY);
-      if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        document.getElementById('theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
-      }
-    })();
+    const savedTheme = localStorage.getItem('pusa-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    document.getElementById('theme-icon').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
   </script>
 </body>
 </html>
