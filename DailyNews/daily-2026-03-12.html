@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-12</title>
+  <style>
+    :root {
+      /* 星期四：星空紫配色 */
+      --bg-primary:    #13111a;
+      --bg-card:       #1a1725;
+      --bg-card-hover: #231f30;
+      --border:        #3d3654;
+      --text-primary:  #f0e6fa;
+      --text-secondary:#9f8fbf;
+      --accent-primary:#9f7aea;
+      --accent-red:    #f687b3;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #9f7aea, #805ad5);
+
+      /* 字体大小系统 */
+      --font-base:   16px;
+      --font-xs:     14px;
+      --font-sm:     15px;
+      --font-md:     16px;
+      --font-lg:     18px;
+      --font-xl:     21px;
+      --font-2xl:    27px;
+      --font-3xl:    31px;
+      --font-data:   23px;
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #f5f3ee;
+      --bg-card: #ffffff;
+      --bg-card-hover: #faf8f3;
+      --border: #d4cfc4;
+      --text-primary: #2c2416;
+      --text-secondary: #6b6456;
+      --accent-primary: #805ad5;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    .newspaper-header {
+      max-width: 1600px;
+      margin: 0 auto 30px;
+      padding: 20px 0;
+      border-bottom: 3px solid var(--accent-primary);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 900;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+
+    .issue-info, .stats-badge {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      padding: 4px 12px;
+      background: var(--bg-card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .header-divider {
+      height: 2px;
+      background: var(--gradient-title);
+      margin-top: 15px;
+      opacity: 0.6;
+    }
+
+    .newspaper-grid {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    section {
+      background: var(--bg-card);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+      transition: background 0.2s;
+    }
+
+    section:hover {
+      background: var(--bg-card-hover);
+    }
+
+    blockquote {
+      border-left: 4px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 15px 0;
+      background: rgba(210, 168, 255, 0.08);
+      color: var(--text-primary);
+      font-size: var(--font-sm);
+      font-style: italic;
+      border-radius: 4px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      padding: 10px 14px;
+      border-radius: 12px;
+      margin: 10px 0;
+      border-left: 3px solid var(--accent-primary);
+      font-size: var(--font-md);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .analysis-box {
+      background: rgba(159,122,234,0.08);
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin: 12px 0;
+      border-left: 3px solid var(--accent-primary);
+      font-size: var(--font-sm);
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      color: var(--accent-primary);
+      font-weight: 700;
+      margin: 15px 0 10px 0;
+    }
+
+    .heat-stats {
+      display: inline-block;
+      background: var(--accent-red);
+      color: #000;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #000;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin: 0 4px;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 5px 5px 5px 0;
+    }
+
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: #000;
+    }
+
+    .honor-empty, .no-content {
+      text-align: center;
+      color: var(--text-secondary);
+      padding: 30px 20px;
+      font-style: italic;
+      font-size: var(--font-sm);
+    }
+
+    footer {
+      max-width: 1600px;
+      margin: 30px auto 0;
+      padding: 20px 0;
+      text-align: center;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+    }
+
+    .theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      transition: all 0.3s;
+      z-index: 1000;
+    }
+
+    .theme-toggle:hover {
+      background: var(--bg-card-hover);
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">2026年03月12日 星期四</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 0 条消息 · 0 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+  <main class="newspaper-grid">
+    <aside class="col-left">
+      <section class="block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <div class="no-content">今日群内暂无重要公告，社群运营平稳进行中。</div>
+      </section>
+      <section class="block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+        <div class="honor-empty">今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！</div>
+      </section>
+    </aside>
+    <article class="col-center">
+      <section class="block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        <div class="no-content">今日两位老师暂无重要发言，期待明日精彩内容。</div>
+      </section>
+      <section class="block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+        <div class="no-content">今日群内讨论较为平静，暂无高热度话题。</div>
+      </section>
+    </article>
+    <aside class="col-right">
+      <section class="block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+        <div class="no-content">今日暂无AI工具相关讨论，可关注行业最新动态。</div>
+      </section>
+      <section class="block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+        <div class="no-content">今日社群较为安静，大家都在默默耕耘中。</div>
+      </section>
+    </aside>
+  </main>
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-15 23:03:38</p>
+  </footer>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">
+    <span id="theme-icon">☀️</span>
+  </button>
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      document.getElementById('theme-icon').textContent = newTheme === 'dark' ? '☀️' : '🌙';
+      localStorage.setItem('pusa-theme', newTheme);
+    }
+    const savedTheme = localStorage.getItem('pusa-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    document.getElementById('theme-icon').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+  </script>
+</body>
+</html>
