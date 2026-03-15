@@ -2,32 +2,52 @@
 
 ## 📋 方案概述
 
-采用**混合架构**：本地采集 + 云端生成
+**最终方案：本地完整生成 + GitHub 托管**
 
-- **本地脚本**：调用 chatlog API，上传 JSON 数据到 GitHub
-- **GitHub Actions**：读取数据，调用 Claude API 生成日报
+由于第三方 API 服务商限制了 GitHub Actions 的 IP 访问，改为本地执行所有操作：
+- **本地脚本**：采集数据 + 调用 Claude API + 生成日报 + 推送到 GitHub
+- **GitHub**：仅作为代码和日报文件的托管平台
 
 ---
 
-## 🔐 需要配置的 GitHub Secrets
+## 🚀 使用方法（超简单）
 
-在 GitHub 仓库设置中添加以下 Secrets：
+### 每天一键生成日报
 
-| Secret 名称 | 值 | 说明 |
-|------------|---|------|
-| `ANTHROPIC_API_KEY` | `gr_f6b84b5fb31e521d6b28313363a4a6a99d5c9b788a8283a67aeb721566d1fc93` | 第三方 Claude API 密钥 |
-| `ANTHROPIC_BASE_URL` | `https://api.uucode.org` | 第三方 API 请求地址 |
-| `ANTHROPIC_MODEL_ID` | `claude-opus-4-5-20251101` | 使用的模型 ID |
+```bash
+cd "C:/Users/92860/Desktop/AI编程项目-个人合集/测试ClaudeCode"
+node .github/scripts/generate-all-local.js
+```
 
-**配置步骤：**
-1. 打开 GitHub 仓库页面
-2. 进入 `Settings` → `Secrets and variables` → `Actions`
-3. 点击 `New repository secret`
-4. 依次添加上述 3 个 Secrets：
-   - 名称填写 Secret 名称（如 `ANTHROPIC_API_KEY`）
-   - 值填写对应的值
-   - 点击 `Add secret`
-5. 重复步骤 3-4，添加另外 2 个 Secrets
+**就这么简单！** 脚本会自动：
+1. 调用本地 chatlog API 获取昨天的聊天记录
+2. 调用 Claude API 分析生成日报
+3. 生成 HTML 文件
+4. 自动 commit + push 到 GitHub
+
+### 生成指定日期的日报
+
+```bash
+node .github/scripts/generate-all-local.js 2026-03-13
+```
+
+---
+
+## 🔐 环境变量配置（可选）
+
+脚本已内置 API 配置，无需额外设置。如果需要修改，可以设置环境变量：
+
+```bash
+# Windows (PowerShell)
+$env:ANTHROPIC_API_KEY="your_key"
+$env:ANTHROPIC_BASE_URL="https://api.uucode.org"
+$env:ANTHROPIC_MODEL_ID="claude-opus-4-5-20251101"
+
+# Linux/Mac
+export ANTHROPIC_API_KEY="your_key"
+export ANTHROPIC_BASE_URL="https://api.uucode.org"
+export ANTHROPIC_MODEL_ID="claude-opus-4-5-20251101"
+```
 
 ---
 
