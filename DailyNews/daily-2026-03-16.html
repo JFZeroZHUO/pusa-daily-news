@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-16</title>
+  <style>
+    /* ===== 配色系统：星期日 - 玫瑰粉 ===== */
+    :root {
+      --bg-primary:    #1a1015;
+      --bg-card:       #251620;
+      --bg-card-hover: #301c28;
+      --border:        #5c3a4a;
+      --text-primary:  #fef2f6;
+      --text-secondary:#c9a0b0;
+      --accent-primary:#ed64a6;
+      --accent-red:    #f687b3;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #ed64a6, #d53f8c);
+
+      /* ===== 字体大小系统 ===== */
+      --font-base:     16px;
+      --font-xs:       14px;
+      --font-sm:       15px;
+      --font-md:       16px;
+      --font-lg:       18px;
+      --font-xl:       21px;
+      --font-2xl:      27px;
+      --font-3xl:      31px;
+      --font-data:     23px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      max-width: 1600px;
+      margin: 0 auto 30px;
+      padding: 20px 0;
+      border-bottom: 3px solid var(--accent-primary);
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 900;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 2px;
+    }
+    .issue-info, .stats-badge {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      padding: 4px 12px;
+      background: var(--bg-card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .header-divider {
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+      margin-top: 10px;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+    }
+
+    /* ===== 板块通用样式 ===== */
+    section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* ===== 空状态样式 ===== */
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
+      font-style: italic;
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      max-width: 1600px;
+      margin: 30px auto 0;
+      padding: 20px 0;
+      text-align: center;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+    }
+
+    /* ===== 响应式 ===== */
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- 报头 -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">2026年03月16日 星期日</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 0 条消息 · 0 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <section class="block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <div class="empty-state">今日群内暂无重要公告，社群运营平稳进行中。</div>
+      </section>
+
+      <section class="block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+        <div class="empty-state">今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！</div>
+      </section>
+    </aside>
+
+    <!-- 中栏 -->
+    <article class="col-center">
+      <section class="block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        <div class="empty-state">今日两位老师暂无重要发言，期待明日精彩内容。</div>
+      </section>
+
+      <section class="block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+        <div class="empty-state">今日群内讨论较为平静，暂无高热度话题。</div>
+      </section>
+    </article>
+
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <section class="block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+        <div class="empty-state">今日暂无AI工具相关讨论，可关注行业最新动态。</div>
+      </section>
+
+      <section class="block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+        <div class="empty-state">今日社群较为安静，大家都在默默耕耘中。</div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-17 00:00:00</p>
+  </footer>
+</body>
+</html>

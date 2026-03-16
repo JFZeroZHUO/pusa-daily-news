@@ -1,8 +1,15 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-03-16",
+  "lastUpdated": "2026-03-17",
   "digests": [
+    {
+      "date": "2026-03-16",
+      "file": "daily-2026-03-16.html",
+      "title": "群内静默日·期待明日精彩",
+      "messageCount": 0,
+      "speakerCount": 0
+    },
     {
       "date": "2026-03-15",
       "file": "daily-2026-03-15.html",
@@ -13,9 +20,9 @@
     {
       "date": "2026-03-12",
       "file": "daily-2026-03-12.html",
-      "title": "群内静默日·期待明日精彩",
-      "messageCount": 0,
-      "speakerCount": 0
+      "title": "可灵3.0免费薅羊毛热潮·海艺大赛广撒网策略",
+      "messageCount": 71,
+      "speakerCount": 23
     },
     {
       "date": "2026-03-13",
