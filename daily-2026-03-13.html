@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-13</title>
+  <style>
+    :root {
+      /* 星期五：珊瑚红配色 */
+      --bg-primary:    #1a1011;
+      --bg-card:       #251618;
+      --bg-card-hover: #301c1f;
+      --border:        #5c3a3e;
+      --text-primary:  #fef2f2;
+      --text-secondary:#c9a0a5;
+      --accent-primary:#f56565;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #f56565, #e53e3e);
+
+      /* 字体大小系统 */
+      --font-base:   16px;
+      --font-xs:     14px;
+      --font-sm:     15px;
+      --font-md:     16px;
+      --font-lg:     18px;
+      --font-xl:     21px;
+      --font-2xl:    27px;
+      --font-3xl:    31px;
+      --font-data:   23px;
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #f5f3ee;
+      --bg-card: #ffffff;
+      --bg-card-hover: #faf8f3;
+      --border: #d4cfc4;
+      --text-primary: #2c2416;
+      --text-secondary: #6b6456;
+      --accent-primary: #d84545;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    .newspaper-header {
+      max-width: 1600px;
+      margin: 0 auto 30px;
+      padding: 20px 0;
+      border-bottom: 3px solid var(--accent-primary);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 900;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+
+    .issue-info, .stats-badge {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      padding: 4px 12px;
+      background: var(--bg-card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .header-divider {
+      height: 2px;
+      background: var(--gradient-title);
+      margin-top: 15px;
+      opacity: 0.6;
+    }
+
+    .newspaper-grid {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    section {
+      background: var(--bg-card);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+      transition: background 0.2s;
+    }
+
+    section:hover {
+      background: var(--bg-card-hover);
+    }
+
+    blockquote {
+      border-left: 4px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 15px 0;
+      background: rgba(210, 168, 255, 0.08);
+      color: var(--text-primary);
+      font-size: var(--font-sm);
+      font-style: italic;
+      border-radius: 4px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      padding: 10px 14px;
+      border-radius: 12px;
+      margin: 10px 0;
+      border-left: 3px solid var(--accent-primary);
+      font-size: var(--font-md);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .analysis-box {
+      background: rgba(245,101,101,0.08);
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin: 12px 0;
+      border-left: 3px solid var(--accent-primary);
+      font-size: var(--font-sm);
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      color: var(--accent-primary);
+      font-weight: 700;
+      margin: 15px 0 10px 0;
+    }
+
+    .heat-stats {
+      display: inline-block;
+      background: var(--accent-red);
+      color: #000;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #000;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin: 0 4px;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 5px 5px 5px 0;
+    }
+
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: #000;
+    }
+
+    .honor-empty, .no-content {
+      text-align: center;
+      color: var(--text-secondary);
+      padding: 30px 20px;
+      font-style: italic;
+      font-size: var(--font-sm);
+    }
+
+    footer {
+      max-width: 1600px;
+      margin: 30px auto 0;
+      padding: 20px 0;
+      text-align: center;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+    }
+
+    .theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      transition: all 0.3s;
+      z-index: 1000;
+    }
+
+    .theme-toggle:hover {
+      background: var(--bg-card-hover);
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">2026年03月13日 星期五</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 112 条消息 · 77 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+  <main class="newspaper-grid">
+    <aside class="col-left">
+      <section class="block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <blockquote>@所有人 各位同学，早上好！为了给大家提供更专业、更及时的学习支持，社团特别邀请了五位在各自领域表现卓越的同学担任"课代表"。让我们一起认识下他们：🎬 剪辑课代表：@凌（凌潇）🎵 音乐课代表：@Open Your Eyes 🎨 图片课代表：@司尧YAO Siyi 📹 视频课代表：@紫薯有范（原范范W）、@南山。以后在学习过程中，如果你遇到了关于剪辑、音乐、图片或视频方面的技术难题，欢迎随时在群内@相应的课代表。他们会利用专业知识为大家答疑解惑，陪伴大家共同进步。</blockquote>
+
+        <div class="analysis-box">
+          <strong>AI分析：</strong>这是社团建立学习支持体系的重要举措，通过设立专项课代表机制，将技术支持从单一的老师答疑扩展为多维度的同伴互助模式。这种安排有三个显著优势：一是响应速度更快，课代表可以在不同时段及时解答问题；二是降低学习门槛，同学之间的交流往往更轻松自然；三是促进知识共享，课代表在答疑过程中也能巩固自己的技能。建议同学们在遇到技术问题时，先明确问题属于哪个领域，然后@对应课代表并附上具体的问题描述和截图，这样能获得更精准的帮助。
+        </div>
+      </section>
+      <section class="block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+        <blockquote>Lili in London：#交作业 [链接|我发布了一篇笔记：AI短剧：利益与情感的终极对决 沉鳞逐月]</blockquote>
+
+        <div class="analysis-box" style="background: rgba(104,211,145,0.08); border-left-color: var(--accent-green);">
+          <strong>AI点评：</strong>Lili in London作为伦敦时区的学员，能够在凌晨时段完成作业提交，展现了极强的学习热情和时间管理能力。从作品标题"AI短剧：利益与情感的终极对决"可以看出，这是一个具有戏剧冲突和深度主题的创作，"沉鳞逐月"这个富有诗意的名称也显示出创作者的文学素养。更值得关注的是社群的反馈机制：作品发布后短时间内获得了大量正向反馈，这种即时的认可对创作者是巨大的激励。
+        </div>
+      </section>
+    </aside>
+    <article class="col-center">
+      <section class="block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+
+        <div class="analysis-box" style="background: rgba(214,188,250,0.08); border-left-color: var(--accent-purple);">
+          <strong>教育理念解读：</strong><br>
+          今日暂无老师深度发言内容。不过从Andy老师发布的课代表公告可以看出，社团正在构建更完善的学习生态系统。这种"去中心化"的知识传播模式，实际上是在培养学员的自主学习能力和互助精神。
+        </div>
+
+        <div class="analysis-box" style="background: rgba(214,188,250,0.08); border-left-color: var(--accent-purple);">
+          <strong>AI延伸解读：</strong><br>
+          在AI视频创作学习中，技术问题往往具有即时性和多样性的特点。传统的"老师-学生"单向答疑模式容易造成响应延迟和知识传递瓶颈。通过设立分领域课代表，实际上是在社群内部建立了"知识节点网络"，每个课代表都是一个知识传播的中继站。这种模式在技术社区中被证明非常有效，比如开源社区的maintainer机制、技术论坛的版主制度等。<br><br>
+
+          对于学员来说，这意味着学习路径更加清晰：剪辑问题找凌潇、音乐问题找Open Your Eyes、图片问题找司尧、视频问题找紫薯有范或南山。这种明确的分工不仅提高了问题解决效率，也让学员在提问前会更认真地思考和描述问题，从而提升整体学习质量。
+        </div>
+      </section>
+
+      <section class="block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <div class="hot-topic-title">
+          可灵3.0动作控制功能实测<span class="heat-stats">6人参与</span>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">辰星守望</div>
+          用可灵新出的3.0动作控制功能测了一下演绎演员深情独白的戏份，感觉真的将角色内心的情感表达和传递的蛮到位，感兴趣同学可以尝试一下，挺不错的。
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表—紫薯有范</div>
+          哇哦 不错哟
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">辰星守望</div>
+          老爷子本身演技就牛，算是强强联合了，功能好用就没怎么抽卡。
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表—紫薯有范</div>
+          这个老头演的戏 无论正面反面角色 不知道为啥 每次看他我都感觉阴测测的
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">Nina</div>
+          他是老戏骨了，是台湾的金士杰，我看过他一部片子《阳光普照》
+        </div>
+
+        <div class="analysis-box">
+          <strong>AI深度分析：</strong><br>
+          这个讨论串揭示了AI视频生成技术的一个重要突破点——动作控制精度的提升。<span class="ai-tool-badge">可灵3.0</span>的动作控制功能显然在情感表达层面有了质的飞跃，能够准确捕捉和呈现"深情独白"这种需要细腻面部表情和肢体语言配合的复杂场景。辰星守望提到"没怎么抽卡"，说明新功能大幅降低了生成理想效果所需的尝试次数，这对创作效率是巨大提升。<br><br>
+
+          从技术角度看，动作控制3.0可能在以下方面有所改进：更精准的关键帧插值算法、更强的情感语义理解能力、以及更好的人物一致性保持。选择金士杰这样的老戏骨作为素材也很聪明，因为优秀演员的表演本身就具有强烈的情感张力，AI在此基础上进行动作控制，能够事半功倍。
+        </div>
+      </section>
+    </article>
+    <aside class="col-right">
+      <section class="block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+
+        <div class="hot-topic-title">
+          <span class="ai-tool-badge">可灵3.0</span>动作控制功能引发热议
+        </div>
+
+        <blockquote>
+          本日社群重点讨论了可灵AI最新推出的3.0动作控制功能。根据辰星守望的实测反馈，该功能在处理"演员深情独白"等需要细腻情感表达的场景时表现出色，能够准确传递角色内心情感，且生成成功率显著提升，"没怎么抽卡"就能获得满意效果。
+        </blockquote>
+
+        <div class="analysis-box" style="background: rgba(251,211,141,0.08); border-left-color: var(--accent-orange);">
+          <strong>AI趋势判断：</strong><br>
+          从这个案例可以看出，AI视频生成工具正在经历两个重要转变：一是从"碰运气式生成"向"可控精准生成"演进，动作控制功能的升级让创作者能更准确地实现创意构想；二是从"单镜头实验"向"系列化内容生产"发展，工具的稳定性提升使得规模化创作成为可能。<br><br>
+
+          建议同学们关注以下实践方向：尝试可灵3.0的动作控制功能，特别是在需要情感表达的场景中；研究如何将经典影视语言与AI技术结合。同时要注意，工具的进步不能替代创意和审美，技术是手段，好的故事和表达才是核心。
+        </div>
+      </section>
+
+      <section class="block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">Open Your Eyes</div>
+          三人行必有我师 大家互相学习 共同进步
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表—南山</div>
+          惶恐，一定竭尽所能，希望能帮到大家
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">图片课代表—司尧</div>
+          同学们有遇到什么问题可以艾特我们一起探讨
+        </div>
+
+        <div class="analysis-box" style="background: rgba(104,211,145,0.08); border-left-color: var(--accent-green);">
+          <strong>氛围总结：</strong><br>
+          今日社群氛围热烈，77位成员共产生112条消息。课代表任命公告发布后，课代表们展现出谦逊和服务意识，体现了社群成员之间的相互尊重和支持。雪山胖狐同学分享了自己的创作困境："这两天自己做一个好痛苦，各种出不来想要的效果"，这种真实的学习状态引发了不少同学的共鸣。<br><br>
+
+          社群呈现出积极向上、互帮互助的良好氛围。成员们不仅关注技术学习，也注重情感交流和相互鼓励。课代表机制的建立进一步强化了社群的凝聚力，让每个人都能在这个学习共同体中找到归属感。
+        </div>
+      </section>
+    </aside>
+  </main>
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-15 00:00:00</p>
+  </footer>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">
+    <span id="theme-icon">☀️</span>
+  </button>
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      document.getElementById('theme-icon').textContent = newTheme === 'dark' ? '☀️' : '🌙';
+      localStorage.setItem('pusa-theme', newTheme);
+    }
+    const savedTheme = localStorage.getItem('pusa-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    document.getElementById('theme-icon').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+  </script>
+</body>
+</html>

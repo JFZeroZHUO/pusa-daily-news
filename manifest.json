@@ -1,14 +1,49 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-03-17",
   "digests": [
     {
-      "date": "2026-03-08",
-      "file": "daily-2026-03-08.html",
-      "title": "三八妇女节群友献礼·Aria清解答港剧配音",
-      "messageCount": 69,
-      "speakerCount": 25
+      "date": "2026-03-16",
+      "file": "daily-2026-03-16.html",
+      "title": "垫图技巧深度解析·AI视频真假辨别思考",
+      "messageCount": 68,
+      "speakerCount": 20
+    },
+    {
+      "date": "2026-03-15",
+      "file": "daily-2026-03-15.html",
+      "title": "群内静默日·期待明日精彩",
+      "messageCount": 0,
+      "speakerCount": 0
+    },
+    {
+      "date": "2026-03-12",
+      "file": "daily-2026-03-12.html",
+      "title": "可灵3.0免费薅羊毛热潮·海艺大赛广撒网策略",
+      "messageCount": 71,
+      "speakerCount": 23
+    },
+    {
+      "date": "2026-03-13",
+      "file": "daily-2026-03-13.html",
+      "title": "课代表机制启动·可灵3.0动作控制实测",
+      "messageCount": 112,
+      "speakerCount": 77
+    },
+    {
+      "date": "2026-03-14",
+      "file": "daily-2026-03-14.html",
+      "title": "3D建模工具大讨论·Prompt Battle 176预告",
+      "messageCount": 51,
+      "speakerCount": 21
+    },
+    {
+      "date": "2026-03-11",
+      "file": "daily-2026-03-11.html",
+      "title": "群内静默日·期待明日精彩",
+      "messageCount": 0,
+      "speakerCount": 0
     },
     {
       "date": "2026-03-10",
@@ -16,6 +51,13 @@
       "title": "辰星守望可灵神作引爆社群·AI平台监管趋严",
       "messageCount": 105,
       "speakerCount": 30
+    },
+    {
+      "date": "2026-03-08",
+      "file": "daily-2026-03-08.html",
+      "title": "三八妇女节群友献礼·Aria清解答港剧配音",
+      "messageCount": 69,
+      "speakerCount": 25
     },
     {
       "date": "2026-03-07",

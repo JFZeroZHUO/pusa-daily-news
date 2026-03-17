@@ -37,9 +37,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 .newspaper-title { font-size: var(--font-3xl); font-weight: 800; background: var(--gradient-title); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .stats-badge { font-size: var(--font-xs); color: var(--accent-primary); background: rgba(72, 187, 120, 0.15); padding: 4px 12px; border-radius: 20px; }
 .header-divider { max-width: 1600px; margin: 16px auto 0; height: 3px; background: var(--gradient-title); border-radius: 2px; }
-.newspaper-grid { column-count: 3; column-gap: 32px; max-width: 1600px; margin: 24px auto; padding: 0 40px; }
-@media (max-width: 1200px) { .newspaper-grid { column-count: 1; padding: 0 20px; } }
-section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; transition: all 0.3s ease; break-inside: avoid; }
+.newspaper-grid { display: grid; grid-template-columns: 25% 45% 28%; gap: 2%; max-width: 1600px; margin: 24px auto; padding: 0 40px; }
+@media (max-width: 1200px) { .newspaper-grid { grid-template-columns: 1fr; padding: 0 20px; } }
+section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; transition: all 0.3s ease; }
 section:hover { background: var(--bg-card-hover); }
 .block-title { font-size: var(--font-lg); font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 .block-title .icon { font-size: var(--font-xl); }
@@ -71,6 +71,9 @@ mark.green  { background: rgba(154, 230, 180, 0.25); color: var(--accent-green);
 mark.purple { background: rgba(214, 188, 250, 0.25); color: var(--accent-purple); padding: 2px 6px; border-radius: 3px; }
 footer { text-align: center; padding: 24px; color: var(--text-secondary); font-size: var(--font-xs); border-top: 1px solid var(--border); margin-top: 24px; }
 footer p { margin: 0; }
+.hot-topic { margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px dashed var(--border); }
+.hot-topic:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.hot-topic-title { font-size: var(--font-lg); font-weight: 700; color: var(--accent-primary); margin-bottom: 12px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
 .heat-stats { font-size: var(--font-xs); color: var(--accent-orange); background: rgba(251, 211, 141, 0.15); padding: 2px 8px; border-radius: 10px; }
 .author-tag { display: inline-block; background: var(--accent-purple); color: #0d1512; padding: 2px 8px; border-radius: 4px; font-size: var(--font-xs); font-weight: 600; margin-right: 6px; }
 .chat-bubble { background: var(--bg-card-hover); border-radius: 12px; padding: 12px 16px; margin: 8px 0; }
@@ -99,7 +102,9 @@ footer p { margin: 0; }
   </header>
 
   <main class="newspaper-grid">
-    <section class="block-announcement">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <section class="block-announcement">
         <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
         <p>今日群内暂无重要公告，社群运营平稳进行中。</p>
       </section>
@@ -118,19 +123,24 @@ footer p { margin: 0; }
           <mark class="green">获奖秘笈：</mark>有亮点、有创意才能被选中！每日出图打卡比憋长故事更容易产出。
         </p>
       </section>
+    </aside>
 
-    <section class="block-teacher">
+    <!-- 中栏 -->
+    <article class="col-center">
+      <section class="block-teacher">
         <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
         <p>今日两位老师暂无重大教学发言，学员自发形成了高质量的作品展示与交流氛围。</p>
       </section>
 
-      <!-- 话题1：辰星守望 面具之下 -->
       <section class="block-hot">
-        <h2 class="block-title">
-          <span class="icon">🔥</span>
-          <span class="author-tag">辰星守望</span>作品《面具之下》引众人盛赞
-          <span class="heat-stats">👥 15+人参与</span>
-        </h2>
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <!-- 话题1：辰星守望 面具之下 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            <span class="author-tag">辰星守望</span>作品《面具之下》引众人盛赞
+            <span class="heat-stats">👥 15+人参与</span>
+          </div>
 
           <div class="work-card">
             <div class="work-author">📹 辰星守望 作品</div>
@@ -168,16 +178,15 @@ footer p { margin: 0; }
 
           <p style="margin-top: 12px;">
             <mark class="blue">AI分析：</mark>该作品之所以引爆社群，核心在于：1）经典影视IP（周迅《如果爱》）引发情感共鸣；2）成功还原了"一滴眼泪"的细腻情感；3）学员们对可灵手搓技巧的实战探讨。
-        </p>
-      </section>
+          </p>
+        </div>
 
-      <!-- 话题2：Open Your Eyes 蛋仔闯入计划 -->
-      <section class="block-hot">
-        <h2 class="block-title">
-          <span class="icon">🔥</span>
-          <span class="author-tag">Open Your Eyes</span>作品《蛋仔闯入计划》获赞"丝滑"
-          <span class="heat-stats">💬 5人参与</span>
-        </h2>
+        <!-- 话题2：Open Your Eyes 蛋仔闯入计划 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            <span class="author-tag">Open Your Eyes</span>作品《蛋仔闯入计划》获赞"丝滑"
+            <span class="heat-stats">💬 5人参与</span>
+          </div>
 
           <div class="work-card">
             <div class="work-author">📹 Open Your Eyes 作品</div>
@@ -192,15 +201,14 @@ footer p { margin: 0; }
             <div class="chat-sender">rain：</div>
             <div class="chat-content">@Open Your Eyes 丝滑</div>
           </div>
-      </section>
+        </div>
 
-      <!-- 话题3：Open Your Eyes 长河吟 -->
-      <section class="block-hot">
-        <h2 class="block-title">
-          <span class="icon">🔥</span>
-          <span class="author-tag">Open Your Eyes</span>《长河吟》大型舞台作品震撼社群
-          <span class="heat-stats">💬 4人参与</span>
-        </h2>
+        <!-- 话题3：Open Your Eyes 长河吟 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            <span class="author-tag">Open Your Eyes</span>《长河吟》大型舞台作品震撼社群
+            <span class="heat-stats">💬 4人参与</span>
+          </div>
 
           <div class="work-card">
             <div class="work-author">📹 Open Your Eyes 作品</div>
@@ -224,15 +232,13 @@ footer p { margin: 0; }
             <div class="chat-content">厉害！舞蹈部分太厉害了</div>
           </div>
         </div>
-      </section>
 
-      <!-- 话题4：不设限的烟火 兔闪闪 -->
-      <section class="block-hot">
-        <h2 class="block-title">
-          <span class="icon">🔥</span>
-          <span class="author-tag">不设限的烟火Firework</span>《兔闪闪》获Nina盛赞
-          <span class="heat-stats">💬 3人参与</span>
-        </h2>
+        <!-- 话题4：不设限的烟火 兔闪闪 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            <span class="author-tag">不设限的烟火Firework</span>《兔闪闪》获Nina盛赞
+            <span class="heat-stats">💬 3人参与</span>
+          </div>
 
           <div class="work-card">
             <div class="work-author">📹 不设限的烟火Firework 作品</div>
@@ -248,15 +254,13 @@ footer p { margin: 0; }
             <div class="chat-content">真的好看啊</div>
           </div>
         </div>
-      </section>
 
-      <!-- 话题5：AI创作成本 -->
-      <section class="block-hot">
-        <h2 class="block-title">
-          <span class="icon">🔥</span>
-          💰 AI创作成本大讨论：3000可灵值有多贵？
-          <span class="heat-stats">💬 8人参与</span>
-        </h2>
+        <!-- 话题5：AI创作成本 -->
+        <div class="hot-topic">
+          <div class="hot-topic-title">
+            💰 AI创作成本大讨论：3000可灵值有多贵？
+            <span class="heat-stats">💬 8人参与</span>
+          </div>
           <div class="chat-bubble">
             <div class="chat-sender">记忆碎片：</div>
             <div class="chat-content">这样一个得花多少点啊，我现在抠搜得不行</div>
@@ -276,9 +280,13 @@ footer p { margin: 0; }
           <p style="margin-top: 12px;">
             <mark class="blue">AI分析：</mark>可灵AI定位专业级，3000值/作品成本较高；海艺每日挑战机制更适合练习阶段。
           </p>
+        </div>
       </section>
+    </article>
 
-    <section class="block-ai">
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <section class="block-ai">
         <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
 
         <div class="ai-item">
@@ -350,6 +358,7 @@ footer p { margin: 0; }
           💡 记忆碎片："这样我觉得也还挺锻炼创作力的，每天都要憋着想怎么能有创意，能有视觉冲击力。"
         </p>
       </section>
+    </aside>
   </main>
 
   <footer>
