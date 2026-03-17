@@ -1,0 +1,1 @@
+claude mcp add chatlog http://127.0.0.1:5030/sse
