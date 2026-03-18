@@ -1,350 +1,112 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>风变野菩萨AI视频社团A班 · 日报 2026-03-17</title>
   <style>
-    :root {
-      /* ===== 字体大小系统 ===== */
-      --font-base: 16px;
-      --font-xs: 14px;
-      --font-sm: 15px;
-      --font-md: 16px;
-      --font-lg: 18px;
-      --font-xl: 21px;
-      --font-2xl: 27px;
-      --font-3xl: 31px;
-      --font-data: 23px;
-
-      /* ===== 星期二：森林绿配色 ===== */
-      --bg-primary: #0d1512;
-      --bg-card: #141f1a;
-      --bg-card-hover: #1a2922;
-      --border: #2d4a3e;
-      --text-primary: #e6f4ea;
-      --text-secondary: #81a894;
-      --accent-primary: #48bb78;
-      --accent-red: #f687b3;
-      --accent-green: #9ae6b4;
-      --accent-purple: #d6bcfa;
-      --accent-orange: #fbd38d;
-      --accent-yellow: #f6e05e;
-      --gradient-title: linear-gradient(90deg, #48bb78, #38a169);
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
-      font-size: var(--font-base);
-      background: var(--bg-primary);
-      color: var(--text-primary);
-      line-height: 1.7;
-      padding: 20px;
-    }
-
-    .newspaper-header {
-      text-align: center;
-      padding: 30px 20px;
-      background: var(--bg-card);
-      border-radius: 12px;
-      margin-bottom: 30px;
-      border: 1px solid var(--border);
-    }
-
-    .header-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 15px;
-    }
-
-    .issue-info, .stats-badge {
-      font-size: var(--font-xs);
-      color: var(--text-secondary);
-      padding: 6px 14px;
-      background: rgba(72, 187, 120, 0.1);
-      border-radius: 20px;
-      border: 1px solid var(--accent-primary);
-    }
-
-    .newspaper-title {
-      font-size: var(--font-3xl);
-      font-weight: 800;
-      background: var(--gradient-title);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      letter-spacing: 2px;
-    }
-
-    .header-divider {
-      height: 3px;
-      background: var(--gradient-title);
-      margin-top: 20px;
-      border-radius: 2px;
-    }
-
-    .newspaper-grid {
-      display: grid;
-      grid-template-columns: 25% 45% 28%;
-      gap: 2%;
-      margin-bottom: 30px;
-    }
-
-    @media (max-width: 1200px) {
-      .newspaper-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-    }
-
-    .col-left, .col-center, .col-right {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    section {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-    }
-
-    section:hover {
-      background: var(--bg-card-hover);
-      border-color: var(--accent-primary);
-      transition: all 0.3s ease;
-    }
-
-    .block-title {
-      font-size: var(--font-lg);
-      font-weight: 700;
-      margin-bottom: 18px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--text-primary);
-    }
-
-    .block-title .icon {
-      font-size: var(--font-xl);
-    }
-
-    blockquote {
-      border-left: 3px solid var(--accent-purple);
-      padding: 8px 16px;
-      margin: 12px 0;
-      background: rgba(214, 188, 250, 0.06);
-      color: #c9d1d9;
-      font-style: italic;
-      font-size: var(--font-sm);
-      border-radius: 4px;
-    }
-
-    .analysis-box {
-      background: rgba(72, 187, 120, 0.08);
-      border-left: 3px solid var(--accent-primary);
-      padding: 14px 18px;
-      margin: 14px 0;
-      border-radius: 6px;
-      font-size: var(--font-sm);
-      line-height: 1.8;
-    }
-
-    .chat-bubble {
-      background: rgba(72, 187, 120, 0.1);
-      border-radius: 18px;
-      padding: 12px 16px;
-      margin: 10px 0;
-      font-size: var(--font-md);
-      border: 1px solid rgba(72, 187, 120, 0.2);
-    }
-
-    .bubble-sender {
-      font-size: var(--font-xs);
-      color: var(--accent-primary);
-      font-weight: 600;
-      margin-bottom: 6px;
-    }
-
-    .honor-item {
-      background: rgba(246, 224, 94, 0.08);
-      border: 1px solid var(--accent-yellow);
-      border-radius: 10px;
-      padding: 16px;
-      margin: 12px 0;
-    }
-
-    .honor-icon {
-      font-size: var(--font-2xl);
-      margin-right: 10px;
-    }
-
-    .honor-name {
-      font-size: var(--font-md);
-      font-weight: 700;
-      color: var(--accent-yellow);
-    }
-
-    .ai-item {
-      margin: 14px 0;
-      padding: 12px;
-      background: rgba(251, 211, 141, 0.06);
-      border-left: 3px solid var(--accent-orange);
-      border-radius: 6px;
-      font-size: var(--font-sm);
-    }
-
-    .ai-tool-tag {
-      display: inline-block;
-      background: var(--accent-orange);
-      color: #1a1410;
-      padding: 3px 10px;
-      border-radius: 12px;
-      font-size: var(--font-xs);
-      font-weight: 600;
-      margin-right: 8px;
-    }
-
-    .link-pill {
-      display: inline-block;
-      padding: 4px 12px;
-      border-radius: 20px;
-      border: 1px solid var(--accent-primary);
-      color: var(--accent-primary);
-      font-size: var(--font-xs);
-      text-decoration: none;
-      margin-top: 8px;
-      transition: all 0.2s;
-    }
-
-    .link-pill:hover {
-      background: var(--accent-primary);
-      color: var(--bg-primary);
-    }
-
-    .heat-stats {
-      display: inline-block;
-      background: var(--accent-red);
-      color: #1a1011;
-      padding: 3px 10px;
-      border-radius: 12px;
-      font-size: var(--font-xs);
-      font-weight: 600;
-      margin-left: 10px;
-    }
-
-    .hot-topic-title {
-      font-size: var(--font-lg);
-      font-weight: 700;
-      color: var(--accent-primary);
-      margin: 16px 0 10px 0;
-      padding-bottom: 8px;
-      border-bottom: 2px solid var(--accent-primary);
-    }
-
-    .community-card {
-      background: rgba(72, 187, 120, 0.05);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 14px;
-      margin: 10px 0;
-    }
-
-    .community-speaker {
-      font-size: var(--font-xs);
-      color: var(--accent-primary);
-      font-weight: 600;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: var(--text-secondary);
-      font-size: var(--font-xs);
-      border-top: 1px solid var(--border);
-      margin-top: 30px;
-    }
-
-    .highlight-blue { color: var(--accent-primary); font-weight: 700; }
-    .highlight-red { color: var(--accent-red); font-weight: 700; }
-    .highlight-green { color: var(--accent-green); font-weight: 700; }
-
-    mark.blue { background: rgba(72, 187, 120, 0.25); color: var(--accent-primary); padding: 2px 4px; border-radius: 3px; }
-    mark.orange { background: rgba(251, 211, 141, 0.25); color: var(--accent-orange); padding: 2px 4px; border-radius: 3px; }
-    mark.green { background: rgba(154, 230, 180, 0.25); color: var(--accent-green); padding: 2px 4px; border-radius: 3px; }
+    :root { --bg-primary: #0a0e14; --bg-card: #11151c; --border: #2d3748; --text-primary: #e2e8f0; --text-secondary: #718096; --accent-primary: #63b3ed; --accent-yellow: #ecc94b; --gradient-title: linear-gradient(90deg, #63b3ed, #4299e1); --font-base: 16px; --font-xs: 14px; --font-sm: 15px; --font-lg: 18px; --font-3xl: 31px; }
+    body { background: var(--bg-primary); color: var(--text-primary); font-family: -apple-system, sans-serif; line-height: 1.7; padding: 20px; }
+    .newspaper-header { max-width: 1600px; margin: 0 auto 30px; border-bottom: 3px solid var(--accent-primary); }
+    .header-top { display: flex; justify-content: space-between; align-items: center; }
+    .newspaper-title { font-size: var(--font-3xl); font-weight: 900; background: var(--gradient-title); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .issue-info, .stats-badge { font-size: var(--font-xs); color: var(--text-secondary); padding: 4px 12px; background: var(--bg-card); border-radius: 12px; }
+    .newspaper-grid { max-width: 1600px; margin: 0 auto; display: grid; grid-template-columns: 25% 45% 28%; gap: 2%; }
+    section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+    .block-title { font-size: var(--font-lg); font-weight: 700; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; }
+    .block-title .icon { font-size: 21px; }
+    blockquote { border-left: 3px solid #b794f4; padding: 8px 16px; margin: 12px 0; background: rgba(210,168,255,0.06); color: #c9d1d9; font-style: italic; font-size: var(--font-sm); }
+    .highlight-blue { color: #58a6ff; font-weight: 700; } .highlight-green { color: #3fb950; font-weight: 700; } .highlight-orange { color: #ffa657; font-weight: 700; }
+    .honor-card { background: rgba(227,179,65,0.1); border: 1px solid var(--accent-yellow); border-radius: 8px; padding: 12px; margin: 10px 0; }
+    .honor-name { font-size: var(--font-sm); color: var(--accent-yellow); font-weight: 600; }
+    .chat-bubble { background: #1a1f2a; border-radius: 12px; padding: 12px; margin: 10px 0; }
+    .bubble-sender { font-size: var(--font-xs); color: var(--text-secondary); margin-bottom: 4px; }
+    .ai-tool-tag { display: inline-block; padding: 2px 8px; background: #f6ad55; color: #0a0e14; border-radius: 4px; font-size: var(--font-xs); font-weight: 600; margin: 2px; }
+    footer { text-align: center; color: var(--text-secondary); font-size: var(--font-xs); border-top: 1px solid var(--border); padding: 20px 0; margin-top: 30px; }
+    @media (max-width: 1200px) { .newspaper-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
   <header class="newspaper-header">
     <div class="header-top">
-      <span class="issue-info">2026年03月17日 星期二</span>
+      <span class="issue-info">2026年03月17日 星期一</span>
       <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
-      <span class="stats-badge">今日 0 条消息 · 0 人发言</span>
+      <span class="stats-badge">今日 约50条消息 · 约25人发言</span>
     </div>
-    <div class="header-divider"></div>
   </header>
 
   <main class="newspaper-grid">
-    <!-- 左栏 -->
-    <aside class="col-left">
-      <section class="block-announcement">
+    <aside>
+      <section>
         <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
-        <div class="analysis-box">
-          今日群内暂无重要公告，社群运营平稳进行中。
+        <div class="honor-card" style="border-color: #fc8181;">
+          <p style="font-size: var(--font-sm);"><span class="highlight-blue">新成员加入</span></p>
+          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 8px;">欢迎新成员 <span class="highlight-orange">春天</span> 加入野菩萨AI视频社团A班！</p>
         </div>
       </section>
 
-      <section class="block-honor">
+      <section>
         <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
-        <div class="analysis-box">
-          今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！
+        <div class="honor-card">
+          <p style="font-size: var(--font-sm); color: var(--accent-yellow);">🥈 Video Battle Vol.66</p>
+          <p class="honor-name">银奖：肚弱小心 | 入围：方方方、磨磨大王momoking</p>
+        </div>
+        <div class="honor-card">
+          <p style="font-size: var(--font-sm); color: var(--accent-yellow);">🎬 三体赛道作品</p>
+          <p style="font-size: var(--font-sm);"><span class="highlight-green">《深空成人礼》</span> <span class="highlight-green">《三体：最后的坐标》</span> <span class="highlight-green">《晚餐的钟声》</span></p>
         </div>
       </section>
     </aside>
 
-    <!-- 中栏 -->
-    <article class="col-center">
-      <section class="block-teacher">
+    <article>
+      <section>
         <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
-        <div class="analysis-box">
-          今日两位老师暂无重要发言，期待明日精彩内容。
-        </div>
+        <p style="color: var(--text-secondary); font-size: var(--font-sm);">今日两位老师暂无重要发言，期待明日精彩内容。</p>
       </section>
 
-      <section class="block-hot">
+      <section>
         <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
-        <div class="analysis-box">
-          今日群内讨论较为平静，暂无高热度话题。
+        <div class="chat-bubble">
+          <p class="bubble-sender">话题一：三体AI创作大赛作品发布热潮</p>
+          <p style="font-size: var(--font-sm);">今日群内迎来<span class="highlight-blue">多支团队</span>集中发布B站三体赛道参赛作品：</p>
+          <blockquote>"只要火种传下去，谁是木材，不重要。" — 《深空成人礼》</blockquote>
+          <blockquote>"如果是你，选一个人孤独苟活10年，还是大家一起灿烂燃烧3天？" — 《三体：最后的坐标》</blockquote>
+          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 10px;"><span class="highlight-green">AI观察：</span>三体IP在AI视频创作中持续热门，社团多团队协作产出高质量作品。</p>
+        </div>
+        <div class="chat-bubble">
+          <p class="bubble-sender">话题二：可灵视频模仿功能讨论</p>
+          <blockquote>"可灵参考动作很不错" — 肚弱小心</blockquote>
+          <p style="font-size: var(--font-sm); color: var(--text-secondary);"><span class="highlight-green">AI观察：</span>可灵在动作参考方面表现突出，但各平台仍存在时长限制和版权审核等挑战。</p>
         </div>
       </section>
     </article>
 
-    <!-- 右栏 -->
-    <aside class="col-right">
-      <section class="block-ai">
+    <aside>
+      <section>
         <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
-        <div class="analysis-box">
-          今日暂无AI工具相关讨论，可关注行业最新动态。
+        <div class="chat-bubble">
+          <p class="bubble-sender">可灵3.0使用反馈</p>
+          <blockquote>"海艺的可灵3.0能用吗？我这显示都是系统取消"</blockquote>
+          <p style="font-size: var(--font-sm);"><span class="ai-tool-tag">可灵</span> 部分用户反馈存在使用问题。</p>
+        </div>
+        <div class="chat-bubble">
+          <p class="bubble-sender">腾讯QClaw即将上线</p>
+          <p style="font-size: var(--font-sm);"><span class="ai-tool-tag">QClaw</span> 腾讯AI视频工具将于3月18日发布全新版本。</p>
         </div>
       </section>
 
-      <section class="block-community">
+      <section>
         <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
-        <div class="analysis-box">
-          <strong>今日社群氛围：数据获取异常</strong><br><br>
-          <strong>技术说明：</strong> 由于 chatlog MCP 服务 API 端点变更（返回 302 重定向），今日聊天记录暂时无法通过自动化方式获取。服务本身运行正常（端口 5030 监听中），但 HTTP POST 接口 <code>/query_chat_log</code> 重定向至根路径，JSON-RPC 接口需要 session ID 认证。建议通过浏览器界面 <a href="http://127.0.0.1:5030" class="link-pill" target="_blank">http://127.0.0.1:5030</a> 手动查询今日记录。<br><br>
-          <strong>小编寄语：</strong> 技术的道路上总会遇到各种挑战，解决问题的过程本身就是成长。
+        <div class="chat-bubble">
+          <p class="bubble-sender">《大唐航海日志》第三集上线</p>
+          <p style="font-size: var(--font-sm);">视频课代表—紫薯有范的系列作品持续更新，镜花缘篇章引发成员期待。</p>
         </div>
+        <p style="font-size: var(--font-sm); color: var(--text-secondary);">今日社群氛围<span class="highlight-green">活跃且富有创造力</span>。</p>
       </section>
     </aside>
   </main>
 
   <footer>
-    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-18 03:44:00</p>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-18</p>
   </footer>
 </body>
 </html>
