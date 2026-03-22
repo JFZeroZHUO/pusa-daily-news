@@ -3,33 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-21</title>
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-21（修正版）</title>
   <style>
     :root {
       /* ===== 字体大小系统 ===== */
-      --font-base:        16px;   /* body 基础字号 */
-      --font-xs:          14px;   /* 角标、badge、footer、辅助信息 */
-      --font-sm:          15px;   /* blockquote、分析框、次级正文 */
-      --font-md:          16px;   /* 正文、气泡内容、honor-name */
-      --font-lg:          18px;   /* 板块标题（.block-title / .section-title） */
-      --font-xl:          21px;   /* 板块标题 icon/emoji */
-      --font-2xl:         27px;   /* 荣誉图标、装饰性 emoji */
-      --font-3xl:         31px;   /* 报头主标题 (.newspaper-title) */
-      --font-data:        23px;   /* AI资讯数字强调 (.ai-data-number) */
+      --font-base:        16px;
+      --font-xs:          14px;
+      --font-sm:          15px;
+      --font-md:          16px;
+      --font-lg:          18px;
+      --font-xl:          21px;
+      --font-2xl:         27px;
+      --font-3xl:         31px;
+      --font-data:        23px;
 
       /* 星期六：金沙黄 */
-      --bg-primary:    #1a1810;   /* 暖沙背景 */
-      --bg-card:       #252216;   /* 卡片背景 */
-      --bg-card-hover: #302c1c;   /* 卡片悬停 */
-      --border:        #5c5435;   /* 边框 */
-      --text-primary:  #fefcf2;   /* 主文字 */
-      --text-secondary:#c9c0a0;   /* 次文字 */
-      --accent-primary:#ecc94b;   /* 金沙黄：主强调 */
-      --accent-red:    #fc8181;   /* 浅红：公告 */
-      --accent-green:  #68d391;   /* 翠绿：荣誉 */
-      --accent-purple: #d6bcfa;   /* 淡紫：师说 */
-      --accent-orange: #fbd38d;   /* 蜜橙：AI资讯 */
-      --accent-yellow: #f6e05e;   /* 亮黄：奖牌 */
+      --bg-primary:    #1a1810;
+      --bg-card:       #252216;
+      --bg-card-hover: #302c1c;
+      --border:        #5c5435;
+      --text-primary:  #fefcf2;
+      --text-secondary:#c9c0a0;
+      --accent-primary:#ecc94b;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
       --gradient-title: linear-gradient(90deg, #ecc94b, #d69e2e);
     }
 
@@ -44,17 +44,18 @@
       min-height: 100vh;
     }
 
-    /* ===== 报头 Header ===== */
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* ===== 报头 ===== */
     .newspaper-header {
       text-align: center;
       padding: 40px 20px 30px;
       background: linear-gradient(180deg, rgba(236,201,75,0.08) 0%, transparent 100%);
       border-bottom: 2px solid var(--accent-primary);
-    }
-
-    .header-top {
-      max-width: 1600px;
-      margin: 0 auto;
     }
 
     .issue-info {
@@ -92,745 +93,522 @@
       border-radius: 2px;
     }
 
-    .header-tagline {
-      font-size: var(--font-xs);
-      color: var(--text-secondary);
-      margin-top: 15px;
-      font-style: italic;
-    }
-
     /* ===== 三栏布局 ===== */
     .newspaper-grid {
-      max-width: 1600px;
-      margin: 40px auto;
-      padding: 0 20px;
       display: grid;
       grid-template-columns: 25% 45% 28%;
       gap: 2%;
-      align-items: start;
+      margin-bottom: 40px;
     }
 
     @media (max-width: 1200px) {
       .newspaper-grid {
         grid-template-columns: 1fr;
-        gap: 30px;
       }
     }
 
-    /* ===== 通用板块样式 ===== */
-    section {
+    /* ===== 板块样式 ===== */
+    .block-section {
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 24px;
+      padding: 20px;
+      margin-bottom: 20px;
       transition: all 0.3s ease;
     }
 
-    section:hover {
+    .block-section:hover {
       border-color: var(--accent-primary);
       box-shadow: 0 4px 20px rgba(236,201,75,0.1);
     }
 
     .block-title {
       font-size: var(--font-lg);
-      font-weight: 600;
-      margin-bottom: 20px;
+      font-weight: 700;
+      margin-bottom: 16px;
       display: flex;
       align-items: center;
-      gap: 10px;
-      color: var(--text-primary);
+      gap: 8px;
     }
 
     .block-title .icon {
       font-size: var(--font-xl);
     }
 
-    /* ===== 文字样式 ===== */
-    .highlight-blue { color: #58a6ff; font-weight: 700; }
-    .highlight-red { color: #f78166; font-weight: 700; }
-    .highlight-green { color: #3fb950; font-weight: 700; }
-    .bg-highlight { background: rgba(88,166,255,0.12); padding: 2px 6px; border-radius: 3px; }
-
-    blockquote {
-      border-left: 3px solid var(--accent-purple);
-      padding: 12px 18px;
-      margin: 15px 0;
-      background: rgba(214,188,250,0.08);
-      color: var(--text-secondary);
-      font-style: italic;
-      font-size: var(--font-sm);
-      border-radius: 0 8px 8px 0;
-    }
-
-    mark.blue { background: rgba(88,166,255,0.25); color: #58a6ff; padding: 2px 4px; border-radius: 3px; }
-    mark.orange { background: rgba(251,211,141,0.25); color: #fbd38d; padding: 2px 4px; border-radius: 3px; }
-    mark.green { background: rgba(104,211,145,0.25); color: #68d391; padding: 2px 4px; border-radius: 3px; }
-
-    .link-pill {
-      display: inline-block;
-      padding: 4px 12px;
-      border-radius: 20px;
-      border: 1px solid #58a6ff;
-      color: #58a6ff;
-      font-size: var(--font-xs);
-      text-decoration: none;
-      margin: 5px 5px 5px 0;
-      transition: all 0.2s;
-    }
-
-    .link-pill:hover {
-      background: rgba(88,166,255,0.15);
-    }
-
-    /* ===== 板块一：重要公告 ===== */
+    /* ===== 重要公告 ===== */
     .block-announcement {
       border-left: 4px solid var(--accent-red);
     }
 
     .announcement-item {
-      padding: 16px;
-      background: rgba(252,129,129,0.06);
-      border-radius: 8px;
-      margin-bottom: 15px;
+      background: rgba(252,129,129,0.08);
+      border-left: 3px solid var(--accent-red);
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      border-radius: 0 8px 8px 0;
     }
 
     .announcement-time {
       font-size: var(--font-xs);
-      color: var(--accent-red);
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-
-    .announcement-list {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .announcement-list li {
-      padding: 8px 0 8px 20px;
-      position: relative;
-      font-size: var(--font-sm);
-    }
-
-    .announcement-list li::before {
-      content: "▸";
-      position: absolute;
-      left: 0;
-      color: var(--accent-red);
-    }
-
-    .ai-suggestion {
-      margin-top: 15px;
-      padding: 12px 16px;
-      background: rgba(88,166,255,0.08);
-      border-radius: 8px;
-      font-size: var(--font-sm);
       color: var(--text-secondary);
+      margin-bottom: 6px;
     }
 
-    /* ===== 板块二：师说 ===== */
+    /* ===== 师说 ===== */
     .block-teacher {
-      background: linear-gradient(135deg, var(--bg-card), rgba(45,35,50,0.5));
-    }
-
-    .teacher-avatar {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: var(--accent-purple);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      font-weight: 700;
-      margin-right: 15px;
-      flex-shrink: 0;
-    }
-
-    .teacher-header {
-      display: flex;
-      align-items: center;
-      margin-bottom: 15px;
-    }
-
-    .teacher-name {
-      font-size: var(--font-md);
-      font-weight: 600;
-      color: var(--accent-purple);
+      background: linear-gradient(135deg, var(--bg-card), rgba(214,188,250,0.08));
+      border-left: 4px solid var(--accent-purple);
     }
 
     .teacher-quote {
       border-left: 4px solid var(--accent-purple);
-      background: rgba(214,188,250,0.12);
-      padding: 16px 20px;
-      margin: 15px 0;
-      border-radius: 0 12px 12px 0;
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(214,188,250,0.1);
+      border-radius: 0 8px 8px 0;
     }
 
-    .core-view {
-      font-size: var(--font-lg);
-      font-weight: 600;
-      color: var(--accent-primary);
-      margin: 15px 0;
-      line-height: 1.5;
-    }
-
-    .ai-extension {
-      padding: 15px 18px;
+    .analysis-box {
       background: rgba(236,201,75,0.08);
-      border-radius: 10px;
-      margin-top: 15px;
+      border: 1px solid rgba(236,201,75,0.2);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 12px 0;
       font-size: var(--font-sm);
-      color: var(--text-secondary);
     }
 
-    .ai-extension strong {
+    .analysis-box::before {
+      content: '💡 AI解读';
+      display: block;
+      font-weight: 700;
       color: var(--accent-primary);
+      margin-bottom: 8px;
     }
 
-    /* ===== 板块三：热议话题 ===== */
-    .hot-topic {
-      margin-bottom: 25px;
-      padding: 18px;
-      background: rgba(252,129,129,0.05);
-      border-radius: 10px;
-    }
-
+    /* ===== 热议话题 ===== */
     .hot-topic-title {
       font-size: var(--font-lg);
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 12px;
-      color: var(--accent-primary);
+      color: var(--accent-orange);
+      text-decoration: underline;
+      text-decoration-color: var(--accent-orange);
+      text-underline-offset: 4px;
     }
 
     .heat-stats {
-      display: inline-block;
       font-size: var(--font-xs);
-      padding: 4px 10px;
-      background: var(--accent-red);
-      border-radius: 12px;
-      margin-bottom: 15px;
-      color: white;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
     }
 
     .chat-bubble {
       background: var(--bg-card-hover);
-      padding: 12px 16px;
       border-radius: 18px;
-      margin: 10px 0;
-      font-size: var(--font-sm);
+      padding: 12px 16px;
+      margin-bottom: 12px;
     }
 
     .bubble-sender {
       font-size: var(--font-xs);
-      color: var(--accent-purple);
+      color: var(--accent-orange);
       font-weight: 600;
       margin-bottom: 6px;
     }
 
-    .topic-analysis {
-      margin-top: 15px;
-      padding: 14px 18px;
-      background: rgba(251,211,141,0.1);
-      border-radius: 10px;
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
+    /* ===== 荣誉时刻 ===== */
+    .block-honor {
+      background: linear-gradient(135deg, var(--bg-card), rgba(246,229,94,0.08));
     }
 
-    /* ===== 板块四：荣誉时刻 ===== */
     .honor-item {
+      background: rgba(246,229,94,0.1);
+      border: 1px solid var(--accent-yellow);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
       display: flex;
-      align-items: flex-start;
-      padding: 18px;
-      background: linear-gradient(135deg, rgba(246,224,94,0.1), rgba(251,211,141,0.05));
-      border-radius: 12px;
-      margin-bottom: 15px;
+      align-items: center;
+      gap: 12px;
     }
 
     .honor-icon {
       font-size: var(--font-2xl);
-      margin-right: 15px;
-      text-shadow: 0 0 20px rgba(246,224,94,0.6);
     }
 
-    .honor-content {
+    .honor-info {
       flex: 1;
     }
 
     .honor-name {
       font-size: var(--font-md);
-      font-weight: 600;
+      font-weight: 700;
       color: var(--accent-yellow);
-      margin-bottom: 8px;
-      padding: 6px 12px;
-      background: rgba(246,224,94,0.15);
-      border: 1px solid var(--accent-yellow);
-      border-radius: 6px;
-      display: inline-block;
+      margin-bottom: 4px;
     }
 
-    .honor-prize {
-      font-size: var(--font-md);
-      color: var(--accent-primary);
-      margin-top: 8px;
-    }
-
-    .honor-comment {
-      margin-top: 12px;
-      padding: 12px 16px;
-      background: rgba(104,211,145,0.08);
-      border-radius: 8px;
+    .honor-desc {
       font-size: var(--font-sm);
       color: var(--text-secondary);
     }
 
-    /* ===== 板块五：AI资讯 ===== */
-    .ai-item {
-      padding: 16px;
-      background: rgba(251,211,141,0.06);
-      border: 1px solid rgba(251,211,141,0.2);
-      border-radius: 10px;
-      margin-bottom: 15px;
+    /* ===== AI资讯 ===== */
+    .block-ai {
+      border: 1px solid var(--border);
+      font-family: 'Courier New', monospace;
     }
 
-    .ai-tool-tag {
+    .ai-tool-badge {
       display: inline-block;
-      font-size: var(--font-xs);
-      padding: 4px 10px;
       background: var(--accent-orange);
-      color: #1a1410;
+      color: var(--bg-primary);
+      padding: 4px 10px;
       border-radius: 12px;
+      font-size: var(--font-xs);
       font-weight: 600;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
+    }
+
+    .ai-item {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: var(--font-sm);
     }
 
     .ai-highlight {
-      font-size: var(--font-data);
-      font-weight: 700;
       color: var(--accent-orange);
-      margin: 10px 0;
+      font-weight: 700;
+      font-size: var(--font-data);
     }
 
-    .ai-usage-tip {
-      margin-top: 12px;
-      padding: 12px 16px;
-      background: rgba(88,166,255,0.08);
-      border-radius: 8px;
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
+    /* ===== 社群动态 ===== */
+    .block-community {
+      background: var(--bg-card);
     }
 
-    /* ===== 板块六：社群动态 ===== */
-    .community-card {
+    .community-item {
       background: var(--bg-card-hover);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 15px;
-      break-inside: avoid;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
     }
 
     .community-speaker {
       font-size: var(--font-xs);
-      color: var(--accent-purple);
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-
-    .community-content {
-      font-size: var(--font-sm);
       color: var(--text-secondary);
+      margin-bottom: 6px;
     }
 
-    .community-mood {
-      margin-top: 20px;
-      padding: 16px 20px;
-      background: rgba(236,201,75,0.06);
-      border-radius: 10px;
-      font-size: var(--font-sm);
-      color: var(--text-secondary);
-      border-left: 3px solid var(--accent-primary);
-    }
-
-    .editor-note {
-      margin-top: 15px;
-      font-size: var(--font-sm);
-      color: var(--accent-primary);
+    /* ===== 通用样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 8px 16px;
+      margin: 12px 0;
+      background: rgba(214,188,250,0.08);
+      color: #c9d1d9;
       font-style: italic;
-      text-align: right;
     }
 
-    /* ===== Footer ===== */
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      color: var(--text-secondary);
-      font-size: var(--font-xs);
-      border-top: 1px solid var(--border);
-      margin-top: 40px;
-    }
+    .highlight-blue { color: #58a6ff; font-weight: 700; }
+    .highlight-orange { color: #ffa657; font-weight: 700; }
+    .highlight-green { color: #3fb950; font-weight: 700; }
 
-    /* ===== Badge 标签 ===== */
-    .badge {
+    mark.blue { background: rgba(88,166,255,0.25); color: #58a6ff; }
+    mark.orange { background: rgba(255,166,87,0.25); color: #ffa657; }
+    mark.green { background: rgba(63,185,80,0.25); color: #3fb950; }
+    mark.yellow { background: rgba(246,229,94,0.25); color: #f6e05e; }
+
+    .link-pill {
       display: inline-block;
-      font-size: var(--font-xs);
-      padding: 3px 8px;
-      border-radius: 4px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid #58a6ff;
+      color: #58a6ff;
+      font-size: 12px;
+      text-decoration: none;
       margin-right: 6px;
       margin-bottom: 6px;
     }
 
-    .badge-new { background: var(--accent-green); color: #0d1512; }
-    .badge-hot { background: var(--accent-red); color: white; }
-    .badge-tool { background: var(--accent-orange); color: #1a1410; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+    }
+
+    .correction-notice {
+      background: linear-gradient(90deg, #ecc94b, #f6ad55);
+      color: #1a1810;
+      text-align: center;
+      padding: 10px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
-  <!-- 报头 Header -->
-  <header class="newspaper-header">
-    <div class="header-top">
-      <span class="issue-info">第178期 · 2026年03月21日 星期六</span>
-      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
-      <span class="stats-badge">今日 102 条消息 · 社群持续活跃中</span>
-      <p class="header-tagline">记录每一份灵感，见证每一步成长</p>
-      <div class="header-divider"></div>
+  <div class="container">
+    <!-- 修正标识 -->
+    <div class="correction-notice">
+      ⚠️ 修正版本：应用引用消息识别规则
     </div>
-  </header>
 
-  <!-- 三栏主体 -->
-  <main class="newspaper-grid">
-    <!-- 左栏：重要公告 + 荣誉时刻 -->
-    <aside class="col-left">
-      <!-- 板块一：重要公告 -->
-      <section class="block-announcement">
-        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
+    <!-- 报头 -->
+    <header class="newspaper-header">
+      <span class="issue-info">第40期 · 2026年03月21日 星期六</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 102 条消息 · 18 人发言</span>
+      <div class="header-divider"></div>
+    </header>
 
-        <div class="announcement-item">
-          <div class="announcement-time">🎯 18:30</div>
-          <blockquote>
-            <strong>👾 Prompt Battle 178</strong><br>
-            🕰️ 2026/3/21 18:30–20:20 ｜8 轮对战，随时加入<br>
-            🕹️ 腾讯会议：644-9155-7262<br>
-            ✨ MC：根号六 & 烬默渊moyuan<br>
-            新手友好，现场随问随答，丝滑开打！
-          </blockquote>
-          <ul class="announcement-list">
-            <li>每轮 Winner 有机会获得 1 小时悠船GPU时长</li>
-            <li>参赛抽奖：悠船福利版会员 ×3 / 场</li>
-            <li>月度前三：悠船标准版会员，冠军还有PB专属戒指💍</li>
-          </ul>
-        </div>
+    <!-- 三栏主体 -->
+    <main class="newspaper-grid">
+      <!-- 左栏：重要公告 + 荣誉时刻 -->
+      <aside class="col-left">
+        <!-- 重要公告 -->
+        <section class="block-section block-announcement">
+          <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
 
-        <div class="announcement-item">
-          <div class="announcement-time">👥 03:57 / 17:49</div>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary);">欢迎新成员加入社团：<strong>吉鸽</strong>、<strong>设计-周</strong></p>
-        </div>
-
-        <div class="ai-suggestion">
-          💡 <strong>AI行动建议</strong><br>
-          Prompt Battle 是提升提示词工程能力的绝佳机会，建议新手学员参与观摩，学习高手的出图思路。记得提前在 battleverse.cn 注册，并确保网页昵称与群昵称一致。
-        </div>
-      </section>
-
-      <!-- 板块四：荣誉时刻 -->
-      <section class="block-honor">
-        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
-
-        <div class="honor-item">
-          <span class="honor-icon">🎬</span>
-          <div class="honor-content">
-            <div class="honor-name">逆流而上L-xh</div>
-            <div class="honor-prize">多部 AI 插画视频作品发布</div>
-            <div style="margin-top: 10px; font-size: var(--font-sm); color: var(--text-secondary);">
-              让插画动起来系列作品持续发布，涵盖<strong>围攻、捕猎、登场、夜光</strong>等多个主题，展现了极高的创作热情和技术执行力。
+          <div class="announcement-item">
+            <div class="announcement-time">18:21</div>
+            <div><strong>Prompt Battle 178 即将开战</strong></div>
+            <div style="font-size: var(--font-sm); margin-top: 6px;">
+              🕰️ 时间：2026/3/21 18:30–20:20（8轮对战）<br>
+              🕹️ 腾讯会议：644-9155-7262<br>
+              ✨ MC：根号六 & 烬默渊moyuan<br>
+              🚀 战利品：悠船GPU时长、会员、PB专属戒指
             </div>
           </div>
-        </div>
 
-        <div class="honor-item">
-          <span class="honor-icon">🎥</span>
-          <div class="honor-content">
-            <div class="honor-name">由纪AIGC</div>
-            <div class="honor-prize">发布「杀猪女遇上网蛙」创意短片</div>
-            <div style="margin-top: 10px; font-size: var(--font-sm); color: var(--text-secondary);">
-              用 AI 技术演绎传统民间故事的幽默版本，展现了<strong>剧情创意与技术结合</strong>的能力。
+          <div class="analysis-box">
+            <strong style="color: var(--accent-orange);">AI解读：</strong>Prompt Battle 作为社群常规活动，每周举办为学员提供实战练兵机会。本期活动的亮点是"新手友好，现场随问随答"，降低了新参与者的门槛。悠船GPU时长的奖励对AI创作者具有实用价值。建议新手学员积极参与，通过实战快速提升Prompt技巧。
+          </div>
+        </section>
+
+        <!-- 荣誉时刻 -->
+        <section class="block-section block-honor">
+          <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
+
+          <div class="honor-item">
+            <div class="honor-icon">🎬</div>
+            <div class="honor-info">
+              <div class="honor-name">逆流而上 lu-xh：插画动画系列</div>
+              <div class="honor-desc">发布《陆昕海》系列AI动画视频4部，展示插画动画化技巧</div>
             </div>
           </div>
-        </div>
 
-        <div class="honor-item">
-          <span class="honor-icon">⚡</span>
-          <div class="honor-content">
-            <div class="honor-name">社群全体学员</div>
-            <div class="honor-prize">AI工具使用经验无私分享</div>
-            <div style="margin-top: 10px; font-size: var(--font-sm); color: var(--text-secondary);">
-              学员们积极分享 <strong>liblib.tv、即梦、龙虾</strong> 等工具的使用心得，形成了良好的互助学习氛围。
+          <div class="honor-item">
+            <div class="honor-icon">🌟</div>
+            <div class="honor-info">
+              <div class="honor-name">由纪：二创作品《养蛙》</div>
+              <div class="honor-desc">"杀猪女遇上网蛙，不用喂不用圈，省粮省钱还能跑腿"</div>
             </div>
           </div>
-        </div>
 
-        <div class="honor-comment">
-          ✨ <strong>AI 点评</strong><br>
-          今日社群涌现出大量高质量作品，反映出学员们已从技术学习进入创作实战阶段。特别值得称赞的是经验分享精神——<mark class="green">高手们毫无保留地踩坑经验，让新手少走弯路</mark>。这种开源共享文化，正是野菩萨社团最宝贵的财富。
-        </div>
-      </section>
-    </aside>
-
-    <!-- 中栏（最宽）：师说 + 热议话题 -->
-    <article class="col-center">
-      <!-- 板块二：师说 -->
-      <section class="block-teacher">
-        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
-
-        <div class="teacher-header">
-          <div class="teacher-avatar">清</div>
-          <div class="teacher-name">Aria清</div>
-        </div>
-        <div class="teacher-quote">
-          <blockquote>
-            "我给忘了，主要是会做PPT，却不会写提案[流泪]"
-          </blockquote>
-        </div>
-        <p class="core-view">💡 核心观点：技术与创意之间，需要<strong>商业思维</strong>作为桥梁。</p>
-        <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 12px;">
-          Aria老师的这句话点出了很多创作者的共同困境：<mark class="blue">掌握了工具，却不知道如何包装成产品</mark>。PPT是展示工具，提案是商业逻辑——后者往往是独立创作者最缺乏的能力。
-        </p>
-
-        <div class="ai-extension">
-          <strong>🔍 AI 延伸解读</strong><br><br>
-          提案（Proposal）本质上是一份<strong>商业计划书</strong>，它需要回答三个核心问题：<br>
-          <strong>1. Why</strong> — 为什么要做这个作品？目标受众是谁？解决什么需求？<br>
-          <strong>2. What</strong> — 作品的核心卖点是什么？与竞品的差异化在哪里？<br>
-          <strong>3. How</strong> — 如何实现？时间线、预算、资源分配。<br><br>
-          建议学员们可以参考以下框架来练习提案写作：<br>
-          • <strong>项目背景</strong>：行业痛点/市场机会<br>
-          • <strong>创意概念</strong>：一句话概括核心理念<br>
-          • <strong>目标受众</strong>：用户画像分析<br>
-          • <strong>竞品分析</strong>：市面上类似作品的优缺点<br>
-          • <strong>创作方案</strong>：技术路径+时间规划<br>
-          • <strong>预期效果</strong>：数据指标/品牌影响力<br><br>
-          💼 <strong>实践建议</strong>：从模仿开始——找一份你喜欢的电影/动画提案案，分析其结构，然后用自己的项目填空。
-        </div>
-      </section>
-
-      <!-- 板块三：热议话题 -->
-      <section class="block-hot">
-        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
-
-        <!-- 话题一 -->
-        <div class="hot-topic">
-          <h3 class="hot-topic-title">💬 作业难题：如何写出一份优秀的 PPT 提案？</h3>
-          <span class="heat-stats">🔥 8人参与讨论</span>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">Aria清</div>
-            上次菩萨老师没留作业吗？
+          <div class="honor-item">
+            <div class="honor-icon">🎨</div>
+            <div class="honor-info">
+              <div class="honor-name">范范W：作品成功上架平台</div>
+              <div class="honor-desc">直接找平台签约审查上架，创作实力获得认可</div>
+            </div>
           </div>
 
-          <div class="chat-bubble">
-            <div class="bubble-sender">学员</div>
-            有啊，做华丽的ppt
+          <div class="analysis-box">
+            <strong style="color: var(--accent-green);">AI点评：</strong>今日社群呈现出<mark class="green">高产高质量</mark>的创作态势。逆流而上 lu-xh 的插画动画系列展示了"让静态插画动起来"的完整工作流，从夜光到登场，每个作品都有明确的主题定位。由纪的《养蛙》以幽默风趣的方式呈现AI二创的无限可能性。范范W的作品成功上架平台，标志着学员作品已经达到商业化标准。这种"作品-上架-认可"的正向循环，正是AI创作者最期待的成长路径。
           </div>
+        </section>
+      </aside>
 
-          <div class="chat-bubble">
-            <div class="bubble-sender">Aria清</div>
-            我给忘了，主要是会做PPT，却不会写提案[流泪]
-          </div>
+      <!-- 中栏：师说 + 热议话题 -->
+      <article class="col-center">
+        <!-- 师说 -->
+        <section class="block-section block-teacher">
+          <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
 
-          <div class="chat-bubble">
-            <div class="bubble-sender">学员</div>
-            是的，要做高级的很难啊，因为基本找不到参考[捂脸]
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">学员</div>
-            对不起我落下很多作业也在补[捂脸]
-          </div>
-
-          <div class="topic-analysis">
-            <strong>📊 话题分析</strong><br><br>
-            这场讨论揭示了社团学员面临的<strong>普遍困境</strong>：技术学习与商业表达的断层。<mark class="orange">「会做PPT」不等于「会写提案」</mark>——前者是排版美化能力，后者是商业逻辑梳理能力。<br><br>
-            <strong>各观点梳理</strong>：<br>
-            • <strong>技术派</strong>：作业太多，补不过来（反映了学习压力）<br>
-            • <strong>困惑派</strong>：找不到高级案例参考（缺少行业标杆）<br>
-            • <strong>觉醒派</strong>：意识到提案能力的重要性（认知升级）<br><br>
-            <strong>AI 建议</strong>：<br>
-            1. 建议社团举办<strong>提案案分享会</strong>，邀请往期优秀学员拆解<br>
-            2. 菩萨老师可以提供<strong>提案模板框架</strong>，降低新手门槛<br>
-            3. 学员之间可以<strong>互评提案</strong>，在反馈中迭代优化
-          </div>
-        </div>
-
-        <!-- 话题二 -->
-        <div class="hot-topic">
-          <h3 class="hot-topic-title">🛠️ 工具讨论：即梦 vs liblib.tv，谁更值得买会员？</h3>
-          <span class="heat-stats">🔥 6人参与讨论</span>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">小满花开</div>
-            群里有同学买了liblib.tv会员吗？
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">设计师lucia</div>
-            买了个基础会员，出分镜确实好用，但时灵时不灵
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">设计师lucia</div>
-            单张出图没即梦快
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">学员</div>
-            即梦的，我上个月亏了1800积分。。心疼死了。。主要视频全要排长队，出不来多少
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">设计师lucia</div>
-            我只用3.5，用SD排队太花时间了
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">学员</div>
-            排队也就罢了，出来还不一定能用。[捂脸]
-          </div>
-
-          <div class="chat-bubble">
-            <div class="bubble-sender">由纪AIGC</div>
-            早上跑视频的速度比较快，六点到八点之间
-          </div>
-
-          <div class="topic-analysis">
-            <strong>📊 话题分析</strong><br><br>
-            这场讨论堪称<strong>AI工具测评大会</strong>，学员们用真实体验为潜在买家提供了宝贵参考。<br><br>
-            <strong>liblib.tv 优缺点</strong>：<br>
-            ✅ 优点：批量出分镜图效率高，适合商单前期准备<br>
-            ❌ 缺点：单张出图速度慢于即梦，稳定性「时灵时不灵」<br><br>
-            <strong>即梦优缺点</strong>：<br>
-            ✅ 优点：单张出图快，3.5模型出视频体验好<br>
-            ❌ 缺点：SD模型排队时间长（可长达9天才出56秒视频），成品率不确定<br><br>
-            <strong>AI 洞察</strong>：<br>
-            <mark class="green">工具选择的核心是「场景匹配」</mark>——商业项目用 liblib.tv 保效率，个人创作用即梦保体验。更重要的是<strong>时间管理技巧</strong>：早上6-8点是服务器低谷期，跑视频速度显著更快。<br><br>
-            💡 <strong>省钱秘籍</strong>：即梦每天送60-100积分，纯玩党完全够用；只有商单才建议开会员。
-          </div>
-        </div>
-      </section>
-    </article>
-
-    <!-- 右栏：AI资讯 + 社群动态 -->
-    <aside class="col-right">
-      <!-- 板块五：AI资讯 -->
-      <section class="block-ai">
-        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
-
-        <div class="ai-item">
-          <span class="ai-tool-tag">Claude Code</span>
-          <h3 style="font-size: var(--font-md); margin: 10px 0; color: var(--text-primary);">深圳产的「龙虾」vs Claude Code</h3>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-bottom: 12px;">
-            学员们讨论了两款 AI 辅助工具的使用体验：
+          <p style="font-size: var(--font-sm); color: var(--text-secondary); padding: 20px 0; text-align: center;">
+            今日两位老师暂无重要发言，期待明日精彩内容。
           </p>
-          <blockquote style="font-size: var(--font-sm);">
-            "深圳产的龙虾还挺好，就是只能用国产大模型，如果能接Claude，那就完美了"<br><br>
-            "我没敢装 搞了个Claudecode 偶尔写点小工具就够用了"
-          </blockquote>
-          <div class="ai-highlight">Opus 4.6</div>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary);">
-            比较喜欢用 opus 4.6 模型
-          </p>
-          <div class="ai-usage-tip">
-            💡 <strong>趋势判断</strong><br>
-            Claude Code 的<strong>Channels 功能</strong>（用 Telegram/Discord 远程控制会话）引发热议，显示出<strong>移动端 AI 协作</strong>的强劲需求。国产工具「龙虾」受限于模型生态，功能打折扣。<br><br>
-            🚀 <strong>使用建议</strong>：<br>
-            • 代码开发：首选 Claude Code（模型能力强）<br>
-            • 纯娱乐：可尝试千问（Pick上了有奖金）<br>
-            • 企业环境：考虑国产工具（合规性优先）
+
+          <div class="analysis-box" style="margin-top: 20px;">
+            <strong style="color: var(--accent-purple);">💬 学员讨论：</strong>
+            <br><br>
+            虽然老师今日未发言，但学员们围绕"作业与提案"展开了深入讨论。<mark class="blue">野菩萨-清</mark>询问菩萨老师是否留作业，引发了学员们的共鸣。多位学员表示"在补作业"、"比较难"、"基本找不到参考"。<mark class="blue">雾</mark>坦诚地说："我给忘了，主要是会做PPT，却不会写提案[流泪]"，道出了许多学员的共同困境：技术与创意之间，需要<strong>商业思维</strong>作为桥梁。
+            <br><br>
+            <strong style="color: var(--accent-red);">⚠️ 修正说明：</strong>之前将这句话误归为 Aria清 老师所说，实际上是学员雾在引用 Aria清 的话后说的回复。经过应用新的引用消息识别规则，已更正发言人归属。
+            <br><br>
+            这也反映出学员们对作业的重视程度——即使落下很多，也在努力补完。这种学习态度值得肯定。建议社团可以针对"提案写作"开设专题辅导，帮助学员弥补这一技能短板。
           </div>
-        </div>
+        </section>
 
-        <div class="ai-item">
-          <span class="ai-tool-tag">行业动态</span>
-          <h3 style="font-size: var(--font-md); margin: 10px 0; color: var(--text-primary);">「AI数字艺人撞脸明星」侵权争议</h3>
-          <p style="font-size: var(--font-sm); color: var(--text-secondary);">
-            央视新闻报道了 AI 数字艺人「撞脸」明星可能涉及的版权问题，引发了学员们的关注。
-          </p>
-          <a href="https://mp.weixin.qq.com/s?__biz=MTI0MDU3NDYwMQ==&mid=2657902596&idx=1&sn=297219fca634191267f762c54a151c51" class="link-pill" target="_blank">📖 阅读原文</a>
-          <div class="ai-usage-tip">
-            ⚖️ <strong>法律风险提示</strong><br>
-            使用 AI 生成「类明星」形象时，应避免：<br>
-            • 直接使用明星姓名或艺名<br>
-            • 明示「仿某某明星」进行营销<br>
-            • 商业项目中使用高度相似形象<br><br>
-            ✅ <strong>合规做法</strong>：明确标注「AI原创数字人」，保留生成过程证据，获得肖像授权后再商业化。
+        <!-- 热议话题 -->
+        <section class="block-section">
+          <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
+
+          <!-- 话题一：liblib.tv会员讨论 -->
+          <div style="margin-bottom: 24px;">
+            <div class="hot-topic-title">AI工具深度对比：liblib.tv vs 即梦 vs SD</div>
+            <div class="heat-stats">💬 30+条回复 · 多人参与 · 20:47-22:00</div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">小满花开</div>
+              群里有同学买了liblib.tv会员吗？
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">设计师lucia</div>
+              <blockquote>出图没有即梦快，买的包月。也是在做商单才买的。主要是为了批量出分镜图</blockquote>
+              <blockquote>即梦我不太敢用SD，出来不一定能用上，又还要等这么久</blockquote>
+              <blockquote>所以我才用libtv先出分镜，还是老办法关键帧来做保险一些</blockquote>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">ヒーロー見参！</div>
+              <blockquote>我上个月亏了1800积分。。心疼死了。。主要视频全要排长队，出不来多少</blockquote>
+              <blockquote>即梦的</blockquote>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">由纪</div>
+              <blockquote>我只用3.5，用SD排队太花时间了</blockquote>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">雾</div>
+              <blockquote>我整了个视频，抽了我9天，就56S，幸亏我只是纯玩[捂脸]</blockquote>
+            </div>
+
+            <div class="analysis-box">
+              <strong style="color: var(--accent-orange);">AI分析：</strong>这场讨论深入探讨了三大AI工具的<strong>实际应用场景</strong>，对创作者具有重要参考价值：<br><br>
+              <mark class="orange">liblib.tv</mark>：优势在于批量出分镜图，适合商单制作。劣势是单张出图不如即梦快。<br>
+              <mark class="orange">即梦SD</mark>：排队时间长（ヒーロー見参！亏损1800积分），出来不一定能用上。但3.5版本相对实用。<br>
+              <mark class="orange">使用策略</mark>：设计师lucia 的"老办法"很明智——libtv出分镜 + 关键帧制作，这种组合拳既保证了效率，又降低了风险。<br><br>
+              从讨论中可以看出，学员们已经从"单纯使用工具"进化到"工具组合策略"，这是AI创作进阶的重要标志。雾提到的"抽了我9天，就56S"，也提醒创作者注意成本控制。
+            </div>
           </div>
-        </div>
 
-        <div class="ai-item">
-          <span class="ai-tool-tag">创作工具</span>
-          <h3 style="font-size: var(--font-md); margin: 10px 0; color: var(--text-primary);">积分管理攻略</h3>
-          <blockquote style="font-size: var(--font-sm);">
-            "我的即梦积分下周到期，先花完[嘿哈]"<br><br>
-            "我上个月亏了1800积分。。心疼死了"
-          </blockquote>
-          <div class="ai-usage-tip">
-            💰 <strong>省积分秘籍</strong><br>
-            • <strong>积分到期提醒</strong>：设置日历提醒，避免浪费<br>
-            • <strong>错峰使用</strong>：早上 6-8 点排队少，效率高<br>
-            • <strong>模型选择</strong>：3.5 模型出图快，适合批量测试；SD 模型画质高，适合精修<br>
-            • <strong>优先级管理</strong>：积分先用在<strong>商单项目</strong>，纯玩用赠送分
+          <!-- 话题二：平台签约讨论 -->
+          <div>
+            <div class="hot-topic-title">创作者变现路径：平台签约 vs 自主运营</div>
+            <div class="heat-stats">💬 5条回复 · 00:18-08:38</div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">范范W</div>
+              哈哈 上架了
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">ヒーロー見参！</div>
+              <blockquote>这个是有热度了上架 还是直接跟他们合作的？</blockquote>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">范范W</div>
+              <blockquote>直接找平台签约审查上架</blockquote>
+            </div>
+
+            <div class="analysis-box">
+              <strong style="color: var(--accent-orange);">AI分析：</strong>这段简短对话揭示了AI创作者的<strong>商业化路径</strong>。范范W 的"直接找平台签约审查上架"说明：<br><br>
+              1. <mark class="blue">作品质量达到平台标准</mark>：能够通过平台的审查机制<br>
+              2. <mark class="blue">主动对接变现渠道</mark>：不是等待被发现，而是主动寻找平台<br>
+              3. <mark class="blue">签约形式合作</mark>：获得持续收益而非一次性买断<br><br>
+              这为其他学员提供了可参考的变现思路。建议社群可以邀请范范W 分享签约经验，包括作品准备、平台选择、谈判技巧等。
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </article>
 
-      <!-- 板块六：社群动态 -->
-      <section class="block-community">
-        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
+      <!-- 右栏：AI资讯 + 社群动态 -->
+      <aside class="col-right">
+        <!-- AI资讯 -->
+        <section class="block-section block-ai">
+          <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
 
-        <div class="community-card">
-          <div class="community-speaker">🎵 MY_Mask_Mask</div>
-          <div class="community-content">分享音乐专辑《Next Getaway》《Grid Dance》，为创作注入灵感</div>
-        </div>
+          <div class="ai-tool-badge">国产大模型</div>
 
-        <div class="community-card">
-          <div class="community-speaker">📚 学员互助</div>
-          <div class="community-content">"谁有整理好的课程回放呀老师们"——社群内部积极共享学习资源</div>
-        </div>
+          <div class="ai-item">
+            <strong>深圳产"龙虾"引发讨论</strong>
+            <div style="margin-top: 6px; color: var(--text-secondary);">
+              尹星懿分享："深圳产的龙虾还挺好，就是只能用国产大模型，如果能接Claude，那就完美了"
+            </div>
+          </div>
 
-        <div class="community-card">
-          <div class="community-speaker">😂 作业共鸣</div>
-          <div class="community-content">"对不起，我在做上上周的作业"——引发多人「补作业」共鸣</div>
-        </div>
+          <div class="ai-item">
+            <strong>Claude Code 新功能上线</strong>
+            <div style="margin-top: 6px; color: var(--text-secondary);">
+              Channels功能：用 Telegram/Discord 从手机远程控制会话，底层基于MCP
+            </div>
+          </div>
 
-        <div class="community-card">
-          <div class="community-speaker">🔥 创作热情</div>
-          <div class="community-content">"积分要到期了，准备让我的图都动了起来"——学员们积极消耗积分产出作品</div>
-        </div>
+          <div class="ai-tool-badge">Claude Code</div>
 
-        <div class="community-card">
-          <div class="community-speaker">🆕 新成员</div>
-          <div class="community-content">欢迎<strong>吉鸽</strong>、<strong>设计-周</strong>加入社团，社群持续壮大</div>
-        </div>
+          <div class="ai-item">
+            <strong style="color: var(--text-primary);">学员使用反馈：</strong>
+            <div style="margin-top: 6px;">
+              范范W："其实Claudecode也够用了，尤其最近更新了个功能"<br>
+              尹星懿："今天准备交作业，全用龙虾做试试"<br>
+              范范W："比较喜欢用opus 4.6模型"
+            </div>
+          </div>
 
-        <div class="community-mood">
-          <strong>🌈 今日氛围</strong><br><br>
-          周六的社团呈现出<strong>「创作热情高涨」</strong>的氛围——从早上6点开始就有学员在跑视频，深夜11点仍在讨论工具技巧。Prompt Battle 活动通知发布后，激发了学员们的竞技热情。<br><br>
-          <strong>活跃时段</strong>：早高峰 6:00-8:00（错峰创作），晚高峰 20:00-23:00（作业冲刺）<br>
-          <strong>关键词</strong>：补作业、工具测评、积分焦虑、作品分享<br><br>
-          <mark class="blue">特别值得一提</mark>：学员们从「技术学习」转向「创作实战」，工具讨论从「哪个好用」深入到「如何高效使用」，标志着整体能力水平的提升。
-        </div>
+          <div class="analysis-box">
+            <strong style="color: var(--accent-orange);">趋势判断：</strong><br>
+            <mark class="blue">国产大模型崛起</mark>：深圳产"龙虾"的讨论表明，国产AI工具正在获得创作者认可。限制"只能用国产大模型"反而成为了一个特色定位。<br><br>
+            <mark class="blue">Claude Code 进化</mark>：Channels功能的推出，让Claude Code从单纯的代码助手进化为"随时随地可访问"的AI助手。范范W说的"够用了"反映出实用性优于功能堆砌的产品哲学。<br><br>
+            <strong style="color: var(--accent-green);">使用建议：</strong>建议社群组织一次"国产大模型vs Claude"实战对比测试，从代码、创作、数据分析等多个场景进行评测，帮助学员找到最适合自己需求的工具组合。
+          </div>
+        </section>
 
-        <div class="editor-note">
-          —— 小编：见证成长，记录灵感 🌟
-        </div>
-      </section>
-    </aside>
-  </main>
+        <!-- 社群动态 -->
+        <section class="block-section block-community">
+          <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
 
-  <!-- 页脚 -->
-  <footer>
-    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-21</p>
-    <p style="margin-top: 8px; color: var(--text-secondary);">🤖 AI 驱动 · 人心共创 · 每一份灵感都值得被记录</p>
-  </footer>
+          <div class="community-item">
+            <div class="community-speaker">03:57 | 17:49</div>
+            <div style="font-size: var(--font-sm);">
+              <strong style="color: var(--accent-primary);">🎉 新成员加入</strong><br>
+              Andy老师邀请<strong>吉鸽</strong>、<strong>设计-周</strong>加入社群，社群持续扩容。
+            </div>
+          </div>
+
+          <div class="community-item">
+            <div class="community-speaker">全天 | 作业与创作交流</div>
+            <div style="font-size: var(--font-sm);">
+              <strong style="color: var(--accent-green);">📚 学习氛围浓厚</strong><br>
+              <blockquote>由纪："对不起，我在做上上周的作业"</blockquote>
+              <blockquote>雾："我给忘了，主要是会做PPT，却不会写提案"</blockquote>
+              <blockquote>逆流而上 lu-xh："积分要到期了，准备让我的图都动了起来"</blockquote>
+            </div>
+          </div>
+
+          <div class="community-item">
+            <div class="community-speaker">21:59-22:00 | 经验分享</div>
+            <div style="font-size: var(--font-sm);">
+              <strong style="color: var(--accent-purple);">💡 实用技巧</strong><br>
+              <blockquote>小满花开："早上跑视频的速度比较快，六点到八点之间"</blockquote>
+              <blockquote>逆流而上 lu-xh："今天挺快的7分钟左右一条"</blockquote>
+            </div>
+          </div>
+
+          <div class="analysis-box">
+            <strong style="color: var(--accent-primary);">小编观察：</strong><br>
+            今日社群呈现出<strong>"学习+创作+分享"</strong>的三位一体生态。<br><br>
+            <mark class="yellow">学习层面</mark>：作业讨论热烈，学员们坦诚自己的困难（"会做PPT却不会写提案"），形成了互助氛围。<br>
+            <mark class="yellow">创作层面</mark>：高产学员如逆流而上 lu-xh 一天发布4部作品，范范W作品成功上架，激励了其他学员。<br>
+            <mark class="yellow">分享层面</mark>：工具使用经验（早上跑视频快）、会员测评（liblib.tv vs 即梦）等实用信息快速流转。<br><br>
+            <strong style="color: var(--accent-green);">小编寄语：</strong>这种"乐于分享、互助成长"的社群文化，正是野菩萨社团的核心竞争力。保持这份热情，继续创作！
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+      <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-22</p>
+      <p style="margin-top: 8px; color: var(--accent-orange);">⚠️ 本版本应用了新的引用消息识别规则，特别修正了师说板块的发言人归属问题</p>
+    </footer>
+  </div>
 </body>
 </html>
