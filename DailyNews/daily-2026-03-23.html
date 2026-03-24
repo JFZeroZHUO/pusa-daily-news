@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-23</title>
+  <style>
+    :root {
+      /* ===== 字体大小系统 ===== */
+      --font-base:        16px;
+      --font-xs:          14px;
+      --font-sm:          15px;
+      --font-md:          16px;
+      --font-lg:          18px;
+      --font-xl:          21px;
+      --font-2xl:         27px;
+      --font-3xl:         31px;
+      --font-data:        23px;
+
+      /* ===== 星期一：深空蓝配色 ===== */
+      --bg-primary:    #0a0e14;
+      --bg-card:       #11151c;
+      --bg-card-hover: #1a1f2a;
+      --border:        #2d3748;
+      --text-primary:  #e2e8f0;
+      --text-secondary:#718096;
+      --accent-primary:#63b3ed;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #b794f4;
+      --accent-orange: #f6ad55;
+      --accent-yellow: #ecc94b;
+      --gradient-title: linear-gradient(90deg, #63b3ed, #4299e1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      background: linear-gradient(180deg, #0f141a 0%, var(--bg-primary) 100%);
+      padding: 40px 20px 30px;
+      text-align: center;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .header-top {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .issue-info {
+      display: inline-block;
+      background: rgba(99, 179, 237, 0.15);
+      color: var(--accent-primary);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: var(--font-xs);
+      margin-bottom: 20px;
+      border: 1px solid rgba(99, 179, 237, 0.3);
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 700;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      background: rgba(104, 211, 145, 0.15);
+      color: var(--accent-green);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: var(--font-xs);
+      border: 1px solid rgba(104, 211, 145, 0.3);
+    }
+
+    .header-divider {
+      height: 2px;
+      background: var(--gradient-title);
+      margin-top: 25px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ===== 主体布局 ===== */
+    .newspaper-grid {
+      max-width: 1600px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      align-items: start;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== 通用板块样式 ===== */
+    .block-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      transition: all 0.3s ease;
+    }
+
+    .block-section:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 8px 24px rgba(99, 179, 237, 0.1);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-primary);
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* ===== 引用块 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 20px;
+      margin: 16px 0;
+      background: rgba(183, 148, 244, 0.08);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      border-radius: 0 8px 8px 0;
+    }
+
+    blockquote strong {
+      color: var(--text-primary);
+      font-style: normal;
+    }
+
+    /* ===== 对话气泡 ===== */
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      padding: 12px 16px;
+      border-radius: 18px;
+      margin: 12px 0;
+      font-size: var(--font-md);
+      border: 1px solid var(--border);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    /* ===== 分析框 ===== */
+    .analysis-box {
+      background: rgba(99, 179, 237, 0.08);
+      border-left: 3px solid var(--accent-primary);
+      padding: 16px 20px;
+      margin: 20px 0;
+      border-radius: 0 8px 8px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    .analysis-box strong {
+      color: var(--accent-primary);
+    }
+
+    /* ===== 热度标签 ===== */
+    .heat-stats {
+      display: inline-flex;
+      gap: 10px;
+      background: rgba(252, 129, 129, 0.15);
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      color: var(--accent-red);
+      margin-bottom: 12px;
+    }
+
+    /* ===== AI工具标签 ===== */
+    .ai-tool-tag {
+      display: inline-block;
+      background: rgba(246, 173, 85, 0.2);
+      color: var(--accent-orange);
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      margin: 4px;
+      border: 1px solid rgba(246, 173, 85, 0.4);
+    }
+
+    /* ===== 链接胶囊 ===== */
+    .link-pill {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: var(--bg-primary);
+    }
+
+    /* ===== 荣誉卡片 ===== */
+    .honor-card {
+      background: linear-gradient(135deg, rgba(236, 201, 75, 0.1), rgba(236, 201, 75, 0.05));
+      border: 1px solid rgba(236, 201, 75, 0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 16px 0;
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 600;
+      color: var(--accent-yellow);
+      margin-bottom: 8px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      margin-bottom: 10px;
+    }
+
+    /* ===== 社群动态瀑布 ===== */
+    .community-flow {
+      column-count: 1;
+      column-gap: 16px;
+    }
+
+    @media (min-width: 768px) {
+      .community-flow {
+        column-count: 2;
+      }
+    }
+
+    .community-card {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+      break-inside: avoid;
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+      margin-top: 40px;
+    }
+
+    /* ===== 强调文字 ===== */
+    .highlight-blue { color: var(--accent-primary); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+
+    .bg-highlight {
+      background: rgba(99, 179, 237, 0.12);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    mark.blue {
+      background: rgba(99, 179, 237, 0.25);
+      color: var(--accent-primary);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    mark.orange {
+      background: rgba(246, 173, 85, 0.25);
+      color: var(--accent-orange);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    /* ===== 时间轴样式（公告） ===== */
+    .timeline-item {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 20px;
+      border-left: 2px solid var(--accent-red);
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      background: var(--accent-red);
+      border-radius: 50%;
+    }
+
+    .timeline-time {
+      font-size: var(--font-xs);
+      color: var(--accent-red);
+      margin-bottom: 6px;
+    }
+
+    /* ===== 热议话题标题 ===== */
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--accent-primary);
+    }
+
+    /* ===== 主题标签横幅（公告） ===== */
+    .alert-banner {
+      background: linear-gradient(90deg, var(--accent-red), #ff9580);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: var(--font-sm);
+    }
+
+    /* ===== 视频分享卡片 ===== */
+    .video-share-card {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+
+    .video-title {
+      font-size: var(--font-sm);
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .video-author {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <!-- 报头 Header -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第XXX期 · 2026年03月23日 星期一</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 84 条消息 · 11 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
+    <aside class="col-left">
+      <!-- 📢 重要公告 -->
+      <section class="block-section block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <div class="alert-banner">作业发布 · 新成员加入</div>
+
+        <div class="timeline-item">
+          <div class="timeline-time">17:21</div>
+          <blockquote>
+            <strong>【📌野菩萨AI视频社团：0322作业】</strong><br><br>
+            📅作业内容：AIGC短片美术风格训练<br><br>
+            生成《好事马上来》风格的古代帝国场景，以古罗马、古埃及、古印度或古中国为场景蓝本，完成半透明果冻质感的城市场景设定；<br><br>
+            提交4-6张统一色调、统一材质的场景设定；（可以包含角色）<br><br>
+            ⌚ 提交时间：不限<br><br>
+            📝 提交方式（两个都要完成哦~）：<br>
+            1、群里发 #作业0322<br>
+            2、同时填写提交表单：https://forchangesz.feishu.cn/share/base/form/shrcn9a2EDWOhzupwcgQZdTHT6b
+          </blockquote>
+        </div>
+
+        <div class="analysis-box">
+          <strong>要点提炼：</strong><br>
+          • 美术风格训练：半透明果冻质感<br>
+          • 场景设定：古代帝国场景<br>
+          • 提交要求：4-6张统一色调材质<br>
+          • 提交方式：群内打卡 + 表单填写<br><br>
+          <strong>AI行动建议：</strong><br>
+            本次作业聚焦于材质质感的统一性控制，建议学员在创作前先确定主色调方案，并使用AI工具的色彩参考功能保持一致性。古罗马/古埃及场景可参考历史纪录片色调，果冻质感可通过调整透明度和光泽度参数实现。
+        </div>
+
+        <div class="timeline-item" style="border-left-color: var(--accent-green);">
+          <div class="timeline-time">10:46 / 11:08 / 19:17</div>
+          <div class="chat-bubble">
+            <div class="bubble-sender">系统消息</div>
+            热烈欢迎新成员加入：<strong>该伦🇨🇳、永校、振坤</strong>三位同学加入社团！
+          </div>
+        </div>
+      </section>
+
+      <!-- 🏆 荣誉时刻 -->
+      <section class="block-section block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+        <div class="honor-card">
+          <div class="honor-icon">🎨</div>
+          <div class="honor-name">今日暂无荣誉表彰</div>
+          <p style="color: var(--text-secondary); font-size: var(--font-sm);">继续加油，期待下一位闪光时刻！</p>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏（最宽）：师说 + 热议话题 -->
+    <article class="col-center">
+      <!-- 👨‍🏫 师说 -->
+      <section class="block-section block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        <div class="analysis-box" style="border-left-color: var(--accent-purple); background: rgba(183, 148, 244, 0.08);">
+          <strong>今日两位老师暂无重要发言</strong><br><br>
+          期待明日精彩内容。老师们可能在专注备课或处理其他事务，学员们可以利用这段时间完成作业、打磨作品。
+        </div>
+      </section>
+
+      <!-- 🔥 热议话题 -->
+      <section class="block-section block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <!-- 话题一 -->
+        <div style="margin-bottom: 30px;">
+          <h3 class="hot-topic-title">话题一：风变AI对话工具突发故障</h3>
+          <div class="heat-stats">
+            <span>👥 6人参与</span>
+            <span>💬 9条讨论</span>
+          </div>
+
+          <blockquote>
+            <strong>[07:53] 由纪（由纪AIGC）：</strong>今天的风变AI对话模型怎么出问题了<br><br>
+            <strong>[09:32] 由纪（由纪AIGC）：</strong>老师，今天风变AI对话工具出问题了，无论换哪个模型都说请求出现了错误，请处理一下，谢谢<br><br>
+            <strong>[09:46] 雾（May雾）：</strong>昨晚就不行了<br><br>
+            <strong>[09:48] 由纪（由纪AIGC）：</strong>好像DEEPSEEK可以<br><br>
+            <strong>[09:57] 匿名学员：</strong>快速模型，网页版可以。就是比较慢。。
+          </blockquote>
+
+          <div class="analysis-box">
+            <strong>AI分析：</strong><br><br>
+            早上7点半开始，多名学员反馈风变AI对话工具出现故障，表现为"无论换哪个模型都说请求出现了错误"。从讨论情况看，问题从昨晚就已存在，影响面较广。<br><br>
+            学员们通过互助找到了临时解决方案：<span class="highlight-blue">DeepSeek模型</span>和<span class="highlight-blue">网页版快速模型</span>仍可正常使用，但速度较慢。这种问题可能是服务器负载过高或API接口异常导致。<br><br>
+            <strong>建议：</strong>遇到工具故障时，第一时间在群内反馈，同时尝试切换模型或使用备用方案，避免影响学习进度。
+          </div>
+        </div>
+
+        <!-- 话题二 -->
+        <div>
+          <h3 class="hot-topic-title">话题二：即梦AI真人审查趋严</h3>
+          <div class="heat-stats">
+            <span>👥 4人参与</span>
+            <span>💬 7条讨论</span>
+          </div>
+
+          <blockquote>
+            <strong>[12:22] 设计师lucia：</strong>即梦现在好严格呀，我这张剧照都不行，硬是把人脸打了马赛克才可以[捂脸]<br><br>
+            <strong>[12:35] 视频课代表—紫薯有范：</strong>有两个方法可以试试 一是改成手绘风格 然后出视频的时候强调要真人写实风格 二是把人物改为白底多视图<br><br>
+            <strong>[13:38] 不设限的烟火Firework：</strong>白底四视图不行 直接真人人脸 估计是四视图的大脸[捂脸]<br><br>
+            <strong>[13:43] 逐尘LiorCc：</strong>大部分情况是可以的，特写出图尽量肩部以上<br><br>
+            <strong>[13:44] 不设限的烟火Firework：</strong>我现在都不敢搞真人的
+          </blockquote>
+
+          <div class="analysis-box">
+            <strong>AI分析：</strong><br><br>
+            即梦AI近期对真人形象的审核标准明显收紧，多位学员反映直接使用真人人脸会被拒或要求打码。<span class="highlight-red">核心问题</span>集中在白底多视图和特写大脸场景上。<br><br>
+            <strong> workaround方案：</strong><br>
+            ① <span class="highlight-blue">风格转换法</span>：先用手绘风格生成，再强调真人写实<br>
+            ② <span class="highlight-blue">构图调整法</span>：避免大脸特写，肩部以上或中景更易通过<br>
+            ③ <span class="highlight-blue">马赛克策略</span>：参考服装做设计，人脸做遮挡处理<br><br>
+            这种趋严态势可能与平台合规要求升级有关，建议学员们提前准备B计划，灵活调整创作策略。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏：AI资讯 + 社群动态 -->
+    <aside class="col-right">
+      <!-- 🤖 AI资讯 -->
+      <section class="block-section block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+
+        <div style="margin-bottom: 20px;">
+          <span class="ai-tool-tag">即梦AI</span>
+          <span class="ai-tool-tag">可灵AI</span>
+          <span class="ai-tool-tag">DeepSeek</span>
+        </div>
+
+        <h3 style="font-size: var(--font-sm); color: var(--accent-orange); margin-bottom: 12px;">今日焦点：平台审查与工具稳定性</h3>
+
+        <blockquote>
+          <strong>[21:08] 匿名学员：</strong>最近科幻题材很火，没参加三体赛，就借着东风创作一个不那么遥远的上天小故事吧，先开个序章好了，横屏应该可以看的更清楚。<br><br>
+          <strong>[视频分享] 辰星守望：</strong>深空逐影·启航（建议横屏观看），第1篇：启程出发，箭指蓝天。<br><span style="color: var(--text-secondary); font-size: var(--font-xs);">#可灵AI #可灵模型第三代 #可灵AI全民导演创想季 #海艺AI #flowmuse</span>
+        </blockquote>
+
+        <div class="analysis-box">
+          <strong>趋势判断：</strong><br><br>
+          今日社群内AI工具讨论呈现两极：<span class="highlight-red">平台审查收紧</span> vs <span class="highlight-green">模型能力提升</span>。即梦AI对真人内容严格管控的同时，可灵第三代模型在科幻题材创作上表现亮眼，学员"辰星守望"使用可灵AI创作了深空题材作品《深空逐影·启航》。<br><br>
+          <strong>使用建议：</strong><br>
+          • 即梦AI：避免直接真人人脸，使用手绘风格或侧景构图<br>
+          • 可灵AI：适合科幻、大场景创作，第三代模型在动态表现上有优势<br>
+          • DeepSeek：作为对话工具的备选方案，稳定性较好
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h4 style="font-size: var(--font-sm); color: var(--text-primary); margin-bottom: 10px;">学员作品精选</h4>
+          <div class="video-share-card">
+            <div class="video-title">《让插画动起来》系列 - 工作、心绘、入画、月路</div>
+            <div class="video-author">by 逆流而上 lu-xh</div>
+          </div>
+          <div class="video-share-card">
+            <div class="video-title">《金牌资本家的奇幻航海记》- 双面国、伯虑国篇</div>
+            <div class="video-author">by 视频课代表—紫薯有范</div>
+          </div>
+          <div class="video-share-card">
+            <div class="video-title">《我的皇帝陛下》先导篇 - 女尊平行世界</div>
+            <div class="video-author">by 诸葛司马</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 💬 社群动态 -->
+      <section class="block-section block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+
+        <div class="community-flow">
+          <div class="community-card">
+            <div class="community-speaker">📝 作业提交</div>
+            <p style="font-size: var(--font-sm); color: var(--text-secondary);">今日共有4位学员提交了0322作业：</p>
+            <ul style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px; padding-left: 20px;">
+              <li>紫蝶(梅紫清歌）- 8张场景设定</li>
+              <li>匿名学员 - 5张作品</li>
+              <li>New soul - 5张作品</li>
+            </ul>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">🎉 作品分享</div>
+            <div class="chat-bubble" style="font-size: var(--font-sm); padding: 10px 12px; margin: 8px 0;">
+              <div class="bubble-sender" style="font-size: var(--font-xs);">逆流而上 lu-xh</div>
+              冒充设计师[嘿哈]
+            </div>
+            <p style="font-size: var(--font-xs); color: var(--text-secondary);">学员幽默分享工作状态，轻松氛围弥漫群内。</p>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">💡 技术交流</div>
+            <div class="chat-bubble" style="font-size: var(--font-sm); padding: 10px 12px; margin: 8px 0;">
+              <div class="bubble-sender" style="font-size: var(--font-xs);">不设限的烟火Firework</div>
+              响应Jennie的视频反馈，指出剪映声音轨道问题
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">👍 互动点赞</div>
+            <p style="font-size: var(--font-xs); color: var(--text-secondary);">
+              雾（May雾）：好好看啊[强]<br><br>
+              多位学员对分享作品表示赞赏，社群氛围积极向上。
+            </p>
+          </div>
+        </div>
+
+        <div class="analysis-box" style="margin-top: 16px;">
+          <strong>氛围总结：</strong><br><br>
+          今日社群呈现<span class="highlight-green">创作活力高涨</span>的态势。虽然早上遇到工具故障的小插曲，但学员们通过互助快速找到解决方案。晚间作业提交环节表现积极，4位学员完成了果冻质感场景训练。作品分享环节更是亮点频出，从科幻题材到女尊平行世界，从资本家奇幻航海到古风月亮，创作题材多元丰富。<br><br>
+          <strong>小编寄语：</strong><br>
+          工具会故障，但创作的热情不会停。大家互帮互助的精神，才是这个社群最珍贵的财富。继续加油，期待更多精彩作品！✨
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-24 04:02:46</p>
+  </footer>
+</body>
+</html>
