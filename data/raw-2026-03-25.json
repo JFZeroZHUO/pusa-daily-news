@@ -1,0 +1,2782 @@
+[
+  {
+    "sender": "wxid_u8zyda6klf1g21",
+    "senderName": "楼蓝（嘎嘎嘣嘣）",
+    "time": "09:24:52",
+    "content": "[强]",
+    "quotedMsg": {
+      "sender": "空灵（空灵）(wxid_wq0wg1bnz4p321)",
+      "time": "03-24 23:14:45",
+      "content": "![图片](http://127.0.0.1:5030/image/4b5c40745a625b7fc0ce7a168aec3942)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:29:22",
+    "content": "@雾（May雾） 我实验出来了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:29:40",
+    "content": "![图片](http://127.0.0.1:5030/image/1de943ac0d3a211647f552a502ba227f,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/b321568379f4bdf424524214f86ea448.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/22b05944baf0f7e6d5333e80a74ac0e6_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:29:49",
+    "content": "咱弄出来的，我昨天弄一天了，雪山都不变",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 09:29:22",
+      "content": "@雾（May雾） 我实验出来了"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:29:51",
+    "content": "![图片](http://127.0.0.1:5030/image/278f96a7593c992e33c8f5f1b8feabda,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/f4284592f174ba0e939b8b5ac23d345b.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/5cb1e78993b03bf0e0f6bed5deb958dc_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:30:00",
+    "content": "用的即梦，用的你的图",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:30:01",
+    "content": "好好看啊",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 09:29:51",
+      "content": "![图片](http://127.0.0.1:5030/image/278f96a7593c992e33c8f5f1b8feabda)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:30:12",
+    "content": "就一句话3",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_u8zyda6klf1g21",
+    "senderName": "楼蓝（嘎嘎嘣嘣）",
+    "time": "09:30:16",
+    "content": "好看",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:30:22",
+    "content": "果冻风格，雪山 全部背景变成果冻风格，建筑和背景保持风格统一。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:30:55",
+    "content": "我试一下，谢谢哈",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:31:05",
+    "content": "你实验以下别的图成不成，这个雪山弄了好久，原来就是简单表达清楚",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:31:28",
+    "content": "![图片](http://127.0.0.1:5030/image/e857955d4371a2b225b886f7bb4d9fdf,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/5b8d0531e3ffe310c2d22e4f3f93937b.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/0d68e50bae7fea4e498c1d8ac3927dc4_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:31:28",
+    "content": "好的，我昨天怎么说，那雪山还是那山",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:31:51",
+    "content": "收到，谢谢",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 09:31:28",
+      "content": "![图片](http://127.0.0.1:5030/image/e857955d4371a2b225b886f7bb4d9fdf)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:32:04",
+    "content": "如果想丰富点，像老师的那么饱和，就参考他的图，写清楚，来时的哪个颜色就会淡淡的覆盖上去，很好玩",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:32:53",
+    "content": "好，谢谢",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:39:53",
+    "content": "实测可以，谢谢, @Nina",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "09:39:54",
+    "content": "![图片](http://127.0.0.1:5030/image/68c2ec83da01010146e4c8e1973d02ff,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/9c16049292d551c0cc991808ada36f70.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/1c19327601cbaf292587e0050d0ad9b5_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "09:40:14",
+    "content": "哈哈哈， 好看的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "apple9587",
+    "senderName": "赛琳",
+    "time": "09:41:14",
+    "content": "[强]",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 09:39:54",
+      "content": "![图片](http://127.0.0.1:5030/image/68c2ec83da01010146e4c8e1973d02ff)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_qj2p8a19fjhv22",
+    "senderName": "七夜",
+    "time": "10:00:47",
+    "content": "#作业0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_qj2p8a19fjhv22",
+    "senderName": "七夜",
+    "time": "10:01:01",
+    "content": "![图片](http://127.0.0.1:5030/image/a309562aa2e73e751aca4a44e96d180a,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/c75c3a273644636277ac7d6ec4e8dc87.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/cc026baffad9705b0e338935c24b2487_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_qj2p8a19fjhv22",
+    "senderName": "七夜",
+    "time": "10:01:06",
+    "content": "![图片](http://127.0.0.1:5030/image/7d0ccaf4477acf1f494ba96c7d9a85c8,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/265aa8e4c4b71a7809adc2b1a2fae3f9.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/4b84e1f3ac59cc15c200db70d9cc2bb6_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:22:11",
+    "content": "#作业0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:22:12",
+    "content": "![图片](http://127.0.0.1:5030/image/d6e25a058314b073ce2311db0bdd9ecf,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/b81bbd3a43f0fc8d0fb3e982c5b465ae.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/54183af952048aa33e974fbdab18f0ba_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:22:23",
+    "content": "![图片](http://127.0.0.1:5030/image/46ba84e18562f6dee9e6b58f28232af2,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/ecaaa09b6135987f6de14697a35ba45e.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/12a5492eda4078bf0da44b684b57eb62_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:22:47",
+    "content": "[分享]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_pf5qbfvk3he021",
+    "senderName": "和思帆 🐂 3396815",
+    "time": "10:23:47",
+    "content": "![图片](http://127.0.0.1:5030/image/89a55ab5496712d3426f6dd9ce4044dc,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/67ae89195de721f9e9dc5d71b7272586.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/2593b64ce0cd2567dfc2fd32305fb624_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "10:23:50",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_0gdxg7rcxxhi22",
+    "senderName": "风",
+    "time": "10:25:15",
+    "content": "这么卷吗？新剧上线还得发红包刷人气[破涕为笑][破涕为笑][破涕为笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:25:24",
+    "content": "投放猛猛刷钱",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "10:25:28",
+    "content": "已经140多万人点赞！大牛啊[强]",
+    "quotedMsg": {
+      "sender": "Kelly(wxid_jssm7w08ze2s22)",
+      "time": "03-25 10:22:23",
+      "content": "![图片](http://127.0.0.1:5030/image/46ba84e18562f6dee9e6b58f28232af2)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:25:58",
+    "content": "> 已经140多万人点赞！大牛啊[强]\n?没这么夸张吧，10点钟上的",
+    "quotedMsg": {
+      "sender": "关小鱼(angellgcy)",
+      "time": "03-25 10:25:28",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_yjftwyh37ygc22",
+    "senderName": "周周有钱花",
+    "time": "10:26:35",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=74b0cb2d53d840da03ae6c39073d53b1&filekey=30340201010420301e0202010604025348041074b0cb2d53d840da03ae6c39073d53b102025428040d00000004627466730000000132&hy=SH&storeid=263150ad70009fd5c000000000000010600004f50534811c67b40b73a08d09&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_yjftwyh37ygc22",
+    "senderName": "周周有钱花",
+    "time": "10:26:40",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=ce7b682a16c6c37827c6bc2dd657a058&filekey=30350201010421301f02020106040253480410ce7b682a16c6c37827c6bc2dd657a0580203008445040d00000004627466730000000132&hy=SH&storeid=2631f90f300053de9000000000000010600004f50534824dc5960977875d8a&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_pf5qbfvk3he021",
+    "senderName": "和思帆 🐂 3396815",
+    "time": "10:26:45",
+    "content": "[强]太厉害了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_0gdxg7rcxxhi22",
+    "senderName": "风",
+    "time": "10:26:52",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_9gl6hf20law532",
+    "senderName": "snöflinga",
+    "time": "10:27:04",
+    "content": "[强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_hfu6tnrzjc9u21",
+    "senderName": "记忆碎片",
+    "time": "10:30:55",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "10:31:31",
+    "content": "哇厉害 还是付费档",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_hfu6tnrzjc9u21",
+    "senderName": "记忆碎片",
+    "time": "10:32:21",
+    "content": "这个是有公司投资吗",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "hx141312",
+    "senderName": "明心为见性",
+    "time": "10:32:30",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=763d6a2b7b98e2ac203d597c8fb75893&filekey=30350201010421301f020201060402535a0410763d6a2b7b98e2ac203d597c8fb75893020306208a040d00000004627466730000000131&hy=SZ&storeid=32303232303430323138343432323030303761303765393261653431376363653630383830393030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_hncv46zl5wgc22",
+    "senderName": "文途逐光",
+    "time": "10:32:34",
+    "content": "Kelly,这是你用ai生成的剧吗？",
+    "quotedMsg": {
+      "sender": "Kelly(wxid_jssm7w08ze2s22)",
+      "time": "03-25 10:22:23",
+      "content": "![图片](http://127.0.0.1:5030/image/46ba84e18562f6dee9e6b58f28232af2)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "hx141312",
+    "senderName": "明心为见性",
+    "time": "10:32:39",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=a5d8fc6199521191e12906674d424d3e&filekey=30350201010421301f020201060402535a0410a5d8fc6199521191e12906674d424d3e0203018682040d00000004627466730000000131&hy=SZ&storeid=32303231303632363037303135303030306235643733353531613033313434643461356630393030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_76hno7nrydvz22",
+    "senderName": "不设限的烟火Firework",
+    "time": "10:33:01",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=7986fc0bc208270a1df2700b771e6696&filekey=30350201010421301f020201060402535a04107986fc0bc208270a1df2700b771e6696020300a9a0040d00000004627466730000000131&hy=SZ&storeid=32303232303831303034313231393030306535636337396438353663373062633536383830393030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_9eiybd8leea022",
+    "senderName": "磨磨大王momoking",
+    "time": "10:33:07",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:34:00",
+    "content": "> Kelly,这是你用ai生成的剧吗？\n是整个团队小伙伴做的~",
+    "quotedMsg": {
+      "sender": "文途逐光(wxid_hncv46zl5wgc22)",
+      "time": "03-25 10:32:34",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_hncv46zl5wgc22",
+    "senderName": "文途逐光",
+    "time": "10:34:38",
+    "content": "> 是整个团队小伙伴做的~\n你也参加了吗？",
+    "quotedMsg": {
+      "sender": "Kelly(wxid_jssm7w08ze2s22)",
+      "time": "03-25 10:34:00",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:35:06",
+    "content": "肯定，我是组长",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_0gdxg7rcxxhi22",
+    "senderName": "风",
+    "time": "10:35:19",
+    "content": "[强][强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "10:35:49",
+    "content": "哈哈 所以大家得组团搞起来呀 我看kelly这个抖音号的粉丝很多呀",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:36:07",
+    "content": "投放的兄弟搞的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_hncv46zl5wgc22",
+    "senderName": "文途逐光",
+    "time": "10:36:24",
+    "content": "[强][强][强]优秀",
+    "quotedMsg": {
+      "sender": "Kelly(wxid_jssm7w08ze2s22)",
+      "time": "03-25 10:35:06",
+      "content": "肯定，我是组长"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:36:44",
+    "content": "@雾（May雾） 你那个雪山好像还没有果冻嘛",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_jssm7w08ze2s22",
+    "senderName": "Kelly",
+    "time": "10:36:46",
+    "content": "就是我们这边属于一整条业务线，编剧，制作，投放，推流",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "hx141312",
+    "senderName": "明心为见性",
+    "time": "10:37:39",
+    "content": "棒棒的[强][强][强]",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 09:39:54",
+      "content": "![图片](http://127.0.0.1:5030/image/68c2ec83da01010146e4c8e1973d02ff)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:39:28",
+    "content": "我的雪山变了不你那种[捂脸]，天空倒是能变",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 10:36:44",
+      "content": "@雾（May雾） 你那个雪山好像还没有果冻嘛"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:41:03",
+    "content": "你是用海艺",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:41:10",
+    "content": "如果是即梦应该可以吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:41:33",
+    "content": "即梦把分干完了，用的海艺[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:42:00",
+    "content": "我来研究一下， 海艺我好久没用了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:42:41",
+    "content": "绿树也要看，那块石头的我昨天变一天不成，今天好了，但是这个歌剧院的出不来",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:42:42",
+    "content": "![图片](http://127.0.0.1:5030/image/317938cfed43348753c6ce79716e00bf,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/5420fb7857bb693eaff4edd374e087d5.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/2ce0a05d2c894a9186079db228d8c16d_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:50:02",
+    "content": "你是不是用的词太多了，你直接提取的老师那个文件里的词吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:50:39",
+    "content": "都加了，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:51:01",
+    "content": "![图片](http://127.0.0.1:5030/image/8a36d4a961e54ca98ec62415c9741576,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/8ac5dbbae24290901b214fd482392cdd.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/1f1d5783b8018ebb00b67f6e0af8afbe_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:51:33",
+    "content": "就是不要那么多提示词的意思？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:51:38",
+    "content": "我用的Z这个还可以啊，效果还挺梦幻",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:52:18",
+    "content": "漂亮，泡泡都来了，",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 10:51:01",
+      "content": "![图片](http://127.0.0.1:5030/image/8a36d4a961e54ca98ec62415c9741576)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:52:19",
+    "content": "对，提示词过多会有污染，你用SeeDream 4.5. 5",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:52:40",
+    "content": "![图片](http://127.0.0.1:5030/image/168ea8ad9233fa9270fd9a6f0592c4ea,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/69fd5e6ed198e0eaeff6c8dc21d254af.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/ffdd1de2f0cc645eaa7934a7bf56b72e_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:52:50",
+    "content": "不要用5.0",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:53:05",
+    "content": "那个埃及的倒是很好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:53:29",
+    "content": "4.5是吧，我去找找",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:53:55",
+    "content": "![图片](http://127.0.0.1:5030/image/0f6e2997b05c38d3f212001819569b25,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/66849158edf2b3479592f05707f0f91c.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/e53c74f7f38858017c2dcb721fb3f350_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "10:54:31",
+    "content": "嗯，好像比即梦的还梦幻一点，你试试，感觉比哩布的4.5表现也还好， 我也试试",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:58:19",
+    "content": "我用4.5，直接你的提示词， 梦幻很多",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:58:20",
+    "content": "![图片](http://127.0.0.1:5030/image/22e49314a26631b909739d426efd7910,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/fa48a52f546054f0f73cff9041bba71f.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/73becfa07fb1ed6b0ac9c48b119aa3c4_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_fqci6cieqvp922",
+    "senderName": "亮彬",
+    "time": "10:58:40",
+    "content": "挺好看的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "10:58:59",
+    "content": "可是我的山有些不见了",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 10:58:19",
+      "content": "![图片](http://127.0.0.1:5030/image/22e49314a26631b909739d426efd7910)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:00:43",
+    "content": "估计得抽卡，抽出接近你的山，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "11:01:14",
+    "content": "嗯，应该是，还得不断抽",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "11:02:00",
+    "content": "做完经典场景再转风格会好一些是吗",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:02:32",
+    "content": "免费就是抽啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wwzz1m5xp0wf22",
+    "senderName": "柳条绿了",
+    "time": "11:03:55",
+    "content": "#作业0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wwzz1m5xp0wf22",
+    "senderName": "柳条绿了",
+    "time": "11:04:07",
+    "content": "![图片](http://127.0.0.1:5030/image/f6235306c64c1a2ed1c5b82e467a5bae,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/c00d7bfde5a6efd5104bfe9da6ac7b7a.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/f444ed6e78d1689ed0ccee52c145dc05_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:04:31",
+    "content": "这个是用同学的原图来实验的，我自己的是写的特定场景转换果冻风格",
+    "quotedMsg": {
+      "sender": "墨墨memory(wxid_eel41y763fil22)",
+      "time": "03-25 11:02:00",
+      "content": "做完经典场景再转风格会好一些是吗"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_7p6zbm2s1ydr12",
+    "senderName": "饮悦小站",
+    "time": "11:05:22",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "11:08:34",
+    "content": "特定场景直接出可能更好，我是找的以前图出的，因为海艺布达拉宫是违禁词[捂脸]",
+    "quotedMsg": {
+      "sender": "墨墨memory(wxid_eel41y763fil22)",
+      "time": "03-25 11:02:00",
+      "content": "做完经典场景再转风格会好一些是吗"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:09:32",
+    "content": "好像海艺人物转还是不太稳定",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "11:09:48",
+    "content": "> 这个是用同学的原图来实验的，我自己的是写的特定场景转换果冻风格\n我用你的方法试呢[抱拳]",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 11:04:31",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "11:10:21",
+    "content": "> 特定场景直接出可能更好，我是找的以前图出的，因为海艺布达拉宫是违禁词[捂脸]\n是啊，最近违禁词也有点怪",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 11:08:34",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:36:39",
+    "content": "我实验下来好像还是即梦的响应要好一点，而且也是4.5的色彩转换的好一些",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:36:44",
+    "content": "![图片](http://127.0.0.1:5030/image/e1f38446834577fdf2b677fcafe36955,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/6986eeea9acc22fa897550f5846b78ab.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/da7dc0caa186995e71e908b0a11f7f57_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:37:14",
+    "content": "不过倒是没觉得像古国风，倒是横店风很强",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "11:37:59",
+    "content": "对的，我的埃及就是用的即梦4.5，没分了只能转海艺",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 11:36:39",
+      "content": "我实验下来好像还是即梦的响应要好一点，而且也是4.5的色彩转换的好一些"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:38:53",
+    "content": "海艺现在要排队，不过我感觉它的这个画风非常的无厘头，也很有趣",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "11:40:02",
+    "content": "![图片](http://127.0.0.1:5030/image/6b0725a1388a4ae3833662e8545be0fe,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/c5ccb9adb2f0f1b0210fe2564294de87.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/0fc29566727545c73f6aeaf968dbd15e_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9h5r3b7foon21",
+    "senderName": "rain",
+    "time": "12:02:33",
+    "content": "这个人物质感很好[强][强]",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 11:36:44",
+      "content": "![图片](http://127.0.0.1:5030/image/e1f38446834577fdf2b677fcafe36955)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "12:15:31",
+    "content": "哈哈，谢谢， 不过好像不太像果冻，倒像琉璃材质",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "12:24:27",
+    "content": "玩了一个废土风的，哈哈，这些建筑都被我玩坏了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "12:24:27",
+    "content": "![图片](http://127.0.0.1:5030/image/fe0d22858a280ad781c2d8fcdd503315,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/3f8e5411d17e6d114dcf6cac8394ad6b.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/63e86cf9d0690ec03910e8a667a10720_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "12:29:47",
+    "content": "#作业0322 待会儿再玩果冻的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "12:44:51",
+    "content": "哈哈哈，王老师的课真是宝藏课， 实践了一下他从古画里提取灵感转成立体魔幻人物，真是完美啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "12:45:06",
+    "content": "![图片](http://127.0.0.1:5030/image/bbff9a37f557d4a6435daed36f5d561c,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/a241f61ce24a9a4bd08ff02f86839866.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/753fa9139afffd56d3db49684b3ace98_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "12:46:36",
+    "content": "元代皇帝出行工具，啊哈哈，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "12:46:41",
+    "content": "“象辇”",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "lurolee",
+    "senderName": "Major",
+    "time": "12:47:47",
+    "content": "好可爱",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "12:47:58",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "12:48:31",
+    "content": "有意思",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 12:45:06",
+      "content": "![图片](http://127.0.0.1:5030/image/bbff9a37f557d4a6435daed36f5d561c)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "12:56:34",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:01:44",
+    "content": "喜欢🫧🫧",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 10:51:01",
+      "content": "![图片](http://127.0.0.1:5030/image/8a36d4a961e54ca98ec62415c9741576)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:07:59",
+    "content": "有趣",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 12:45:06",
+      "content": "![图片](http://127.0.0.1:5030/image/bbff9a37f557d4a6435daed36f5d561c)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "13:09:06",
+    "content": "可爱，这个也是果冻材质吗？",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 12:45:06",
+      "content": "![图片](http://127.0.0.1:5030/image/bbff9a37f557d4a6435daed36f5d561c)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:09:23",
+    "content": "",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:10:08",
+    "content": "![图片](http://127.0.0.1:5030/image/4de4529a8118add799ef228b4db88a2b,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/708f850c4320ce34868e7ab7ccb6e802.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/4e92dcf1b9baeccd2255c18a0b958b1e_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:10:31",
+    "content": "老师课件里有写， 再次感谢老师",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:11:59",
+    "content": "老师的这个马呢，唐代韩幹《牧马图》 绢本浅设色",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:12:18",
+    "content": "我稍微修改了一点点，用即梦生成的，稍微蒙了一点",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:12:41",
+    "content": "![图片](http://127.0.0.1:5030/image/6d023c8fe4ede9e145c4982c5411b1f6,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/ec953720046b8d8bee21fb8d79e57c1f.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/175484d54eabaa712825d40dd8bb895e_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "13:13:28",
+    "content": "混合的质感好看，颜色也自然",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 13:10:08",
+      "content": "![图片](http://127.0.0.1:5030/image/4de4529a8118add799ef228b4db88a2b)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:14:08",
+    "content": "我觉得每个人都应该能混合出自己的独特质感，会比较好玩",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:14:48",
+    "content": "我朋友说他腿上中箭了[大哭]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "apple9587",
+    "senderName": "赛琳",
+    "time": "13:17:38",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=cfb3e1af218de391a318d2f876f59980&filekey=30350201010421301f02020113040253480410cfb3e1af218de391a318d2f876f59980020300fad0040d00000004627466730000000132&hy=SH&storeid=26479d4c100055c59000000000000011300004f5053481c88ab01e64b9cf97&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "apple9587",
+    "senderName": "赛琳",
+    "time": "13:17:46",
+    "content": "果然[偷笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3ecmp31p2ht022",
+    "senderName": "程心如意",
+    "time": "13:17:55",
+    "content": "玩的越来越有趣了 @Nina",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:18:45",
+    "content": "老师教的好， 就是空了抓紧实践一下，[抱拳] @程心如意",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3ecmp31p2ht022",
+    "senderName": "程心如意",
+    "time": "13:19:15",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=c5032a5000b5f13fe7f0e06c8bc0b9e0&filekey=30350201010421301f02020113040253480410c5032a5000b5f13fe7f0e06c8bc0b9e002030136e5040d00000004627466730000000132&hy=SH&storeid=264abfd50000cea5bb404fe690000011300004f505348051c59609292ae9a4&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:41:29",
+    "content": "为什么没办法出全部果冻材质的？总有一小部分是写实的，我是先出线稿然后再改成果冻材质",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "13:46:58",
+    "content": "我之前使用的是同学的实景图可以实现，即梦",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:55:27",
+    "content": "我用的也是即梦",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:56:36",
+    "content": "![图片](http://127.0.0.1:5030/image/fe480777bff15585241eb39a64c89350,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/1872b67f58dfb9ff4976f45d9471c7bf.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/f07e6463bbee4d8f3a2a77b7542b5507_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:57:33",
+    "content": "![图片](http://127.0.0.1:5030/image/a8bda1dfa954920ae5cd4bbce8d7835f,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/dd3520dabc5bf6edc38f83b00bb45f91.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/8a512f9f6a4b9ef03dbb7cfa2ebf3534_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_27ptlifnoxqm21",
+    "senderName": "🦉GoingZen",
+    "time": "13:58:20",
+    "content": "大理？",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "03-25 13:57:33",
+      "content": "![图片](http://127.0.0.1:5030/image/a8bda1dfa954920ae5cd4bbce8d7835f)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:59:17",
+    "content": "岳阳汴河街",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:59:24",
+    "content": "岳阳楼旁边",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:59:37",
+    "content": "用即梦4.0好点",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:00:33",
+    "content": "我用了这张古画",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:00:35",
+    "content": "![图片](http://127.0.0.1:5030/image/ec06cedbe3bfd1063b48142709d45361,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/752bcc8bff135081ae38a4e3f4d8781a.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/2b48c26a13fd2d1e05d8e2cf5bbc512d_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:01:06",
+    "content": "![图片](http://127.0.0.1:5030/image/e168e69b42e86cc9550e8f6096cc1462,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/dd0400f3382ab20d83cb49e05967a1e4.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/d3d505af5190176fad6cd5e6b23206c2_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:01:24",
+    "content": "即梦给的，我这次用图片4.1",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:02:21",
+    "content": "你这个真好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:02:45",
+    "content": "可能还是得原图明确吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7p6zbm2s1ydr12",
+    "senderName": "饮悦小站",
+    "time": "14:03:16",
+    "content": "![图片](http://127.0.0.1:5030/image/388c427b6125010504224c8465eba8d7,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/9c867b9e7f1f2e727e8881392ece6587.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/2e71dcb13e18d94e24c7c43b3f28a815_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7p6zbm2s1ydr12",
+    "senderName": "饮悦小站",
+    "time": "14:03:44",
+    "content": "![图片](http://127.0.0.1:5030/image/d40ae05f5893ed3016445c819057b2cd,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/7738e28673fb7d22ebcbedbfc0fdb202.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/024bc1629f2e2bb95641914f2d888e0a_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:04:39",
+    "content": "你好像不能写半透明，就是果冻风格，你试试，",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "03-25 13:57:33",
+      "content": "![图片](http://127.0.0.1:5030/image/a8bda1dfa954920ae5cd4bbce8d7835f)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:41",
+    "content": "#0322交作业",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:43",
+    "content": "![图片](http://127.0.0.1:5030/image/81f17c3ecddac4e0fab5be956b0be481,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/ab02f8e02960e613f59fec7e93b572b3.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/7808c3ae45bc88257ae885c26e36d00c_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:43",
+    "content": "![图片](http://127.0.0.1:5030/image/cf9bd23f4198849b91152f65af21ce7a,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/73b97e34afc27a35dc18c46df16eb3da.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/e375dfed5f437c5ee1ce3cba72e46496_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:44",
+    "content": "![图片](http://127.0.0.1:5030/image/79a614d47802d5dc76b5c29c972ee9ff,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/3b35de30474860ff5415b3765d4fb1b2.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/caeed43cb550f1fd8e9f5aab2233aae5_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:44",
+    "content": "![图片](http://127.0.0.1:5030/image/6eb2a8517706ceda32d6010e7b94c776,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/e28e831f95ef465aa981a85d17fc2754.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/7d5253702d435509054e51a0baa8c742_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:45",
+    "content": "![图片](http://127.0.0.1:5030/image/700f3cbda6c76bd352e90d71f6bdc406,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/3f2a880255fa46b1c4f89a349c1cd241.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/c12344334001e75cd07fbbd3351aac14_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:04:45",
+    "content": "![图片](http://127.0.0.1:5030/image/f831ea5bf3e52aa2c033ee1c7746bbad,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/39a4928ee64d32127e2b6cdcd5b3336e.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/edf64c998deec1ecc7d1cd64834c3351_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_rlmlz19c4t4712",
+    "senderName": "San-山雨【野菩萨团队老师】",
+    "time": "14:05:17",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "14:05:27",
+    "content": "这个好看",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "03-25 14:04:43",
+      "content": "![图片](http://127.0.0.1:5030/image/cf9bd23f4198849b91152f65af21ce7a)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "14:06:25",
+    "content": "好像白色的那个解放街[强]",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "03-25 14:04:45",
+      "content": "![图片](http://127.0.0.1:5030/image/700f3cbda6c76bd352e90d71f6bdc406)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "14:07:11",
+    "content": "用4.0画出来的，我从5.0一路试到4.0，终于试出来了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_txslaa5lq7cc22",
+    "senderName": "徐艳清",
+    "time": "14:18:15",
+    "content": "#0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_txslaa5lq7cc22",
+    "senderName": "徐艳清",
+    "time": "14:18:18",
+    "content": "![图片](http://127.0.0.1:5030/image/fa7310f66fae7d0e6497156b6e7a5a61,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/90020ac65c7f7d7333f3a8bfdc9df521.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/15a22d2b6e33f2a4b631c9ecf64e4c64_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9h5r3b7foon21",
+    "senderName": "rain",
+    "time": "14:28:17",
+    "content": "你们咋都能做到晶莹剔透啊？[强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9h5r3b7foon21",
+    "senderName": "rain",
+    "time": "14:28:41",
+    "content": "提示词材质是琉璃吗？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "14:30:49",
+    "content": "#交作业 0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "14:30:53",
+    "content": "![图片](http://127.0.0.1:5030/image/ac78e8b894241da2f3c891f9108167b8,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/8aa7966daf9b5731eac92c2f40db5603.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/20f45fd53e95da9318bbabc01ebfad55_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "14:39:38",
+    "content": "#交作业 0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "14:39:43",
+    "content": "![图片](http://127.0.0.1:5030/image/380843c39dec8a15ffc9d530f740c411,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/0458b9d7cb33a2a74f7cd0f6efb306d3.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/5e1a559f1dede0821e009b3c168d9af5_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "14:39:44",
+    "content": "![图片](http://127.0.0.1:5030/image/44d561274e08afe3416a1800fa51e9b7,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/0595977158c3f83fad5dcebb285d0fb2.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/6e8afc3dec632296bab97b7dbd5560d5_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "14:39:45",
+    "content": "![图片](http://127.0.0.1:5030/image/ebc094366a49fee7637b8a74f22c3cde,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/a9fcfc5a27110818fa3995b3f34b91fd.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/1f430da123291b4c174119c325b347a0_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "14:39:46",
+    "content": "![图片](http://127.0.0.1:5030/image/1e8b29027e33d195fea081349bf7540a,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/7d172875c4a2c834242797103d6a23aa.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/31385e79439bdf619e385864f7df8967_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "14:42:50",
+    "content": "#交作业 0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "14:42:51",
+    "content": "[笔记|[图片] [图片] [图片] [图片]]\n   \n   \n  ![图片](http://127.0.0.1:5030/image/979395736fcf31738d28c16960b31dd8)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "14:51:53",
+    "content": "怎么都做这么好看啊？[强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "14:54:55",
+    "content": "完了 看的我想去搞块糖吃",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "14:57:06",
+    "content": "#交作业 0322",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "angellgcy",
+    "senderName": "关小鱼",
+    "time": "14:57:07",
+    "content": "![图片](http://127.0.0.1:5030/image/daad2aae3368a839d742f470484cd2fd,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/f6d0360819a585ed2f30acc5dab09389.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/a14153f9aeab67d22ac398d7bf1c6e84_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "14:58:57",
+    "content": "各位老师，各位同学，你们好，我想把《马背上的戈黛娃夫人》这幅画转成陶瓷或盲盒类的，但是平台不认，如何解决这个问题，有什么好的方法吗？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "15:01:24",
+    "content": "试试先拿到审核部这么严的平台转成线稿，再拿回来转你想要的风格。提示词最好不要有《马背上的戈黛娃夫人》这类词。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:02:49",
+    "content": "[OK][抱拳]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "15:23:10",
+    "content": "我也想吃",
+    "quotedMsg": {
+      "sender": "视频课代表—紫薯有范(wxid_cgo9gxywdua022)",
+      "time": "03-25 14:54:55",
+      "content": "完了 看的我想去搞块糖吃"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:31:26",
+    "content": "![图片](http://127.0.0.1:5030/image/98330d2b559a8d9491f05ad413cc9624,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/7368a47347ac583b445131856c77d337.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/3fa0b52b70555a41476c9b03b1e82135_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:31:28",
+    "content": "![图片](http://127.0.0.1:5030/image/4aff758ce8836c0a85628ae7f76c3d19,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/8e75b68340f465cec80d0f1f2a51403c.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/8baa5f86cd8c572f0b3b481452fda93e_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:34:44",
+    "content": "[强]哇，这清明上河图生的好漂亮啊，我的绿树有些生不好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "apple9587",
+    "senderName": "赛琳",
+    "time": "15:35:08",
+    "content": "[强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_xkfqi5a2pfml22",
+    "senderName": "兜兜里＊有糖",
+    "time": "15:35:33",
+    "content": "提示词发出来看看",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:35:38",
+    "content": "抄老师的模板提示词！",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_qj2p8a19fjhv22",
+    "senderName": "七夜",
+    "time": "15:35:45",
+    "content": "好漂亮",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:36:00",
+    "content": "帮我以这幅画为基础，生成3D、卡通、很有食欲的果冻感、有三维的立体感， 要有光泽 ，颜色和形状要高度与这幅画吻合的画。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:36:05",
+    "content": "即梦",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_xkfqi5a2pfml22",
+    "senderName": "兜兜里＊有糖",
+    "time": "15:36:20",
+    "content": "好滴",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:39:10",
+    "content": "![图片](http://127.0.0.1:5030/image/cb4298df249a758f0e5a0cb9f4107182,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/7c65feeee6a8aa2176a1b6fa39db9595.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/3bd9e7f34e7c2fcde509d11e52bc68a0_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:39:24",
+    "content": "哇，真的很好看。谢谢",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:39:39",
+    "content": "[呲牙][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:40:06",
+    "content": "学到了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "apple9587",
+    "senderName": "赛琳",
+    "time": "15:40:37",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=0ea87119a7ca83e557dc41edd6c00518&filekey=30350201010421301f020201060402534804100ea87119a7ca83e557dc41edd6c005180203018cf1040d00000004627466730000000131&hy=SH&storeid=32303232303831393233323231353030303636643937303030303030303039333564393930623030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:41:03",
+    "content": "![图片](http://127.0.0.1:5030/image/a6579469a140dda97993a1da99edfc75,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/6c0de7c1ceaf707c40bb3390692ec3fe.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/cfa7378be4f6049a87f2938003afaad0_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:41:21",
+    "content": "我的后面的糖果感弱好多啊",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 15:41:02",
+      "content": "![图片](http://127.0.0.1:5030/image/a6579469a140dda97993a1da99edfc75)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:41:48",
+    "content": "太感谢了",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "03-25 15:36:00",
+      "content": "帮我以这幅画为基础，生成3D、卡通、很有食欲的果冻感、有三维的立体感， 要有光泽 ，颜色和形状要高度与这幅画吻合的画。"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:42:05",
+    "content": "![图片](http://127.0.0.1:5030/image/7bb7ee154d771bc3759e96c2b0106a78,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/739660b9f9c198048169a5fe605fb1c3.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/50e546d0836fcbf9ea6448591a27c12b_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:42:06",
+    "content": "![图片](http://127.0.0.1:5030/image/8ede7a9878af96b7f3367acfcadbb45c,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/5ae04477ccfa6d6191efb363c3278466.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/72d398c3fc9bb8e088f629ae8e8b4936_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:42:17",
+    "content": "> 我的后面的糖果感弱好多啊\n我用的是4.1的",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 15:41:21",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:42:49",
+    "content": "这个提示词4.5也行",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:43:15",
+    "content": "> 我用的是4.1的\n好，我一会试下4.1的，我习惯搞了个5.0的[捂脸]",
+    "quotedMsg": {
+      "sender": "冰莲玉蝶(wxid_i6expua0388522)",
+      "time": "03-25 15:42:17",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:44:11",
+    "content": "清明上河图参数",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:44:12",
+    "content": "![图片](http://127.0.0.1:5030/image/ac41bf7971e01abeb82acd57a651d8db,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/ef00376ec0f1b3a72e5c6c0c1f1b0ec7.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/ed3917b6c828e8b6331e6f6a785e3835_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:46:20",
+    "content": "果然5.0还是不太好，直接用 @江河 同学的提示词，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:46:21",
+    "content": "![图片](http://127.0.0.1:5030/image/ca54a15874acedeaac399425ea0f4f29,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/fc55b94d57ee96dfa622e35e6e88db5d.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/77105b4e8f14019874e8350b5850b935_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:46:50",
+    "content": "这个好通透啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "15:47:06",
+    "content": "真果冻。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:47:47",
+    "content": "我再去试下4.5的，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:48:19",
+    "content": "![图片](http://127.0.0.1:5030/image/eaee2197b70837536a409bd27343e542,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/bad71671af8158ac719cbe81c3e8b578.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/f4698f8f6fd3fae69d49c02e1bdf2869_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:48:35",
+    "content": "哈哈哈。。整成Q版的了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:50:14",
+    "content": "海艺直接给我生果冻了，搞得我想吃QQ糖了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:50:15",
+    "content": "![图片](http://127.0.0.1:5030/image/1ce0cbf598c71baca36318ba293b3617,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/ce0b05bd6d70b48938f34703609d4f19.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/311aaa56feae36a155fbd4efaa50ea2c_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:51:00",
+    "content": "![图片](http://127.0.0.1:5030/image/f5b1a7bd77791459e05fa407f5c5d038,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/39ac1cd6b66e18832bae3053acfa052c.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/8956ef048aff6e4ce5e1a74064f4cc17_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:51:01",
+    "content": "![图片](http://127.0.0.1:5030/image/f2d3c483b2f9a9aa171d9c325c361ee8,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/a04ef6dfdbb696e214b4b5ae15b879aa.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/086e0c5f81bc5345d8309267427ec7ea_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:51:02",
+    "content": "![图片](http://127.0.0.1:5030/image/14d61e4d185aeede93996cd56c68ae26,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/7349976fa0ec24888ed7baa220a296da.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/ba5bb36e75274faf614a2f0608fc18b7_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:51:02",
+    "content": "![图片](http://127.0.0.1:5030/image/80218115616615917e219182f8047e7a,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/274ea4fa7a85781c2775861aac1c16dc.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/42bd3ffb8d8cd268bbde6b7355d3a2eb_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:51:03",
+    "content": "![图片](http://127.0.0.1:5030/image/4f0dec45bb4f92d59f4300370992f910,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/1e9b3607abc9c8bca6788f1e91fd5e28.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/10aec418ce3d4c781049b4f8b27952ff_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:51:03",
+    "content": "![图片](http://127.0.0.1:5030/image/ee9b41d77e12c37f18dcd2e983103882,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/0c568aa7b26d30a1d06a5b2257e85b6c.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/6601355055332b2fa78a28745566fe37_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:51:55",
+    "content": "[强]好看，全都成了，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:52:18",
+    "content": "你速度咋这么快 @由纪（由纪AIGC）",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:52:29",
+    "content": "![图片](http://127.0.0.1:5030/image/928f66ffeb5cb76b8cb3fc35fc00fb66,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/34fbe0fe5db5c106f0096690375e9e0c.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/122476c96991ad78483b1c11d2ae52b1_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:52:34",
+    "content": "我的卡在这好久了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:52:39",
+    "content": "不动了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:52:48",
+    "content": "用别人的图垫的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "15:52:56",
+    "content": "重新生成",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:53:31",
+    "content": "我的4.5生的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:53:32",
+    "content": "![图片](http://127.0.0.1:5030/image/10e30b5179014d48cdd06c3061191789,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/22807b1ba88e86d4c0686115a09fdc84.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/fd3985e84bdf010309b872865e7d2f07_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:54:02",
+    "content": "牛跟人物没成果冻",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:54:03",
+    "content": "![图片](http://127.0.0.1:5030/image/8343a0476e0c09db18ca03027d388d9e,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/6fcf571030a9463baf89a8fcf25a7e7b.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/3d57176e7e62620f68dd837cc3b5b838_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:54:31",
+    "content": "我这个为啥整不成一模一样的",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "03-25 15:42:06",
+      "content": "![图片](http://127.0.0.1:5030/image/8ede7a9878af96b7f3367acfcadbb45c)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:55:01",
+    "content": "是不是跟尺寸有关系啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:55:21",
+    "content": "他应该是3比4的尺寸，你这有点变形了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "crespo17",
+    "senderName": "大师兄",
+    "time": "15:55:24",
+    "content": "[视频号|奇袭破阵VS智者屠龙](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFF2UGcjw1cIILkDfyJOa1CppY6ZmbY8lnqDVrReXLJ0TWNbxfJ4Lo3sepPiaib6UNmtBVSiaeXARZK7n7ZIbozj3FLFqo2UW4Fbktibibwqjl7W3xQ&hy=SH&idx=1&m=c254e25907831bce01792e76e4f23f8a&uzid=7a1ac)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "15:55:34",
+    "content": "我也发现了",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 15:55:21",
+      "content": "他应该是3比4的尺寸，你这有点变形了"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:02:14",
+    "content": "![图片](http://127.0.0.1:5030/image/b5b777ee296db408283a5d757dea9c22,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/d7ca9db9ac24bb87ad52a25a7e87727b.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/72ba9d6be1a38b04311a2ade62d331e6_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:02:27",
+    "content": "![图片](http://127.0.0.1:5030/image/13483c587de1322af1ae0b07dfe929ab,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/e8a0f4ffb7578ee3140a2091b985c486.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/fea3f2457b71d594af9add68fe1879eb_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:02:36",
+    "content": "哈哈， 来点有糖霜的软糖风",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_xkfqi5a2pfml22",
+    "senderName": "兜兜里＊有糖",
+    "time": "16:03:33",
+    "content": "![图片](http://127.0.0.1:5030/image/c8c629cd825267c78862f295bc8552f8,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/20583894ec27c544ab95242960c314ff.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/90709826d5cdfb99067e5cae556b02e4_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "16:05:54",
+    "content": "QQ糖来了，感觉好有弹性，好好吃的样子[捂脸]",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 16:02:14",
+      "content": "![图片](http://127.0.0.1:5030/image/b5b777ee296db408283a5d757dea9c22)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:06:40",
+    "content": "今日糖份超标",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:06:46",
+    "content": "[偷笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:09:04",
+    "content": "> QQ糖来了，感觉好有弹性，好好吃的样子[捂脸]\n重在气氛，看到就当吃到[呲牙]",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "03-25 16:05:54",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9h5r3b7foon21",
+    "senderName": "rain",
+    "time": "16:12:40",
+    "content": "[强][强][强][调皮][抱拳]",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "03-25 15:36:00",
+      "content": "帮我以这幅画为基础，生成3D、卡通、很有食欲的果冻感、有三维的立体感， 要有光泽 ，颜色和形状要高度与这幅画吻合的画。"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9h5r3b7foon21",
+    "senderName": "rain",
+    "time": "16:14:34",
+    "content": "谢谢大家交流，我赶紧回家做糖吃🍬🍬🍬🍬，不能忍一秒[笑脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "16:14:58",
+    "content": "[视频号|“简单讲两句”的【正确废话】催眠了多少打工人？伯虑国的睡眠障碍也被治愈了！#风变科技#野神殿#紫薯有fun#大唐八卦#大唐航海合伙人#金牌资本家的奇幻航海记](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibusn4vVFEyiappicicdzXiaBMz0KLzpECLs0dAKluBLI2icJ3O9coAWGbhl2j1FLWZNicUEHRiczuY8EMRaFPwZTL21dB58XoVNbiag6wzhSzzmpsy71aiaHQOtmfXzQ&hy=SZ&idx=1&m=11a1324cd35611b0d6741c2263105de0&uzid=7a1ca)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "16:14:58",
+    "content": "第九集 正确的废话治愈失眠障碍",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:17:52",
+    "content": "这个是怎么弄出来的呀，我想用一个真人试一下，做出来的没这种质感",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 16:02:27",
+      "content": "![图片](http://127.0.0.1:5030/image/13483c587de1322af1ae0b07dfe929ab)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "16:19:14",
+    "content": "还像还分的，人像5.0也不错，景物好像不太行",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "16:19:15",
+    "content": "![图片](http://127.0.0.1:5030/image/168a85cd337d2a75706c889584c992dc,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/dd5abc545977b65b27e296adecd7a775.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/8f3e8669a671d2a29fba605346e86561_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:19:16",
+    "content": "![图片](http://127.0.0.1:5030/image/8beed010f19c6a434696f2871c62c750,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/81e2db8154a0cbe572cc06b0a506d24d.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/d297d082ff739f7ad8ef3bd252b737ef_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:19:47",
+    "content": "@冰莲玉蝶 你试试，我没用真人，用的插画",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:19:54",
+    "content": "好的。谢谢",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "16:22:44",
+    "content": "> 我这个为啥整不成一模一样的\n这款不是果冻感，是陶瓷材质。提示词：帮我以这幅画为基础，生成3D、卡通、陶瓷、艺术画， 要有陶瓷质感，要有三的立体感， 要有光泽 ，颜色和形状要高度与这幅画吻合",
+    "quotedMsg": {
+      "sender": "冰莲玉蝶(wxid_i6expua0388522)",
+      "time": "03-25 15:54:31",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:23:09",
+    "content": "嗯嗯。好呢。谢谢",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "16:24:25",
+    "content": "[视频号|【超详解析】周杰伦《太阳之子》有多少油画作品彩蛋#周杰伦](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQDJbsAYqGpIqVfxaBv0p338Dac5PCr8MynEyUBqOd3ZSxxib0qFyQEw7zC93cLzYvPntktX9yQDibWBUF6icOWXDK9&bizid=1023&dotrans=0&hy=SH&idx=1&m=&uzid=7a1ac)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "16:24:58",
+    "content": "世界名画mv",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "16:26:19",
+    "content": "[视频号|#野菩萨#风变科技#第六届ISMA艺术节#越南#未来媒体#人#河流#城#投稿长素材版#陆昕海#Ai#世界名画#艺术](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibusn4vVFEyiaoTxDnMtkvoqnicJoXj4icFeRHpwBOp1ELFhTd9szQJ62kaiavYKS1lITJfNggJd02NBqFkiajolTYtTCsGSvGysfkPaHkSusWJPnrAkUtibCiaia2OQ&hy=SZ&idx=1&m=fe42c6fd98416a2f95d1b31ee2d4d20d&uzid=7a166)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "16:26:19",
+    "content": "我也想起来，之前在高人指导下…[嘿哈]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:26:26",
+    "content": "![图片](http://127.0.0.1:5030/image/20b9fe2fade733091afd8ddce5817cb0,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/c90d585c196a2b0e35ec4088e8a80e9a.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/f66f028b0cf17fbb38ed40738e4f58d6_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:26:44",
+    "content": "即梦没次数了，用豆包试了一下",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_76hno7nrydvz22",
+    "senderName": "不设限的烟火Firework",
+    "time": "16:27:37",
+    "content": "挺好吃的样子[破涕为笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "16:27:37",
+    "content": "[强]",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "03-25 16:26:19",
+      "content": "[视频号|#野菩萨#风变科技#第六届ISMA艺术节#越南#未来媒体#人#河流#城#投稿长素材版#陆昕海#Ai#世界名画#艺术](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibusn4vVFEyiaoTxDnMtkvoqnicJoXj4icFeRHpwBOp1ELFhTd9szQJ62kaiavYKS1lITJfNggJd02NBqFkiajolTYtTCsGSvGysfkPaHkSusWJPnrAkUtibCiaia2OQ&hy=SZ&idx=1&m=fe42c6fd98416a2f95d1b31ee2d4d20d&uzid=7a166)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "16:27:39",
+    "content": "[强]这有糖霜的叫啥糖来着，小时候吃的",
+    "quotedMsg": {
+      "sender": "冰莲玉蝶(wxid_i6expua0388522)",
+      "time": "03-25 16:26:26",
+      "content": "![图片](http://127.0.0.1:5030/image/20b9fe2fade733091afd8ddce5817cb0)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:28:04",
+    "content": "软糖？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:28:18",
+    "content": "除了鞋子，其它都很有糖感啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:28:34",
+    "content": "对，鞋子没变",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 16:28:18",
+      "content": "除了鞋子，其它都很有糖感啊"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "16:29:00",
+    "content": "不过感觉这个不太软，算了不纠结，饿了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_i6expua0388522",
+    "senderName": "冰莲玉蝶",
+    "time": "16:29:16",
+    "content": "即梦没次数了，用的豆包",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "17:04:25",
+    "content": "![图片](http://127.0.0.1:5030/image/a0fe0790ebca45231f3d453d5503bd11,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/1580cd74f8c63c91c3d2ee8a6c9d928e.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/4064c15d8a39434fab6131b81a392d24_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "17:10:37",
+    "content": "雅的很",
+    "quotedMsg": {
+      "sender": "墨墨memory(wxid_eel41y763fil22)",
+      "time": "03-25 17:04:25",
+      "content": "![图片](http://127.0.0.1:5030/image/a0fe0790ebca45231f3d453d5503bd11)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "17:10:59",
+    "content": "小狗是贵宾",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "17:12:37",
+    "content": "哈，这个风格做手办挺好的",
+    "quotedMsg": {
+      "sender": "Nina(wxid_ey0lagg1wayu22)",
+      "time": "03-25 17:10:59",
+      "content": "小狗是贵宾"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "17:17:42",
+    "content": "头饰和裙子的效果用啥材料实现呢，有难度，不过很好玩",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "17:24:14",
+    "content": "问问ai,听访谈有个大佬每天和ai聊天要一个小时以上",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "17:27:02",
+    "content": "是都到期了吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "17:27:02",
+    "content": "![图片](http://127.0.0.1:5030/image/36809dcd7e6f52a827667e287ac205b2,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/4b020557f79dae2309f36a49628d5ad6.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/2e271434e30e3b20f13bad31e21b84e4_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "17:27:14",
+    "content": "刚好花完",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "17:27:40",
+    "content": "哈哈，我还是问问做手办的更靠谱些。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "17:28:01",
+    "content": "![图片](http://127.0.0.1:5030/image/71783ad04d30e694daa34f2f29affac7,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/d0fe0c5e48edb9e46e14bd5f5a4cb87e.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/92f4fa89be64814b8c5609a8c78a11bd_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "17:28:09",
+    "content": "排队巨慢",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_auzs3u4x966g21",
+    "senderName": "夏侯仪",
+    "time": "17:28:42",
+    "content": "15万[发呆]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "yayingren",
+    "senderName": "Yachne（小柠）",
+    "time": "17:28:56",
+    "content": "fast也排队吗",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "17:30:11",
+    "content": "我昨天生图片，5.0都一个钟快，不过我不是会员，我得让道也是对的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_fpyqf06bgadr12",
+    "senderName": "北冥有渔",
+    "time": "17:31:15",
+    "content": "都是晚上生图 早上收菜",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "17:31:24",
+    "content": "今天上午还挺快的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "dyq-1014",
+    "senderName": "刁刁",
+    "time": "17:32:44",
+    "content": "我上午 8 点半左右大概两千多个人排队",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "17:35:00",
+    "content": "昨天大约20分钟.今天60分钟.",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "17:42:23",
+    "content": "前边出了两张，后边就巨慢了，不知道截止之前还给不给出了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "qixiaofeng619751",
+    "senderName": "刘凯",
+    "time": "17:49:44",
+    "content": "昨天即梦排队两个多小时，所以就把之前生成的视频交作业了。。。没再改",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "qixiaofeng619751",
+    "senderName": "刘凯",
+    "time": "17:49:54",
+    "content": "排队7万多人",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_9gl6hf20law532",
+    "senderName": "snöflinga",
+    "time": "17:52:51",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=41335ff4af2898d799ed005fd2096f68&filekey=3043020101042f302d02016e040253480420343133333566663461663238393864373939656430303566643230393666363802027b75040d00000004627466730000000132&hy=SH&storeid=2668f695c0006ee7961a79dad0000006e01004fb153480a18ebc1e66b9b829&ef=1&bizid=1022)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_9gl6hf20law532",
+    "senderName": "snöflinga",
+    "time": "17:52:57",
+    "content": "这么多人……",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "17:53:40",
+    "content": "建议睡前生，起床刚好.",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_uvmafk6vp5j721",
+    "senderName": "Mr insulation",
+    "time": "18:08:18",
+    "content": "[链接|沉浸式！末日临近，我将打造终极山中避难所-哔哩哔哩](https://m.bilibili.com/video/BV13UwizVEA4?share_source=weixin_web&vd_source=d424cb448e640dc0307af8493cbcd5fd&wxfid=o7omF0ShB56k3cE8cimFn6Ijic88&share_times=1)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:47:01",
+    "content": "才发现2.0",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:47:15",
+    "content": "15秒要90积分",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:47:24",
+    "content": "还真是贵",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_a3uh5ne7snp611",
+    "senderName": "yoyo",
+    "time": "19:16:32",
+    "content": "明天说恢复120",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_a3uh5ne7snp611",
+    "senderName": "yoyo",
+    "time": "19:16:41",
+    "content": "[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "19:16:51",
+    "content": "不打折了说",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "20:17:57",
+    "content": "我有个关于剧中人物说话音色方面的问题要请教一下两位课代表（两位可以各自说一下各自的方法和经验）[抱拳]：1、对于一部剧当中，同一个人物的说话是如何做到他的音色从头到尾始终是一致的呢？2、要做到音色始终一致，都有哪几种途径来实现？3、对于真人剧（或高质量动漫）音色一致的实现途径与普通质量动漫音色一致的实现途径是否有所不同？@视频课代表—紫薯有范 @视频课代表-南山",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "20:24:09",
+    "content": "嗯，可以对人物的声音特点在提示词阶段做一些约束 ，这样一定程度能够保持一致性，但是也不完全能保证，毕竟AI的随机性很强。例如：男声，青年音色，音调中等，音色质感干净、明亮，发音方式精准且极具节奏感，气息充沛平稳，吐字清晰有力，带有一种极度自信、极具煽动性的现代商业精英感。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "20:25:11",
+    "content": "最根本的解决方案，真人配音，能解决所有问题。条件不允许只能退求其次：\n1.给台词、给人设图，提示词对音色做适当的描述，比如沙哑、清亮等等，AI基本能根据人物形象和你的描述给出大差不差的音色，当然没有真人那种经得起考究\n2.选择你想要的音色文件，用即梦的对口型或者可灵的主体库生成台词，剪辑的时候只取音频，不要视频。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_2y6ym7rzn0t712",
+    "senderName": "渡",
+    "time": "20:32:51",
+    "content": "![图片](http://127.0.0.1:5030/image/1619c7588b6cfc42508a00f9dc603dcb,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-03/75f44e620a46200687d09d186e6eeb8a.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-03/c07494c1afdc4b54901174aab579cd9a_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_xguibg41ssek22",
+    "senderName": "皮卡皮卡",
+    "time": "20:33:14",
+    "content": "今晚没有直播课嘛。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_2y6ym7rzn0t712",
+    "senderName": "渡",
+    "time": "20:33:33",
+    "content": "请问在这样的音频，声音制作，为啥总是做不好，克隆后后面用，却一直用不好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "20:38:15",
+    "content": "具体问题是什么呢？[偷笑]",
+    "quotedMsg": {
+      "sender": "渡(wxid_2y6ym7rzn0t712)",
+      "time": "03-25 20:33:33",
+      "content": "请问在这样的音频，声音制作，为啥总是做不好，克隆后后面用，却一直用不好"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_2y6ym7rzn0t712",
+    "senderName": "渡",
+    "time": "20:41:33",
+    "content": "就是我克隆的是平静的声音，可以制作生成后却是生气的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "20:42:23",
+    "content": "@视频课代表—紫薯有范 这样做的话，它每次生出来的视频里的同一个人物的声音音色会基本是一致的是吗？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "20:45:33",
+    "content": "[视频号|名单呈上来时，只有他一个。 全家获罪，若想留一条生路，就只能由他来赴这场“启礼”。  女皇问他： “你是自愿的吗？”  他答得很平静： “陛下若不听虚话，罪民便直说——自愿。”  他知道这一夜意味着什么。 也知道自己为什么来。  第二集，启礼夜。   #我的皇帝陛下 #原创短剧 #古风短剧 #宫廷剧 #女尊 #女尊世界 #女尊男卑 #权谋短剧 #启礼 #宿命感 #反转剧情 #情感拉扯 #连续更新 #每日更新 #第二集](http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFF6kwkrAgAsJNQbOxOeWZNJt5Zn9t08JUvMUOWgx9LV4WS3r85L0eaKqEKvsRPRenEFt73tF00wtyyEb2Sf1dSicfHxicK3SeoXVibEs9f5vIWhg&hy=SH&idx=1&m=ae49a487a6aba5eed2fda93ac9f348a6&uzid=7a152)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "20:45:38",
+    "content": "克隆音色是生成一段有音色特征的音频文件，其中有情绪起伏是正常的，包含的情绪越多以后参考使用的时候越准确。用这个音色去生成其它台词的时候还需要根据台词做情绪控制或者提示词描述的。",
+    "quotedMsg": {
+      "sender": "渡(wxid_2y6ym7rzn0t712)",
+      "time": "03-25 20:41:33",
+      "content": "就是我克隆的是平静的声音，可以制作生成后却是生气的"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "20:46:47",
+    "content": "@视频课代表-南山 您说的第一个方法跟紫薯基本是一样的，我问一下您的第二个方法：剪辑只取音频，那视频是用的哪里的？它跟音频在口型上能够对的上吗？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "我",
+    "senderName": "# Z",
+    "time": "20:47:28",
+    "content": "今晚没有呀，周日晚才是固定上课时间",
+    "quotedMsg": {
+      "sender": "wxid_xguibg41ssek22",
+      "time": "03-25 20:33:14",
+      "content": "今晚没有直播课嘛。"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "20:50:03",
+    "content": "生成视频的时候给同样的台词，提示词控制好情绪和节奏，基本能保持住节奏，使用的时候不要全程对口型，用正反打、多角度切镜，重要的台词再切回主体，差异实在大并且很重要的，用可灵重新对以下口型。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "20:52:23",
+    "content": "@视频课代表—紫薯有范 而且这个方式在生视频时必须得使用音画同出的那种模型吧，以前的那种无声音视频模型是不是不行呀？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "20:56:00",
+    "content": "哦，那这种视频用音画同出模型和之前老版本的无声音视频模型是不是都行？",
+    "quotedMsg": {
+      "sender": "视频课代表-南山(wxid_3627726277311)",
+      "time": "03-25 20:50:03",
+      "content": "生成视频的时候给同样的台词，提示词控制好情绪和节奏，基本能保持住节奏，使用的时候不要全程对口型，用正反打、多角度切镜，重要的台词再切回主体，差异实在大并且很重要的，用可灵重新对以下口型。"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "20:57:41",
+    "content": "有一步到位的模型，而且可以节约时间，就用新工具吧。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "20:59:11",
+    "content": "嗯，好的[呲牙]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "21:01:54",
+    "content": "对于这两种途径我再操作一下试试，有问题再请教哈！多谢二位指导！[抱拳]@视频课代表-南山 @视频课代表—紫薯有范",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "21:02:56",
+    "content": "指导不敢当哈，交流交流[偷笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_87fqwmey88v912",
+    "senderName": "阿伟",
+    "time": "21:08:37",
+    "content": "技高为师，吾当虚心学习！[呲牙]",
+    "quotedMsg": null,
+    "type": 1
+  }
+]
