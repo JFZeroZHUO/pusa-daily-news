@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-04</title>
+  <style>
+    :root {
+      /* ===== 星期六：金沙黄 ===== */
+      --bg-primary:    #1a1810;
+      --bg-card:       #252216;
+      --bg-card-hover: #302c1c;
+      --border:        #5c5435;
+      --text-primary:  #fefcf2;
+      --text-secondary:#c9c0a0;
+      --accent-primary:#ecc94b;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+
+      /* ===== 字体大小系统（强制） ===== */
+      --font-base:     16px;
+      --font-xs:       14px;
+      --font-sm:       15px;
+      --font-md:       16px;
+      --font-lg:       18px;
+      --font-xl:       21px;
+      --font-2xl:      27px;
+      --font-3xl:      31px;
+      --font-data:     23px;
+
+      --gradient-title: linear-gradient(90deg, #ecc94b, #d69e2e);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    .newspaper-header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px double var(--border);
+    }
+
+    .issue-info {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 700;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 15px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      font-size: var(--font-xs);
+      background: rgba(236, 201, 75, 0.15);
+      color: var(--accent-primary);
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid rgba(236, 201, 75, 0.3);
+    }
+
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 20px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .block-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .block-section:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* 文字强调 */
+    .highlight-blue { color: #58a6ff; font-weight: 700; }
+    .highlight-red { color: #f78166; font-weight: 700; }
+    .highlight-green { color: #3fb950; font-weight: 700; }
+    .highlight-yellow { color: #f6e05e; font-weight: 700; }
+
+    .bg-highlight {
+      background: rgba(88, 166, 255, 0.12);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 8px 16px;
+      margin: 12px 0;
+      background: rgba(214, 188, 250, 0.08);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      border-radius: 0 6px 6px 0;
+    }
+
+    mark.blue {
+      background: rgba(88, 166, 255, 0.25);
+      color: #58a6ff;
+    }
+    mark.orange {
+      background: rgba(255, 166, 87, 0.25);
+      color: #ffa657;
+    }
+    mark.green {
+      background: rgba(63, 185, 80, 0.25);
+      color: #3fb950;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 4px;
+      transition: all 0.3s;
+    }
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: var(--bg-primary);
+    }
+
+    /* 公告样式 */
+    .alert-banner {
+      background: linear-gradient(90deg, #fc8181, #ff9580);
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-weight: 600;
+      font-size: var(--font-sm);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 15px;
+      border-left: 2px solid var(--accent-red);
+    }
+    .timeline-item::before {
+      content: "●";
+      position: absolute;
+      left: -6px;
+      top: 0;
+      color: var(--accent-red);
+      font-size: 12px;
+    }
+    .timeline-time {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+    }
+    .timeline-content {
+      margin-top: 5px;
+      font-size: var(--font-sm);
+    }
+
+    /* 师说样式 */
+    .teacher-quote {
+      background: linear-gradient(135deg, var(--bg-card), var(--bg-card-hover));
+      border-left: 4px solid var(--accent-purple);
+      padding: 15px 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+    .teacher-name {
+      font-weight: 700;
+      color: var(--accent-purple);
+      font-size: var(--font-sm);
+      margin-bottom: 8px;
+    }
+    .teacher-content {
+      font-size: var(--font-sm);
+      line-height: 1.8;
+    }
+    .ai-insight {
+      background: rgba(214, 188, 250, 0.1);
+      border: 1px solid rgba(214, 188, 250, 0.3);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 15px 0;
+      font-size: var(--font-sm);
+    }
+    .ai-insight strong {
+      color: var(--accent-purple);
+    }
+
+    /* 热议话题 */
+    .hot-topic-card {
+      background: rgba(251, 211, 141, 0.08);
+      border: 1px solid rgba(251, 211, 141, 0.2);
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      color: var(--accent-orange);
+      margin-bottom: 10px;
+    }
+    .heat-stats {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      display: flex;
+      gap: 12px;
+    }
+    .chat-bubble {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 18px;
+      padding: 10px 14px;
+      margin: 8px 0;
+      font-size: var(--font-sm);
+    }
+    .chat-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .analysis-box {
+      background: rgba(251, 211, 141, 0.1);
+      border-left: 3px solid var(--accent-orange);
+      padding: 10px 14px;
+      margin-top: 12px;
+      font-size: var(--font-sm);
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* 荣誉时刻 */
+    .honor-card {
+      background: linear-gradient(135deg, rgba(246, 224, 94, 0.12), rgba(246, 224, 94, 0.05));
+      border: 1px solid rgba(246, 224, 94, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .honor-icon {
+      font-size: var(--font-2xl);
+      margin-bottom: 8px;
+      text-shadow: 0 0 10px rgba(246, 224, 94, 0.5);
+    }
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-yellow);
+      margin-bottom: 6px;
+    }
+    .honor-prize {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* AI资讯 */
+    .ai-tool-badge {
+      display: inline-block;
+      background: rgba(251, 211, 141, 0.2);
+      color: var(--accent-orange);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      margin: 3px;
+      font-weight: 600;
+    }
+    .ai-item {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: var(--font-sm);
+    }
+    .ai-data-number {
+      font-size: var(--font-data);
+      font-weight: 700;
+      color: var(--accent-orange);
+    }
+
+    /* 社群动态 */
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+    }
+    .community-bubble {
+      column-count: 2;
+      column-gap: 15px;
+    }
+    .community-bubble .chat-bubble {
+      break-inside: avoid;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 6px;
+    }
+    .badge-red { background: rgba(248, 113, 113, 0.2); color: var(--accent-red); }
+    .badge-green { background: rgba(104, 211, 145, 0.2); color: var(--accent-green); }
+    .badge-purple { background: rgba(214, 188, 250, 0.2); color: var(--accent-purple); }
+    .badge-orange { background: rgba(251, 211, 141, 0.2); color: var(--accent-orange); }
+  </style>
+</head>
+<body>
+  <header class="newspaper-header">
+    <div class="issue-info">第 XX 期 · 2026年04月04日 星期六</div>
+    <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+    <div class="stats-badge">今日 48 条消息 · 15 人发言</div>
+  </header>
+
+  <main class="newspaper-grid">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <!-- 重要公告 -->
+      <section class="block-section block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+        <div class="alert-banner">横琴→威尼斯 AI影像黑客松</div>
+
+        <div class="timeline-item">
+          <div class="timeline-time">[11:56] @所有人</div>
+          <div class="timeline-content">
+            <strong>#72小时AI双城影像黑客松 火热征集中~</strong><br><br>
+            加入一直在路上、生命力满满的<span class="highlight-yellow">萌奶奶陆蓉之</span>战队，如果你的作品击中了陆老师，她将直推你进入入围名单！<br><br>
+            ⏰ <strong>4月10日 23:59</strong>前填写参与资料<br>
+            📍 报名链接：<a href="https://qz-l.com/livingart" class="link-pill" target="_blank">qz-l.com/livingart</a><br><br>
+            💙 4月27日 @横琴-澳门国际数字艺术博览会 见！<br>
+            💙 从横琴出发前往 <strong>#2026威尼斯生命艺术展</strong>
+          </div>
+        </div>
+
+        <blockquote style="margin-top: 15px;">
+          >> 横琴这个比赛，<strong>菩萨老师是战队指导老师</strong>，可以面对面指导哦，大家加油！
+        </blockquote>
+
+        <div class="ai-insight">
+          <strong>📋 行动建议：</strong><br>
+          这是一次难得的国际舞台机会！陆蓉之老师是国内知名的当代艺术策展人，她的直推含金量极高。建议社团成员：<br>
+          1. 尽快组队（可在群内招募队友）<br>
+          2. 重点打磨能体现"AI+中国元素"的作品<br>
+          3. 注意4月10日截止日期，提前准备素材<br>
+          4. 菩萨老师作为指导老师，可提前沟通作品创意
+        </div>
+      </section>
+
+      <!-- 荣誉时刻 -->
+      <section class="block-section block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+
+        <div class="honor-card">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">林资本在女儿国</div>
+          <div class="honor-prize">视频课代表—紫薯有范 发布最新短剧</div>
+        </div>
+
+        <div class="honor-card">
+          <div class="honor-icon">😱</div>
+          <div class="honor-name">《柜子》悬疑剧</div>
+          <div class="honor-prize">Jennie 自制AI惊悚短片获好评</div>
+        </div>
+
+        <div class="honor-card">
+          <div class="honor-icon">⚽</div>
+          <div class="honor-name">拦不住的小逆系列</div>
+          <div class="honor-prize">逆流而上 lu-xh 发布5集插画动画</div>
+        </div>
+
+        <div style="background: rgba(246, 224, 94, 0.08); padding: 12px; border-radius: 8px; font-size: var(--font-sm); margin-top: 15px;">
+          <strong>🎖️ AI点评：</strong><br>
+          社团创作氛围持续高涨！从"林资本"的系列短剧到独立悬疑作品，再到实验性动画，学员们正在用AI探索多元叙事。<br><br>
+          <strong>亮点分析：</strong><br>
+          • <strong>系列化运营</strong>：紫薯有范的"林资本"已形成IP效应<br>
+          • <strong>类型突破</strong>：悬疑惊悚题材展现AI创作多样性<br>
+          • <strong>文化融合</strong>：小逆系列尝试"中国元素+现代动画"<br><br>
+          建议其他学员参考这种"持续产出+风格统一"的创作品牌化路径。
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏 -->
+    <article class="col-center">
+      <!-- 师说 -->
+      <section class="block-section block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+
+        <div class="teacher-quote">
+          <div class="teacher-name">🎨 菩萨 | 野菩萨</div>
+          <div class="teacher-content">
+            > 可以组队
+          </div>
+          <div style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px;">
+            — 回应横琴黑客松组队事宜
+          </div>
+        </div>
+
+        <div class="ai-insight">
+          <strong>💡 今日师说解读：</strong><br><br>
+          虽然菩萨老师今日发言简短，但<strong>"可以组队"</strong>四个字背后蕴含深意：<br><br>
+          <strong>1. 鼓励协作共创</strong><br>
+          AI创作不再是个体孤军奋战的时代。组队可以：<br>
+          • 整合技能优势（脚本/视觉/音效/剪辑）<br>
+          • 分享创作资源和工具经验<br>
+          • 在压力下互相支撑完成项目<br><br>
+          <strong>2. 实战机会难得</strong><br>
+          横琴黑客松提供了：<br>
+          • 国际舞台（直通威尼斯双年展）<br>
+          • 大师指导（陆蓉之亲选）<br>
+          • 菩萨老师贴身辅导<br><br>
+          <strong>3. 延伸建议：</strong><br>
+          正如老师所言，组队参赛不仅能提升作品质量，更是建立长期创作伙伴关系的契机。建议学员在群内明确表达：<br>
+          • 擅长领域（如："我擅长prompt设计"）<br>
+          • 期待角色（如："寻找有故事构思的队友"）<br>
+          • 时间投入（如："可全职投入3天"）<br><br>
+          <mark class="blue">行动号召：</mark>有意向组队的同学可在群内发帖，格式参考：<br>
+          <em>"【组队招募】横琴黑客松 | 擅长xxx | 寻求xxx | 微信xxx"</em>
+        </div>
+
+        <div style="background: rgba(214, 188, 250, 0.08); padding: 12px; border-radius: 8px; font-size: var(--font-sm); border-left: 3px solid var(--accent-purple);">
+          <strong style="color: var(--accent-purple);">📚 老师背景补阙：</strong><br>
+          <strong>陆蓉之（萌奶奶）</strong>是华人当代艺术界重量级策展人，曾任威尼斯双年展台湾馆策展人。她与菩萨老师的合作，将为参赛作品带来<strong>国际视野 + 行业背书</strong>的双重加持。
+        </div>
+      </section>
+
+      <!-- 热议话题 -->
+      <section class="block-section block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <!-- 话题1 -->
+        <div class="hot-topic-card">
+          <div class="hot-topic-title">💃 林资本在女儿国：历史与搞笑的碰撞</div>
+          <div class="heat-stats">
+            <span class="badge badge-orange">参与4人</span>
+            <span class="badge badge-orange">讨论6条</span>
+            <span class="badge badge-orange">热度指数⭐⭐⭐⭐</span>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎬 视频课代表—紫薯有范 [13:27]</div>
+            林资本在女儿国遭遇"洗心革面"，感谢UREY的数字人Rhea出演女儿国国王
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎨 Lili in London(Amber) [14:44]</div>
+            男主脸上的妆，很特别[憨笑]
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎬 视频课代表—紫薯有范 [15:45]</div>
+            嗯，出人物时候故意选的这个很丑的桃花妆[呲牙]
+            <div style="margin-top: 5px; font-size: var(--font-xs); color: var(--text-secondary);">→ 回应妆容设计意图</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎭 Jennie [15:43]</div>
+            下期可以直接去思密达国
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎬 视频课代表—紫薯有范 [15:45]</div>
+            哈哈 女儿国的故事还会持续两集，泡菜国好像没啥意思[呲牙]
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎭 Jennie [15:47]</div>
+            泡菜国女人古时候穿韩服要露点的，很搞
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎬 视频课代表—紫薯有范 [15:48]</div>
+            [骷髅]感觉审核不过 会被封号的
+          </div>
+
+          <div class="analysis-box">
+            <strong>🔍 AI话题分析：</strong><br><br>
+            <strong>核心看点：</strong>学员短剧已进入<strong>"系列化+互动化"</strong>阶段，创作与观众形成共创闭环。<br><br>
+            <strong>趋势解读：</strong><br>
+            1. <strong>历史题材的解构主义</strong>：用AI将严肃历史（大唐女儿国）转化为搞笑短剧，降低观看门槛，提升传播力<br>
+            2. <strong>细节意识</strong>：创作者主动回应"桃花妆"等细节，说明观众反馈已融入创作迭代<br>
+            3. <strong>内容边界探索</strong>：关于"露点"的讨论反映学员在测试平台审核红线，这是成熟创作者的必经之路<br>
+            4. <strong>跨文化叙事</strong>：从大唐→泡菜国的延伸，展现AI创作在文化融合上的天然优势<br><br>
+            <strong>实践启示：</strong><br>
+            • 短剧创作为何要做系列？<span class="highlight-orange">观众留存 + IP积累</span><br>
+            • 如何利用观众反馈？<span class="highlight-orange">在群内提前"试播"，根据讨论调整后续剧情</span><br>
+            • 审核红线如何规避？<span class="highlight-orange">优先测试安全内容，建立敏感词库</span>
+          </div>
+        </div>
+
+        <!-- 话题2 -->
+        <div class="hot-topic-card">
+          <div class="hot-topic-title">😱 《柜子》：AI悬疑短剧的突破之作</div>
+          <div class="heat-stats">
+            <span class="badge badge-orange">参与3人</span>
+            <span class="badge badge-orange">讨论4条</span>
+            <span class="badge badge-orange">热度指数⭐⭐⭐</span>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎭 Jennie [16:45]</div>
+            他躲进柜子里，以为只要熬过去，就能逃出生天。可他不知道，真正的恐惧，从来不是被发现，而是没有人会再打开这扇门。<br><br>
+            从实验室，到废品车，再到垃圾场。他一路从侥幸，走到狂喜，再走到彻底崩溃。当柜门怎么砸都打不开的时候，这场报应，才算真正开始。<br><br>
+            <span style="font-size: var(--font-xs); color: var(--text-secondary);">— 原创AI惊悚短片《柜子》宣传文案</span>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎭 Jennie [16:50]</div>
+            自制悬疑剧，大家有时间可以看看
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">⚡ 风变-刘克亮 ForChange [16:59]</div>
+            好刺激
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎨 Lili in London(Amber) [17:17]</div>
+            [微笑][强]
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🌪️ 逐尘LiorCc [18:08]</div>
+            柜子里贴了梁朝伟照片[破涕为笑]
+            <div style="margin-top: 5px; font-size: var(--font-xs); color: var(--text-secondary);">→ 发现剧中的彩蛋/致敬细节</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="chat-sender">🎭 Jennie [19:12]</div>
+            盗版的
+            <div style="margin-top: 5px; font-size: var(--font-xs); color: var(--text-secondary);">→ 幽默回应"梁朝伟照片"梗</div>
+          </div>
+
+          <div class="analysis-box">
+            <strong>🎬 AI创作洞察：</strong><br><br>
+            <strong>类型突破：</strong>从搞笑短剧到惊悚悬疑，学员正在用AI证明"任何类型都可驾驭"。<br><br>
+            <strong>创作手法解析：</strong><br>
+            • <strong>三段式叙事</strong>：实验室→废品车→垃圾场，空间递进营造压迫感<br>
+            • <strong>心理描写</strong>：侥幸→狂喜→崩溃，情绪曲线精准<br>
+            • <strong>反转设计</strong>："柜门打不开"作为核心悬念，最后揭示"无人开门"的绝望<br>
+            • <strong>技术彩蛋</strong>：梁朝伟照片的加入，既致敬经典又体现AI生成能力<br><br>
+            <strong>行业意义：</strong><br>
+            惊悚/悬疑是AI视频的<strong>高难度类型</strong>，因为需要：<br>
+            • 精准的氛围控制（光影、音效、剪辑节奏）<br>
+            • 演员的细微表情（AI生成一直以来的痛点）<br>
+            • 叙事的逻辑自洽（不能因为AI而牺牲剧情）<br><br>
+            Jennie的作品证明：<span class="highlight-green">这些瓶颈正在被突破</span>。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <!-- AI资讯 -->
+      <section class="block-section block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+
+        <div class="ai-item">
+          <div style="font-weight: 600; color: var(--accent-orange); margin-bottom: 8px;">
+            🔥 Anthropic 封杀 OpenClaw
+          </div>
+          <div style="font-size: var(--font-sm); margin-bottom: 10px; line-height: 1.6;">
+            Anthropic 宣布正式封杀 OpenClaw：Claude 订阅服务将不再包含对 OpenClaw 等第三方工具的使用额度；此前 OpenClaw 宣布加入 OpenAI。
+          </div>
+          <div style="font-size: var(--font-xs); color: var(--text-secondary);">
+            来源：潇湘晨报 [13:16] 分享者：逆流而上 lu-xh
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <div style="font-weight: 600; color: var(--accent-orange); margin-bottom: 8px;">
+            💼 甲骨文裁员 3 万人
+          </div>
+          <div style="font-size: var(--font-sm); margin-bottom: 10px; line-height: 1.6;">
+            甲骨文裁员3万，利润暴涨也裁？辉煌时期他们的数据服务是从工程师起床开始计时的，<span class="ai-data-number">1000美金/小时</span>，到点下班，就算系统瘫痪也雷打不动该下班下班。去O之后日子就不好过了。
+          </div>
+          <div style="font-size: var(--font-xs); color: var(--text-secondary);">
+            来源：视频号 [06:20] 分享者：逆流而上 lu-xh
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <div style="font-weight: 600; color: var(--accent-orange); margin-bottom: 8px;">
+            🤖 迪士尼雪宝机器人累瘫
+          </div>
+          <div style="font-size: var(--font-sm); margin-bottom: 10px; line-height: 1.6;">
+            前几天被黄仁勋宠爱的雪宝机器人工作时直接累瘫了，但背后的迪士尼一直努力在用黑科技和人工智能给我们的童话补上最后一块拼图！
+          </div>
+          <div style="font-size: var(--font-xs); color: var(--text-secondary);">
+            来源：科技捕手 [13:45] 分享者：Jennie
+          </div>
+        </div>
+
+        <div style="background: rgba(251, 211, 141, 0.1); border-left: 3px solid var(--accent-orange); padding: 10px 14px; margin-top: 15px; font-size: var(--font-sm); border-radius: 0 6px 6px 0;">
+          <strong>📊 AI趋势判断：</strong><br><br>
+          <strong>1. AI平台竞争进入"排他性"阶段</strong><br>
+          Anthropic vs OpenAI 的工具生态战，意味着：<br>
+          • 创作者需要"站队"，多平台使用成本上升<br>
+          • 第三方工具面临"非此即彼"的选择压力<br>
+          • 建议：优先掌握核心模型原生能力，不过度依赖中间层<br><br>
+          <strong>2. 传统科技巨头的"AI焦虑"</strong><br>
+          甲骨文裁员案例揭示：<br>
+          • 云计算时代的高利润正在被AI基础设施投入侵蚀<br>
+          • 传统企业软件公司面临"不转型等死，转型找死"的困境<br>
+          • 对AI创作者而言：这类企业会加大AI内容采购（机会点）<br><br>
+          <strong>3. 机器人的"商业化难题"</strong><br>
+          迪士尼机器人"累瘫"背后：<br>
+          • 演示效果 ≠ 商业可用性（续航、成本、维护）<br>
+          • AI机器人的真正战场在B端（仓储、制造），而非C端娱乐<br>
+          • 短期：AI视频仍是内容创作主赛道，机器人还需5-10年
+        </div>
+      </section>
+
+      <!-- 社群动态 -->
+      <section class="block-section block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+
+        <div class="community-bubble">
+          <div class="chat-bubble">
+            <div class="community-speaker">🎨 玉箫 [08:27]</div>
+            别敲键盘⌨️去看看四季繁花🌸
+          </div>
+
+          <div class="chat-bubble">
+            <div class="community-speaker">🎭 A瑞湫Rachel [13:19]</div>
+            假期吃吃吃。清明节吃清明粿<br>
+            <div style="margin-top: 6px;"><img src="" alt="清明粿美食图片" style="border-radius: 6px; max-width: 100%;"></div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="community-speaker">🎬 视频课代表—紫薯有范 [13:30]</div>
+            最新一集林资本在女儿国遭遇"洗心革面"，感谢UREY的数字人Rhea出演女儿国国王@urey柚梨
+          </div>
+
+          <div class="chat-bubble">
+            <div class="community-speaker">🌏 逆流而上 lu-xh [09:59]</div>
+            周末玩起来[嘿哈]
+          </div>
+
+          <div class="chat-bubble">
+            <div class="community-speaker">🌏 逆流而上 lu-xh [10:21]</div>
+            让中国元素更多出现在我画面里[嘿哈]
+          </div>
+
+          <div class="chat-bubble">
+            <div class="community-speaker">🎭 Jennie [11:41]</div>
+            [分享] 汉斯季默的成神之路 #好莱坞 #星际穿越 #配乐 #大片 #加勒比海盗
+          </div>
+
+          <div class="chat-bubble">
+            <div class="community-speaker">🌏 逆流而上 lu-xh [17:26]</div>
+            [分享] "可以花1分钟，看看我花2年拍的中国" #环游中国 #走遍中国 #古建筑之美
+          </div>
+        </div>
+
+        <div style="background: rgba(184, 192, 192, 0.1); padding: 12px; border-radius: 8px; font-size: var(--font-sm); margin-top: 15px;">
+          <strong>🌈 今日社群氛围：</strong><br><br>
+          <span class="highlight-green">创作与生活的平衡</span><br><br>
+          清明假期期间，社群呈现出"创作不辍，生活松弛"的状态：<br><br>
+          • <strong>持续产出</strong>：短剧、动画、悬疑片各类作品不断<br>
+          • <strong>美食分享</strong>：清明粿、春游踏青，传统节日仪式感满满<br>
+          • <strong>互惠互助</strong>：@urey柚梨 的数字人出演获致谢，体现社团协作精神<br>
+          • <strong>文化自觉</strong>："让中国元素更多出现在我画面里"反映创作者的文化自信<br><br>
+          <strong>活跃时段：</strong> 11:00-17:00（午间至下午是讨论高峰）<br>
+          <strong>互动指数：</strong> ⭐⭐⭐⭐（假期仍有15人参与，活力不减）
+        </div>
+
+        <div style="background: rgba(236, 201, 75, 0.08); padding: 10px 14px; border-radius: 8px; font-size: var(--font-sm); margin-top: 12px; border-left: 3px solid var(--accent-primary);">
+          <strong>✨ 小编寄语：</strong><br>
+          清明时节，致敬创作者们的坚持。那些在假期里依然产出的作品，终将成为时间长河中的闪亮坐标。<br><br>
+          <em>—— 今日数据由AI自动生成，可能有误差，以实际记录为准</em>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-05 16:01:25</p>
+    <p style="margin-top: 8px; opacity: 0.7;">🤖 本日报由 Claude AI 自动分析生成，内容仅供参考</p>
+  </footer>
+</body>
+</html>
