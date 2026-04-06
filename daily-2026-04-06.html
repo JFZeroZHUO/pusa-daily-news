@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-06</title>
+  <style>
+    :root {
+      /* ===== 星期一：深空蓝 ===== */
+      --bg-primary:    #0a0e14;
+      --bg-card:       #11151c;
+      --bg-card-hover: #1a1f2a;
+      --border:        #2d3748;
+      --text-primary:  #e2e8f0;
+      --text-secondary:#718096;
+
+      --accent-primary:#63b3ed;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #b794f4;
+      --accent-orange: #f6ad55;
+      --accent-yellow: #ecc94b;
+
+      --gradient-title: linear-gradient(90deg, #63b3ed, #4299e1);
+
+      /* ===== 字体大小系统 ===== */
+      --font-base:     16px;
+      --font-xs:       14px;
+      --font-sm:       15px;
+      --font-md:       16px;
+      --font-lg:       18px;
+      --font-xl:       21px;
+      --font-2xl:      27px;
+      --font-3xl:      31px;
+      --font-data:     23px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-primary) 100%);
+      border-bottom: 3px solid var(--accent-primary);
+      padding: 24px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .header-top {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .issue-info {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 800;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.5px;
+    }
+
+    .stats-badge {
+      font-size: var(--font-xs);
+      background: rgba(99, 179, 237, 0.15);
+      color: var(--accent-primary);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+      border: 1px solid rgba(99, 179, 237, 0.3);
+    }
+
+    .header-divider {
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+      margin-top: 20px;
+      opacity: 0.6;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 32px 40px;
+      align-items: start;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    /* ===== 通用板块样式 ===== */
+    .block-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .block-section:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 8px 24px rgba(99, 179, 237, 0.1);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-primary);
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* ===== 引用样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 10px 16px;
+      margin: 12px 0;
+      background: rgba(183, 148, 244, 0.08);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* ===== 气泡对话 ===== */
+    .chat-bubble {
+      background: rgba(99, 179, 237, 0.08);
+      border: 1px solid rgba(99, 179, 237, 0.2);
+      border-radius: 16px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      font-size: var(--font-md);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    /* ===== 强调文字 ===== */
+    .highlight-blue {
+      color: var(--accent-primary);
+      font-weight: 700;
+    }
+
+    .highlight-red {
+      color: var(--accent-red);
+      font-weight: 700;
+    }
+
+    .highlight-green {
+      color: var(--accent-green);
+      font-weight: 700;
+    }
+
+    .bg-highlight {
+      background: rgba(99, 179, 237, 0.12);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    /* ===== Badge 标签 ===== */
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    .badge-blue {
+      background: rgba(99, 179, 237, 0.2);
+      color: var(--accent-primary);
+      border: 1px solid rgba(99, 179, 237, 0.3);
+    }
+
+    .badge-orange {
+      background: rgba(246, 173, 85, 0.2);
+      color: var(--accent-orange);
+      border: 1px solid rgba(246, 173, 85, 0.3);
+    }
+
+    .badge-green {
+      background: rgba(104, 211, 145, 0.2);
+      color: var(--accent-green);
+      border: 1px solid rgba(104, 211, 145, 0.3);
+    }
+
+    /* ===== 重要公告 ===== */
+    .block-announcement {
+      border-left: 3px solid var(--accent-red);
+      background: linear-gradient(135deg, rgba(252, 129, 129, 0.05) 0%, var(--bg-card) 100%);
+    }
+
+    .announcement-item {
+      padding: 12px 0;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .announcement-item:last-child {
+      border-bottom: none;
+    }
+
+    .announcement-time {
+      font-size: var(--font-xs);
+      color: var(--accent-red);
+      font-weight: 600;
+    }
+
+    /* ===== 师说 ===== */
+    .block-teacher {
+      border-left: 3px solid var(--accent-purple);
+      background: linear-gradient(135deg, rgba(183, 148, 244, 0.08) 0%, var(--bg-card) 100%);
+    }
+
+    .teacher-quote {
+      position: relative;
+      padding: 16px;
+      margin: 14px 0;
+      background: rgba(183, 148, 244, 0.1);
+      border-radius: 8px;
+      border-left: 4px solid var(--accent-purple);
+    }
+
+    .teacher-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-purple);
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ===== 热议话题 ===== */
+    .block-hot {
+      border-left: 3px solid var(--accent-orange);
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: var(--accent-orange);
+      margin: 12px 0;
+    }
+
+    .heat-stats {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+
+    /* ===== 荣誉时刻 ===== */
+    .block-honor {
+      border-left: 3px solid var(--accent-yellow);
+      background: linear-gradient(135deg, rgba(236, 201, 75, 0.05) 0%, var(--bg-card) 100%);
+    }
+
+    .honor-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px;
+      margin: 10px 0;
+      background: rgba(236, 201, 75, 0.08);
+      border: 1px solid rgba(236, 201, 75, 0.2);
+      border-radius: 8px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-yellow);
+    }
+
+    .honor-prize {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+
+    /* ===== AI资讯 ===== */
+    .block-ai {
+      border-left: 3px solid var(--accent-orange);
+    }
+
+    .ai-tool-tag {
+      font-size: var(--font-xs);
+      background: rgba(246, 173, 85, 0.2);
+      color: var(--accent-orange);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+
+    .ai-item {
+      padding: 12px;
+      margin: 10px 0;
+      background: rgba(246, 173, 85, 0.05);
+      border: 1px solid rgba(246, 173, 85, 0.15);
+      border-radius: 6px;
+      font-size: var(--font-sm);
+    }
+
+    .ai-data-number {
+      font-size: var(--font-data);
+      font-weight: 800;
+      color: var(--accent-orange);
+    }
+
+    .ai-highlight {
+      color: var(--accent-orange);
+      font-weight: 700;
+    }
+
+    /* ===== 社群动态 ===== */
+    .block-community {
+      border-left: 3px solid var(--accent-green);
+    }
+
+    .community-bubble {
+      background: rgba(104, 211, 145, 0.06);
+      border: 1px solid rgba(104, 211, 145, 0.15);
+      border-radius: 12px;
+      padding: 12px;
+      margin: 10px 0;
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-green);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .community-content {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* ===== 分析框 ===== */
+    .analysis-box {
+      background: rgba(99, 179, 237, 0.06);
+      border: 1px dashed rgba(99, 179, 237, 0.3);
+      border-radius: 8px;
+      padding: 14px;
+      margin: 14px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    .analysis-box strong {
+      color: var(--accent-primary);
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+      margin-top: 20px;
+    }
+
+    /* ===== 链接胶囊 ===== */
+    .link-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: var(--bg-primary);
+    }
+
+    /* ===== mark 高亮 ===== */
+    mark.blue {
+      background: rgba(99, 179, 237, 0.25);
+      color: var(--accent-primary);
+    }
+
+    mark.orange {
+      background: rgba(246, 173, 85, 0.25);
+      color: var(--accent-orange);
+    }
+
+    mark.green {
+      background: rgba(104, 211, 145, 0.25);
+      color: var(--accent-green);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 报头 Header -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第08期 · 2026年04月06日 星期一</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 111 条消息 · 5 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
+    <aside class="col-left">
+      <!-- 板块一：重要公告 -->
+      <section class="block-section block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
+        <div class="announcement-item">
+          <p style="color: var(--text-secondary); font-size: var(--font-sm); padding: 20px 0; text-align: center;">
+            今日群内暂无重要公告，社群运营平稳进行中。
+          </p>
+        </div>
+      </section>
+
+      <!-- 板块四：荣誉时刻 -->
+      <section class="block-section block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
+
+        <div class="honor-item">
+          <span class="honor-icon">👏</span>
+          <div>
+            <div class="honor-name">逆流而上 lu-xh 的逐秒提示词技巧</div>
+            <div class="honor-prize">获得社群成员一致认可与赞赏</div>
+          </div>
+        </div>
+
+        <div class="analysis-box">
+          <strong>💡 AI 点评：</strong>逆流而上 lu-xh 今日分享的 Seedance 2.0 逐秒提示词创作方法，将 15 秒视频拆解为 2000 字的精细描述，涵盖画面、服饰、运镜、音效等维度，展现了专业级视频制作的系统思维。这种"用语言大模型控制视频大模型"的创作理念，为社群成员提供了可复用的方法论。
+        </div>
+
+        <div style="margin-top: 16px; padding: 12px; background: rgba(104, 211, 145, 0.08); border-radius: 8px; border-left: 3px solid var(--accent-green);">
+          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-bottom: 8px;">
+            <span class="highlight-green">社群认可：</span>成员们纷纷用 [强]、[强][强][强][强] 表达赞叹，认为这种细致度"牛逼"，展示了从"动态PPT"向专业叙事的跨越。
+          </p>
+        </div>
+
+      </section>
+    </aside>
+
+    <!-- 中栏（最宽）：师说 + 热议话题 -->
+    <article class="col-center">
+
+      <!-- 板块二：师说 -->
+      <section class="block-section block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
+        <div style="padding: 30px 0; text-align: center; color: var(--text-secondary);">
+          <p style="font-size: var(--font-md);">今日两位老师暂无重要发言，期待明日精彩内容。</p>
+        </div>
+      </section>
+
+      <!-- 板块三：热议话题 -->
+      <section class="block-section block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
+
+        <!-- 话题一 -->
+        <div class="hot-topic-title">话题一：Seedance 2.0 逐秒提示词创作技巧</div>
+        <div class="heat-stats">
+          <span class="badge badge-orange">🔥 热度: 6人参与 · 30+条消息</span>
+        </div>
+
+        <blockquote>
+          <strong>逆流而上 lu-xh：</strong>个人总结一下：需要一个语言大模型，一个视频大模型，15秒内！人利用语言大模型控制视频大模型。基本15秒提示词，接近2000字。
+        </blockquote>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">逆流而上 lu-xh</div>
+          0-1秒：夜色中的远洋客轮船艏，海风猛烈，浪花拍打船身。女子站在船头外缘护栏边，双手紧抓冰冷栏杆，裙摆被风掀起；男子从后方甲板门冲出。<br><br>
+          <strong>服饰：</strong>• 女主：1900年代上流社会风格，象牙白长裙、浅金刺绣披肩、束腰胸衣轮廓、长手套，发髻略乱。• 男主：旧呢大衣、灰色背心、西装衬衫、松开的领结，头发被海风吹乱。<br><br>
+          <strong>运镜：</strong>低机位沿甲板快速推进，海面与船艏结构同框。<br>
+          <strong>音效：</strong>海风呼啸、引擎低鸣、船体切浪声。
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">gwq0628</div>
+          有没有语言大模型的提示词框架训练建议呢，把sd2喂给它？
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">gwq0628</div>
+          主角要是跑出画面了，下一帧的首帧你都怎么搞的呀？每次主角一出画面再回来衣服就变了[捂脸]
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">逆流而上 lu-xh</div>
+          全能参考呀。要定好静图（美学、造型），想好故事大概，让大模型逐秒去写。不然只能出动态ppt。
+        </div>
+
+        <blockquote>
+          <strong>逆流而上 lu-xh：</strong>因为玩了一下V6，不写提示词，他啥也不是。还要我从会员，与其我在v6里写，不如我写给2.0。
+        </blockquote>
+
+        <div class="analysis-box">
+          <strong>🤖 AI 分析：</strong><br><br>
+          这场讨论的核心是从"快速生成"向"精细控制"的思维升级。参与者们发现：<br><br>
+          1. <span class="ai-highlight">逐秒描述的必要性</span>：逆流而上 lu-xh 分享了完整的15秒脚本框架，包含时间轴、画面内容、服饰细节、运镜方式、音效设计五个维度，展示了如何用2000字精确控制每一帧。<br><br>
+          2. <span class="ai-highlight">工具选择的经验</span>：成员们比较了 Seedance 2.0、V6、小云雀等工具，发现 Seedance 2.0 虽然只支持15秒，但在叙事控制和场景连续性上表现最佳。<br><br>
+          3. <span class="ai-highlight">制作流程的规范化</span>：从定静图→写脚本→生成分镜→全能参考，形成了一套可复用的标准化流程。 gwq0628 提出的"提示词框架训练建议"也指向了未来的优化方向：如何让语言模型更好地理解视频生成的需求。
+        </div>
+
+        <!-- 话题二 -->
+        <div class="hot-topic-title" style="margin-top: 24px;">话题二：分镜技巧与镜头语言</div>
+        <div class="heat-stats">
+          <span class="badge badge-orange">🔥 热度: 5人参与 · 15+条消息</span>
+        </div>
+
+        <blockquote>
+          <strong>逆流而上 lu-xh：</strong>还有一个总结，多做分镜…我看了一个公开课，那个老师15秒，至少10个分镜。镜头多了就丝滑了。
+        </blockquote>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">音乐课代表-Open Your Eyes</div>
+          一般2到3秒就得切镜头了。我每次做MV都是一两百的分镜。
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表—紫薯有范</div>
+          还可以用多角度嘛，一个场景出9个角度，这样是不是又省事了。
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">ヒーロー見参！</div>
+          多做分镜的意思是多出场景的多角度图吗？还是就给他基础的参考，剩下的交给sd2.0自由发挥？
+        </div>
+
+        <blockquote>
+          <strong>逆流而上 lu-xh：</strong>第一个你才能控、第二个你不能控，它给你惊喜。但要看片子类型。
+        </blockquote>
+
+        <div class="analysis-box">
+          <strong>🤖 AI 分析：</strong><br><br>
+          这段讨论揭示了专业制作的核心——<span class="ai-highlight">镜头节奏</span>。音乐课代表的"2-3秒切镜"和"一两百个分镜"数据，与公开课老师"15秒10个分镜"的实践，共同指向一个结论：<span class="bg-highlight">专业感来自于频繁的镜头切换</span>。<br><br>
+          tiantrose 的反思"我以前分镜都太少了"代表了大多数初学者的状态。而视频课代表提出的"多角度"方案，则是在保证控制力的前提下提高效率的折中方案。逆流而上 lu-xh 最后的区分很有价值："可控分镜"适合叙事性强的内容，"自由发挥"适合实验性作品。
+        </div>
+
+      </section>
+    </article>
+
+    <!-- 右栏：AI资讯 + 社群动态 -->
+    <aside class="col-right">
+
+      <!-- 板块五：AI资讯 -->
+      <section class="block-section block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">Seedance 2.0</span>
+          <p style="margin-top: 8px;">
+            即梦2.0今日成为讨论焦点。逆流而上 lu-xh 详细展示了其<span class="ai-highlight">2000字逐秒描述</span>的创作方法，强调该工具在<span class="ai-highlight">叙事控制</span>和<span class="ai-highlight">场景连续性</span>上的优势。虽然只支持15秒，但"会自然匹配语速和场景"。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">语言大模型</span>
+          <p style="margin-top: 8px;">
+            成员们讨论使用 GPT、Gemini 等语言模型来<span class="ai-highlight">生成视频提示词</span>。gwq0628 提出"提示词框架训练建议"，希望将 Seedance 2.0 的规则喂给语言模型，形成更自动化的创作流程。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">小云雀</span>
+          <p style="margin-top: 8px;">
+            gwq0628 提到小云雀已支持<span class="ai-highlight">一分钟视频</span>生成，但"精美度比不上" Seedance 2.0。这反映了当前AI视频领域的<span class="ai-highlight">时长-质量权衡</span>。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">全能参考</span>
+          <p style="margin-top: 8px;">
+            逆流而上 lu-xh 多次强调"全能参考"功能，用于解决<span class="ai-highlight">角色一致性</span>问题（如主角出画面后回来衣服变化）。该功能可锁定静图的美学和造型，确保多镜头间的连贯性。
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">Suno</span>
+          <p style="margin-top: 8px;">
+            gwq0628 早上分享了 Suno 生成的音乐作品[胜利]，展示了 AI 音乐工具在创作中的应用。社群成员对音乐与视频的结合表现出持续兴趣。
+          </p>
+        </div>
+
+        <div class="analysis-box">
+          <strong>📈 行业趋势判断：</strong><br><br>
+          今日讨论反映出 AI 视频创作的<span class="ai-highlight">专业化趋势</span>：从追求速度转向追求质量，从简单生成转向精细控制。逐秒描述、多角度分镜、全能参考等技巧的普及，说明用户正在从"工具使用者"向"内容创作者"转型。
+        </div>
+
+        <div class="analysis-box">
+          <strong>💡 实践建议：</strong><br><br>
+          对于社团学员，建议：<br>
+          1. 从<span class="ai-highlight">短时长开始</span>（10-15秒），掌握逐秒描述方法<br>
+          2. 建立自己的<span class="ai-highlight">提示词模板库</span>（服饰、运镜、音效等模块）<br>
+          3. 重视<span class="ai-highlight">前期分镜设计</span>，2-3秒切换一次镜头<br>
+          4. 利用"全能参考"保持角色一致性<br>
+          5. 尝试用语言模型辅助生成脚本，但保持人工审核
+        </div>
+
+      </section>
+
+      <!-- 板块六：社群动态 -->
+      <section class="block-section block-community">
+        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
+
+        <div class="community-bubble">
+          <div class="community-speaker">wxid_txslaa5lq7cc22</div>
+          <div class="community-content">#作业0329 [视频]</div>
+        </div>
+
+        <div class="community-bubble">
+          <div class="community-speaker">ヒーロー見参！</div>
+          <div class="community-content">你的视频提示词有啥技巧吗？还是就给参考，稍微描述下就能出这样的效果？</div>
+        </div>
+
+        <div class="community-bubble">
+          <div class="community-speaker">tiantrose</div>
+          <div class="community-content">昨天听他说用gpt 然后逐秒描述</div>
+        </div>
+
+        <div class="community-bubble">
+          <div class="community-speaker">Jennie</div>
+          <div class="community-content">这是手作的模型，是不也能玩儿？我也去试试。还原营造过程[呲牙]</div>
+        </div>
+
+        <div class="community-bubble">
+          <div class="community-speaker">ybyqcrk</div>
+          <div class="community-content">[强] 原创清明节AI短片《藤椒油》有些味道，不喜欢，也忘不掉。特别鸣谢@商汤SekoAI的大力支持，图片：全能图片模型2，视频：Seedance2.0，音乐：Suno。</div>
+        </div>
+
+        <div class="community-bubble">
+          <div class="community-speaker">wxid_i6expua0388522</div>
+          <div class="community-content">请问一下大佬，你的视频都是用什么生成的呀[捂脸]</div>
+        </div>
+
+        <div style="margin-top: 16px; padding: 14px; background: rgba(104, 211, 145, 0.08); border-radius: 8px;">
+          <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-bottom: 10px;">
+            <strong>🌈 今日氛围：</strong>
+          </p>
+          <p style="font-size: var(--font-sm); color: var(--text-secondary); line-height: 1.8;">
+            今日社群呈现出<span class="highlight-green">技术深度探讨</span>的活跃氛围。成员们围绕 Seedance 2.0 的使用技巧展开了长达4小时的连续讨论，从逐秒描述到分镜设计，从工具选择到流程优化，展现了极高的学习热情和分享精神。新成员积极提问，老成员耐心解答，形成了良好的知识传递生态。
+          </p>
+        </div>
+
+        <div style="margin-top: 12px; padding: 12px; background: rgba(99, 179, 237, 0.06); border-radius: 8px; text-align: center;">
+          <p style="font-size: var(--font-sm); color: var(--accent-primary); font-style: italic;">
+            ✨ 今日金句：咋菩萨班，得玩进阶的。——逆流而上 lu-xh
+          </p>
+        </div>
+
+      </section>
+
+    </aside>
+
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-07 16:02:00</p>
+  </footer>
+
+</body>
+</html>

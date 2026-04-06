@@ -1,8 +1,15 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-04-06",
+  "lastUpdated": "2026-04-07",
   "digests": [
+    {
+      "date": "2026-04-06",
+      "file": "daily-2026-04-06.html",
+      "title": "Seedance 2.0逐秒提示词·分镜技巧深度探讨",
+      "messageCount": 111,
+      "speakerCount": 5
+    },
     {
       "date": "2026-04-05",
       "file": "daily-2026-04-05.html",
