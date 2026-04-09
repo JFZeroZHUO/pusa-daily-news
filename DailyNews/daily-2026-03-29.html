@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-29</title>
+  <style>
+    :root {
+      /* 星期日：玫瑰粉配色 */
+      --bg-primary:    #1a1015;
+      --bg-card:       #251620;
+      --bg-card-hover: #301c28;
+      --border:        #5c3a4a;
+      --text-primary:  #fef2f6;
+      --text-secondary: #c9a0b0;
+      --accent-primary: #ed64a6;
+      --accent-red:    #f687b3;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #ed64a6, #d53f8c);
+
+      /* 字体大小系统 */
+      --font-base:     16px;
+      --font-xs:       14px;
+      --font-sm:       15px;
+      --font-md:       16px;
+      --font-lg:       18px;
+      --font-xl:       21px;
+      --font-2xl:      27px;
+      --font-3xl:      31px;
+      --font-data:     23px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .newspaper-header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .issue-info, .stats-badge {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      background: var(--bg-card);
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+    }
+
+    .header-divider {
+      height: 2px;
+      background: var(--gradient-title);
+      margin-top: 15px;
+      border-radius: 1px;
+    }
+
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .col-left, .col-center, .col-right {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .block {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+
+    .block:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-primary);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* 重要公告样式 */
+    .announcement-item {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      border-left: 2px solid var(--accent-red);
+    }
+
+    .announcement-time {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .announcement-content {
+      font-size: var(--font-sm);
+      line-height: 1.7;
+    }
+
+    /* 师说样式 */
+    .teacher-saying {
+      background: linear-gradient(135deg, #161b22, #1a1f2e);
+      padding: 16px;
+      border-radius: 10px;
+      border-left: 4px solid var(--accent-purple);
+      margin-bottom: 15px;
+    }
+
+    .teacher-name {
+      font-size: var(--font-xs);
+      color: var(--accent-purple);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .teacher-content {
+      font-size: var(--font-sm);
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    .ai-insight {
+      background: rgba(214, 188, 250, 0.08);
+      padding: 12px;
+      border-radius: 8px;
+      margin-top: 12px;
+      font-size: var(--font-sm);
+    }
+
+    .ai-insight strong {
+      color: var(--accent-purple);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    /* 热议话题样式 */
+    .hot-topic {
+      margin-bottom: 20px;
+    }
+
+    .hot-topic-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+    }
+
+    .heat-badge {
+      background: var(--accent-red);
+      color: white;
+      font-size: var(--font-xs);
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .chat-bubble {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 12px;
+      border-radius: 18px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .bubble-content {
+      font-size: var(--font-md);
+      line-height: 1.6;
+    }
+
+    .topic-analysis {
+      background: rgba(251, 207, 132, 0.08);
+      padding: 12px;
+      border-radius: 8px;
+      margin-top: 12px;
+      font-size: var(--font-sm);
+      border-left: 3px solid var(--accent-orange);
+    }
+
+    /* 荣誉时刻样式 */
+    .honor-item {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, rgba(246, 229, 65, 0.08), rgba(246, 224, 94, 0.05));
+      border-radius: 10px;
+      border: 1px solid rgba(246, 224, 94, 0.3);
+      margin-bottom: 15px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      margin-bottom: 10px;
+      text-shadow: 0 0 20px rgba(246, 224, 94, 0.5);
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      color: var(--accent-yellow);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .honor-desc {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* AI资讯样式 */
+    .ai-item {
+      background: rgba(27, 31, 36, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    .ai-tool-tag {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #1a202c;
+      font-size: var(--font-xs);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .ai-content {
+      font-size: var(--font-sm);
+      line-height: 1.6;
+    }
+
+    .ai-highlight {
+      font-size: var(--font-data);
+      color: var(--accent-orange);
+      font-weight: 700;
+    }
+
+    .ai-trend {
+      margin-top: 10px;
+      padding: 10px;
+      background: rgba(251, 207, 132, 0.1);
+      border-radius: 6px;
+      font-size: var(--font-sm);
+    }
+
+    /* 社群动态样式 */
+    .community-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
+      break-inside: avoid;
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .community-content {
+      font-size: var(--font-sm);
+      line-height: 1.5;
+    }
+
+    .community-mood {
+      margin-top: 15px;
+      padding: 12px;
+      background: rgba(237, 100, 166, 0.08);
+      border-radius: 8px;
+      font-size: var(--font-sm);
+    }
+
+    /* 通用样式 */
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 8px 16px;
+      margin: 12px 0;
+      background: rgba(214, 188, 250, 0.1);
+      color: #d1d5db;
+      font-style: italic;
+      font-size: var(--font-sm);
+    }
+
+    .highlight-blue { color: var(--accent-primary); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+
+    .link-pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 5px 5px 5px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+    }
+
+    .empty-content {
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
+      text-align: center;
+      padding: 30px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第XXX期 · 2026年03月29日 星期日</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 95 条消息 · 36 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <main class="newspaper-grid">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <!-- 重要公告 -->
+      <section class="block block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
+
+        <div class="announcement-item">
+          <div class="announcement-time">⏰ 09:30</div>
+          <div class="announcement-content">
+            <strong>海艺AI生图功能调整通知</strong>
+            <blockquote>
+              📢 关于近期生图功能使用调整的说明@所有人
+
+              近期平台在巡查过程中发现，部分账号存在异常高频调用模型、通过脚本进行大规模批量生成的行为，且伴随违规及敏感内容生成显著增多的情况，已对平台正常创作秩序与资源使用产生一定影响。
+
+              针对上述问题，平台已启动专项治理机制。同时，为保障资源的合理分配与整体使用体验，平台将对部分生图模型的使用策略进行阶段性调整：
+
+              ● 自 3月29日 起，部分生图模型调整为每日限免10次
+              ● 平台内大部分生图模型仍保持免费使用，不受影响
+
+              本次调整为阶段性策略，后续平台将结合实际运行情况持续评估，并逐步进行优化与调整。
+            </blockquote>
+            <p><strong>AI行动建议：</strong>各位创作者请合理安排生图时间，避免过度集中使用。建议优先使用免费额度，并关注平台后续政策调整。</p>
+          </div>
+        </div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">⏰ 15:05 / 20:25 / 20:31</div>
+          <div class="announcement-content">
+            <strong>今晚直播课提醒</strong><br>
+            🎯 课程内容：《拆解手机广告案例》<br>
+            👨 主讲老师：panda 老师<br>
+            📅 时间：3月29日今晚20:30<br>
+            <a href="https://fclive.pandacollege.cn/p/gnFSQM" class="link-pill" target="_blank">🔗 直播链接</a>
+          </div>
+        </div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">⏰ 15:05</div>
+          <div class="announcement-content">
+            <strong>🏆 VB比赛截稿提醒</strong><br>
+            ⚠ 比赛马上就要截稿了哦，想参加的同学抓紧时间提交啦~<br>
+            ⏰ 提交时间：3月29日今晚21:00前‼<br>
+            <a href="https://forchangesz.feishu.cn/wiki/GBdewG4YiiXhSJkyESLcRro8n2c" class="link-pill" target="_blank">📋 比赛详情</a>
+          </div>
+        </div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">⏰ 18:15</div>
+          <div class="announcement-content">
+            <strong>🏆 Prompt Battle 181</strong><br>
+            🗓️ 2026/3/29 18:30–20:20 ｜8轮对战，随时加入<br>
+            🏅 腾讯会议：615-9701-6045<br>
+            🌟 MC：森破 & 时一，新手友好，现场随问随答！
+          </div>
+        </div>
+      </section>
+
+      <!-- 荣誉时刻 -->
+      <section class="block block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
+
+        <div class="honor-item">
+          <div class="honor-icon">🌟</div>
+          <div class="honor-name">皮皮咩 & 紫薯有范</div>
+          <div class="honor-desc">完成课程笔记整理，获得群友一致好评</div>
+        </div>
+
+        <blockquote>
+          [22:02] 皮皮咩: 课程笔记20260329
+
+          [22:13] 柳暗花明: @视频课代表—紫薯有范 @皮皮咩 [握手][握手][握手][玫瑰][玫瑰][玫瑰]
+
+          [22:18] 侯萍 Nina: 优秀[玫瑰][玫瑰]@视频课代表—紫薯有范 @皮皮咩
+
+          [22:31] River 小华: @皮皮咩 感谢课代表[嘴唇]
+        </blockquote>
+
+        <div class="ai-insight">
+          <strong>AI点评推荐：</strong>
+          优秀的课程笔记是社群共同进步的基石。皮皮咩和紫薯有范的及时整理，不仅帮助同学巩固知识点，更营造了"乐于分享、共同成长"的学习氛围。这种奉献精神值得每一位学员学习！
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏 -->
+    <article class="col-center">
+      <!-- 师说 -->
+      <section class="block block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
+        <div class="empty-content">今日两位老师暂无重要发言，期待明日精彩内容。</div>
+      </section>
+
+      <!-- 热议话题 -->
+      <section class="block block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
+
+        <div class="hot-topic">
+          <div class="hot-topic-header">
+            <span class="hot-topic-title">海艺、即梦等AI工具使用体验</span>
+            <span class="heat-badge">10+条讨论</span>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">不设限的烟火</div>
+            <div class="bubble-content">这怎么大规模生成啊？</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">New soul</div>
+            <div class="bubble-content">海艺动不动就取消任务了</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">夏侯仪</div>
+            <div class="bubble-content">不是最高一档，要等一天[破涕为笑]</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">雾</div>
+            <div class="bubble-content">不是出图慢，是打开网站都比以前卡了</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">大师兄</div>
+            <div class="bubble-content">海艺的Mj模型，被我用到开始扣积分了</div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>AI分析结论：</strong>
+            今日社群热议的核心话题是AI工具的使用体验变化。海艺平台因治理"异常高频调用"而调整策略，导致部分用户感受到限流；即梦平台则在周末时段速度较快，工作日会出现排队现象。大师兄的分享更是揭示了"免费额度"的边界问题——高频使用后即使是MJ模型也会开始扣积分。这提醒我们：作为创作者，需要合理规划使用策略，充分利用各平台的免费额度，同时关注政策变化，灵活调整工作流。
+          </div>
+        </div>
+
+        <div class="hot-topic">
+          <div class="hot-topic-header">
+            <span class="hot-topic-title">SD2.0价格调整风波</span>
+            <span class="heat-badge">8+条讨论</span>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">尹星懿</div>
+            <div class="bubble-content">说是有个时间点，这之前的给满血还按45，但是不知是否是真的。也是好多大佬投诉换来的，本来要120了。</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">Open Your Eyes</div>
+            <div class="bubble-content">那天我们都上315去投诉了 团结就是力量</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">尹星懿</div>
+            <div class="bubble-content">对呀，不然现在就是120点15秒</div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>AI分析结论：</strong>
+            SD2.0的价格调整争议展现了用户群体的<strong>集体行动力</strong>。原计划将积分从45点提高到120点（15秒视频），但在众多用户的315投诉后，平台暂时维持了45点的价格。这个案例说明：<strong>用户的声音是有力量的</strong>，但同时也反映出AI工具价格波动的常态化趋势。对于创作者而言，建议关注平台政策窗口期，及时锁定优惠价格，同时也要为未来的成本上涨做好心理准备。
+          </div>
+        </div>
+
+        <div class="hot-topic">
+          <div class="hot-topic-header">
+            <span class="hot-topic-title">硬件配置咨询</span>
+            <span class="heat-badge">3条讨论</span>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">55+5</div>
+            <div class="bubble-content">剪辑的话买个mac mini M4的够不够用？之前老师好像有说过，苹果机剪辑效果比windows好</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">范范W</div>
+            <div class="bubble-content">够用了。我用的还是M2pro</div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>AI分析结论：</strong>
+            关于视频剪辑硬件选择，M4版本确实性能充足，M2pro已经能很好胜任日常剪辑工作。Mac系统在视频编解码、色彩管理等方面确实有优势，特别是Final Cut Pro等软件的优化。建议根据预算选择：<strong>轻度剪辑选M4，专业需求选M2pro或更高配置</strong>。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <!-- AI资讯 -->
+      <section class="block block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">海艺AI</span>
+          <div class="ai-content">
+            <strong>平台治理新政：</strong>自3月29日起，部分生图模型调整为每日限免10次。大部分模型仍保持免费，但高频使用账号将面临监控与限制。
+          </div>
+          <div class="ai-trend">
+            <strong>趋势判断：</strong>平台从"完全免费"向"限额免费"转型，这是AI行业走向可持续商业化的必然趋势。创作者需适应新的使用规则。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">即梦AI</span>
+          <div class="ai-content">
+            <strong>速度波动明显：</strong>工作日需排队3小时，周末基本20-30分钟出结果。今日多位群友反馈"不用等直接生成"。
+          </div>
+          <div class="ai-trend">
+            <strong>使用建议：</strong>尽量避开工作日高峰期，利用周末或深夜时段进行视频生成。可考虑"错峰提交"策略。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">SD2.0</span>
+          <div class="ai-content">
+            <strong>价格博弈结果：</strong>原计划15秒视频从<span class="ai-highlight">45点→120点</span>，经用户315投诉后维持45点。MJ模型高频使用后开始扣积分。
+          </div>
+          <div class="ai-trend">
+            <strong>使用建议：</strong>密切关注平台政策变化，把握优惠窗口期。考虑多平台组合使用，分散风险。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">行业动态</span>
+          <div class="ai-content">
+            <strong>红果短剧编剧政策：</strong>尹星懿分享了"红果编剧新政策，个人编剧天亮了"的视频，短剧行业平台政策持续优化。
+          </div>
+          <div class="ai-trend">
+            <strong>趋势判断：</strong>短剧行业进入<strong>内容质量为王</strong>时代，平台更重视优质内容创作者，个人编剧迎来机会期。
+          </div>
+        </div>
+      </section>
+
+      <!-- 社群动态 -->
+      <section class="block block-community">
+        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
+
+        <div class="community-card">
+          <div class="community-speaker">新成员加入</div>
+          <div class="community-content">
+            今日Andy老师邀请5位新成员加入：<strong>🍊欣想事成🍊、Inferno。、🌟曲梦🌟、一株胡杨、俊</strong>。欢迎新同学！✧٩(ˊωˋ*)و✧
+          </div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">作业提交</div>
+          <div class="community-content">
+            多位同学提交#作业0322：<strong>River 小华、wendy、冰莲玉蝶</strong>等积极完成作业，设计师lucia分享"参考老师的构图出的[捂脸]改了N次"。
+          </div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">作品分享</div>
+          <div class="community-content">
+            群友分享视频号作品：
+            <br>• <strong>逆流而上</strong>：深圳园博园三角梅花瀑
+            <br>• <strong>大师兄</strong>：韩信短剧作品
+            <br>• <strong>紫薯有fun</strong>：AI精品短剧作品
+          </div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">互动交流</div>
+          <div class="community-content">
+            <blockquote>
+              [14:12] 尹星懿: 薅着了字节的羊毛怎么那么爽啊，资本[呲牙]
+
+              [14:13] 毛毛: 资本咋可能给你薅羊毛，今天统统降智
+
+              [14:16] 尹星懿: 那倒是可能，估计涨价没涨成
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="community-mood">
+          <strong>🌈 今日氛围：</strong>
+          周末的社群氛围轻松活跃，大家在学习之余分享生活、讨论工具、互相鼓励。新成员的加入为社群注入新鲜血液，老成员的积极分享营造了良好的学习氛围。从"薅羊毛"的幽默调侃，到课程笔记的认真整理，再到直播课的积极参与，展现了野菩萨AI社团<strong>学习与生活并重、专业与快乐共存</strong>的独特社群文化。
+          <br><br>
+          <strong>小编寄语：</strong>春暖花开，正是创作好时节！愿每一位成员都能在AI创作的道路上收获满满，享受创作的乐趣！🌸
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-30 02:40:00</p>
+  </footer>
+</body>
+</html>

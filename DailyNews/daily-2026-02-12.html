@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html data-patched="v2" lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-02-12</title>
+  <script>
+    /* 防闪烁：阻塞执行，在样式渲染前设定主题 */
+    (function () {
+      const t = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    :root {
+      --bg-primary: #1a1410;
+      --bg-card: #231c16;
+      --bg-card-hover: #2d241c;
+      --border: #4a3f35;
+      --text-primary: #faf5f0;
+      --text-secondary: #a89888;
+      --accent-blue: #ed8936;
+      --accent-red: #fc8181;
+      --accent-green: #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .newspaper-container {
+      width: 1600px;
+      min-height: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    @media (max-width: 1200px) {
+      .newspaper-container { width: 100%; }
+      .newspaper-grid { grid-template-columns: 1fr !important; }
+    }
+    .newspaper-header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .issue-info {
+      color: var(--text-secondary);
+      font-size: 11px;
+    }
+    .newspaper-title {
+      font-size: 28px;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--accent-blue), var(--accent-orange));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stats-badge {
+      background: var(--bg-card);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 11px;
+      color: var(--accent-orange);
+      border: 1px solid var(--border);
+    }
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 20px;
+    }
+    .section {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+    }
+    .section:hover { background: var(--bg-card-hover); }
+    .section-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title .icon { font-size: 20px; }
+    .highlight-blue { color: var(--accent-blue); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+    .highlight-purple { color: var(--accent-purple); font-weight: 700; }
+    .highlight-orange { color: var(--accent-orange); font-weight: 700; }
+    .bg-highlight { background: rgba(237,137,54,0.12); padding: 2px 6px; border-radius: 3px; }
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(214,188,250,0.06);
+      color: #d9d1c9;
+      font-style: italic;
+      border-radius: 0 8px 8px 0;
+    }
+    mark.blue { background: rgba(237,137,54,0.25); color: var(--accent-blue); padding: 1px 4px; border-radius: 3px; }
+    mark.orange { background: rgba(251,211,141,0.25); color: var(--accent-orange); padding: 1px 4px; border-radius: 3px; }
+    mark.green { background: rgba(104,211,145,0.25); color: var(--accent-green); padding: 1px 4px; border-radius: 3px; }
+    mark.purple { background: rgba(214,188,250,0.25); color: var(--accent-purple); padding: 1px 4px; border-radius: 3px; }
+    .link-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-blue);
+      color: var(--accent-blue);
+      font-size: 11px;
+      text-decoration: none;
+      margin: 4px 4px 4px 0;
+    }
+    .link-pill:hover { background: rgba(237,137,54,0.1); }
+    .block-announcement .alert-bar {
+      background: linear-gradient(90deg, var(--accent-red), #ffa0a0);
+      padding: 8px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .timeline-item {
+      border-left: 2px solid var(--accent-red);
+      padding-left: 16px;
+      margin-left: 8px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 8px;
+      width: 10px;
+      height: 10px;
+      background: var(--accent-red);
+      border-radius: 50%;
+    }
+    .block-teacher {
+      background: linear-gradient(135deg, #231c16, #2a2218);
+    }
+    .block-teacher blockquote {
+      border-left: 4px solid var(--accent-purple);
+      font-size: 15px;
+    }
+    .teacher-avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+      border-radius: 50%;
+      font-weight: 700;
+      margin-right: 10px;
+      font-size: 15px;
+    }
+    .teacher-name {
+      font-weight: 600;
+      color: var(--accent-purple);
+      font-size: 16px;
+    }
+    .hot-badge {
+      background: var(--accent-red);
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 12px;
+      color: #fff;
+      margin-left: 8px;
+    }
+    .chat-bubble {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      max-width: 90%;
+    }
+    .chat-bubble.left { margin-right: auto; border-bottom-left-radius: 4px; }
+    .chat-bubble.right { margin-left: auto; border-bottom-right-radius: 4px; background: rgba(237,137,54,0.1); }
+    .chat-sender { font-size: 11px; color: var(--text-secondary); margin-bottom: 4px; }
+    .block-honor .medal-icon {
+      font-size: 28px;
+      text-shadow: 0 0 20px rgba(246,224,94,0.5);
+    }
+    .honor-card {
+      background: rgba(246,224,94,0.15);
+      border: 1px solid var(--accent-yellow);
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 10px 0;
+    }
+    .honor-name { color: var(--accent-yellow); font-weight: 700; }
+    .block-ai .tool-badge {
+      background: rgba(251,211,141,0.2);
+      border: 1px solid var(--accent-orange);
+      color: var(--accent-orange);
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-family: monospace;
+      margin: 2px;
+      display: inline-block;
+    }
+    .ai-highlight {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent-orange);
+    }
+    .block-community .mini-card {
+      background: var(--bg-card);
+      border: 1px solid #3a3025;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    .atmosphere-summary {
+      background: rgba(237,137,54,0.08);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 16px;
+      border-left: 3px solid var(--accent-blue);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-secondary);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 24px;
+    }
+    p { margin-bottom: 12px; }
+    .section-content { font-size: 14px; line-height: 1.8; }
+  
+    /* ── 主题切换按钮 ── */
+    .theme-btn {
+      padding: 5px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .theme-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-card-hover);
+    }
+    /* ── 亮色主题变量覆盖 ── */
+    [data-theme="light"] {
+      --bg-primary:    #f5f3ee;
+      --bg-card:       #ffffff;
+      --bg-card-hover: #edeae0;
+      --border:        #d4cfc0;
+      --text-primary:  #1e1b14;
+      --text-secondary:#6b6555;
+    }
+    [data-theme="light"] blockquote {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .analysis-box {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .newspaper-header {
+      background: linear-gradient(135deg, #f0ede2, #f7f5ee);
+    }
+    [data-theme="light"] .block-teacher {
+      background: linear-gradient(135deg, #f0ede2, #edeae0);
+    }
+  </style>
+</head>
+<body>
+  <div class="newspaper-container">
+    <header class="newspaper-header">
+      <div class="header-top">
+        <span class="issue-info">第82期 · 2026年02月12日 星期三</span>
+        <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+        <span class="stats-badge">今日 342 条消息 · 50+ 人发言</span>
+              <button class="theme-btn" id="themeToggle" onclick="toggleTheme()">☀️ 明亮</button>
+</div>
+    
+  </header>
+
+    <main class="newspaper-grid">
+      <!-- 左栏 -->
+      <aside class="col-left">
+        <!-- 重要公告 -->
+        <section class="section block-announcement">
+          <h2 class="section-title"><span class="icon">📢</span> 重要公告</h2>
+          <div class="section-content">
+            <div class="alert-bar">百度AI撞春比赛 · 最后冲刺</div>
+            <div class="timeline-item">
+              <p><strong>比赛截止提醒</strong></p>
+              <blockquote>
+                百度AI撞春比赛今晚23:59截止！助教Alan老师发布了比赛链接提醒大家抓紧提交作品。
+              </blockquote>
+            </div>
+            <div class="timeline-item">
+              <p><strong>课程安排通知</strong></p>
+              <blockquote>
+                本周末休息，22号有课，届时助教老师会通知大家。——Aria清老师
+              </blockquote>
+            </div>
+            <p><mark class="blue">要点提炼：</mark></p>
+            <ul style="margin-left: 20px; color: var(--text-secondary);">
+              <li>百度AI撞春比赛今晚截止</li>
+              <li>作品提交问题可删除重传</li>
+              <li>音乐和旁白不要（比赛要求）</li>
+              <li>22号有课，本周末休息</li>
+              <li>课程回放下午发布</li>
+            </ul>
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 AI建议：</span>还未提交作品的同学抓紧最后时间，遇到ID码填错等问题可删除重传。Logo植入下载PNG格式放角落即可。</p>
+          </div>
+        </section>
+
+        <!-- 荣誉时刻 -->
+        <section class="section block-honor">
+          <h2 class="section-title"><span class="icon medal-icon">🏆</span> 荣誉时刻</h2>
+          <div class="section-content">
+            <div class="honor-card">
+              <p><span class="medal-icon">⭐</span> <span class="honor-name">紫薯有范</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">高铁8小时不忘创作，被赞"真是高产，又快又好"</p>
+            </div>
+            <div class="honor-card">
+              <p><span class="medal-icon">⭐</span> <span class="honor-name">逆流而上</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">完成首个混剪作品，虚心求教获专业点评</p>
+            </div>
+            <div class="honor-card">
+              <p><span class="medal-icon">⭐</span> <span class="honor-name">皮皮咩</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">整理课代表笔记，获群友感谢</p>
+            </div>
+            <p style="margin-top: 12px;">今日交作业：由纪、素语、阿珂、竹子、紫蝶等多位同学积极参与比赛。</p>
+            <p><span class="highlight-blue">💡 AI点评：</span>紫薯有范同学在旅途中坚持创作的精神值得学习，逆流而上同学虚心求教的态度也是进步的关键。社群互帮互助的氛围让每个人都能快速成长。</p>
+          </div>
+        </section>
+      </aside>
+
+      <!-- 中栏 -->
+      <article class="col-center">
+        <!-- 师说 -->
+        <section class="section block-teacher">
+          <h2 class="section-title"><span class="icon">👨‍🏫</span> 师说</h2>
+          <div class="section-content">
+            <div style="display: flex; align-items: center; margin-bottom: 16px;">
+              <span class="teacher-avatar">清</span>
+              <span class="teacher-name">Aria清老师</span>
+            </div>
+
+            <p><mark class="purple">核心观点</mark>：<strong>即梦2.0 Fast版本适合赶时间，tapnow虽贵但积分永不清零。</strong></p>
+
+            <blockquote>
+              目前即梦上了一个2.0 Fast版本，大家手头有着急的可以用这个版本，快、性价比高，效果略弱一点点。
+            </blockquote>
+
+            <p>针对Seedance 2.0排队严重的情况，Aria清老师推荐了Fast版本作为折中方案，虽然效果略有折扣，但对于赶截止日期的同学来说是个不错的选择。</p>
+
+            <blockquote>
+              平时用量多的可以考虑入一下，性价比不错的。
+            </blockquote>
+
+            <p>关于即梦年费会员，高级会员享受模型4折优惠，15秒视频仅需45积分，加视频参考也只要90积分，对于高频使用者确实划算。</p>
+
+            <blockquote>
+              tapnow虽然贵，但是是唯一不清零的平台。
+            </blockquote>
+
+            <p><span class="highlight-purple">🔮 AI延伸解读：</span></p>
+            <p>在各平台积分清零政策让人头疼的当下，tapnow的永不清零特性成为其独特优势。虽然单价较高，但对于使用频率不稳定的用户来说，反而可能更经济。</p>
+            <p>关于排队问题，Aria清老师透露<span class="highlight-orange">最高会员需要等10分钟</span>，并感叹"即梦火爆全球"。这反映出Seedance 2.0发布后的巨大热度。</p>
+            <p><span class="bg-highlight">实践建议：高频用户可考虑即梦年费会员，低频用户可选择tapnow避免积分浪费。</span></p>
+          </div>
+        </section>
+
+        <!-- 热议话题 -->
+        <section class="section block-hot">
+          <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+          <div class="section-content">
+            <h3 style="font-size: 13px; margin-bottom: 12px;">
+              Seedance 2.0会员选择与排队问题
+              <span class="hot-badge">20+人参与 · 50+条消息</span>
+            </h3>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">老张</div>
+              我买了高级会员，积分4折，15秒只要45分，加了视频参考15秒才90积分。原价五千多现在半价两千多，折合每月两百多。
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">凰</div>
+              现在变化太快了...（在犹豫是否购买）
+            </div>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">Jason Hsu</div>
+              Seedance队伍好长，排到时估计都天亮了。
+            </div>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">ヒーロー見参</div>
+              排20分钟了，显示从7分钟变成6分钟...越排越久
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">老张</div>
+              晚上用，晚上没排过。
+            </div>
+
+            <p style="margin-top: 16px;"><span class="highlight-red">🎯 AI分析结论：</span></p>
+            <p>Seedance 2.0的火爆程度超出预期，排队问题成为用户痛点。<strong>解决方案</strong>：①使用Fast版本加速；②错峰使用（晚上）；③多平台分流（豆包、剪映也已支持）。</p>
+            <p>会员购买建议：<span class="bg-highlight">高频用户（每月200+积分）建议入手年费会员，低频用户可观望或选择tapnow。</span></p>
+          </div>
+        </section>
+      </article>
+
+      <!-- 右栏 -->
+      <aside class="col-right">
+        <!-- AI资讯 -->
+        <section class="section block-ai">
+          <h2 class="section-title"><span class="icon">🤖</span> AI资讯</h2>
+          <div class="section-content">
+            <p><mark class="orange">今日AI焦点</mark></p>
+            <p class="ai-highlight">即梦 Seedance 2.0 全面开放</p>
+
+            <p style="margin-top: 12px;"><span class="tool-badge">Seedance 2.0</span> 核心更新：</p>
+            <ul style="margin-left: 20px; color: var(--text-secondary); margin-bottom: 12px;">
+              <li>2.0 Fast版本上线：速度快、性价比高</li>
+              <li>即梦5.0图片模型同步更新</li>
+              <li>高级会员享受4折积分优惠</li>
+              <li>多平台接入：豆包、剪映均已支持</li>
+            </ul>
+
+            <p><span class="tool-badge">会员体系</span></p>
+            <ul style="margin-left: 20px; color: var(--text-secondary); margin-bottom: 12px;">
+              <li>年费半价：原价5000+ → 现价2000+</li>
+              <li>高级会员有"插队"特权</li>
+              <li>高峰期仍需等待约10分钟</li>
+            </ul>
+
+            <p><span class="tool-badge">其他平台</span></p>
+            <ul style="margin-left: 20px; color: var(--text-secondary); margin-bottom: 12px;">
+              <li>Tapnow：积分永不清零</li>
+              <li>海艺：签到奖励13号到期</li>
+              <li>Higgsfield：视频编辑功能强</li>
+            </ul>
+
+            <blockquote style="border-left-color: var(--accent-orange);">
+              Fanko评价：这次真的是新手友好，娱乐性很强。
+            </blockquote>
+
+            <p><span class="highlight-blue">💡 使用建议：</span>遇到即梦报错可尝试关闭梯子。建议错峰使用，晚上排队较少。</p>
+          </div>
+        </section>
+
+        <!-- 社群动态 -->
+        <section class="section block-community">
+          <h2 class="section-title"><span class="icon">💬</span> 社群动态</h2>
+          <div class="section-content">
+            <div class="mini-card">
+              <div class="chat-sender">饮悦小站 · 早间</div>
+              好开心能被你赞美，感谢！昨晚上听完老师的课一直在想怎么做好它 ✨
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">紫薯有范</div>
+              今天坐高铁8个小时太无聊了（所以一直在创作）🚄
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">逆流而上</div>
+              兄弟姐妹们打字领钱！海艺签到奖励13号到期，我已经攒了10000点 💰
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">正</div>
+              我们当评委，奖金再发给我们 😂
+            </div>
+
+            <div class="atmosphere-summary">
+              <p><strong>📈 今日氛围总结</strong></p>
+              <p>比赛截止日社群异常活跃，<span class="highlight-blue">342条消息</span>创近期新高。大家在紧张赶作品的同时，依然保持互帮互助的良好传统。</p>
+              <p style="margin-top: 8px; color: var(--accent-purple);">「逆流而上」同学今日最为活跃，分享了多个实用信息和自己的首个混剪作品。</p>
+            </div>
+
+            <p style="margin-top: 16px; text-align: center; color: var(--text-secondary); font-style: italic;">
+              "有问必答、互相鼓励、共同进步——这就是野菩萨社群的核心价值。" 🌟
+            </p>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-02-12 23:59:00</p>
+      <p style="margin-top: 8px; font-size: 12px;">Powered by AI · 内容基于群聊记录自动生成</p>
+    </footer>
+  </div>
+
+  <script>
+    /* ── 主题切换 ── */
+    (function () {
+      /* data-theme 已在 <head> 设置，这里只更新按钮图标 */
+      const saved = localStorage.getItem('pusa-theme') || 'dark';
+      document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = saved === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+      });
+    })();
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('pusa-theme', next);
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.textContent = next === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+    }
+    /* 接收父页面（index.html）的主题同步消息 */
+    window.addEventListener('message', function (e) {
+      if (e.data && e.data.type === 'pusa-theme') {
+        const theme = e.data.theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('pusa-theme', theme);
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = theme === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-03-22</title>
+  <style>
+    :root {
+      /* ===== 配色系统：星期日 玫瑰粉 ===== */
+      --bg-primary:    #1a1015;   /* 玫瑰夜背景 */
+      --bg-card:       #251620;   /* 卡片背景 */
+      --bg-card-hover: #301c28;   /* 卡片悬停 */
+      --border:        #5c3a4a;   /* 边框 */
+      --text-primary:  #fef2f6;   /* 主文字 */
+      --text-secondary:#c9a0b0;   /* 次文字 */
+      --accent-primary:#ed64a6;   /* 玫瑰粉：主强调 */
+      --accent-red:    #f687b3;   /* 浅粉：公告 */
+      --accent-green:  #68d391;   /* 翠绿：荣誉 */
+      --accent-purple: #d6bcfa;   /* 淡紫：师说 */
+      --accent-orange: #fbd38d;   /* 蜜橙：AI资讯 */
+      --accent-yellow: #f6e05e;   /* 金黄：奖牌 */
+      --gradient-title: linear-gradient(90deg, #ed64a6, #d53f8c);
+
+      /* ===== 字体大小系统 ===== */
+      --font-base:        16px;   /* body 基础字号 */
+      --font-xs:          14px;   /* 角标、badge、footer、辅助信息 */
+      --font-sm:          15px;   /* blockquote、分析框、次级正文 */
+      --font-md:          16px;   /* 正文、气泡内容、honor-name */
+      --font-lg:          18px;   /* 板块标题 */
+      --font-xl:          21px;   /* 板块标题 icon/emoji */
+      --font-2xl:         27px;   /* 荣誉图标、装饰性 emoji */
+      --font-3xl:         31px;   /* 报头主标题 */
+      --font-data:        23px;   /* AI资讯数字强调 */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    /* ===== 报头 Header ===== */
+    .newspaper-header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 25px 40px;
+      background: linear-gradient(135deg, var(--bg-card), var(--bg-primary));
+      border-radius: 16px;
+      border: 2px solid var(--border);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .issue-info, .stats-badge, .header-tagline {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .issue-info {
+      text-align: left;
+    }
+
+    .stats-badge {
+      text-align: right;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 700;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin: 15px 0;
+    }
+
+    .header-divider {
+      height: 2px;
+      background: var(--gradient-title);
+      border-radius: 1px;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== 板块通用样式 ===== */
+    .block-section {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .block-section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(237, 100, 166, 0.15);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* ===== blockquote 样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 10px 16px;
+      margin: 12px 0;
+      background: rgba(214, 188, 250, 0.06);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      border-radius: 0 8px 8px 0;
+    }
+
+    /* ===== 重要公告板块 ===== */
+    .announcement-timeline {
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .announcement-timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent-red), var(--accent-primary));
+    }
+
+    .announcement-item {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .announcement-item::before {
+      content: '';
+      position: absolute;
+      left: -25px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent-red);
+      border: 2px solid var(--bg-card);
+    }
+
+    .announcement-title {
+      color: var(--accent-red);
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-size: var(--font-md);
+    }
+
+    /* ===== 师说板块 ===== */
+    .teacher-quote {
+      background: linear-gradient(135deg, rgba(214, 188, 250, 0.08), rgba(237, 100, 166, 0.05));
+      border-left: 4px solid var(--accent-purple);
+      padding: 16px 20px;
+      margin: 15px 0;
+      border-radius: 0 12px 12px 0;
+    }
+
+    .teacher-name {
+      font-weight: 600;
+      color: var(--accent-purple);
+      margin-bottom: 10px;
+      font-size: var(--font-md);
+    }
+
+    .analysis-box {
+      background: rgba(251, 211, 141, 0.08);
+      border: 1px solid rgba(251, 211, 141, 0.2);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 12px 0;
+      font-size: var(--font-sm);
+    }
+
+    /* ===== 热议话题板块 ===== */
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      position: relative;
+      border: 1px solid var(--border);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      color: var(--accent-orange);
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .heat-stats {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      background: rgba(251, 211, 141, 0.15);
+      padding: 3px 10px;
+      border-radius: 12px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    /* ===== 荣誉时刻板块 ===== */
+    .honor-item {
+      background: linear-gradient(135deg, rgba(246, 224, 94, 0.1), rgba(251, 211, 141, 0.05));
+      border: 1px solid var(--accent-yellow);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      text-align: center;
+      margin-bottom: 10px;
+      text-shadow: 0 0 20px rgba(246, 224, 94, 0.5);
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 600;
+      color: var(--accent-yellow);
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .honor-prize {
+      font-size: var(--font-md);
+      color: var(--text-primary);
+      text-align: center;
+    }
+
+    /* ===== AI资讯板块 ===== */
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #1a1015;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    .ai-item {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      background: var(--bg-card-hover);
+      font-size: var(--font-sm);
+    }
+
+    .ai-data-number {
+      font-size: var(--font-data);
+      font-weight: 700;
+      color: var(--accent-orange);
+    }
+
+    /* ===== 社群动态板块 ===== */
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .community-card {
+      background: var(--bg-card-hover);
+      border-radius: 10px;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid var(--border);
+      column-count: 2;
+      column-gap: 15px;
+    }
+
+    @media (max-width: 1200px) {
+      .community-card {
+        column-count: 1;
+      }
+    }
+
+    /* ===== 文字强调样式 ===== */
+    .highlight-blue {
+      color: var(--accent-primary);
+      font-weight: 700;
+    }
+
+    .highlight-red {
+      color: var(--accent-red);
+      font-weight: 700;
+    }
+
+    .highlight-green {
+      color: var(--accent-green);
+      font-weight: 700;
+    }
+
+    .bg-highlight {
+      background: rgba(237, 100, 166, 0.12);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    mark.blue {
+      background: rgba(237, 100, 166, 0.25);
+      color: var(--accent-primary);
+    }
+
+    mark.orange {
+      background: rgba(251, 211, 141, 0.25);
+      color: var(--accent-orange);
+    }
+
+    mark.green {
+      background: rgba(104, 211, 145, 0.25);
+      color: var(--accent-green);
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <!-- 报头 Header -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第XXX期 · 2026年03月22日 星期日</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 180 条消息 · 43 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
+    <aside class="col-left">
+      <!-- 重要公告 -->
+      <section class="block-section block-announcement">
+        <h2 class="block-title">
+          <span class="icon">📢</span>
+          重要公告
+        </h2>
+        <div class="announcement-timeline">
+          <div class="announcement-item">
+            <div class="announcement-title">今晚八点半：AI视频社团课</div>
+            <p>👨 主讲老师：王超老师</p>
+            <p>🎯 课程内容：周深的好事马上来和央视新闻的马年视频</p>
+            <p>📅 时间：3月22日周日 今晚20:30</p>
+            <p>直播链接：<a href="https://fclive.pandacollege.cn/p/uGEYhe" style="color: var(--accent-primary);">点击进入直播间</a></p>
+          </div>
+          <div class="announcement-item">
+            <div class="announcement-title">欢迎新同学加入</div>
+            <p>今日有骏*、皮卡皮卡、晶晶🌟、江河、Ccc、稻草人、心心、Sophia、下一站......、水云间、卤肉饭、刘凯、阿杉、和思帆、@Hanjing、Allison等16位新同学加入社团大家庭！欢迎各位新同学🎉</p>
+          </div>
+          <div class="announcement-item">
+            <div class="announcement-title">课代表团队介绍</div>
+            <p>🎬 剪辑课代表：@凌（凌潇）</p>
+            <p>🎵 音乐课代表：@Open Your Eyes</p>
+            <p>🎨 图片课代表：@司尧YAO Siyi</p>
+            <p>📹 视频课代表：@紫薯有范（原范范W）、@南山</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 荣誉时刻 -->
+      <section class="block-section block-honor">
+        <h2 class="block-title">
+          <span class="icon">🏆</span>
+          荣誉时刻
+        </h2>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">楼蓝（嘎嘎嘣嘣）</div>
+          <div class="honor-prize">《三体-黑暗森林之虫子的觉醒》用废片重新剪辑，记录那些曾经熬过的通宵</div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">楼蓝（嘎嘎嘣嘣）</div>
+          <div class="honor-prize">《狸奴偷天记》"狸猫换太子"续集，民间故事新演绎</div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">楼蓝（嘎嘎嘣嘣）</div>
+          <div class="honor-prize">《吉量》春晚主题视频，展现《山海经》神兽传说</div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">视频课代表—紫薯有范</div>
+          <div class="honor-prize">《大唐航海合伙人》第六集更新：画大饼遭遇杀猪盘</div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">逆流而上 lu-xh</div>
+          <div class="honor-prize">"让插画动起来"系列持续更新，涵盖懒觉、散步、晒太阳、见面、亮相、力竭、小白等主题</div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">Ronin</div>
+          <div class="honor-prize">《狸猫换太子》短剧创作，手搓完成获得好评</div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎵</div>
+          <div class="honor-name">音乐课代表-Open Your Eyes</div>
+          <div class="honor-prize">《Who am I?》音乐视频作品发布</div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏（最宽）：师说 + 热议话题 -->
+    <article class="col-center">
+      <!-- 师说 -->
+      <section class="block-section block-teacher">
+        <h2 class="block-title">
+          <span class="icon">👨‍🏫</span>
+          师说
+        </h2>
+        <p style="color: var(--text-secondary); font-style: italic;">今日两位老师暂无重要发言，期待明日精彩内容。</p>
+      </section>
+
+      <!-- 热议话题 -->
+      <section class="block-section block-hot">
+        <h2 class="block-title">
+          <span class="icon">🔥</span>
+          热议话题
+        </h2>
+
+        <!-- 话题1 -->
+        <div class="hot-topic-title">话题一：AI工具字幕问题大讨论</div>
+        <div class="heat-stats">参与人数：8+ | 消息条数：15+</div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表—紫薯有范</div>
+          <p>感觉即梦是故意的。无聊提示词怎么强调不要出现字幕，都一定会妥妥的给你安排字幕，然后等着你花积分来去除。</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">芋啊芋</div>
+          <p>回应：说不要，就更容易出现，不要说不要</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">设计师lucia（周末不接新单）</div>
+          <p>我感觉即梦是你提示词里面出现的词它都会给你用上，不管你是说不要还是禁止。出画面的时候好一些，出视频最容易出现这个问题。</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">正</div>
+          <p>提示词加个：禁止生成字幕。别写不要字幕，会引起大象效应。</p>
+        </div>
+
+        <div class="analysis-box">
+          <strong>AI分析：</strong>这个话题揭示了AI工具在理解否定指令时存在的典型问题。"大象效应"（White Bear Effect）在AI提示工程中确实存在——越强调"不要什么"，AI反而越关注那个概念。群友们提出的解决方案（用"禁止"代替"不要"、避免提及关键词）是有效的提示技巧，值得在以后的使用中实践。
+        </div>
+
+        <!-- 话题2 -->
+        <div class="hot-topic-title">话题二：剪映积分获取方法分享</div>
+        <div class="heat-stats">参与人数：6+ | 消息条数：10+</div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">耘石子</div>
+          <p>@团团老师 最近被AI附身了... 剪映可以了，一个水印就消耗了300积分哦！还开了会员的</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表—紫薯有范</div>
+          <p>完全不够用的话，咸鱼上有那种24小时3200积分的。</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">文途逐光</div>
+          <p>你每天点开剪映，就有积分</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">素语(素语)</div>
+          <p>1.剪映买了会员送积分。2.在上面做模板，做任务赚积分。</p>
+        </div>
+
+        <div class="analysis-box">
+          <strong>AI分析：</strong>剪映积分的高消耗确实是AI创作者面临的普遍问题。群友们分享的获取途径（每日登录、会员赠送、模板任务、咸鱼购买）提供了多种解决方案。对于重度使用者，建议合理组合这些方法，最大化积分收益。
+        </div>
+
+        <!-- 话题3 -->
+        <div class="hot-topic-title">话题三：项目创作的痛苦与坚持</div>
+        <div class="heat-stats">参与人数：10+ | 消息条数：15+</div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">空灵（空灵）</div>
+          <p>看来老师这个项目做得很痛苦，多一秒都不想再看那个作品了</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">视频课代表-南山</div>
+          <p>做个项目脱层皮</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">刘凯</div>
+          <p>赶上这种高要求的就是，极其痛苦。他们总是看到结果后再提需求，导致重复推翻。带项目这种人和事太多了</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">Nina</div>
+          <p>做项目不都这样么？就是炼狱到重生。尾款付了就行。</p>
+        </div>
+
+        <div class="chat-bubble">
+          <div class="bubble-sender">设计-周</div>
+          <p>感觉和室内设计一样，甲方要求各种改图。不过感觉我还是来对了，中国美术史是我感兴趣的。而且做AI得尊重历史这个观点我是很赞同的，给老师点赞</p>
+        </div>
+
+        <div class="analysis-box">
+          <strong>AI分析：</strong>这段讨论真实反映了商业项目的残酷现实。甲方的反复修改、结果导向的需求提出、创作者的被动调整，这些在AI创作领域同样存在。令人欣慰的是，群友们依然保持学习的热情，"来对了"的评价说明课程价值得到了认可。
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏：AI资讯 + 社群动态 -->
+    <aside class="col-right">
+      <!-- AI资讯 -->
+      <section class="block-section block-ai">
+        <h2 class="block-title">
+          <span class="icon">🤖</span>
+          AI资讯
+        </h2>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">即梦AI</span>
+          <p>群友发现<strong>提示词中的否定词存在"大象效应"</strong>，说"不要字幕"反而更容易出现字幕。建议使用"禁止生成字幕"等正面表述。</p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">剪映</span>
+          <p><strong>积分获取途径总结：</strong>每日登录赠送、购买会员赠送、制作模板任务、咸鱼购买第三方积分（<span class="ai-data-number">3200积分/24小时</span>）。</p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">Midjourney</span>
+          <p><strong>Mj人物模型制作技巧：</strong>逆流而上分享的"让插画动起来"系列展示了如何使用图片抽卡出分镜，具体做法可参考菩萨老师的游戏人物课程录播。</p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">AI视频生成</span>
+          <p><strong>竹子的实战总结：</strong>图片、视频模型都有个性，少说话（提示词）生成的效果好；没有参考图、有创意反而生成得好。一给指令就跟你乱来，耗掉积分和信心。</p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">行业动态</span>
+          <p>OpenAI帝国面临挑战，Claude抢走<span class="ai-data-number">70%</span>新单。AI配音演员集体维权，行业规范化加速。</p>
+        </div>
+
+        <div class="analysis-box">
+          <strong>趋势判断：</strong>今日讨论集中在AI工具的<strong>使用技巧和实战经验</strong>，说明社群已从"了解工具"进入"精通工具"阶段。即梦的字幕问题、剪映的积分策略、MJ的人物建模，这些深度话题只有在实际操作中才会遇到。群友们的经验共享价值极高，建议建立"避坑指南"文档。
+        </div>
+      </section>
+
+      <!-- 社群动态 -->
+      <section class="block-section block-community">
+        <h2 class="block-title">
+          <span class="icon">💬</span>
+          社群动态
+        </h2>
+
+        <div class="community-card">
+          <div class="chat-bubble" style="background: transparent; border: none; padding: 8px 0;">
+            <div class="community-speaker">欢迎新同学</div>
+            <p>今日迎来16位新成员加入，由纪、昨天再见青杰、视频课代表-南山、悠米、MK、New soul、风、楼蓝、江河等老同学热烈欢迎新伙伴[庆祝]</p>
+          </div>
+
+          <div class="chat-bubble" style="background: transparent; border: none; padding: 8px 0;">
+            <div class="community-speaker">同行相认</div>
+            <p>视频课代表—紫薯有范："我原来也是室内设计师" @设计-周。江河回应"同行"，设计-周表示很开心认识志同道合的朋友</p>
+          </div>
+
+          <div class="chat-bubble" style="background: transparent; border: none; padding: 8px 0;">
+            <div class="community-speaker">课代表互动</div>
+            <p>剪辑课代表-阿缘："有疑惑就@ 不用顾虑"。逆流而上调侃"课代表可以给我们加课"</p>
+          </div>
+
+          <div class="chat-bubble" style="background: transparent; border: none; padding: 8px 0;">
+            <div class="community-speaker">周末创作氛围</div>
+            <p>群内持续有作品分享，逆流而上发布多个"让插画动起来"视频，楼蓝的《三体》和《狸奴偷天记》获得好评，音乐课代表发布音乐视频作品</p>
+          </div>
+        </div>
+
+        <div class="analysis-box">
+          <strong>氛围总结：</strong>今日社群延续了周末的创作热情，<strong>新成员活跃度高</strong>（16人加入），<strong>老成员热情欢迎</strong>，形成了良好的社群氛围。同行相认的瞬间特别温暖，室内设计师背景的同学找到了共同语言。课代表团队的主动服务态度也得到认可。整体活跃度：★★★★☆
+        </div>
+
+        <p style="font-size: var(--font-sm); color: var(--text-secondary); margin-top: 15px; text-align: center;">
+          <strong>小编寄语：</strong>周末不休息，创作正当时！看到这么多新同学加入，这么多作品诞生，社团的未来可期🌟
+        </p>
+      </section>
+    </aside>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-03-22 16:01:24</p>
+    <p style="margin-top: 5px;">消息统计：180条 · 43人发言 · 最活跃时段：20:00-22:00</p>
+  </footer>
+</body>
+</html>

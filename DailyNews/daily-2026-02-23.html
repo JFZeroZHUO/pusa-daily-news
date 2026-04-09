@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html data-patched="v2" lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-02-23</title>
+  <script>
+    /* 防闪烁：阻塞执行，在样式渲染前设定主题 */
+    (function () {
+      const t = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    :root {
+      --bg-primary: #0a0e14;
+      --bg-card: #11151c;
+      --bg-card-hover: #1a1f2a;
+      --border: #2d3748;
+      --text-primary: #e2e8f0;
+      --text-secondary: #718096;
+      --accent-primary: #63b3ed;
+      --accent-red: #fc8181;
+      --accent-green: #68d391;
+      --accent-purple: #b794f4;
+      --accent-orange: #f6ad55;
+      --accent-yellow: #ecc94b;
+      --gradient-title: linear-gradient(90deg, #63b3ed, #4299e1);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .container { max-width: 1600px; margin: 0 auto; padding: 20px; }
+    .newspaper-header {
+      text-align: center;
+      padding: 24px 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .issue-info { color: var(--text-secondary); font-size: 11px; }
+    .newspaper-title {
+      font-size: 28px;
+      font-weight: 700;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stats-badge {
+      background: var(--bg-card);
+      border: 1px solid var(--accent-primary);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 11px;
+      color: var(--accent-primary);
+    }
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 20px;
+    }
+    @media (max-width: 1200px) {
+      .newspaper-grid { grid-template-columns: 1fr; }
+    }
+    section {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+    }
+    section:hover { background: var(--bg-card-hover); }
+    .section-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title .icon { font-size: 20px; }
+    .block-announcement .section-title { color: var(--accent-red); }
+    .block-announcement .alert-bar {
+      background: linear-gradient(90deg, #fc8181, #f56565);
+      height: 3px;
+      border-radius: 2px;
+      margin-bottom: 16px;
+    }
+    .announcement-item {
+      border-left: 3px solid var(--accent-red);
+      padding-left: 16px;
+      margin-bottom: 16px;
+    }
+    .block-teacher .section-title { color: var(--accent-purple); }
+    .teacher-quote {
+      border-left: 4px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(183, 148, 244, 0.08);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+    }
+    .teacher-name {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .teacher-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--accent-purple);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 600;
+      color: #0a0e14;
+    }
+    .teacher-insight {
+      background: rgba(183, 148, 244, 0.05);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+      border: 1px dashed var(--accent-purple);
+    }
+    .teacher-insight h4 {
+      color: var(--accent-purple);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .block-hot .section-title { color: var(--accent-orange); }
+    .hot-badge {
+      background: var(--accent-red);
+      color: #fff;
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 12px;
+      margin-left: 8px;
+    }
+    .topic-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent-orange);
+      margin: 16px 0 8px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed var(--border);
+    }
+    .chat-bubble {
+      background: rgba(246, 173, 85, 0.1);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin: 8px 0;
+      max-width: 90%;
+    }
+    .chat-bubble.left { margin-right: auto; }
+    .chat-bubble.right { margin-left: auto; background: rgba(183, 148, 244, 0.1); }
+    .chat-sender { font-size: 11px; color: var(--text-secondary); margin-bottom: 4px; }
+    .ai-analysis {
+      background: rgba(99, 179, 237, 0.08);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+      border-left: 3px solid var(--accent-primary);
+    }
+    .ai-analysis h4 {
+      color: var(--accent-primary);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .block-honor .section-title { color: var(--accent-yellow); }
+    .honor-card {
+      background: rgba(236, 201, 75, 0.1);
+      border: 1px solid var(--accent-yellow);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 8px 0;
+    }
+    .honor-icon { font-size: 24px; text-shadow: 0 0 10px rgba(236, 201, 75, 0.5); }
+    .block-ai .section-title { color: var(--accent-orange); }
+    .ai-tool-badge {
+      display: inline-block;
+      background: rgba(246, 173, 85, 0.2);
+      color: var(--accent-orange);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-family: monospace;
+      margin: 2px;
+    }
+    .ai-highlight { color: var(--accent-orange); font-weight: 600; font-size: 18px; }
+    .ai-focus {
+      background: linear-gradient(135deg, rgba(246, 173, 85, 0.1), rgba(236, 201, 75, 0.05));
+      border-radius: 8px;
+      padding: 16px;
+      margin: 12px 0;
+      border: 1px solid rgba(246, 173, 85, 0.3);
+    }
+    .ai-focus h4 { color: var(--accent-orange); margin-bottom: 8px; }
+    .tip-box {
+      background: rgba(104, 211, 145, 0.1);
+      border-left: 3px solid var(--accent-green);
+      padding: 12px 16px;
+      margin-top: 16px;
+      border-radius: 0 8px 8px 0;
+    }
+    .tip-box h4 {
+      color: var(--accent-green);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .block-community .section-title { color: var(--accent-green); }
+    .community-card {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 8px 0;
+    }
+    .mood-summary {
+      background: rgba(104, 211, 145, 0.08);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .mood-summary h4 { color: var(--accent-green); margin-bottom: 8px; }
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 8px 16px;
+      margin: 12px 0;
+      background: rgba(183, 148, 244, 0.06);
+      color: #a0aec0;
+      font-style: italic;
+    }
+    .highlight-blue { color: var(--accent-primary); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+    .highlight-orange { color: var(--accent-orange); font-weight: 700; }
+    .bg-highlight { background: rgba(99, 179, 237, 0.12); padding: 2px 6px; border-radius: 3px; }
+    .link-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: 11px;
+      text-decoration: none;
+      margin: 4px 2px;
+    }
+    .link-pill:hover { background: rgba(99, 179, 237, 0.1); }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-secondary);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+      margin-top: 24px;
+    }
+  
+    /* ── 主题切换按钮 ── */
+    .theme-btn {
+      padding: 5px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .theme-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-card-hover);
+    }
+    /* ── 亮色主题变量覆盖 ── */
+    [data-theme="light"] {
+      --bg-primary:    #f5f3ee;
+      --bg-card:       #ffffff;
+      --bg-card-hover: #edeae0;
+      --border:        #d4cfc0;
+      --text-primary:  #1e1b14;
+      --text-secondary:#6b6555;
+    }
+    [data-theme="light"] blockquote {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .analysis-box {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .newspaper-header {
+      background: linear-gradient(135deg, #f0ede2, #f7f5ee);
+    }
+    [data-theme="light"] .block-teacher {
+      background: linear-gradient(135deg, #f0ede2, #edeae0);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="newspaper-header">
+      <div class="header-top">
+        <span class="issue-info">第008期 · 2026年02月23日 星期一</span>
+        <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+        <span class="stats-badge">今日 119 条消息 · 23 人发言</span>
+              <button class="theme-btn" id="themeToggle" onclick="toggleTheme()">☀️ 明亮</button>
+</div>
+    
+  </header>
+
+    <main class="newspaper-grid">
+      <aside class="col-left">
+        <section class="block-announcement">
+          <div class="alert-bar"></div>
+          <h2 class="section-title"><span class="icon">📢</span> 重要公告</h2>
+          <p style="color: var(--text-secondary); font-style: italic;">今日群内暂无重要公告，社群运营平稳进行中。</p>
+          <div class="teacher-insight" style="border-color: var(--accent-red); margin-top: 16px;">
+            <h4 style="color: var(--accent-red);">💡 温馨提示</h4>
+            <p>昨晚（2月22日）的直播课程回放已由助教老师私发，包含《AI影像真实感大师课》PPT课件。如未收到，可在群内@助教老师获取。课代表整理的飞书笔记链接也已分享，建议同学们及时保存学习。</p>
+          </div>
+        </section>
+
+        <section class="block-honor">
+          <h2 class="section-title"><span class="icon">🏆</span> 荣誉时刻</h2>
+          <p style="color: var(--text-secondary); font-style: italic;">今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！</p>
+          <div class="honor-card" style="margin-top: 16px;">
+            <p><span class="honor-icon">📝</span> <strong>作业提交</strong></p>
+            <p style="margin-top: 8px;">同学 <span class="highlight-blue">果果</span> 提交了 #0222作业，分享了「宠物实拍提示词模板」，为社群贡献了实用的创作资源，值得学习！</p>
+          </div>
+        </section>
+      </aside>
+
+      <article class="col-center">
+        <section class="block-teacher">
+          <h2 class="section-title"><span class="icon">👨‍🏫</span> 师说</h2>
+          <div class="teacher-name">
+            <div class="teacher-avatar">菩</div>
+            <strong>菩萨老师</strong>
+          </div>
+          <p>今日菩萨老师的发言简洁有力，针对同学提出的 Seedance 真人图片限制问题，给出了一针见血的解决方案：</p>
+          <div class="teacher-quote">「可灵」<br>「哈哈」</div>
+          <div class="teacher-insight">
+            <h4>🔍 AI延伸解读</h4>
+            <p>菩萨老师的回答看似简短，实则蕴含深意。当 Seedance 2.0 对真人图片审核趋严时，<span class="highlight-blue">工具切换</span>是最直接有效的解决方案。可灵（Kling）作为国内另一款主流AI视频生成工具，在人物图片处理上有不同的审核策略。</p>
+            <p style="margin-top: 12px;">这也提醒我们：<span class="bg-highlight">不要把鸡蛋放在一个篮子里</span>。熟练掌握多款AI工具，在遇到限制时能够灵活切换，是AI创作者的必备技能。建议同学们同时熟悉 Seedance、可灵、即梦等主流工具的特点和限制，做到心中有数。</p>
+          </div>
+        </section>
+
+        <section class="block-hot">
+          <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+          <div class="topic-title">话题一：Seedance 真人图片限制与解决方案 <span class="hot-badge">12人 · 15条</span></div>
+          <div class="chat-bubble left">
+            <div class="chat-sender">春天</div>
+            seedance,输入人物就说不让上传真人照片，我输入的都是生成的s2.0也这么说，我都没法做了，各位老师同学们，这个问题该怎么做？
+          </div>
+          <div class="chat-bubble right">
+            <div class="chat-sender">雾（May雾）</div>
+            即梦生的吗？我昨晚即梦自己生的，前晚即梦生的财神爷都可以啊
+          </div>
+          <div class="chat-bubble left">
+            <div class="chat-sender">今自在 管雯晴</div>
+            不能参照真人图片，可以凭空创造
+          </div>
+          <div class="chat-bubble right">
+            <div class="chat-sender">花云霓</div>
+            把真人转为线描，然后将线描重新生成人物就可以了
+          </div>
+          <div class="ai-analysis">
+            <h4>📊 AI分析结论</h4>
+            <p>Seedance 2.0 近期加强了对真人图片的审核机制，即使是AI生成的"类真人"图片也可能触发限制。社群同学们总结出几种有效的应对策略：</p>
+            <ul style="margin: 12px 0 12px 20px;">
+              <li><strong>工具切换</strong>：使用可灵、即梦等其他平台生成视频</li>
+              <li><strong>风格转换</strong>：将真人图片转为线描/插画风格后再生成</li>
+              <li><strong>凭空创造</strong>：直接用提示词描述人物，不上传参考图</li>
+              <li><strong>降低真实感</strong>：使用明显非真人的风格化图片</li>
+            </ul>
+            <p>建议根据具体创作需求选择合适的方案，多工具配合使用效果更佳。</p>
+          </div>
+
+          <div class="topic-title">话题二：即梦生图的"高原红"翻车现场 <span class="hot-badge">6人 · 10条</span></div>
+          <div class="chat-bubble left">
+            <div class="chat-sender">由纪（由纪AIGC）</div>
+            我晕死即梦，我的提示词上写着女孩的脸颊因寒冷而泛红，结果他给我出了这个
+          </div>
+          <div class="chat-bubble right">
+            <div class="chat-sender">不设限的烟火Firework</div>
+            红的受伤一样
+          </div>
+          <div class="chat-bubble left">
+            <div class="chat-sender">Fanko</div>
+            脸上还好，主要是环境的雪也带红色了。脸上，可能AI理解成高原红了。
+          </div>
+          <div class="chat-bubble right">
+            <div class="chat-sender">CH东X羽</div>
+            比我这个好（我这个是之前VIDUQ3，大概写得是"女的微醺男的满面红光"）
+          </div>
+          <div class="ai-analysis">
+            <h4>📊 AI分析结论</h4>
+            <p>这个话题展现了AI生图工具在理解细腻情感描述时的局限性。"脸颊因寒冷而泛红"这种微妙的视觉效果，AI容易过度解读为大面积的红色渲染。</p>
+            <p style="margin-top: 12px;"><strong>提示词优化建议：</strong></p>
+            <ul style="margin: 8px 0 8px 20px;">
+              <li>使用更精确的描述：「subtle rosy cheeks」「light blush on cheeks」</li>
+              <li>添加限定词：「slightly」「gently」「naturally」</li>
+              <li>对比工具：MJ在处理此类细节时表现更稳定</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <aside class="col-right">
+        <section class="block-ai">
+          <h2 class="section-title"><span class="icon">🤖</span> AI资讯</h2>
+          <div class="ai-focus">
+            <h4>📰 今日AI焦点：Seedance 2.0 提示词扩容</h4>
+            <p>群内讨论确认：<span class="ai-tool-badge">Seedance 2.0</span> 的提示词字数限制已从 1.6 版本的 <span class="ai-highlight">1000字</span> 提升至 <span class="ai-highlight">2000字</span>，为创作者提供了更大的描述空间。</p>
+          </div>
+          <blockquote>「1.6是1000字 2.0变2000了」—— LLLLLL</blockquote>
+          <p style="margin: 16px 0;">今日群内涉及的AI工具：</p>
+          <div>
+            <span class="ai-tool-badge">Seedance 2.0</span>
+            <span class="ai-tool-badge">可灵 Kling</span>
+            <span class="ai-tool-badge">即梦</span>
+            <span class="ai-tool-badge">MidJourney</span>
+            <span class="ai-tool-badge">海艺</span>
+            <span class="ai-tool-badge">椒图</span>
+            <span class="ai-tool-badge">Gemini</span>
+            <span class="ai-tool-badge">风变增强推理</span>
+          </div>
+          <div class="tip-box">
+            <h4>💡 实践建议</h4>
+            <p>Seedance 2.0 提示词扩容意味着可以写入更详细的场景描述、动作指令和风格要求。建议同学们：</p>
+            <ul style="margin: 8px 0 0 16px;">
+              <li>充分利用字数空间，细化镜头语言</li>
+              <li>分段描述：环境→人物→动作→情绪</li>
+              <li>但也要注意：并非越长越好，核心指令要突出</li>
+            </ul>
+          </div>
+          <p style="margin-top: 16px; font-size: 14px;">
+            <strong>相关资源：</strong><br>
+            <a href="https://kazsrw4vztp.feishu.cn/wiki/Yo6fwPPGYiXzejkfG6McMizgnFc" class="link-pill" target="_blank">📝 课代表笔记</a>
+          </p>
+        </section>
+
+        <section class="block-community">
+          <h2 class="section-title"><span class="icon">💬</span> 社群动态</h2>
+          <div class="community-card">
+            <div class="chat-sender">由纪（由纪AIGC）· 10:22</div>
+            <p>这个是根据昨晚老师讲的方法生成出来的，用即梦生成的，看起来比较真实</p>
+            <p style="color: var(--text-secondary); font-size: 12px; margin-top: 8px;">📷 分享了AI生成的真实感人物图片</p>
+          </div>
+          <div class="community-card">
+            <div class="chat-sender">老张 · 13:11</div>
+            <p>同学们有接过这种答疑式教学嘛？都怎么收费的？</p>
+            <p style="color: var(--accent-green); font-size: 13px; margin-top: 8px;">→ 学习有问题@三月：本职工作时薪×3/h</p>
+          </div>
+          <div class="community-card">
+            <div class="chat-sender">王小冠 · 14:42</div>
+            <p>分享了深度解读文章《视频和图片本是一体，为何字节SeeDance登顶》</p>
+            <p style="color: var(--text-secondary); font-size: 12px; margin-top: 8px;">ヒーロー見参！：解惑了</p>
+          </div>
+          <div class="mood-summary">
+            <h4>📊 今日氛围总结</h4>
+            <p>今日社群讨论活跃度适中，主要围绕<span class="highlight-blue">昨晚直播课程的实践应用</span>展开。同学们积极分享学习成果，互相帮助解决工具使用中的问题。从 Seedance 真人限制到即梦生图翻车，再到提示词技巧交流，体现了社群<span class="highlight-green">互帮互助、共同成长</span>的良好氛围。</p>
+            <p style="margin-top: 12px; color: var(--text-secondary); font-style: italic;">「工具会变，但学习的热情不变。新的一周，继续加油！」—— 小编寄语</p>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-02-24 22:30:00</p>
+      <p style="margin-top: 8px;">本日报由 AI 自动生成，内容基于群聊记录整理分析</p>
+    </footer>
+  </div>
+
+  <script>
+    /* ── 主题切换 ── */
+    (function () {
+      /* data-theme 已在 <head> 设置，这里只更新按钮图标 */
+      const saved = localStorage.getItem('pusa-theme') || 'dark';
+      document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = saved === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+      });
+    })();
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('pusa-theme', next);
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.textContent = next === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+    }
+    /* 接收父页面（index.html）的主题同步消息 */
+    window.addEventListener('message', function (e) {
+      if (e.data && e.data.type === 'pusa-theme') {
+        const theme = e.data.theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('pusa-theme', theme);
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = theme === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+      }
+    });
+  </script>
+</body>
+</html>

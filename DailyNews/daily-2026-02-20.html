@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html data-patched="v2" lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-02-20</title>
+  <script>
+    /* 防闪烁：阻塞执行，在样式渲染前设定主题 */
+    (function () {
+      const t = localStorage.getItem('pusa-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    :root {
+      --bg-primary: #1a1011;
+      --bg-card: #251618;
+      --bg-card-hover: #301c1f;
+      --border: #5c3a3e;
+      --text-primary: #fef2f2;
+      --text-secondary: #c9a0a5;
+      --accent-blue: #f56565;
+      --accent-red: #fc8181;
+      --accent-green: #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .newspaper-container {
+      width: 1600px;
+      min-height: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    @media (max-width: 1200px) {
+      .newspaper-container { width: 100%; }
+      .newspaper-grid { grid-template-columns: 1fr !important; }
+    }
+    .newspaper-header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .issue-info {
+      color: var(--text-secondary);
+      font-size: 11px;
+    }
+    .newspaper-title {
+      font-size: 28px;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--accent-blue), var(--accent-red));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stats-badge {
+      background: var(--bg-card);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 11px;
+      color: var(--accent-orange);
+      border: 1px solid var(--border);
+    }
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 20px;
+    }
+    .section {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+    }
+    .section:hover { background: var(--bg-card-hover); }
+    .section-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title .icon { font-size: 20px; }
+    .highlight-blue { color: var(--accent-blue); font-weight: 700; }
+    .highlight-red { color: var(--accent-red); font-weight: 700; }
+    .highlight-green { color: var(--accent-green); font-weight: 700; }
+    .highlight-purple { color: var(--accent-purple); font-weight: 700; }
+    .highlight-orange { color: var(--accent-orange); font-weight: 700; }
+    .bg-highlight { background: rgba(245,101,101,0.12); padding: 2px 6px; border-radius: 3px; }
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(214,188,250,0.06);
+      color: #d9c9c9;
+      font-style: italic;
+      border-radius: 0 8px 8px 0;
+    }
+    mark.blue { background: rgba(245,101,101,0.25); color: var(--accent-blue); padding: 1px 4px; border-radius: 3px; }
+    mark.orange { background: rgba(251,211,141,0.25); color: var(--accent-orange); padding: 1px 4px; border-radius: 3px; }
+    mark.green { background: rgba(104,211,145,0.25); color: var(--accent-green); padding: 1px 4px; border-radius: 3px; }
+    mark.purple { background: rgba(214,188,250,0.25); color: var(--accent-purple); padding: 1px 4px; border-radius: 3px; }
+    .link-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-blue);
+      color: var(--accent-blue);
+      font-size: 11px;
+      text-decoration: none;
+      margin: 4px 4px 4px 0;
+    }
+    .link-pill:hover { background: rgba(245,101,101,0.1); }
+    .block-announcement .alert-bar {
+      background: linear-gradient(90deg, var(--accent-red), #ffa0a0);
+      padding: 8px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .timeline-item {
+      border-left: 2px solid var(--accent-red);
+      padding-left: 16px;
+      margin-left: 8px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 8px;
+      width: 10px;
+      height: 10px;
+      background: var(--accent-red);
+      border-radius: 50%;
+    }
+    .block-teacher {
+      background: linear-gradient(135deg, #251618, #2a1a1c);
+    }
+    .block-teacher blockquote {
+      border-left: 4px solid var(--accent-purple);
+      font-size: 15px;
+    }
+    .teacher-avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+      border-radius: 50%;
+      font-weight: 700;
+      margin-right: 10px;
+      font-size: 15px;
+    }
+    .teacher-name {
+      font-weight: 600;
+      color: var(--accent-purple);
+      font-size: 16px;
+    }
+    .hot-badge {
+      background: var(--accent-red);
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 12px;
+      color: #fff;
+      margin-left: 8px;
+    }
+    .chat-bubble {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      max-width: 90%;
+    }
+    .chat-bubble.left { margin-right: auto; border-bottom-left-radius: 4px; }
+    .chat-bubble.right { margin-left: auto; border-bottom-right-radius: 4px; background: rgba(245,101,101,0.1); }
+    .chat-sender { font-size: 11px; color: var(--text-secondary); margin-bottom: 4px; }
+    .block-honor .medal-icon {
+      font-size: 28px;
+      text-shadow: 0 0 20px rgba(246,224,94,0.5);
+    }
+    .honor-card {
+      background: rgba(246,224,94,0.15);
+      border: 1px solid var(--accent-yellow);
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 10px 0;
+    }
+    .honor-name { color: var(--accent-yellow); font-weight: 700; }
+    .block-ai .tool-badge {
+      background: rgba(251,211,141,0.2);
+      border: 1px solid var(--accent-orange);
+      color: var(--accent-orange);
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-family: monospace;
+      margin: 2px;
+      display: inline-block;
+    }
+    .ai-highlight {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent-orange);
+    }
+    .block-community .mini-card {
+      background: var(--bg-card);
+      border: 1px solid #4a2a2e;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    .atmosphere-summary {
+      background: rgba(245,101,101,0.08);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 16px;
+      border-left: 3px solid var(--accent-blue);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-secondary);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      margin-top: 24px;
+    }
+    p { margin-bottom: 12px; }
+    .section-content { font-size: 14px; line-height: 1.8; }
+  
+    /* ── 主题切换按钮 ── */
+    .theme-btn {
+      padding: 5px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .theme-btn:hover {
+      color: var(--text-primary);
+      background: var(--bg-card-hover);
+    }
+    /* ── 亮色主题变量覆盖 ── */
+    [data-theme="light"] {
+      --bg-primary:    #f5f3ee;
+      --bg-card:       #ffffff;
+      --bg-card-hover: #edeae0;
+      --border:        #d4cfc0;
+      --text-primary:  #1e1b14;
+      --text-secondary:#6b6555;
+    }
+    [data-theme="light"] blockquote {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .analysis-box {
+      background: rgba(0,0,0,0.04);
+      color: #3a3525;
+    }
+    [data-theme="light"] .newspaper-header {
+      background: linear-gradient(135deg, #f0ede2, #f7f5ee);
+    }
+    [data-theme="light"] .block-teacher {
+      background: linear-gradient(135deg, #f0ede2, #edeae0);
+    }
+  </style>
+</head>
+<body>
+  <div class="newspaper-container">
+    <header class="newspaper-header">
+      <div class="header-top">
+        <span class="issue-info">第90期 · 2026年02月20日 星期五</span>
+        <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+        <span class="stats-badge">今日 45 条消息 · 10+ 人发言</span>
+              <button class="theme-btn" id="themeToggle" onclick="toggleTheme()">☀️ 明亮</button>
+</div>
+    
+  </header>
+
+    <main class="newspaper-grid">
+      <!-- 左栏 -->
+      <aside class="col-left">
+        <!-- 重要公告 -->
+        <section class="section block-announcement">
+          <h2 class="section-title"><span class="icon">📢</span> 重要公告</h2>
+          <div class="section-content">
+            <div class="alert-bar">AI工具福利 · 激活码分享</div>
+            <div class="timeline-item">
+              <p><strong>oiioii平台激活码</strong></p>
+              <p style="font-size: 12px; color: var(--text-secondary);">逆流而上分享5个激活码：</p>
+              <ul style="margin-left: 16px; font-size: 12px; color: var(--accent-orange);">
+                <li>9FJJYM7QPU1Y4LE</li>
+                <li>YFPYLJJME1P4MDQ</li>
+                <li>LC1EB2NHVMJJVQF</li>
+                <li>U6LQQEDM5VRFJ1J</li>
+                <li>AJELJQU1L5MFJRX</li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <p><strong>角兔AI邀请</strong></p>
+              <p style="font-size: 12px; color: var(--text-secondary);">jiaotuai.cn · 邀请码：6LQVN</p>
+            </div>
+            <p><mark class="blue">要点提炼：</mark></p>
+            <ul style="margin-left: 20px; color: var(--text-secondary);">
+              <li>oiioii平台激活码限量分享</li>
+              <li>角兔AI新平台值得尝试</li>
+              <li>Vidu3模型获好评</li>
+            </ul>
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 AI建议：</span>春节假期接近尾声，抓紧领取激活码，新的一年继续精进AI创作技能。</p>
+          </div>
+        </section>
+
+        <!-- 荣誉时刻 -->
+        <section class="section block-honor">
+          <h2 class="section-title"><span class="icon medal-icon">🏆</span> 荣誉时刻</h2>
+          <div class="section-content">
+            <div class="honor-card">
+              <p><span class="medal-icon">🎬</span> <span class="honor-name">王小冠</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">长白山酒AI广告视频 · 敬新春敬团圆</p>
+            </div>
+            <div class="honor-card">
+              <p><span class="medal-icon">🎬</span> <span class="honor-name">艾梦Mcc</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">赛博春节原创动画 · 七色灵火重启新春</p>
+            </div>
+            <div class="honor-card">
+              <p><span class="medal-icon">🎬</span> <span class="honor-name">由纪AIGC</span></p>
+              <p style="font-size: 13px; color: var(--text-secondary);">年味主题AI视频 · 灶神点化团圆意义</p>
+            </div>
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 AI点评：</span>从商业广告到原创动画，从赛博朋克到传统年味，社群成员们正在用AI工具讲述属于这个时代的中国故事。</p>
+          </div>
+        </section>
+      </aside>
+
+      <!-- 中栏 -->
+      <article class="col-center">
+        <!-- 师说 -->
+        <section class="section block-teacher">
+          <h2 class="section-title"><span class="icon">👨‍🏫</span> 师说</h2>
+          <div class="section-content">
+            <p style="text-align: center; color: var(--text-secondary); padding: 20px 0;">今日菩萨老师和Aria清老师暂无发言记录</p>
+
+            <p>虽然今日老师们未在群内发言，但从群友们的讨论中，我们依然能够感受到社群一贯倡导的核心理念：<span class="highlight-purple">与时俱进、拥抱变化、持续学习</span>。</p>
+
+            <blockquote>
+              我们要做的就是与时俱进。——逆流而上
+            </blockquote>
+
+            <p><span class="highlight-purple">🔮 AI延伸解读：</span></p>
+            <p>在AI技术日新月异的今天，每一位社群成员都是彼此的老师。今日的讨论涵盖了AI动画革命、大模型竞争格局、AI视频创作实践等多个维度，群友们各抒己见、互相学习，形成了一个去中心化的知识共享网络。</p>
+            <p>这种<span class="bg-highlight">"人人为师、人人为学"</span>的氛围，正是社群最宝贵的财富。期待老师们在接下来的日子里带来更多精彩分享。</p>
+          </div>
+        </section>
+
+        <!-- 热议话题 -->
+        <section class="section block-hot">
+          <h2 class="section-title"><span class="icon">🔥</span> 热议话题</h2>
+          <div class="section-content">
+            <h3 style="font-size: 13px; margin-bottom: 12px;">
+              春节档电影审美大讨论：飞驰人生3 vs 镖人
+              <span class="hot-badge">6人参与 · 15+条消息</span>
+            </h3>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">逆流而上</div>
+              分享《飞驰人生3》29句经典金句："我们不是为了赢，是为了当初的自己"
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">Nina</div>
+              飞驰人生3如果没那么多金句，好好把赛车速度开起来能好看点。话太多，困。
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">Nina</div>
+              袁指到底有一套的，春节档第一肯定是镖人，值得看！服化道一流、语言简单过瘾、大漠景色尽收眼底。
+            </div>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">夏侯仪</div>
+              票房差这么多！你确定能逆袭？
+            </div>
+
+            <div class="chat-bubble right">
+              <div class="chat-sender">Nina</div>
+              为什么要逆袭？好片就是好片呀。好片不应该是逆出来的吧，应该本来就好呀。
+            </div>
+
+            <div class="chat-bubble left">
+              <div class="chat-sender">逆流而上</div>
+              艺术不分好坏，只有每人的审美倾向。
+            </div>
+
+            <p style="margin-top: 16px;"><span class="highlight-red">🎯 AI分析结论：</span></p>
+            <p>这场讨论展现了社群<span class="bg-highlight">"审美多元、求同存异"</span>的成熟态度。面对电影评价的分歧，群友们既能坚持自己的观点，也能尊重他人的看法。好片的价值不应该用票房来衡量，艺术审美本就是多元的。</p>
+          </div>
+        </section>
+      </article>
+
+      <!-- 右栏 -->
+      <aside class="col-right">
+        <!-- AI资讯 -->
+        <section class="section block-ai">
+          <h2 class="section-title"><span class="icon">🤖</span> AI资讯</h2>
+          <div class="section-content">
+            <p><mark class="orange">今日AI焦点</mark></p>
+            <p class="ai-highlight">15秒AI动画引发行业震动</p>
+
+            <blockquote style="border-left-color: var(--accent-orange);">
+              想象一下，你花了十年学习动画，结果看到这样的东西直接空降到时间线上。传统动画师过去要花数年打磨技艺才能做出这样的动态，现在，有人在卧室里一分钟就生成了。
+            </blockquote>
+
+            <p><span class="tool-badge">行业观点</span></p>
+            <ul style="margin-left: 20px; color: var(--text-secondary); margin-bottom: 12px;">
+              <li><strong>技术平权派</strong>：AI让没时间、没技能、没钱的人也能实现创意表达</li>
+              <li><strong>行业本质派</strong>：真正有创意愿景的人看到的是效率提升</li>
+              <li><strong>过来人和解派</strong>：放下面子、拥抱AI</li>
+            </ul>
+
+            <p><span class="tool-badge">Gemini 3.1 Pro</span></p>
+            <p style="color: var(--text-secondary);">谷歌Gemini 3.1 Pro屠榜封神，Claude和GPT被逼入死角。2026年将是AI巨头激烈角逐的一年。</p>
+
+            <p style="margin-top: 12px;"><span class="highlight-blue">💡 核心观点：</span></p>
+            <blockquote style="border-left-color: var(--accent-blue);">
+              入门门槛消失了，行业规则重写了。未来，属于那些能驾驭工具、却又不被工具定义的人。
+            </blockquote>
+          </div>
+        </section>
+
+        <!-- 社群动态 -->
+        <section class="section block-community">
+          <h2 class="section-title"><span class="icon">💬</span> 社群动态</h2>
+          <div class="section-content">
+            <div class="mini-card">
+              <div class="chat-sender">由纪AIGC · 早间</div>
+              早安 ☀️
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">逆流而上 · 清晨5:39</div>
+              分享AI动画革命资讯，开启新一天的学习 📰
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">逆流而上 · 晚间</div>
+              马上又要开始学习了 📚
+            </div>
+
+            <div class="mini-card">
+              <div class="chat-sender">CH东X羽</div>
+              我只听过他的《麒麟》😂
+            </div>
+
+            <div class="atmosphere-summary">
+              <p><strong>📈 今日氛围总结</strong></p>
+              <p>今日社群呈现<span class="highlight-blue">早起分享、午后创作、傍晚热议</span>的活跃节奏。从清晨5:39的第一条AI资讯，到晚间21:05的电影讨论收尾，互动贯穿全天。</p>
+              <p style="margin-top: 8px; color: var(--accent-purple);">「逆流而上」今日堪称社群"信息枢纽"，分享了多条AI行业资讯和优质内容。</p>
+            </div>
+
+            <p style="margin-top: 16px; text-align: center; color: var(--text-secondary); font-style: italic;">
+              "与时俱进、拥抱变化、持续学习、驾驭工具。" 🌟
+            </p>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-02-20 23:59:00</p>
+      <p style="margin-top: 8px; font-size: 12px;">Powered by AI · 内容基于群聊记录自动生成</p>
+    </footer>
+  </div>
+
+  <script>
+    /* ── 主题切换 ── */
+    (function () {
+      /* data-theme 已在 <head> 设置，这里只更新按钮图标 */
+      const saved = localStorage.getItem('pusa-theme') || 'dark';
+      document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = saved === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+      });
+    })();
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('pusa-theme', next);
+      const btn = document.getElementById('themeToggle');
+      if (btn) btn.textContent = next === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+    }
+    /* 接收父页面（index.html）的主题同步消息 */
+    window.addEventListener('message', function (e) {
+      if (e.data && e.data.type === 'pusa-theme') {
+        const theme = e.data.theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('pusa-theme', theme);
+        const btn = document.getElementById('themeToggle');
+        if (btn) btn.textContent = theme === 'dark' ? '☀️ 明亮' : '🌙 暗黑';
+      }
+    });
+  </script>
+</body>
+</html>
