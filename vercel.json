@@ -1,5 +1,11 @@
 {
   "buildCommand": null,
   "outputDirectory": "DailyNews",
-  "framework": null
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/:match*",
+      "destination": "/DailyNews/:match*"
+    }
+  ]
 }

@@ -1,297 +1,1052 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>野菩萨AI社团 · 日报中心</title>
   <style>
     :root {
-      --bg-primary: #0d1117;
-      --bg-card: #161b22;
-      --bg-card-hover: #1c2128;
-      --border: #30363d;
-      --text-primary: #e6edf3;
-      --text-secondary: #8b949e;
-      --accent: #58a6ff;
-      --accent-green: #3fb950;
-      --accent-purple: #d2a8ff;
-      --accent-orange: #ffa657;
+      --bg-page: #0b1220;
+      --bg-panel: #111b2e;
+      --bg-card: #16243d;
+      --bg-card-hover: #1d3154;
+      --border: #2a406a;
+      --text-primary: #e9f1ff;
+      --text-secondary: #8ea6d4;
+      --accent: #6ea8fe;
+      --accent-soft: rgba(110, 168, 254, 0.2);
+      --danger-soft: rgba(255, 99, 99, 0.14);
+      --shell-header-bg: rgba(8, 16, 29, 0.75);
+      --shell-sidebar-bg: rgba(8, 16, 29, 0.95);
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: radial-gradient(circle at 0 0, #11203d 0%, var(--bg-page) 55%);
       color: var(--text-primary);
-      line-height: 1.6;
+      overflow: hidden;
     }
-    .header {
-      background: linear-gradient(135deg, #1f2937, #111827);
-      padding: 30px 20px;
-      text-align: center;
-      border-bottom: 1px solid var(--border);
-    }
-    .header h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    .header p {
-      color: var(--text-secondary);
-      font-size: 14px;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 30px auto;
-      padding: 0 20px;
+
+    .layout {
       display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 30px;
+      grid-template-columns: 124px 1fr;
+      height: 100vh;
+      transition: grid-template-columns 0.2s ease;
     }
-    @media (max-width: 768px) {
-      .container { grid-template-columns: 1fr; }
+
+    body.sidebar-collapsed .layout {
+      grid-template-columns: 18px 1fr;
     }
+
     .sidebar {
-      position: sticky;
-      top: 20px;
-      height: fit-content;
-    }
-    .sidebar-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 20px;
-    }
-    .sidebar-card h3 {
-      font-size: 16px;
-      margin-bottom: 15px;
-      color: var(--accent);
-    }
-    .stat-item {
+      border-right: 1px solid var(--border);
+      background: var(--shell-sidebar-bg);
+      padding: 8px 4px 8px 6px;
       display: flex;
-      justify-content: space-between;
-      padding: 8px 0;
-      border-bottom: 1px solid var(--border);
-      font-size: 14px;
+      flex-direction: column;
+      gap: 6px;
+      overflow: visible;
+      transition: padding 0.2s ease, border-color 0.2s ease;
+      position: relative;
+      margin-top: 74px;
+      height: calc(100vh - 74px);
     }
-    .stat-item:last-child { border-bottom: none; }
-    .stat-value {
-      font-weight: 600;
-      color: var(--accent-green);
+
+    body.sidebar-collapsed .toc {
+      display: none;
     }
-    .digest-list {
-      display: grid;
-      gap: 20px;
+
+    body.sidebar-collapsed .sidebar {
+      border-right-color: transparent;
+      padding: 0;
     }
-    .digest-card {
-      background: var(--bg-card);
+
+    .sidebar-handle {
+      position: absolute;
+      right: -23px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 23px;
+      height: 132px;
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      transition: all 0.3s;
+      border-left: none;
+      border-radius: 0 9px 9px 0;
+      background: var(--bg-panel);
+      color: var(--text-primary);
       cursor: pointer;
-    }
-    .digest-card:hover {
-      background: var(--bg-card-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    }
-    .digest-date {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      letter-spacing: 2px;
       font-size: 12px;
-      color: var(--text-secondary);
-      margin-bottom: 8px;
+      line-height: 1;
+      padding: 8px 2px;
+      transition: 0.2s;
+      z-index: 5;
     }
-    .digest-title {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 12px;
-      color: var(--accent);
+
+    .sidebar-handle:hover {
+      border-color: var(--accent);
+      background: var(--bg-card-hover);
     }
-    .digest-meta {
-      display: flex;
-      gap: 15px;
-      font-size: 13px;
-      color: var(--text-secondary);
+
+    .toc {
+      flex: 1;
+      overflow-y: auto;
+      padding-right: 0;
     }
-    .digest-meta span {
+
+    .toc::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .toc::-webkit-scrollbar-thumb {
+      background: #253b60;
+      border-radius: 999px;
+    }
+
+    .month-block {
+      margin-bottom: 0;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      overflow: visible;
+    }
+
+    .month-toggle {
+      width: 100%;
+      border: none;
+      background: transparent;
+      color: var(--text-primary);
       display: flex;
       align-items: center;
-      gap: 4px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-size: 11px;
+      justify-content: flex-start;
+      gap: 6px;
+      padding: 6px 4px;
+      cursor: pointer;
+      font-size: 14px;
       font-weight: 600;
-      margin-left: 8px;
+      transition: background 0.2s;
+      border-radius: 4px;
     }
-    .badge-new { background: var(--accent-green); color: #fff; }
-    .footer {
+
+    .month-toggle:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .month-left {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .month-arrow {
+      color: var(--accent);
+      font-size: 16px;
+      width: 12px;
       text-align: center;
-      padding: 30px;
-      border-top: 1px solid var(--border);
+      line-height: 1;
+    }
+
+    .month-list {
+      border-top: none;
+      padding: 0 0 2px 8px;
+      display: grid;
+      gap: 0;
+    }
+
+    .month-list.collapsed {
+      display: none;
+    }
+
+    .digest-item {
+      width: 100%;
+      border: none;
+      background: transparent;
       color: var(--text-secondary);
+      border-radius: 0;
+      text-align: left;
+      padding: 4px 4px 4px 14px;
+      cursor: pointer;
+      transition: 0.2s;
+      position: relative;
       font-size: 13px;
     }
-    .theme-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
+
+    .digest-item:hover {
       color: var(--text-primary);
-      font-size: 20px;
-      cursor: pointer;
-      z-index: 1000;
-      transition: all 0.3s;
+      background: rgba(255, 255, 255, 0.04);
     }
-    .theme-toggle:hover {
-      background: var(--accent);
+
+    .digest-item.active {
+      color: var(--accent);
+      background: rgba(110, 168, 254, 0.1);
+      font-weight: 600;
+    }
+
+    .digest-item .date {
+      display: block;
+      font-size: 13px;
+      line-height: 1.35;
+      text-indent: 3ch;
+    }
+
+    .digest-item::before {
+      content: "";
+      position: absolute;
+      left: calc(6px + 3ch);
+      top: 50%;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      transform: translateY(-50%);
+      background: currentColor;
+      opacity: 0.75;
+    }
+
+    .viewer {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      margin-top: 74px;
+      height: calc(100vh - 74px);
+    }
+
+    .viewer-head {
+      height: 74px;
+      border-bottom: 1px solid var(--border);
+      background: var(--shell-header-bg);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 20px;
+    }
+
+    .viewer-meta h2 {
+      font-size: 36px;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      word-break: break-word;
+    }
+
+    .viewer-meta p {
+      font-size: 12px;
+      color: var(--text-secondary);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      white-space: nowrap;
+      margin: 0;
+      pointer-events: none;
+    }
+
+    .viewer-nav {
+      display: inline-flex;
+      gap: 10px;
+      flex-shrink: 0;
+      align-items: center;
+    }
+
+    .viewer-search {
+      position: relative;
+      width: 320px;
+      max-width: 40vw;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 36px;
+      border-radius: 9px;
+      border: 1px solid var(--border);
+      background: var(--bg-panel);
+      color: var(--text-primary);
+      font-size: 13px;
+      padding: 0 12px;
+      outline: none;
+    }
+
+    .search-input:focus {
       border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(110, 168, 254, 0.15);
+    }
+
+    .search-results {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      right: 0;
+      max-height: 340px;
+      overflow-y: auto;
+      background: rgba(14, 25, 44, 0.98);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.35);
+      display: none;
+      z-index: 50;
+    }
+
+    .search-results.show {
+      display: block;
+    }
+
+    .search-item {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid rgba(142, 166, 212, 0.15);
+      background: transparent;
+      color: var(--text-primary);
+      text-align: left;
+      cursor: pointer;
+      padding: 9px 10px;
+      transition: 0.2s;
+    }
+
+    .search-item:last-child {
+      border-bottom: none;
+    }
+
+    .search-item:hover {
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .search-meta {
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+    }
+
+    .search-snippet {
+      font-size: 12px;
+      line-height: 1.45;
+      color: #d9e8ff;
+    }
+
+    .search-snippet mark,
+    .digest-highlight {
+      background: #ffe066;
+      color: #10213f;
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+
+    .search-empty {
+      padding: 11px 10px;
+      color: var(--text-secondary);
+      font-size: 12px;
+    }
+
+    .nav-btn {
+      height: 36px;
+      min-width: 88px;
+      border-radius: 9px;
+      border: 1px solid var(--border);
+      background: var(--bg-panel);
+      color: var(--text-primary);
+      font-size: 13px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: #fff;
+      background: var(--bg-card-hover);
+    }
+
+    .nav-btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.45;
+    }
+
+    .viewer-frame-wrap {
+      position: relative;
+      flex: 1;
+      min-height: 0;
+      background: #0c1527;
+    }
+
+    #digestFrame {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: #fff;
+    }
+
+    .frame-error {
+      position: absolute;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #ffd4d4;
+      background: var(--danger-soft);
+      padding: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 1100px) {
+      .layout {
+        grid-template-columns: 112px 1fr;
+      }
+      .viewer-meta h2 {
+        font-size: 17px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      body {
+        overflow: auto;
+      }
+      .layout {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+      }
+      .sidebar {
+        height: calc(52vh - 74px);
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+      body.sidebar-collapsed .layout {
+        grid-template-columns: 1fr;
+      }
+      .viewer {
+        min-height: 48vh;
+      }
+      .viewer-nav {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      .viewer-search {
+        width: 100%;
+        max-width: none;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>📰 野菩萨AI社团 · 日报中心</h1>
-    <p>风变AI视频社团A班每日资讯存档</p>
-  </div>
-
-  <div class="container">
+  <div class="layout">
     <aside class="sidebar">
-      <div class="sidebar-card">
-        <h3>📊 统计概览</h3>
-        <div class="stat-item">
-          <span>日报总数</span>
-          <span class="stat-value" id="totalDigests">0</span>
-        </div>
-        <div class="stat-item">
-          <span>最新更新</span>
-          <span class="stat-value" id="lastUpdated">-</span>
-        </div>
-        <div class="stat-item">
-          <span>累计消息</span>
-          <span class="stat-value" id="totalMessages">0</span>
-        </div>
-      </div>
-      <div class="sidebar-card">
-        <h3>🔍 快速导航</h3>
-        <p style="font-size: 13px; color: var(--text-secondary);">
-          点击日报卡片查看完整内容
-        </p>
-      </div>
+      <button class="sidebar-handle" id="sidebarToggle" type="button">收起目录</button>
+      <div class="toc" id="toc"></div>
     </aside>
 
-    <main>
-      <div class="digest-list" id="digestList"></div>
+    <main class="viewer">
+      <div class="viewer-head">
+        <div class="viewer-meta">
+          <h2>风变野菩萨 AI 视频社团</h2>
+          <p>FORCHANGE &amp; WildPUSA</p>
+        </div>
+        <div class="viewer-nav">
+          <div class="viewer-search">
+            <input class="search-input" id="searchInput" type="text" placeholder="搜索词句并跳转日报..." autocomplete="off">
+            <div class="search-results" id="searchResults"></div>
+          </div>
+          <button class="nav-btn" id="prevBtn">上一期</button>
+          <button class="nav-btn" id="nextBtn">下一期</button>
+        </div>
+      </div>
+
+      <div class="viewer-frame-wrap">
+        <iframe id="digestFrame" title="日报内容预览"></iframe>
+        <div class="frame-error" id="frameError">日报加载失败，请检查文件是否存在。</div>
+      </div>
     </main>
   </div>
 
-  <button class="theme-toggle" id="themeToggle" title="切换主题">☀️</button>
-
-  <footer class="footer">
-    <p>风变野菩萨AI视频社团A班 · 每日资讯存档</p>
-    <p style="margin-top: 8px;">由 Claude AI 自动生成</p>
-  </footer>
-
-  <iframe id="previewFrame" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;border:none;"></iframe>
-
   <script>
     // ===== DIGEST_DATA_START =====
-    let digests = [
-      {"date":"2026-04-08","file":"daily-2026-04-08.html","title":"即梦积分大幅涨价引热议 HappyHorse新平台崛起","messageCount":181,"speakerCount":36},
-      {"date":"2026-04-04","file":"daily-2026-04-04.html","title":"横琴威尼斯黑客松征集通知发布","messageCount":48,"speakerCount":15},
-      {"date":"2026-04-01","file":"daily-2026-04-01.html","title":"捷报频传：利敏获国风音乐大赛铜奖","messageCount":104,"speakerCount":32},
-      {"date":"2026-03-31","file":"daily-2026-03-31.html","title":"AI工具更新与社团交流","messageCount":114,"speakerCount":54},
-      {"date":"2026-02-28","file":"daily-2026-02-28.html","title":"技术与创作日常分享","messageCount":93,"speakerCount":32}
+    const digestFiles = [
+      "daily-2026-04-08.html",
+      "daily-2026-04-07.html",
+      "daily-2026-04-06.html",
+      "daily-2026-04-05.html",
+      "daily-2026-04-04.html",
+      "daily-2026-04-03.html",
+      "daily-2026-04-02.html",
+      "daily-2026-04-01.html",
+      "daily-2026-03-31.html",
+      "daily-2026-03-30.html",
+      "daily-2026-03-29.html",
+      "daily-2026-03-28.html",
+      "daily-2026-03-27.html",
+      "daily-2026-03-26.html",
+      "daily-2026-03-25.html",
+      "daily-2026-03-24.html",
+      "daily-2026-03-23.html",
+      "daily-2026-03-22.html",
+      "daily-2026-03-21.html",
+      "daily-2026-03-20.html",
+      "daily-2026-03-19.html",
+      "daily-2026-03-18.html",
+      "daily-2026-03-17.html",
+      "daily-2026-03-16.html",
+      "daily-2026-03-15.html",
+      "daily-2026-03-14.html",
+      "daily-2026-03-13.html",
+      "daily-2026-03-12.html",
+      "daily-2026-03-11.html",
+      "daily-2026-03-10.html",
+      "daily-2026-03-09.html",
+      "daily-2026-03-08.html",
+      "daily-2026-03-07.html",
+      "daily-2026-03-06.html",
+      "daily-2026-03-05.html",
+      "daily-2026-03-04.html",
+      "daily-2026-03-03.html",
+      "daily-2026-03-02.html",
+      "daily-2026-03-01.html",
+      "daily-2026-02-28.html",
+      "daily-2026-02-27.html",
+      "daily-2026-02-26.html",
+      "daily-2026-02-25.html",
+      "daily-2026-02-24.html",
+      "daily-2026-02-23.html",
+      "daily-2026-02-22.html",
+      "daily-2026-02-21.html",
+      "daily-2026-02-20.html",
+      "daily-2026-02-19.html",
+      "daily-2026-02-12.html",
+      "daily-2026-02-11.html"
     ];
+
+    const digestMetaByFile = {
+      "daily-2026-04-08.html": {"title":"即梦积分大幅涨价引热议 HappyHorse新平台崛起","messageCount":181,"speakerCount":36},
+      "daily-2026-04-04.html": {"title":"横琴威尼斯黑客松征集通知发布","messageCount":48,"speakerCount":15},
+      "daily-2026-04-01.html": {"title":"捷报频传：利敏获国风音乐大赛铜奖","messageCount":104,"speakerCount":32},
+      "daily-2026-03-31.html": {"title":"AI工具更新与社团交流","messageCount":114,"speakerCount":54},
+      "daily-2026-02-28.html": {"title":"技术与创作日常分享","messageCount":93,"speakerCount":32}
+    };
     // ===== DIGEST_DATA_END =====
 
-    // 渲染日报列表
-    function renderDigests() {
-      const list = document.getElementById('digestList');
-      const totalDigestsEl = document.getElementById('totalDigests');
-      const lastUpdatedEl = document.getElementById('lastUpdated');
-      const totalMessagesEl = document.getElementById('totalMessages');
-
-      // 更新统计
-      totalDigestsEl.textContent = digests.length;
-      lastUpdatedEl.textContent = digests[0]?.date || '-';
-      totalMessagesEl.textContent = digests.reduce((sum, d) => sum + (d.messageCount || 0), 0);
-
-      // 渲染列表
-      list.innerHTML = digests.map((d, i) => `
-        <div class="digest-card" onclick="openDigest('${d.file}')" style="animation: fadeIn 0.5s ${i * 0.1}s both;">
-          <div class="digest-date">
-            📅 ${formatDate(d.date)}${i === 0 ? '<span class="badge badge-new">NEW</span>' : ''}
-          </div>
-          <div class="digest-title">${d.title}</div>
-          <div class="digest-meta">
-            <span>💬 ${d.messageCount || 0} 条消息</span>
-            <span>👥 ${d.speakerCount || 0} 人发言</span>
-          </div>
-        </div>
-      `).join('');
+    function buildDigests(files) {
+      return files
+        .filter(file => /^daily-\d{4}-\d{2}-\d{2}\.html$/.test(file))
+        .sort((a, b) => b.localeCompare(a))
+        .map((file) => {
+          const date = file.slice(6, 16);
+          const meta = digestMetaByFile[file] || {};
+          return {
+            date,
+            file,
+            title: meta.title || `${date} 日报`,
+            messageCount: meta.messageCount || 0,
+            speakerCount: meta.speakerCount || 0
+          };
+        });
     }
 
-    // 格式化日期
     function formatDate(dateStr) {
       const date = new Date(dateStr);
-      const weekDays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+      const weekDays = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
       return `${date.getMonth() + 1}月${date.getDate()}日 ${weekDays[date.getDay()]}`;
     }
 
-    // 打开日报
-    function openDigest(file) {
-      window.open(file, '_blank');
+    function formatDayOnly(dateStr) {
+      const date = new Date(dateStr);
+      return `${date.getDate()}日`;
     }
 
-    // 主题切换
-    const themeToggle = document.getElementById('themeToggle');
-    let isDark = localStorage.getItem('pusa-theme') !== 'light';
+    function monthLabel(monthKey) {
+      const [year, month] = monthKey.split("-");
+      return `${year}年${month}月`;
+    }
 
-    function applyTheme() {
-      document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-      themeToggle.textContent = isDark ? '🌙' : '☀️';
-      if (!isDark) {
-        document.documentElement.style.setProperty('--bg-primary', '#f5f3ee');
-        document.documentElement.style.setProperty('--bg-card', '#ffffff');
-        document.documentElement.style.setProperty('--bg-card-hover', '#f0f0f0');
-        document.documentElement.style.setProperty('--border', '#e0e0e0');
-        document.documentElement.style.setProperty('--text-primary', '#333333');
-        document.documentElement.style.setProperty('--text-secondary', '#666666');
-      } else {
-        document.documentElement.style.removeProperty('--bg-primary');
-        document.documentElement.style.removeProperty('--bg-card');
-        document.documentElement.style.removeProperty('--bg-card-hover');
-        document.documentElement.style.removeProperty('--border');
-        document.documentElement.style.removeProperty('--text-primary');
-        document.documentElement.style.removeProperty('--text-secondary');
+    function groupByMonth(digests) {
+      const monthMap = new Map();
+      digests.forEach((digest, index) => {
+        const key = digest.date.slice(0, 7);
+        if (!monthMap.has(key)) {
+          monthMap.set(key, []);
+        }
+        monthMap.get(key).push({ ...digest, index });
+      });
+      return Array.from(monthMap.entries()).map(([month, items]) => ({ month, items }));
+    }
+
+    const digests = buildDigests(digestFiles);
+    const monthCollapsed = new Map();
+    let currentIndex = 0;
+
+    const tocEl = document.getElementById("toc");
+    const sidebarToggleBtn = document.getElementById("sidebarToggle");
+    const searchInputEl = document.getElementById("searchInput");
+    const searchResultsEl = document.getElementById("searchResults");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const frameEl = document.getElementById("digestFrame");
+    const frameErrorEl = document.getElementById("frameError");
+    let searchIndexCache = null;
+    let searchTimer = null;
+    let currentKeyword = "";
+    const defaultTheme = {
+      bgPage: "#0b1220",
+      bgPanel: "#111b2e",
+      bgCardHover: "#1d3154",
+      border: "#2a406a",
+      textPrimary: "#e9f1ff",
+      textSecondary: "#8ea6d4",
+      accent: "#6ea8fe",
+      shellHeaderBg: "rgba(8, 16, 29, 0.75)",
+      shellSidebarBg: "rgba(8, 16, 29, 0.95)"
+    };
+
+    function ensureMonthState() {
+      const groups = groupByMonth(digests);
+      const now = new Date();
+      const currentMonthKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
+      const hasCurrentMonth = groups.some((group) => group.month === currentMonthKey);
+      groups.forEach((group, idx) => {
+        if (!monthCollapsed.has(group.month)) {
+          if (hasCurrentMonth) {
+            monthCollapsed.set(group.month, group.month !== currentMonthKey);
+          } else {
+            monthCollapsed.set(group.month, idx !== 0);
+          }
+        }
+      });
+    }
+
+    function renderSidebar() {
+      ensureMonthState();
+      const groups = groupByMonth(digests);
+
+      tocEl.innerHTML = groups.map((group) => {
+        const isCollapsed = monthCollapsed.get(group.month);
+        return `
+          <section class="month-block">
+            <button class="month-toggle" data-month="${group.month}">
+              <span class="month-left">
+                <span class="month-arrow">${isCollapsed ? "▸" : "▾"}</span>
+                <span>${monthLabel(group.month)}</span>
+              </span>
+            </button>
+            <div class="month-list ${isCollapsed ? "collapsed" : ""}">
+              ${group.items.map((item) => `
+                <button class="digest-item ${item.index === currentIndex ? "active" : ""}" data-index="${item.index}">
+                  <span class="date">${formatDayOnly(item.date)}</span>
+                </button>
+              `).join("")}
+            </div>
+          </section>
+        `;
+      }).join("");
+
+      tocEl.querySelectorAll(".month-toggle").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const month = btn.dataset.month;
+          monthCollapsed.set(month, !monthCollapsed.get(month));
+          renderSidebar();
+        });
+      });
+
+      tocEl.querySelectorAll(".digest-item").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          selectDigest(Number(btn.dataset.index));
+        });
+      });
+    }
+
+    function updateNavState() {
+      prevBtn.disabled = currentIndex >= digests.length - 1;
+      nextBtn.disabled = currentIndex <= 0;
+    }
+
+    function selectDigest(index) {
+      if (index < 0 || index >= digests.length) {
+        return;
       }
+      currentIndex = index;
+      const current = digests[currentIndex];
+      monthCollapsed.set(current.date.slice(0, 7), false);
+
+      frameErrorEl.style.display = "none";
+      frameEl.src = current.file;
+
+      updateNavState();
+      renderSidebar();
     }
 
-    themeToggle.addEventListener('click', () => {
-      isDark = !isDark;
-      localStorage.setItem('pusa-theme', isDark ? 'dark' : 'light');
-      applyTheme();
+    frameEl.addEventListener("error", () => {
+      frameErrorEl.style.display = "flex";
     });
 
-    // 初始化
-    applyTheme();
-    renderDigests();
+    frameEl.addEventListener("load", () => {
+      frameErrorEl.style.display = "none";
+      syncShellThemeFromFrame();
+      applyHighlightToFrame(currentKeyword);
+    });
 
-    // 淡入动画
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
+    prevBtn.addEventListener("click", () => {
+      selectDigest(currentIndex + 1);
+    });
+
+    nextBtn.addEventListener("click", () => {
+      selectDigest(currentIndex - 1);
+    });
+
+    function syncSidebarToggleText() {
+      const collapsed = document.body.classList.contains("sidebar-collapsed");
+      sidebarToggleBtn.textContent = collapsed ? "展开目录" : "收起目录";
+      sidebarToggleBtn.title = collapsed ? "展开目录" : "收起目录";
+    }
+
+    sidebarToggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("sidebar-collapsed");
+      syncSidebarToggleText();
+    });
+
+    function normalizeText(text) {
+      return text.replace(/\s+/g, " ").trim();
+    }
+
+    function toAlphaColor(color, alpha) {
+      const hex = color.trim();
+      const hex3 = /^#([0-9a-f]{3})$/i;
+      const hex6 = /^#([0-9a-f]{6})$/i;
+      const rgb = /^rgba?\(([^)]+)\)$/i;
+
+      if (hex6.test(hex)) {
+        const [, value] = hex.match(hex6);
+        const r = parseInt(value.slice(0, 2), 16);
+        const g = parseInt(value.slice(2, 4), 16);
+        const b = parseInt(value.slice(4, 6), 16);
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
       }
-    `;
-    document.head.appendChild(style);
+      if (hex3.test(hex)) {
+        const [, value] = hex.match(hex3);
+        const r = parseInt(value[0] + value[0], 16);
+        const g = parseInt(value[1] + value[1], 16);
+        const b = parseInt(value[2] + value[2], 16);
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+      }
+      if (rgb.test(hex)) {
+        const [, inner] = hex.match(rgb);
+        const parts = inner.split(",").map((s) => s.trim());
+        const r = parts[0] || "0";
+        const g = parts[1] || "0";
+        const b = parts[2] || "0";
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+      }
+      return `rgba(110, 168, 254, ${alpha})`;
+    }
+
+    function getVar(style, name, fallback) {
+      const value = style.getPropertyValue(name).trim();
+      return value || fallback;
+    }
+
+    function syncShellThemeFromFrame() {
+      try {
+        const doc = frameEl.contentDocument;
+        if (!doc || !doc.documentElement) {
+          return;
+        }
+        const frameStyle = getComputedStyle(doc.documentElement);
+        const bgPrimary = getVar(frameStyle, "--bg-primary", defaultTheme.bgPage);
+        const bgCard = getVar(frameStyle, "--bg-card", defaultTheme.bgPanel);
+        const bgCardHover = getVar(frameStyle, "--bg-card-hover", defaultTheme.bgCardHover);
+        const border = getVar(frameStyle, "--border", defaultTheme.border);
+        const textPrimary = getVar(frameStyle, "--text-primary", defaultTheme.textPrimary);
+        const textSecondary = getVar(frameStyle, "--text-secondary", defaultTheme.textSecondary);
+        const accent = getVar(frameStyle, "--accent", defaultTheme.accent);
+
+        const rootStyle = document.documentElement.style;
+        rootStyle.setProperty("--bg-page", bgPrimary);
+        rootStyle.setProperty("--bg-panel", bgCard);
+        rootStyle.setProperty("--bg-card", bgCard);
+        rootStyle.setProperty("--bg-card-hover", bgCardHover);
+        rootStyle.setProperty("--border", border);
+        rootStyle.setProperty("--text-primary", textPrimary);
+        rootStyle.setProperty("--text-secondary", textSecondary);
+        rootStyle.setProperty("--accent", accent);
+        rootStyle.setProperty("--accent-soft", toAlphaColor(accent, 0.2));
+        rootStyle.setProperty("--shell-header-bg", toAlphaColor(bgCard, 0.78));
+        rootStyle.setProperty("--shell-sidebar-bg", toAlphaColor(bgCard, 0.92));
+      } catch (_) {
+        // ignore theme sync errors and keep current shell colors
+      }
+    }
+
+    function escapeHtml(text) {
+      const map = {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#39;"
+      };
+      return text.replace(/[&<>"']/g, (ch) => map[ch]);
+    }
+
+    function escapeRegExp(text) {
+      return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function fuzzyMatch(text, keyword) {
+      let i = 0;
+      for (const ch of text) {
+        if (ch === keyword[i]) {
+          i += 1;
+          if (i === keyword.length) {
+            return true;
+          }
+        }
+      }
+      return false;
+    }
+
+    function highlightSnippet(snippet, keyword) {
+      if (!keyword) {
+        return escapeHtml(snippet);
+      }
+      const reg = new RegExp(`(${escapeRegExp(keyword)})`, "ig");
+      const parts = snippet.split(reg);
+      return parts
+        .map((part, idx) => (idx % 2 === 1 ? `<mark>${escapeHtml(part)}</mark>` : escapeHtml(part)))
+        .join("");
+    }
+
+    function getSnippet(text, keyword, at = -1) {
+      const radius = 26;
+      let hit = at;
+      if (hit < 0) {
+        hit = text.toLowerCase().indexOf(keyword.toLowerCase());
+      }
+      if (hit < 0) {
+        return text.slice(0, 52);
+      }
+      const start = Math.max(0, hit - radius);
+      const end = Math.min(text.length, hit + keyword.length + radius);
+      return `${start > 0 ? "..." : ""}${text.slice(start, end)}${end < text.length ? "..." : ""}`;
+    }
+
+    async function buildSearchIndex() {
+      if (searchIndexCache) {
+        return searchIndexCache;
+      }
+      const rows = await Promise.all(
+        digests.map(async (digest, index) => {
+          try {
+            const resp = await fetch(digest.file);
+            if (!resp.ok) {
+              return null;
+            }
+            const html = await resp.text();
+            const doc = new DOMParser().parseFromString(html, "text/html");
+            doc.querySelectorAll("script, style, noscript").forEach((el) => el.remove());
+            const text = normalizeText((doc.body ? doc.body.textContent : "") || "");
+            if (!text) {
+              return null;
+            }
+            return {
+              index,
+              title: digest.title,
+              file: digest.file,
+              date: digest.date,
+              text,
+              lowerText: text.toLowerCase()
+            };
+          } catch (_) {
+            return null;
+          }
+        })
+      );
+      searchIndexCache = rows.filter(Boolean);
+      return searchIndexCache;
+    }
+
+    function hideSearchResults() {
+      searchResultsEl.classList.remove("show");
+      searchResultsEl.innerHTML = "";
+    }
+
+    function renderSearchResults(results, keyword) {
+      if (!results.length) {
+        searchResultsEl.innerHTML = `<div class="search-empty">未找到包含该词句的日报内容</div>`;
+        searchResultsEl.classList.add("show");
+        return;
+      }
+
+      searchResultsEl.innerHTML = results
+        .map((item) => `
+          <button class="search-item" data-index="${item.index}" data-keyword="${escapeHtml(keyword)}">
+            <div class="search-meta">${formatDate(item.date)} · ${item.file}</div>
+            <div class="search-snippet">${highlightSnippet(item.snippet, keyword)}</div>
+          </button>
+        `)
+        .join("");
+      searchResultsEl.classList.add("show");
+
+      searchResultsEl.querySelectorAll(".search-item").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const index = Number(btn.dataset.index);
+          const keywordFromItem = btn.dataset.keyword || "";
+          currentKeyword = keywordFromItem;
+          selectDigest(index);
+          applyHighlightToFrame(currentKeyword);
+          hideSearchResults();
+        });
+      });
+    }
+
+    function clearHighlights(doc) {
+      doc.querySelectorAll("mark.digest-highlight").forEach((mark) => {
+        const textNode = doc.createTextNode(mark.textContent || "");
+        mark.replaceWith(textNode);
+      });
+      if (doc.body) {
+        doc.body.normalize();
+      }
+    }
+
+    function applyHighlightToFrame(keyword) {
+      if (!keyword || !frameEl.contentDocument || !frameEl.contentDocument.body) {
+        return;
+      }
+      const doc = frameEl.contentDocument;
+      clearHighlights(doc);
+
+      const reg = new RegExp(escapeRegExp(keyword), "gi");
+      const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          const value = node.nodeValue || "";
+          if (!value.trim()) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          const parent = node.parentElement;
+          if (!parent) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          const tag = parent.tagName;
+          if (tag === "SCRIPT" || tag === "STYLE" || tag === "NOSCRIPT" || tag === "MARK") {
+            return NodeFilter.FILTER_REJECT;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      const nodes = [];
+      while (walker.nextNode()) {
+        nodes.push(walker.currentNode);
+      }
+
+      let firstMark = null;
+      nodes.forEach((node) => {
+        const text = node.nodeValue || "";
+        if (!reg.test(text)) {
+          reg.lastIndex = 0;
+          return;
+        }
+        reg.lastIndex = 0;
+        const frag = doc.createDocumentFragment();
+        let last = 0;
+        text.replace(reg, (match, _p1, offset) => {
+          frag.appendChild(doc.createTextNode(text.slice(last, offset)));
+          const mark = doc.createElement("mark");
+          mark.className = "digest-highlight";
+          mark.textContent = match;
+          frag.appendChild(mark);
+          if (!firstMark) {
+            firstMark = mark;
+          }
+          last = offset + match.length;
+          return match;
+        });
+        frag.appendChild(doc.createTextNode(text.slice(last)));
+        node.replaceWith(frag);
+      });
+
+      if (firstMark) {
+        firstMark.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+
+    async function searchDigests(keyword) {
+      const q = normalizeText(keyword);
+      currentKeyword = q;
+      if (!q) {
+        hideSearchResults();
+        if (frameEl.contentDocument) {
+          clearHighlights(frameEl.contentDocument);
+        }
+        return;
+      }
+
+      const docs = await buildSearchIndex();
+      const qLower = q.toLowerCase();
+      const results = [];
+
+      docs.forEach((doc) => {
+        const at = doc.lowerText.indexOf(qLower);
+        const includeHit = at >= 0;
+        const fuzzyHit = includeHit ? true : fuzzyMatch(doc.lowerText, qLower);
+        if (!includeHit && !fuzzyHit) {
+          return;
+        }
+        results.push({
+          index: doc.index,
+          date: doc.date,
+          file: doc.file,
+          snippet: getSnippet(doc.text, q, at)
+        });
+      });
+
+      renderSearchResults(results.slice(0, 20), q);
+    }
+
+    searchInputEl.addEventListener("input", () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        searchDigests(searchInputEl.value);
+      }, 150);
+    });
+
+    searchInputEl.addEventListener("focus", () => {
+      if (searchResultsEl.innerHTML.trim()) {
+        searchResultsEl.classList.add("show");
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) {
+        return;
+      }
+      if (!target.closest(".viewer-search")) {
+        hideSearchResults();
+      }
+    });
+
+    function init() {
+      syncSidebarToggleText();
+      renderSidebar();
+      selectDigest(0);
+    }
+
+    init();
   </script>
 </body>
 </html>
