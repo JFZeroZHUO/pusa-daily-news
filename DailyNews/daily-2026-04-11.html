@@ -3,66 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-11</title>
+  <title>野菩萨AI社团 · 日报 2026-04-11</title>
   <style>
     :root {
       /* ===== 字体大小系统 ===== */
-      --font-base:        16px;
-      --font-xs:          14px;
-      --font-sm:          15px;
-      --font-md:          16px;
-      --font-lg:          18px;
-      --font-xl:          21px;
-      --font-2xl:         27px;
-      --font-3xl:         31px;
-      --font-data:        23px;
+      --font-base: 16px;
+      --font-xs: 14px;
+      --font-sm: 15px;
+      --font-md: 16px;
+      --font-lg: 18px;
+      --font-xl: 21px;
+      --font-2xl: 27px;
+      --font-3xl: 31px;
 
-      /* ===== 星期六：金沙黄 ===== */
-      --bg-primary:      #1a1810;
-      --bg-card:         #252216;
-      --bg-card-hover:   #302c1c;
-      --border:          #5c5435;
-      --text-primary:    #fefcf2;
-      --text-secondary:  #c9c0a0;
-      --accent-primary:  #ecc94b;
-      --accent-red:      #fc8181;
-      --accent-green:    #68d391;
-      --accent-purple:   #d6bcfa;
-      --accent-orange:   #fbd38d;
-      --accent-yellow:   #f6e05e;
-      --gradient-title:  linear-gradient(90deg, #ecc94b, #d69e2e);
+      /* ===== 金沙黄配色方案（星期六） ===== */
+      --bg-primary: #1a1810;
+      --bg-card: #252216;
+      --bg-card-hover: #302c1c;
+      --border: #5c5435;
+      --text-primary: #fefcf2;
+      --text-secondary: #c9c0a0;
+      --accent-primary: #ecc94b;
+      --accent-red: #fc8181;
+      --accent-green: #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #ecc94b, #d69e2e);
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
-      font-size: var(--font-base);
       line-height: 1.7;
+      font-size: var(--font-base);
       padding: 20px;
     }
 
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    /* ===== 报纸头部 ===== */
     .newspaper-header {
       text-align: center;
+      padding: 30px 20px;
       margin-bottom: 30px;
-      padding: 25px 0;
-      background: linear-gradient(135deg, rgba(236,201,75,0.08), rgba(214,158,46,0.04));
-      border-radius: 12px;
-      border: 1px solid var(--border);
-    }
-
-    .header-top {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .issue-info, .stats-badge {
-      font-size: var(--font-xs);
-      color: var(--text-secondary);
-      letter-spacing: 1px;
+      border-bottom: 2px solid var(--border);
     }
 
     .newspaper-title {
@@ -72,156 +63,133 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+      margin-bottom: 10px;
     }
 
-    .header-divider {
-      width: 200px;
-      height: 2px;
-      background: var(--gradient-title);
-      margin: 15px auto 0;
-      border-radius: 1px;
+    .newspaper-meta {
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
     }
 
+    /* ===== 三栏布局 ===== */
     .newspaper-grid {
       display: grid;
       grid-template-columns: 25% 45% 28%;
       gap: 20px;
-      max-width: 1600px;
-      margin: 0 auto;
+      align-items: start;
     }
 
-    @media (max-width: 1200px) {
-      .newspaper-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    section {
+    /* ===== 板块通用样式 ===== */
+    .block {
       background: var(--bg-card);
+      border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
       margin-bottom: 20px;
-      border: 1px solid var(--border);
       transition: all 0.3s ease;
     }
 
-    section:hover {
+    .block:hover {
       border-color: var(--accent-primary);
-      box-shadow: 0 4px 20px rgba(236,201,75,0.15);
+      box-shadow: 0 4px 12px rgba(236, 201, 75, 0.15);
     }
 
     .block-title {
       font-size: var(--font-lg);
       font-weight: 600;
       margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--accent-primary);
       display: flex;
       align-items: center;
       gap: 8px;
-      color: var(--text-primary);
     }
 
-    .block-title .icon {
-      font-size: var(--font-xl);
-    }
+    .block-title.emoji { color: var(--accent-primary); }
+    .block-title.red { border-color: var(--accent-red); color: var(--accent-red); }
+    .block-title.purple { border-color: var(--accent-purple); color: var(--accent-purple); }
+    .block-title.green { border-color: var(--accent-green); color: var(--accent-green); }
+    .block-title.orange { border-color: var(--accent-orange); color: var(--accent-orange); }
+    .block-title.yellow { border-color: var(--accent-yellow); color: var(--accent-yellow); }
 
-    blockquote {
-      border-left: 3px solid var(--accent-purple);
-      padding: 10px 16px;
-      margin: 12px 0;
-      background: rgba(214,188,250,0.06);
+    .block-content {
+      font-size: var(--font-sm);
       color: var(--text-secondary);
-      font-style: italic;
-      border-radius: 0 6px 6px 0;
     }
 
-    .chat-bubble {
-      background: rgba(236,201,75,0.08);
-      border-radius: 18px;
+    .block-content p {
+      margin-bottom: 12px;
+      line-height: 1.8;
+    }
+
+    .block-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ===== 引用块样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-primary);
       padding: 12px 16px;
+      margin: 15px 0;
+      background: rgba(236, 201, 75, 0.1);
+      border-radius: 0 8px 8px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    blockquote strong {
+      color: var(--accent-primary);
+    }
+
+    /* ===== 聊天气泡样式 ===== */
+    .chat-bubble {
+      background: rgba(236, 201, 75, 0.08);
+      border-radius: 12px;
+      padding: 12px 15px;
       margin: 10px 0;
-      font-size: var(--font-md);
+      border: 1px solid rgba(236, 201, 75, 0.2);
     }
 
     .bubble-sender {
       font-size: var(--font-xs);
       color: var(--accent-primary);
       font-weight: 600;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
-    .hot-topic-title {
-      font-size: var(--font-lg);
-      color: var(--accent-orange);
-      margin: 15px 0 10px;
+    .bubble-content {
+      font-size: var(--font-sm);
+      line-height: 1.6;
+    }
+
+    /* ===== 高亮样式 ===== */
+    .highlight {
+      color: var(--accent-primary);
       font-weight: 600;
     }
 
-    .heat-stats {
+    /* ===== 话题标题 ===== */
+    .topic-title {
+      font-size: var(--font-md);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin: 20px 0 10px;
+    }
+
+    .topic-meta {
       font-size: var(--font-xs);
-      background: rgba(251,146,60,0.15);
-      color: var(--accent-orange);
-      padding: 4px 10px;
-      border-radius: 12px;
-      display: inline-block;
+      color: var(--text-secondary);
       margin-bottom: 10px;
     }
 
-    .analysis-box {
-      background: rgba(251,211,141,0.08);
-      border-left: 3px solid var(--accent-orange);
-      padding: 12px 16px;
-      margin: 15px 0;
-      font-size: var(--font-sm);
-      border-radius: 0 6px 6px 0;
+    /* ===== 分隔线 ===== */
+    hr {
+      border: none;
+      border-top: 1px dashed var(--border);
+      margin: 25px 0;
     }
 
-    .ai-tool-tag {
-      display: inline-block;
-      background: rgba(251,211,141,0.2);
-      color: var(--accent-orange);
-      padding: 3px 10px;
-      border-radius: 6px;
-      font-size: var(--font-xs);
-      margin: 5px 5px 5px 0;
-      font-weight: 600;
-    }
-
-    .ai-data-number {
-      font-size: var(--font-data);
-      color: var(--accent-orange);
-      font-weight: 700;
-    }
-
-    .honor-name {
-      font-size: var(--font-md);
-      color: var(--accent-yellow);
-      font-weight: 600;
-    }
-
-    .honor-medal {
-      font-size: var(--font-2xl);
-      text-shadow: 0 0 10px rgba(246,229,94,0.3);
-    }
-
-    .community-speaker {
-      font-size: var(--font-xs);
-      color: var(--accent-purple);
-      font-weight: 600;
-    }
-
-    .empty-notice {
-      text-align: center;
-      padding: 40px 20px;
-      color: var(--text-secondary);
-      font-size: var(--font-sm);
-    }
-
-    .empty-notice-icon {
-      font-size: 48px;
-      margin-bottom: 15px;
-      opacity: 0.5;
-    }
-
+    /* ===== 页脚 ===== */
     footer {
       text-align: center;
       margin-top: 40px;
@@ -231,84 +199,342 @@
       border-top: 1px solid var(--border);
     }
 
-    .highlight { color: var(--accent-primary); font-weight: 600; }
-    .tag { background: rgba(236,201,75,0.15); padding: 2px 8px; border-radius: 4px; font-size: var(--font-xs); }
+    /* ===== 响应式 ===== */
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
-  <header class="newspaper-header">
-    <div class="header-top">
-      <span class="issue-info">2026年04月11日 · 星期六</span>
-      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
-      <span class="stats-badge">今日 0 条消息 · 0 人发言</span>
+  <div class="container">
+    <div class="newspaper-header">
+      <h1 class="newspaper-title">📰 野菩萨AI社团 · 每日资讯</h1>
+      <p class="newspaper-meta">2026年04月11日 · 星期六 | 今日 98 条消息 · 32 人发言</p>
     </div>
-    <div class="header-divider"></div>
-  </header>
 
-  <main class="newspaper-grid">
-    <!-- 左栏 -->
-    <aside class="col-left">
-      <section class="block-announcement">
-        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">📭</div>
-          <p>今日群内暂无重要公告，社群运营平稳进行中。</p>
-        </div>
-      </section>
-
-      <section class="block-honor">
-        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🌟</div>
-          <p>今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！</p>
-        </div>
-      </section>
-    </aside>
-
-    <!-- 中栏 -->
-    <article class="col-center">
-      <section class="block-teacher">
-        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🎓</div>
-          <p>今日两位老师暂无重要发言，期待明日精彩内容。</p>
-        </div>
-      </section>
-
-      <section class="block-hot">
-        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">💭</div>
-          <p>今日群内讨论较为平静，暂无高热度话题。</p>
-        </div>
-      </section>
-    </article>
-
-    <!-- 右栏 -->
-    <aside class="col-right">
-      <section class="block-ai">
-        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🔬</div>
-          <p>今日暂无AI工具相关讨论，可关注行业最新动态。</p>
-        </div>
-      </section>
-
-      <section class="block-community">
-        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">☀️</div>
-          <p>今日社群较为安静，大家都在默默耕耘中。</p>
-          <div style="margin-top: 15px; padding: 12px; background: linear-gradient(135deg, rgba(236,201,75,0.08), rgba(214,158,46,0.04)); border-radius: 8px; font-size: var(--font-sm); color: var(--accent-primary); font-style: italic;">
-            💬 小编寄语：周末愉快！悠闲的时光也是充电的好时机。期待下周更多精彩分享！
+    <div class="newspaper-grid">
+      <!-- ===== 左栏：公告 + 荣誉 ===== -->
+      <div class="col-left">
+        <!-- 板块一：重要公告 -->
+        <div class="block block-announcement">
+          <h2 class="block-title red">📢 重要公告</h2>
+          <div class="block-content">
+            <blockquote>
+              <strong>[18:13] WA:</strong> 🔎 Prompt Battle 182<br><br>
+              🕰️ 2026/4/11 18:30–20:20 ｜8 轮对战，随时加入<br><br>
+              🗺️ 腾讯会议：644-9155-7262<br>
+              🔗 https://meeting.tencent.com/dm/jNmmtxOKtvOr<br><br>
+              🕵️ MC：巧 & 黄豆<br>
+              新手友好，现场随问随答，丝滑开打！<br><br>
+              🔑 PB 战利品<br>
+              每轮 Winner：有机会获得 1 小时悠船GPU 时长<br>
+              参赛抽奖：悠船福利版会员 ×3 / 场<br>
+              月度前三：悠船标准版会员，冠军还有PB专属戒指💍！！！<br><br>
+              📁 赛前准备<br>
+              请提前在 http://www.battleverse.cn/ 注册，确保网页昵称与群昵称一致。
+            </blockquote>
+            <p style="margin-top: 15px;">
+              <span class="highlight">📋 活动要点：</span><br>
+              • <strong>Prompt Battle 182</strong> 常规赛今晚开战，18:30-20:20，8轮对战<br>
+              • 新手友好，可随时加入，每轮8分钟限时创作+2分钟提交+2分钟投票<br>
+              • 丰厚奖励：悠船GPU时长、福利版会员、标准版会员，月度冠军更有专属戒指💍<br>
+              • 腾讯会议：644-9155-7262，需提前在 battleverse.cn 注册
+            </p>
+            <p style="margin-top: 10px; font-size: var(--font-xs); color: var(--text-secondary);">
+              💡 Prompt Battle是社群持续举办的AI图像创作竞技活动，通过限时挑战激发学员创作热情，提升提示词工程能力。建议新手学员积极参与，在高强度对抗中快速成长。
+            </p>
           </div>
         </div>
-      </section>
-    </aside>
-  </main>
+
+        <!-- 板块四：荣誉时刻 -->
+        <div class="block block-honor">
+          <h2 class="block-title green">🏆 荣誉时刻</h2>
+          <div class="block-content">
+            <h3 class="topic-title">李鸿视频获高嘉丰老师点赞</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">李鸿</div>
+              <div class="bubble-content">[视频] 现场为高老师打call[666]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">李鸿</div>
+              <div class="bubble-content">@Jiafeng高嘉丰 正在直播，快去看! 晚上演出前直播一个</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎉 社群响应热烈：</span><br>
+              李鸿分享高嘉丰老师的现场视频后，社群成员纷纷点赞支持：
+            </p>
+
+            <div style="background: rgba(104, 211, 145, 0.1); padding: 12px; border-radius: 8px; margin-top: 10px;">
+              <p style="font-size: var(--font-sm); color: var(--text-secondary); line-height: 1.6;">
+                楼蓝（嘎嘎嘣嘣）[强][强][强]<br>
+                guokeci 👍👍<br>
+                图图和憨憨[强][强][强]<br>
+                夏侯仪[666][666]<br>
+                A瑞湫Rachel[强][强][强]<br>
+                雾（May雾）[强][强][强]<br>
+                辰星守望[强][强][强]<br>
+                孟超超（艾梦Mcc）[强][强][强]<br>
+                正[强][强][强]<br>
+                kuroiwa（黑岩Kuroiwa）[强][强][强]
+              </p>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎨 AI 点评推荐：</span><br>
+              李鸿作为高嘉丰老师的忠实粉丝，积极分享老师的演出视频和直播信息，展现了对优秀音乐人的欣赏和支持。这种跨领域的艺术关注和社群分享精神，值得大家学习。AI视频创作不仅是技术实践，更需要广泛的审美积累和文化素养，李鸿的行为体现了这一点。<br><br>
+              <span style="font-size: var(--font-xs); color: var(--text-secondary);">💡 延伸思考：音乐与影像的结合是AI创作的重要方向，建议学员们多关注音乐人的现场表现，将其视觉化元素融入视频创作中。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 中栏：师说 + 热议 ===== -->
+      <div class="col-center">
+        <!-- 板块二：师说 -->
+        <div class="block block-teacher">
+          <h2 class="block-title purple">👨‍🏫 师说</h2>
+          <div class="block-content">
+            <p>今日两位老师暂无重要发言，期待明日精彩内容。</p>
+            <p style="margin-top: 15px; font-size: var(--font-xs); color: var(--text-secondary);">
+              💡 <span class="highlight">小编注：</span>虽然今日老师没有直接发言，但社群内学员们围绕AI工具使用、行业动态等话题展开了深入讨论，展现了浓厚的学习氛围和自发探索精神。特别是HappyHorse模型归属争议和LIBTV工具问题讨论，体现了学员们对行业前沿的敏锐关注。
+            </p>
+          </div>
+        </div>
+
+        <!-- 板块三：热议话题 -->
+        <div class="block block-hot">
+          <h2 class="block-title orange">🔥 热议话题</h2>
+          <div class="block-content">
+            <h3 class="topic-title">话题一：HappyHorse模型归属争议</h3>
+            <p class="topic-meta">👥 6人参与 · 💬 11条讨论</p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">A瑞湫Rachel</div>
+              <div class="bubble-content">happyhorse是阿里的吗</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Mature</div>
+              <div class="bubble-content">说是阿里的，感觉到时候也是要用API</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">LLLLLL</div>
+              <div class="bubble-content">阿里自己都还没发布happyhorse，libtv哪来的api[捂脸]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Mature</div>
+              <div class="bubble-content">LIBTV已经公布上happyhorse，阿里这个happyhorse应该主要也是卖API</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">刘凯</div>
+              <div class="bubble-content">happyhorse说也是字节的啊[破涕为笑]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Mature</div>
+              <div class="bubble-content">happyhorse究竟是谁的坊间传闻时间线：不知道（最开始）--也是字节跳动（刚开始那两天天）--阿里（最近版本）[旺柴]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">A瑞湫Rachel</div>
+              <div class="bubble-content">[截图] 抖音直接搜出来是阿里的</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎯 AI 分析总结：</span><br>
+              HappyHorse作为备受期待的AI视频生成模型，其归属问题在社群内引发了热烈讨论和多方求证。从讨论内容来看，信息经历了多次演变：
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">传闻演变时间线：</span><br>
+              • <strong>初始阶段</strong>：归属不明，业界普遍猜测<br>
+              • <strong>早期传闻</strong>：坊间流传为字节跳动产品（与即梦竞品）<br>
+              • <strong>最新版本</strong>：多位学员通过抖音搜索确认，阿里已正式认领HappyHorse<br>
+              • <strong>官方态度</strong>：阿里主要定位为API服务，LIBTV等平台已宣布接入
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">技术背景分析：</span><br>
+              HappyHorse的出现，标志着国内AI视频生成赛道竞争进入白热化阶段。阿里入局意味着与字节即梦、腾讯混元等巨头的正面交锋。从技术角度看，HappyHorse若真能提供稳定API服务，将极大降低创作者的技术门槛，推动AI视频创作的普及化。<br><br>
+              <span style="font-size: var(--font-xs; color: var(--text-secondary);">💡 延伸思考：模型归属的不确定性反映了AI行业的快速迭代和信息不透明。建议学员们关注官方渠道信息，警惕坊间传闻，同时保持技术中立，多工具对比测试，选择最适合自己创作需求的平台。</span>
+            </p>
+
+            <hr>
+
+            <h3 class="topic-title">话题二：LIBTV工具问题吐槽</h3>
+            <p class="topic-meta">👥 5人参与 · 💬 8条讨论</p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Echo</div>
+              <div class="bubble-content">libtv好像视频积分贵一点点</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">真异</div>
+              <div class="bubble-content">刚才进了一个LIBTV的群，说LIBTV的seedance失败多，不稳定，然后大家都在吐槽失败了的积分不返还，正在跟客服说让他们尽快解决这个问题</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Kelly</div>
+              <div class="bubble-content">失败了积分不返还就挺坑的</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">真异</div>
+              <div class="bubble-content">大家都在盼望happyhorse来解救</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">koori</div>
+              <div class="bubble-content">即梦[捂脸]我做的视频三天了还没出</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Mature</div>
+              <div class="bubble-content">这应该是一个系统BUG，他们正在解决中</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">设计师lucia（周末不接新单）</div>
+              <div class="bubble-content">失败出问题了找客服登记一般会返还的，我之前高清出问题了，返还了，但因为我还开了团队版，就给我返的个人版，然后一直找不到，客服也没说清楚，还是群里群友说了我才找到，反正客服有些爱答不理的。不过如果在群里不停说，他们就会加你来解决了[偷笑]</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎯 AI 分析总结：</span><br>
+              今日社群内对LIBTV工具的使用体验展开了深入吐槽，主要集中以下问题：
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">核心问题汇总：</span><br>
+              • <strong>Seedance失败率高</strong>：LIBTV平台上的Seedance模型频繁生成失败，影响创作效率<br>
+              • <strong>积分不返还</strong>：生成失败后积分未能自动返还，需要人工联系客服处理<br>
+              • <strong>客服响应慢</strong>：客服态度冷淡，需在群里持续投诉才能获得解决<br>
+              • <strong>积分价格偏高</strong>：视频积分成本略高于其他平台<br>
+              • <strong>即梦排队难</strong>：有学员反映即梦平台三天未出视频，排队时间过长
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">用户期待：</span><br>
+              社群成员普遍期待HappyHorse尽快上线，认为新入局者会倒逼现有平台提升服务质量。真异直言"大家都在盼望happyhorse来解救"，反映了创作者对现有工具的不满和对更好体验的渴望。<br><br>
+              <span style="font-size: var(--font-xs; color: var(--text-secondary);">💡 实践建议：选择AI工具时需综合考虑稳定性、客服响应、成本等多维度因素。建议创作者分散风险，同时使用多个平台，避免单点故障影响项目进度。遇到问题时要坚持维权，通过社群集体施促促平台改进服务。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 右栏：AI资讯 + 社群 ===== -->
+      <div class="col-right">
+        <!-- 板块五：AI工具讨论 -->
+        <div class="block block-ai">
+          <h2 class="block-title yellow">🤖 AI 工具讨论</h2>
+          <div class="block-content">
+            <h3 class="topic-title">平台速度对比体验</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">墨墨memory</div>
+              <div class="bubble-content">早起在海艺试了一下，还挺快的。</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Mature</div>
+              <div class="bubble-content">对个人用户，三方的一直都比官网的快，就是即梦认为我们散客不是它的客户对象。</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">真异</div>
+              <div class="bubble-content">估计现在一骑绝尘，没有竞争对手+算力紧张，开始挑客户了</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">📊 速度对比总结：</span><br>
+              • <strong>海艺</strong>：生成速度快，用户体验良好（墨墨memory实测）<br>
+              • <strong>即梦官网</strong>：排队时间长，有学员反映三天未出视频<br>
+              • <strong>三方平台</strong>：普遍比官网快，但稳定性存疑（LIBTV失败率高）
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">💡 行业观察：</span><br>
+              Mature的观察精准："即梦认为我们散客不是它的客户对象"。在算力紧张、没有强竞争对手的背景下，即梦开始筛选客户，优先服务VIP和B端用户。这反映了AI视频生成行业的供需失衡现状——高质量算力供不应求，平台拥有客户选择权。<br><br>
+              <span style="font-size: var(--font-xs; color: var(--text-secondary);">🎯 使用建议：对于个人创作者，建议使用三方平台获取更快的生成速度，同时需警惕稳定性风险。对于商业项目，建议购买VIP或官方API服务，确保生成质量与稳定性。长远看，随着HappyHorse等新竞品入局，算力供需平衡后，平台的服务策略可能发生调整。</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- 板块六：社群动态 -->
+        <div class="block block-community">
+          <h2 class="block-title emoji">💬 社群动态</h2>
+          <div class="block-content">
+            <h3 class="topic-title">学员创作分享</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享白瓷美学大展信息] 我看过那个展，马上来一条.[嘿哈]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享视频作品：让插画形象动起来 拦不住的小逆21]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">墨墨memory</div>
+              <div class="bubble-content">[分享视频作品：当山西文物天团跳起胆小鬼] 后浪[破涕为笑]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Jennie</div>
+              <div class="bubble-content">[分享视频作品：重来一次 悬疑短片] 拍的不好全靠配乐撑的悬疑剧，大家看看</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">视频课代表—紫薯有范</div>
+              <div class="bubble-content">[分享视频作品：大唐龙虾局] 这个笑死了 后边有彩蛋哟 [偷笑]</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎨 创作亮点：</span><br>
+              • <strong>逆流而上</strong>：参观"中国白 德化瓷"美学大展后，迅速创作白瓷主题视频，展现艺术展览与AI创作的结合<br>
+              • <strong>墨墨memory</strong>：将山西文物拟人化，跳起胆小鬼舞蹈，创意独特，获得社群好评<br>
+              • <strong>Jennie</strong>：拍摄悬疑短片《重来一次》，探讨重生与濒死梦境的哲学命题，配乐与叙事结构受到认可<br>
+              • <strong>视频课代表—紫薯有范</strong>：创作《大唐龙虾局》喜剧短片，结尾彩蛋引发社群爆笑
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">🔍 内容审核讨论：</span><br>
+              设计师lucia和Jennie还交流了内容审核经验：
+            </p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">设计师lucia（周末不接新单）</div>
+              <div class="bubble-content">说是可以用真人了，但我还没试过。我之前都是做卡通风格的。lib对警察国徽这些没审核，即梦就完全过不了</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Jennie</div>
+              <div class="bubble-content">警察军人都不行，得改叫侦查人员</div>
+            </div>
+
+            <div style="background: rgba(236, 201, 75, 0.1); padding: 15px; border-radius: 8px; margin-top: 20px;">
+              <p style="font-size: var(--font-xs); color: var(--text-secondary); font-style: italic; text-align: center;">
+                💬 小编寄语：今日社群创作氛围活跃，从白瓷美学到山西文物，从悬疑短片到喜剧龙虾，学员们展现出多元化的创作主题和风格。特别值得肯定的是，大家乐于分享创作过程和经验教训，形成了良好的互助学习生态。期待看到更多精彩作品涌现！
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-12 03:12:01</p>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-12 12:50:00</p>
   </footer>
 </body>
 </html>
