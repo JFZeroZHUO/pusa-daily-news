@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>野菩萨AI社团 · 日报 2026-04-12</title>
+  <style>
+    :root {
+      /* ===== 字体大小系统 ===== */
+      --font-base: 16px;
+      --font-xs: 14px;
+      --font-sm: 15px;
+      --font-md: 16px;
+      --font-lg: 18px;
+      --font-xl: 21px;
+      --font-2xl: 27px;
+      --font-3xl: 31px;
+
+      /* ===== 玫瑰粉配色方案（星期日） ===== */
+      --bg-primary: #1a1015;
+      --bg-card: #251620;
+      --bg-card-hover: #301c28;
+      --border: #5c3a4a;
+      --text-primary: #fef2f6;
+      --text-secondary: #c9a0b0;
+      --accent-primary: #ed64a6;
+      --accent-red: #f687b3;
+      --accent-green: #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #ed64a6, #d53f8c);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      font-size: var(--font-base);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    /* ===== 报纸头部 ===== */
+    .newspaper-header {
+      text-align: center;
+      padding: 30px 20px;
+      margin-bottom: 30px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 700;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 10px;
+    }
+
+    .newspaper-meta {
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 20px;
+      align-items: start;
+    }
+
+    /* ===== 板块通用样式 ===== */
+    .block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .block:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 4px 12px rgba(237, 100, 166, 0.15);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--accent-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title.emoji { color: var(--accent-primary); }
+    .block-title.red { border-color: var(--accent-red); color: var(--accent-red); }
+    .block-title.purple { border-color: var(--accent-purple); color: var(--accent-purple); }
+    .block-title.green { border-color: var(--accent-green); color: var(--accent-green); }
+    .block-title.orange { border-color: var(--accent-orange); color: var(--accent-orange); }
+    .block-title.yellow { border-color: var(--accent-yellow); color: var(--accent-yellow); }
+
+    .block-content {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    .block-content p {
+      margin-bottom: 12px;
+      line-height: 1.8;
+    }
+
+    .block-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ===== 引用块样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-primary);
+      padding: 12px 16px;
+      margin: 15px 0;
+      background: rgba(237, 100, 166, 0.1);
+      border-radius: 0 8px 8px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    blockquote strong {
+      color: var(--accent-primary);
+    }
+
+    /* ===== 聊天气泡样式 ===== */
+    .chat-bubble {
+      background: rgba(237, 100, 166, 0.08);
+      border-radius: 12px;
+      padding: 12px 15px;
+      margin: 10px 0;
+      border: 1px solid rgba(237, 100, 166, 0.2);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .bubble-content {
+      font-size: var(--font-sm);
+      line-height: 1.6;
+    }
+
+    /* ===== 高亮样式 ===== */
+    .highlight {
+      color: var(--accent-primary);
+      font-weight: 600;
+    }
+
+    /* ===== 话题标题 ===== */
+    .topic-title {
+      font-size: var(--font-md);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin: 20px 0 10px;
+    }
+
+    .topic-meta {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+
+    /* ===== 分隔线 ===== */
+    hr {
+      border: none;
+      border-top: 1px dashed var(--border);
+      margin: 25px 0;
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+    }
+
+    /* ===== 响应式 ===== */
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="newspaper-header">
+      <h1 class="newspaper-title">📰 野菩萨AI社团 · 每日资讯</h1>
+      <p class="newspaper-meta">2026年04月12日 · 星期日 | 今日 73 条消息 · 17 人发言</p>
+    </div>
+
+    <div class="newspaper-grid">
+      <!-- ===== 左栏：公告 + 荣誉 ===== -->
+      <div class="col-left">
+        <!-- 板块一：重要公告 -->
+        <div class="block block-announcement">
+          <h2 class="block-title red">📢 重要公告</h2>
+          <div class="block-content">
+            <blockquote>
+              <strong>[19:20] 逆流而上 lu-xh:</strong> 🦸 Prompt Battle 183<br><br>
+              ⚡️ 2026/4/12 18:30–20:20 ｜8 轮对战，随时加入<br><br>
+              🏙️ 腾讯会议：615-9701-6045<br>
+              📡 https://meeting.tencent.com/dm/u3ONZt6Q2PWi<br><br>
+              🎤 MC：森破 & 木反甲马<br>
+              新手友好，现场随问随答，丝滑开打！<br><br>
+              🛡️ PB 战利品<br>
+              每轮 Winner：有机会获得 1 小时悠船GPU 时长<br>
+              参赛抽奖：悠船福利版会员 ×3 / 场<br>
+              月度前三：悠船标准版会员，冠军还有PB专属戒指💍！！！<br><br>
+              💥 赛前准备<br>
+              请提前在 http://www.battleverse.cn/ 注册，确保网页昵称与群昵称一致。
+            </blockquote>
+            <p style="margin-top: 15px;">
+              <span class="highlight">📋 活动要点：</span><br>
+              • <strong>Prompt Battle 183</strong> 常规赛今晚开战，18:30-20:20，8轮对战<br>
+              • 新手友好，可随时加入，每轮8分钟限时创作+2分钟提交+2分钟投票<br>
+              • 丰厚奖励：悠船GPU时长、福利版会员、标准版会员，月度冠军更有专属戒指💍<br>
+              • 腾讯会议：615-9701-6045，需提前在 battleverse.cn 注册
+            </p>
+            <p style="margin-top: 10px;">
+              <span class="highlight">💡 温馨提示：</span>逆流而上特别提到"主要参与抽奖"，展现了社群成员对PB活动的热情参与。Prompt Battle是社群持续举办的AI图像创作竞技活动，通过限时挑战激发学员创作热情，提升提示词工程能力。建议新手学员积极参与，在高强度对抗中快速成长！
+            </p>
+          </div>
+        </div>
+
+        <!-- 板块四：荣誉时刻 -->
+        <div class="block block-honor">
+          <h2 class="block-title green">🏆 荣誉时刻</h2>
+          <div class="block-content">
+            <p style="text-align: center; padding: 30px 10px;">
+              🌟 今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 中栏：师说 + 热议 ===== -->
+      <div class="col-center">
+        <!-- 板块二：师说 -->
+        <div class="block block-teacher">
+          <h2 class="block-title purple">👨‍🏫 师说</h2>
+          <div class="block-content">
+            <p>今日两位老师暂无重要发言，期待明日精彩内容。</p>
+            <p style="margin-top: 15px; font-size: var(--font-xs); color: var(--text-secondary);">
+              💡 <span class="highlight">小编注：</span>虽然今日老师没有直接发言，但社群内学员们围绕AI工具使用、创作技巧、课程安排等话题展开了自发讨论。特别是"今天没有课吗"的提问得到"延迟到下周三"的确认，以及nanobanana全景图生成功能的探讨，展现了浓厚的学习氛围和探索精神。
+            </p>
+          </div>
+        </div>
+
+        <!-- 板块三：热议话题 -->
+        <div class="block block-hot">
+          <h2 class="block-title orange">🔥 热议话题</h2>
+          <div class="block-content">
+            <h3 class="topic-title">话题一：nanobanana全景图生成功能探讨</h3>
+            <p class="topic-meta">👥 2人参与 · 💬 4条讨论</p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">ヒーロー見参！（ヒーロー見参！）</div>
+              <div class="bubble-content">nanobanana能生成360度全景图？</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">兜兜里＊有糖</div>
+              <div class="bubble-content">你们都是用的哪里的nanobanana呀</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">孟超超（艾梦Mcc）</div>
+              <div class="bubble-content">之前是flow，现在是海艺和lib~</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎯 AI 分析总结：</span><br>
+              今日社群内对nanobanana工具的360度全景图生成功能展开了探讨。从讨论内容来看：
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">使用渠道分享：</span><br>
+              • <strong>孟超超</strong>分享了自己的使用经验：之前使用flow平台，现在转向海艺和LIBTV<br>
+              • <strong>兜兜里</strong>作为非会员用户，询问大家nanobanana的使用渠道<br>
+              • 这个问题反映出个人用户在选择AI工具时，对平台可用性和成本的关注
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">功能特点：</span><br>
+              nanobanana作为AI图像生成工具，360度全景图生成是其特色功能之一。这个功能对于创作者来说具有重要价值——可以生成完整的场景环境图，然后通过裁切不同角度的镜头，实现场景一致性控制。这在AI视频创作中是一个非常实用的技巧。<br><br>
+              <span style="font-size: var(--font-xs); color: var(--text-secondary);">💡 延伸思考：全景图生成功能解决了AI视频创作中"场景一致性"的痛点。传统的图生图方式每次生成都会产生细微差异，而全景图裁切的方式能确保所有镜头都基于同一场景，大大提高了视频的视觉连贯性和专业度。</span>
+            </p>
+
+            <hr>
+
+            <h3 class="topic-title">话题二：即梦/seedance速度慢排队难讨论</h3>
+            <p class="topic-meta">👥 4人参与 · 💬 6条讨论</p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">兜兜里＊有糖</div>
+              <div class="bubble-content">还有那个seedance 即梦非常慢 那你们还在那里可以用啊</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">兜兜里＊有糖</div>
+              <div class="bubble-content">我不是会员</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">设计师lucia（周末不接新单）</div>
+              <div class="bubble-content">>只要出图和视频效果不错，收费就收费咯。我是挺喜欢它的角色设计的</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[捂脸]即梦积分竞争激烈</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎯 AI 分析总结：</span><br>
+              今日社群内对即梦和seedance平台的使用体验展开了深入交流，核心问题集中在：
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">平台问题汇总：</span><br>
+              • <strong>生成速度慢</strong>：兜兜里反映"seedance 即梦非常慢"，有学员等待三天仍未出视频<br>
+              • <strong>排队时间长</strong>：非会员用户面临激烈的积分竞争，获取生成机会困难<br>
+              • <strong>会员门槛</strong>：设计师lucia指出需要付费会员才能享受稳定服务
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">用户态度分化：</span><br>
+              尽管存在上述问题，用户对平台的评价并非一面倒。设计师lucia表达了对即梦角色设计的喜爱，认为"只要出图和视频效果不错，收费就收费咯"，体现了对平台质量的认可。这种观点反映了AI视频创作者在选择工具时的务实态度——核心是创作成果，而非单纯的价格因素。<br><br>
+              <span style="font-size: var(--font-xs); color: var(--text-secondary);">💡 行业观察：即梦作为国内主流AI视频生成平台，其优势在于成熟的角色设计和稳定的生成质量。在算力紧张、用户激增的背景下，平台通过会员制度进行流量控制是商业逻辑的必然结果。对于个人创作者，建议根据自身项目周期选择付费策略——短期项目可考虑购买月度会员，长期创作建议评估三方平台的性价比。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 右栏：AI资讯 + 社群 ===== -->
+      <div class="col-right">
+        <!-- 板块五：AI工具讨论 -->
+        <div class="block block-ai">
+          <h2 class="block-title yellow">🤖 AI 工具讨论</h2>
+          <div class="block-content">
+            <h3 class="topic-title">零点（0ii0ii）平台表现优秀</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">现在0ii0ii表现挺好的</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">还是出图，视频要收费</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">问Ai，至少30个平台接sd2.0</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Nina</div>
+              <div class="bubble-content">豆包也接了一个，可以简单体验一下，免费</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">ヒーロー見参！（ヒーロー見参！）</div>
+              <div class="bubble-content">豆包可以生成5个免费的 但是fast模式</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">📊 平台生态观察：</span><br>
+              逆流而上提到"至少30个平台接sd2.0"，反映出Stable Diff 2.0模型的快速普及。sd2.0作为开源模型的升级版，其性能提升和功能优化受到广泛认可，各平台争相接入，为创作者提供了更多选择。
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">💡 免费体验渠道：</span><br>
+              • <strong>豆包</strong>：可免费生成5个，fast模式，适合快速体验<br>
+              • <strong>0ii0ii</strong>：出图免费，视频收费，适合图生图创作<br>
+              • <strong>nanobanana</strong>：海艺、LIBTV等平台接入，但需注意会员限制<br><br>
+              <span style="font-size: var(--font-xs); color: var(--text-secondary);">🎯 使用建议：对于新手学员，建议充分利用免费试用机会（如豆包5个免费额度）快速了解不同平台的特点。对于长期创作者，可根据主要创作类型（图生图 vs 视频）选择最优平台组合，实现成本与效果的平衡。</span>
+            </p>
+
+            <hr>
+
+            <h3 class="topic-title">米哈游推出AI模型</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">努力努力再努力</div>
+              <div class="bubble-content">米哈游也出模型了 Lpm</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享米哈游蔡浩宇文章] 米哈游蔡浩宇的第一颗子弹，瞄准了NPC的脸？玩家和角色的关系，从操控变成相处。</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">New soul</div>
+              <div class="bubble-content">不是说不计划商用？感觉专门针对数字人赛道了</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎮 游戏行业动态：</span><br>
+              米哈游推出AI模型的消息引发社群热议。从文章标题来看，米哈游的首款模型瞄准了NPC（非玩家角色）的数字人赛道，这与传统游戏AI专注于角色控制的路径有所不同。New soul的质疑"不是说不计划商用？"反映了社群成员对米哈游战略方向的关注。
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">💡 行业趋势分析：</span><br>
+              游戏公司进军AI模型领域，标志着游戏行业从"内容+AI"向"AI原生内容"的深度转型。米哈游作为二次元游戏领军企业，其技术积累和IP储备在AI时代具有天然优势。数字人赛道竞争激烈，米哈游的入局将为行业带来新的变数。<br><br>
+              <span style="font-size: var(--font-xs); color: var(--text-secondary);">🎯 创作者启发：游戏公司的AI模型可能更加注重角色一致性和IP适配，AI视频创作者可关注这一趋势，考虑将游戏IP元素融入自己的作品，实现跨界创新。</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- 板块六：社群动态 -->
+        <div class="block block-community">
+          <h2 class="block-title emoji">💬 社群动态</h2>
+          <div class="block-content">
+            <h3 class="topic-title">课程安排与作品分享</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">夏侯仪</div>
+              <div class="bubble-content">今天没有课吗</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">A瑞湫Rachel</div>
+              <div class="bubble-content">延迟到下周三</div>
+            </div>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">📚 课程动态：</span><br>
+              学员关心的课程安排得到确认——延期至下周三。这给予了大家更充分的准备时间，也反映出教学团队对课程质量的重视。
+            </p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享武侠风格作品] 让插画形象动起来 拦不住的小逆22</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享武侠风格作品] 拦不住的小逆23 缘分 自洽[嘿哈]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享小红书笔记] 今天突然对这个色彩有点感觉</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">音乐课代表-Open Your Eyes</div>
+              <div class="bubble-content">[分享哈啤AI武林大赛作品] 面对"加载中"，不如一键清空，跟兄弟们"先爽一哈"！</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎨 创作氛围：</span><br>
+              • <strong>逆流而上</strong>：持续高产创作武侠风格视频"拦不住的小逆"系列，今日发布第22和23集，并分享色彩探索笔记<br>
+              • <strong>音乐课代表-Open Your Eyes</strong>：分享为哈尔滨啤酒创作的AI武林大赛作品，展现品牌合作创作能力<br>
+              • <strong>Jennie</strong>：分享"砸进你双眼"音乐作品，并分享"老头子的快乐生活"和NASA载人绕月任务视频<br>
+              • <strong>设计师lucia</strong>：分享"剪辑师八条"视频"我们不生成视频，我们只是视频的搬运工"
+            </p>
+
+            <div style="background: rgba(237, 100, 166, 0.1); padding: 15px; border-radius: 8px; margin-top: 20px;">
+              <p style="font-size: var(--font-xs); color: var(--text-secondary); font-style: italic; text-align: center;">
+                💬 小编寄语：今日社群创作氛围活跃，从武侠AI视频到商业音乐作品，从色彩探索到品牌合作，学员们展现出多元化的创作方向和日益精进的创作水准。特别值得关注的是逆流而上的持续高产和深度创作思考——"感觉她的作品信息量巨大，有的看懂了，有的没看懂但好像都有用"，这种评价体现了作品的层次感和深度。期待看到更多精彩作品涌现！
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-13 05:35:00</p>
+  </footer>
+</body>
+</html>
