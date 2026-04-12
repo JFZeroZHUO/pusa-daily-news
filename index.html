@@ -202,14 +202,14 @@
   <script>
     // ===== DIGEST_DATA_START =====
     let digests = [
-      {"date":"2026-04-11","file":"daily-2026-04-11.html","title":"社群静默日","messageCount":0,"speakerCount":0},
-      {"date":"2026-04-10","file":"daily-2026-04-10.html","title":"社群静默日","messageCount":0,"speakerCount":0},
-      {"date":"2026-04-09","file":"daily-2026-04-09.html","title":"人物衰老制作·PixVerse C1发布·字节Seeduplex","messageCount":44,"speakerCount":15},
-      {"date":"2026-04-08","file":"daily-2026-04-08.html","title":"即梦VIP涨价调整·HappyHorseAI新工具测试","messageCount":181,"speakerCount":36},
-      {"date":"2026-04-04","file":"daily-2026-04-04.html","title":"横琴威尼斯黑客松征集通知发布","messageCount":48,"speakerCount":15},
-      {"date":"2026-04-01","file":"daily-2026-04-01.html","title":"捷报频传：利敏获国风音乐大赛铜奖","messageCount":104,"speakerCount":32},
-      {"date":"2026-03-31","file":"daily-2026-03-31.html","title":"AI工具更新与社团交流","messageCount":114,"speakerCount":54},
-      {"date":"2026-02-28","file":"daily-2026-02-28.html","title":"技术与创作日常分享","messageCount":93,"speakerCount":32}
+      {"date":"2026-04-11","file":"DailyNews/daily-2026-04-11.html","title":"社群静默日","messageCount":0,"speakerCount":0},
+      {"date":"2026-04-10","file":"DailyNews/daily-2026-04-10.html","title":"社群静默日","messageCount":0,"speakerCount":0},
+      {"date":"2026-04-09","file":"DailyNews/daily-2026-04-09.html","title":"人物衰老制作·PixVerse C1发布·字节Seeduplex","messageCount":44,"speakerCount":15},
+      {"date":"2026-04-08","file":"DailyNews/daily-2026-04-08.html","title":"即梦VIP涨价调整·HappyHorseAI新工具测试","messageCount":181,"speakerCount":36},
+      {"date":"2026-04-04","file":"DailyNews/daily-2026-04-04.html","title":"横琴威尼斯黑客松征集通知发布","messageCount":48,"speakerCount":15},
+      {"date":"2026-04-01","file":"DailyNews/daily-2026-04-01.html","title":"捷报频传：利敏获国风音乐大赛铜奖","messageCount":104,"speakerCount":33},
+      {"date":"2026-03-31","file":"DailyNews/daily-2026-03-31.html","title":"AI工具更新与社团交流","messageCount":114,"speakerCount":54},
+      {"date":"2026-02-28","file":"DailyNews/daily-2026-02-28.html","title":"技术与创作日常分享","messageCount":93,"speakerCount":32}
     ];
     // ===== DIGEST_DATA_END =====
     // 搜索索引（自动生成，包含每个日报的纯文本内容）
@@ -258,7 +258,7 @@
 
     // 打开日报
     function openDigest(file) {
-      window.open('DailyNews/' + file, '_blank');
+      window.open(file, '_blank');
     }
 
     // 主题切换
