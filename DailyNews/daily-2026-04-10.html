@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-10</title>
+  <title>野菩萨AI社团 · 日报 2026-04-10</title>
   <style>
     :root {
+      /* ===== 配色系统 - 星期五：珊瑚红 ===== */
+      --bg-primary:    #1a1011;
+      --bg-card:       #251618;
+      --bg-card-hover: #301c1f;
+      --border:        #5c3a3e;
+      --text-primary:  #fef2f2;
+      --text-secondary:#c9a0a5;
+      --accent-primary:#f56565;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #f56565, #e53e3e);
+
       /* ===== 字体大小系统 ===== */
       --font-base:        16px;
       --font-xs:          14px;
@@ -16,53 +31,34 @@
       --font-2xl:         27px;
       --font-3xl:         31px;
       --font-data:        23px;
-
-      /* ===== 星期五：珊瑚红 ===== */
-      --bg-primary:      #1a1011;
-      --bg-card:         #251618;
-      --bg-card-hover:   #301c1f;
-      --border:          #5c3a3e;
-      --text-primary:    #fef2f2;
-      --text-secondary:  #c9a0a5;
-      --accent-primary:  #f56565;
-      --accent-red:      #fc8181;
-      --accent-green:    #68d391;
-      --accent-purple:   #d6bcfa;
-      --accent-orange:   #fbd38d;
-      --accent-yellow:   #f6e05e;
-      --gradient-title:  linear-gradient(90deg, #f56565, #e53e3e);
     }
 
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
+      line-height: 1.6;
       font-size: var(--font-base);
-      line-height: 1.7;
-      padding: 20px;
     }
 
+    /* ===== 报头 ===== */
     .newspaper-header {
       text-align: center;
-      margin-bottom: 30px;
-      padding: 25px 0;
-      background: linear-gradient(135deg, rgba(245,101,101,0.08), rgba(229,62,62,0.04));
-      border-radius: 12px;
-      border: 1px solid var(--border);
+      padding: 40px 20px 20px;
+      background: linear-gradient(135deg, rgba(245,101,101,0.1), rgba(229,62,62,0.05));
+      border-bottom: 2px solid var(--accent-primary);
     }
 
-    .header-top {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .issue-info, .stats-badge {
-      font-size: var(--font-xs);
+    .issue-info {
       color: var(--text-secondary);
-      letter-spacing: 1px;
+      font-size: var(--font-xs);
+      margin-bottom: 12px;
     }
 
     .newspaper-title {
@@ -72,22 +68,36 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+      margin-bottom: 12px;
+      letter-spacing: 2px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      background: rgba(245,101,101,0.15);
+      border: 1px solid var(--accent-primary);
+      border-radius: 20px;
+      padding: 4px 16px;
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
     }
 
     .header-divider {
-      width: 200px;
-      height: 2px;
+      width: 120px;
+      height: 3px;
       background: var(--gradient-title);
-      margin: 15px auto 0;
-      border-radius: 1px;
+      margin: 20px auto 0;
+      border-radius: 2px;
     }
 
+    /* ===== 主布局 - 三栏 ===== */
     .newspaper-grid {
       display: grid;
       grid-template-columns: 25% 45% 28%;
-      gap: 20px;
+      gap: 2%;
       max-width: 1600px;
       margin: 0 auto;
+      padding: 30px 20px;
     }
 
     @media (max-width: 1200px) {
@@ -96,219 +106,557 @@
       }
     }
 
-    section {
+    /* ===== 板块通用样式 ===== */
+    .block-section {
       background: var(--bg-card);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 20px;
       border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
       transition: all 0.3s ease;
     }
 
-    section:hover {
-      border-color: var(--accent-primary);
-      box-shadow: 0 4px 20px rgba(245,101,101,0.15);
+    .block-section:hover {
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
     }
 
     .block-title {
       font-size: var(--font-lg);
       font-weight: 600;
-      margin-bottom: 15px;
+      margin-bottom: 16px;
       display: flex;
       align-items: center;
       gap: 8px;
-      color: var(--text-primary);
     }
 
     .block-title .icon {
       font-size: var(--font-xl);
     }
 
-    blockquote {
-      border-left: 3px solid var(--accent-purple);
-      padding: 10px 16px;
-      margin: 12px 0;
-      background: rgba(214,188,250,0.06);
+    /* ===== 重要公告 ===== */
+    .block-announcement {
+      border-left: 4px solid var(--accent-red);
+    }
+
+    .announcement-item {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    .announcement-item::before {
+      content: "●";
+      position: absolute;
+      left: 0;
+      color: var(--accent-red);
+    }
+
+    .announcement-meta {
       color: var(--text-secondary);
-      font-style: italic;
+      font-size: var(--font-xs);
+      margin-bottom: 6px;
+    }
+
+    /* ===== 师说 ===== */
+    .block-teacher {
+      background: linear-gradient(135deg, #251618, #2d1f24);
+    }
+
+    .teacher-saying {
+      border-left: 4px solid var(--accent-purple);
+      padding: 16px;
+      margin: 16px 0;
+      background: rgba(214,188,250,0.08);
+      border-radius: 0 8px 8px 0;
+    }
+
+    .teacher-name {
+      display: inline-block;
+      background: var(--accent-purple);
+      color: #1a1011;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .analysis-box {
+      background: rgba(107,90,145,0.15);
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin-top: 16px;
+      font-size: var(--font-sm);
       border-radius: 0 6px 6px 0;
     }
 
+    .analysis-box strong {
+      color: var(--accent-purple);
+    }
+
+    /* ===== 热议话题 ===== */
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--accent-primary);
+    }
+
+    .heat-stats {
+      display: inline-block;
+      background: var(--accent-red);
+      color: var(--bg-primary);
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      margin-bottom: 12px;
+    }
+
     .chat-bubble {
-      background: rgba(245,101,101,0.08);
-      border-radius: 18px;
+      background: rgba(255,255,255,0.05);
       padding: 12px 16px;
+      border-radius: 18px;
       margin: 10px 0;
-      font-size: var(--font-md);
+      position: relative;
     }
 
     .bubble-sender {
       font-size: var(--font-xs);
       color: var(--accent-primary);
       font-weight: 600;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
-    .hot-topic-title {
-      font-size: var(--font-lg);
-      color: var(--accent-orange);
-      margin: 15px 0 10px;
-      font-weight: 600;
+    .bubble-content {
+      font-size: var(--font-md);
     }
 
-    .heat-stats {
-      font-size: var(--font-xs);
-      background: rgba(251,146,60,0.15);
-      color: var(--accent-orange);
-      padding: 4px 10px;
-      border-radius: 12px;
-      display: inline-block;
-      margin-bottom: 10px;
-    }
-
-    .analysis-box {
-      background: rgba(251,211,141,0.08);
-      border-left: 3px solid var(--accent-orange);
-      padding: 12px 16px;
-      margin: 15px 0;
+    .topic-analysis {
+      background: rgba(245,101,101,0.1);
+      border: 1px solid var(--accent-red);
+      padding: 14px 18px;
+      margin-top: 16px;
+      border-radius: 8px;
       font-size: var(--font-sm);
-      border-radius: 0 6px 6px 0;
     }
 
-    .ai-tool-tag {
-      display: inline-block;
-      background: rgba(251,211,141,0.2);
-      color: var(--accent-orange);
-      padding: 3px 10px;
-      border-radius: 6px;
-      font-size: var(--font-xs);
-      margin: 5px 5px 5px 0;
+    /* ===== 荣誉时刻 ===== */
+    .honor-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 16px;
+      background: rgba(246,224,94,0.08);
+      border: 1px solid rgba(246,224,94,0.3);
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      flex-shrink: 0;
+    }
+
+    .honor-content {
+      flex: 1;
+    }
+
+    .honor-name {
       font-weight: 600;
+      color: var(--accent-yellow);
+      margin-bottom: 4px;
+      font-size: var(--font-md);
+    }
+
+    .honor-desc {
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
+    }
+
+    /* ===== AI资讯 ===== */
+    .ai-item {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      background: rgba(0,0,0,0.2);
+      border: 1px solid var(--border);
+      padding: 14px 16px;
+      margin: 12px 0;
+      border-radius: 8px;
+      font-size: var(--font-sm);
+    }
+
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #1a1011;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-bottom: 8px;
     }
 
     .ai-data-number {
       font-size: var(--font-data);
-      color: var(--accent-orange);
       font-weight: 700;
+      color: var(--accent-orange);
     }
 
-    .honor-name {
-      font-size: var(--font-md);
-      color: var(--accent-yellow);
-      font-weight: 600;
+    .link-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-orange);
+      color: var(--accent-orange);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin-top: 8px;
     }
 
-    .honor-medal {
-      font-size: var(--font-2xl);
-      text-shadow: 0 0 10px rgba(246,229,94,0.3);
+    /* ===== 社群动态 ===== */
+    .community-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      break-inside: avoid;
     }
 
     .community-speaker {
       font-size: var(--font-xs);
-      color: var(--accent-purple);
+      color: var(--accent-primary);
       font-weight: 600;
+      margin-bottom: 6px;
     }
 
-    .empty-notice {
-      text-align: center;
-      padding: 40px 20px;
+    .community-text {
+      font-size: var(--font-sm);
       color: var(--text-secondary);
+    }
+
+    .mood-summary {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+    }
+
+    /* ===== 引用样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 10px 16px;
+      margin: 12px 0;
+      background: rgba(214,188,250,0.06);
+      color: var(--text-primary);
+      font-style: italic;
       font-size: var(--font-sm);
     }
 
-    .empty-notice-icon {
-      font-size: 48px;
-      margin-bottom: 15px;
-      opacity: 0.5;
-    }
+    .highlight-blue { color: #58a6ff; font-weight: 700; }
+    .highlight-red { color: #f78166; font-weight: 700; }
+    .highlight-green { color: #3fb950; font-weight: 700; }
 
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      padding: 20px;
-      font-size: var(--font-xs);
-      color: var(--text-secondary);
-      border-top: 1px solid var(--border);
-    }
+    mark.blue { background: rgba(88,166,255,0.25); color: #58a6ff; }
+    mark.orange { background: rgba(255,166,87,0.25); color: #ffa657; }
+    mark.green { background: rgba(63,185,80,0.25); color: #3fb950; }
 
-    .highlight { color: var(--accent-primary); font-weight: 600; }
-    .tag { background: rgba(245,101,101,0.15); padding: 2px 8px; border-radius: 4px; font-size: var(--font-xs); }
+    .bg-highlight { background: rgba(88,166,255,0.12); padding: 2px 6px; border-radius: 3px; }
   </style>
 </head>
 <body>
+  <!-- 报头 Header -->
   <header class="newspaper-header">
     <div class="header-top">
-      <span class="issue-info">2026年04月10日 · 星期五</span>
+      <span class="issue-info">第50期 · 2026年04月10日 星期五</span>
       <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
-      <span class="stats-badge">今日 0 条消息 · 0 人发言</span>
+      <span class="stats-badge">今日 139 条消息 · 28 人发言</span>
     </div>
     <div class="header-divider"></div>
   </header>
 
+  <!-- 三栏主体 -->
   <main class="newspaper-grid">
-    <!-- 左栏 -->
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
     <aside class="col-left">
-      <section class="block-announcement">
-        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">📭</div>
-          <p>今日群内暂无重要公告，社群运营平稳进行中。</p>
+      <!-- 板块一：重要公告 -->
+      <section class="block-section block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+
+        <div class="announcement-item">
+          <div class="announcement-meta">[15:16] 官方安全提示</div>
+          <blockquote>
+            <strong>【⚠安全风险提示：野菩萨AI视频社团】</strong><br><br>
+            各位同学请注意：<br>
+            近期我们发现有不法分子冒充我司工作人员进行诈骗。为保障大家的财产安全，请大家务必提高警惕，谨防上当受骗！<br><br>
+            ❗请牢记以下要点：<br><br>
+            1、<strong>认准官方账号</strong>：仅信任企业微信带有"风变科技"官方认证标识的老师账号。非官方账号发布的信息一律不可信。<br><br>
+            2、<strong>官方收款途径</strong>：官方支付仅通过"风变科技"官方认证老师账号发送的链接，或【风变教育】微信小店、【风变AI社团】小红书店铺。任何引导私下转账、非官方二维码收款或跳转第三方平台缴费的行为均为诈骗，请勿操作！<br><br>
+            如您对任何信息或支付请求有疑问，请务必第一时间联系Andy进行核实。
+          </blockquote>
+        </div>
+
+        <div class="analysis-box">
+          <strong>💡 AI行动建议：</strong><br>
+          近日出现冒充工作人员的诈骗行为，请所有学员务必提高警惕。记住两个核心原则：①只信任带"风变科技"官方认证的企业微信账号；②绝不私下转账或扫码付款。遇到任何可疑情况，第一时间联系Andy老师核实。财产安全，警钟长鸣！
         </div>
       </section>
 
-      <section class="block-honor">
-        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🌟</div>
-          <p>今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！</p>
+      <!-- 板块四：荣誉时刻 -->
+      <section class="block-section">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+
+        <div class="honor-item">
+          <div class="honor-icon">🌟</div>
+          <div class="honor-content">
+            <div class="honor-name">Niki · Wu《一息生成》获赞</div>
+            <div class="honor-desc">Jennie高度赞赏："[强][强][强]"</div>
+          </div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎵</div>
+          <div class="honor-content">
+            <div class="honor-name">侯建丽《落》MV发布</div>
+            <div class="honor-desc">原创作品，以花瓣坠落为视觉之诗，凝视易逝之美</div>
+          </div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-content">
+            <div class="honor-name">LLLLLL《生命艺术》更新</div>
+            <div class="honor-desc">经老师建议修改，探索生命艺术主题</div>
+          </div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎹</div>
+          <div class="honor-content">
+            <div class="honor-name">真异分享音乐作品</div>
+            <div class="honor-desc">《相见欢》李煜亡国之君的千古绝唱</div>
+          </div>
+        </div>
+
+        <div class="analysis-box" style="border-left-color: var(--accent-yellow); background: rgba(246,224,94,0.1);">
+          <strong style="color: var(--accent-yellow);">🎖️ 今日亮点：</strong><br>
+          今天社群涌现出多部优秀作品！从《一息生成》的生命哲学探讨，到《落》的古典物哀美学，再到《生命艺术》的重新诠释，同学们的创作深度和艺术追求令人赞叹。侯建丽的原创MV、真异的音乐作品，都展现了社团成员多元化的才华。<br><br>
+          <strong>💡 延伸思考：</strong>优秀作品背后是对主题的深度思考和对细节的极致打磨。建议其他学员可以学习这些作品的创作思路：①明确核心主题，②用视觉语言讲故事，③在技术之外注重情感表达。
         </div>
       </section>
     </aside>
 
-    <!-- 中栏 -->
+    <!-- 中栏（最宽）：师说 + 热议话题 -->
     <article class="col-center">
-      <section class="block-teacher">
-        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🎓</div>
-          <p>今日两位老师暂无重要发言，期待明日精彩内容。</p>
+      <!-- 板块二：师说 -->
+      <section class="block-section block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+
+        <div style="text-align: center; padding: 40px 20px; color: var(--text-secondary); font-size: var(--font-sm);">
+          <p style="font-size: var(--font-2xl); margin-bottom: 16px;">📚</p>
+          <p>今日两位老师暂无公开授课内容</p>
+          <p style="margin-top: 12px; font-size: var(--font-xs);">同学们专注于技术探讨和作品创作<br>期待明日精彩内容</p>
         </div>
       </section>
 
-      <section class="block-hot">
-        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">💭</div>
-          <p>今日群内讨论较为平静，暂无高热度话题。</p>
+      <!-- 板块三：热议话题 -->
+      <section class="block-section">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <!-- 话题一：Seedance真人视频限制引发热议 -->
+        <div style="margin-bottom: 32px;">
+          <div class="hot-topic-title">话题一：Seedance 2.0真人视频限制引发用户强烈不满</div>
+          <div class="heat-stats">👥 12人参与 · 💬 28条讨论</div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">真异 [21:38]</div>
+            <div class="bubble-content">@视频课代表-南山 @视频课代表—紫薯有范 两位课代表好。我想请教一下，用SEEDANCE做真人视频的技巧，现在我的即梦就成了一个免费出图工具了，基本做不了视频，90%的武功都废了</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">真异 [21:55]</div>
+            <div class="bubble-content">@视频课代表—紫薯有范 用SEEDANCE了2.0出不了真人视频，用SEEDANCE1.0可以出真人视频，但是没有首尾帧，我也是服了。这会员买的，半拉残废</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">真异 [22:09]</div>
+            <div class="bubble-content">什么时候能解封啊，不解封就得换工具了，太不方便了。页面上写"暂时不支持真人"，也不知道这"暂时"能有多久</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">真异 [22:16]</div>
+            <div class="bubble-content">让我只是觉得这波操作真的给用户添了很多麻烦，抱怨两句。买会员的时候若是不让用真人就不买了。哎</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">Mature [22:20]</div>
+            <div class="bubble-content">LIBTV的SEEDANCE已经解封真人</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">真异 [22:27]</div>
+            <div class="bubble-content">@Mature 谢谢，我去瞅瞅，考虑下要不要改换门庭</div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>🔍 深度分析：</strong><br><br>
+            <strong>背景梳理：</strong>Seedance 2.0 突然限制真人首尾帧生成视频功能，引发付费用户强烈不满。真异同学坦言"90%的武功都废了"，反映出该功能对AI视频创作者的核心重要性。<br><br>
+            <strong>核心矛盾：</strong><br>
+            ① <strong>功能回退：</strong>2.0版本不支持真人首尾帧，1.0版本虽然支持但被弃用<br>
+            ② <strong>会员权益受损：</strong>付费用户买会员时功能可用，更新后突然受限<br>
+            ③ <strong>替代方案繁琐：</strong>需要通过"空场景+人设图+提示词"等方式绕过审核<br>
+            ④ <strong>平台差异：</strong>LIBTV的Seedance已解封，但官方版仍未恢复<br><br>
+            <strong>技术方案（来自课代表）：</strong><br>
+            - 视频课代表—紫薯有范：制作多角度角色卡作为垫图，大概率能通过真人验证<br>
+            - 视频课代表—南山：空场景+人设图+提示词出视频，或上传真人视频做参考延续剧情<br>
+            - LLLLLL：展示涂抹面部或使用特定垫图的技巧<br><br>
+            <strong>用户迁移：</strong>部分用户考虑迁移至LIBTV或可灵等其他平台。<br><br>
+            <strong>⚠️ AI研判：</strong>这是AI视频工具领域"合规性vs用户体验"的典型案例。平台出于监管考虑限制真人生成，但应提供更平滑的过渡方案和清晰的沟通。建议创作者：①分散风险，多平台布局；②掌握绕过技巧作为备用方案；③关注政策动态，及时调整策略。
+          </div>
+        </div>
+
+        <!-- 话题二：拍我6文生视频功能测试 -->
+        <div>
+          <div class="hot-topic-title">话题二：拍我6（即梦）文生视频功能测试反馈</div>
+          <div class="heat-stats">👥 4人参与 · 💬 6条讨论</div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">墨墨memory [23:04]</div>
+            <div class="bubble-content">拍我6的文生你们试没，今天试了一下，感觉还挺好</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">Mature [23:05]</div>
+            <div class="bubble-content">和狗梦（即梦）比还是有些差距。</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh [23:09]</div>
+            <div class="bubble-content">差距大</div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh [23:10-23:11]</div>
+            <div class="bubble-content">我昨天刷了5000分，各种试。v6和c1...出欧美风格还行…机甲之类的，长镜头记录片…</div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>📊 功能测评总结：</strong><br><br>
+            <strong>拍我6文生视频：</strong><br>
+            ✅ 优点：墨墨memory测试反馈"还挺好"<br>
+            ❌ 缺点：与即梦（狗梦）相比"差距大"（Mature、逆流而上 lu-xh）<br><br>
+            <strong>适用场景：</strong>欧美风格、机甲类、长镜头纪录片（逆流而上 lu-xh实测）<br><br>
+            <strong>💡 AI建议：</strong>作为即梦的补充工具使用，在特定风格（欧美、机甲）上可能有优势。建议创作者根据项目需求灵活切换工具，不局限于单一平台。
+          </div>
         </div>
       </section>
     </article>
 
-    <!-- 右栏 -->
+    <!-- 右栏：AI资讯 + 社群动态 -->
     <aside class="col-right">
-      <section class="block-ai">
-        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🔬</div>
-          <p>今日暂无AI工具相关讨论，可关注行业最新动态。</p>
+      <!-- 板块五：AI资讯 -->
+      <section class="block-section">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+
+        <div class="ai-item">
+          <div class="ai-tool-badge">Claude</div>
+          <strong>Claude Opus 4.6差评如潮</strong><br>
+          <div style="margin-top: 8px;">
+            新智元报道：思考深度暴跌<span class="ai-data-number">67%</span>，AMD总监<span class="ai-data-number">6852</span>次日志打脸。用户反馈"我也觉得4.6有点降"（春天、逆流而上 lu-xh）<br>
+            <a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652690807&idx=2&sn=c6438fc144df3d89df91ff6b6146898f" class="link-pill" target="_blank">阅读全文 →</a>
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <div class="ai-tool-badge">政策监管</div>
+          <strong>五部门发文规范AI拟人化互动服务</strong><br>
+          <div style="margin-top: 8px;">
+            央视新闻：不得向未成年人提供虚拟伴侣！国家网信办、工信部、公安部、教育部、文化和旅游部等五部门联合发布《生成式人工智能服务管理暂行办法》，加强对AI拟人化互动服务的监管。<br>
+            <a href="https://mp.weixin.qq.com/s?__biz=MTI0MDU3NDYwMQ==&mid=2657909774&idx=1&sn=4c6bad82cf372ea91f6819824ff653ca" class="link-pill" target="_blank">阅读全文 →</a>
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <div class="ai-tool-badge">工具动态</div>
+          <strong>Seedance真人功能分化</strong><br>
+          <div style="margin-top: 8px;">
+            • 官方版：2.0限制真人首尾帧，1.0可用但无首尾帧<br>
+            • LIBTV版：已解封真人功能<br>
+            • 用户体验：真异等用户考虑迁移平台
+          </div>
+        </div>
+
+        <div class="analysis-box">
+          <strong>📈 行业趋势判断：</strong><br><br>
+          <strong>1. AI模型质量波动：</strong>Claude 4.6争议反映出AI模型迭代中的不稳定性，开发者需在性能提升与稳定性间取得平衡。<br><br>
+          <strong>2. 监管趋严：</strong>五部门规范AI拟人化服务，特别是针对未成年人的保护，表明AI行业进入强监管时代。<br><br>
+          <strong>3. 平台生态分化：</strong>同一工具（Seedance）在不同平台功能差异明显，反映技术授权和合规策略的多样性。<br><br>
+          <strong>💡 实践建议：</strong>创作者应：①多平台布局，降低单一工具依赖风险；②关注政策动态，提前规避合规风险；③持续测试新模型，但保持对稳定版本的备用。
         </div>
       </section>
 
-      <section class="block-community">
-        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
-        <div class="empty-notice">
-          <div class="empty-notice-icon">🌙</div>
-          <p>今日社群较为安静，大家都在默默耕耘中。</p>
-          <div style="margin-top: 15px; padding: 12px; background: linear-gradient(135deg, rgba(245,101,101,0.08), rgba(229,62,62,0.04)); border-radius: 8px; font-size: var(--font-sm); color: var(--accent-primary); font-style: italic;">
-            💬 小编寄语：安静的时光，是沉淀与成长的契机。期待明天更多精彩分享！
-          </div>
+      <!-- 板块六：社群动态 -->
+      <section class="block-section">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+
+        <div class="community-card">
+          <div class="community-speaker">逆流而上 lu-xh [21:52]</div>
+          <div class="community-text">咱们群🈵了…500人[加油][玫瑰][烟花][爆竹][礼物][啤酒]</div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">真异 [21:15]</div>
+          <div class="community-text">一听就是中国人的配音，发音咬得太死了（回应亮彬的视频分享）</div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">Jennie [21:51-21:52]</div>
+          <div class="community-text">分享真人配音英文视频</div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">逆流而上 lu-xh [22:37]</div>
+          <div class="community-text">睡前来一曲[嘿哈]。分享《海上钢琴师》主题的AI视频</div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">逆流而上 lu-xh [23:12]</div>
+          <div class="community-text">分享《长安的荔枝》主题AI视频，晚安</div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">设计师lucia [23:13-23:17]</div>
+          <div class="community-text">@逆流而上 lu-xh 你真高产！积分都是参加活动薅的？讨论会员价格变化</div>
+        </div>
+
+        <div class="community-card">
+          <div class="community-speaker">koori [23:38]</div>
+          <div class="community-text">感觉最近即梦的真人审核机制松了，但做的视频2天了还没出来[捂脸]</div>
+        </div>
+
+        <div class="mood-summary">
+          <strong>🎪 今日氛围：</strong><br>
+          社群达到500人满员里程碑！整体氛围以技术探讨和作品分享为主，核心议题是Seedance真人限制引发的工具选择讨论。晚间时段作品分享活跃，从《海上钢琴师》到《长安的荔枝》，音乐与视觉的碰撞展现出学员们的创作热情。深夜时分的"晚安"对话，体现了社群温暖的归属感。<br><br>
+          <strong>📝 小编寄语：</strong>500人不是终点，而是新的起点。在工具迭代和监管趋严的大环境下，希望同学们互帮互助，共同探索AI视频创作的无限可能。每一个问题，都是集体智慧的火花；每一次分享，都是社群价值的体现。
         </div>
       </section>
     </aside>
   </main>
 
+  <!-- 页脚 -->
   <footer>
-    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-12 03:10:05</p>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-13</p>
+    <p style="margin-top: 8px; opacity: 0.7;">📰 第50期 | 报告由AI自动生成</p>
   </footer>
 </body>
 </html>
