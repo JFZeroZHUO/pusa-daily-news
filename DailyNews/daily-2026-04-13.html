@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-13</title>
+  <style>
+    :root {
+      /* ===== 星期一：深空蓝配色 ===== */
+      --bg-primary:    #0a0e14;
+      --bg-card:       #11151c;
+      --bg-card-hover: #1a1f2a;
+      --border:        #2d3748;
+      --text-primary:  #e2e8f0;
+      --text-secondary:#718096;
+      --accent-primary:#63b3ed;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #b794f4;
+      --accent-orange: #f6ad55;
+      --accent-yellow: #ecc94b;
+      --gradient-title: linear-gradient(90deg, #63b3ed, #4299e1);
+
+      /* ===== 字体大小系统（强制） ===== */
+      --font-base:        16px;
+      --font-xs:          14px;
+      --font-sm:          15px;
+      --font-md:          16px;
+      --font-lg:          18px;
+      --font-xl:          21px;
+      --font-2xl:         27px;
+      --font-3xl:         31px;
+      --font-data:        23px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      background: linear-gradient(180deg, rgba(10,14,20,0.95), rgba(17,21,28,0.98));
+      border-bottom: 2px solid var(--accent-primary);
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    .header-top {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .issue-info {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      letter-spacing: 1px;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 700;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin: 16px 0;
+      letter-spacing: 2px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      font-size: var(--font-xs);
+      background: rgba(99,179,237,0.15);
+      border: 1px solid var(--accent-primary);
+      border-radius: 20px;
+      padding: 4px 16px;
+      color: var(--accent-primary);
+    }
+
+    .header-divider {
+      height: 2px;
+      background: var(--gradient-title);
+      margin-top: 20px;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== 板块通用 ===== */
+    .block-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* ===== 文字强调 ===== */
+    .highlight-blue { color: #58a6ff; font-weight: 700; }
+    .highlight-red { color: #f78166; font-weight: 700; }
+    .highlight-green { color: #3fb950; font-weight: 700; }
+
+    .bg-highlight {
+      background: rgba(88,166,255,0.12);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(210,168,255,0.06);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+    }
+
+    mark.blue {
+      background: rgba(88,166,255,0.25);
+      color: #58a6ff;
+    }
+
+    mark.orange {
+      background: rgba(255,166,87,0.25);
+      color: #ffa657;
+    }
+
+    mark.green {
+      background: rgba(63,185,80,0.25);
+      color: #3fb950;
+    }
+
+    /* ===== 重要公告 ===== */
+    .block-announcement {
+      border-top: 4px solid var(--accent-red);
+    }
+
+    .alert-bar {
+      background: linear-gradient(90deg, #f78166, #ff9580);
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: var(--font-sm);
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .announcement-item {
+      position: relative;
+      padding-left: 20px;
+      border-left: 2px solid var(--accent-red);
+      margin-bottom: 20px;
+    }
+
+    .announcement-time {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .announcement-list {
+      list-style: none;
+      padding: 12px 0;
+    }
+
+    .announcement-list li {
+      padding: 8px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    .announcement-list li:before {
+      content: "▸";
+      color: var(--accent-red);
+      margin-right: 8px;
+    }
+
+    /* ===== 师说 ===== */
+    .block-teacher {
+      background: linear-gradient(135deg, #161b22, #1a1f2e);
+      border: 1px solid rgba(210,168,255,0.3);
+    }
+
+    .teacher-words blockquote {
+      border-left: 4px solid var(--accent-purple);
+      background: rgba(210,168,255,0.08);
+      padding: 16px 20px;
+      font-size: var(--font-sm);
+    }
+
+    .speaker-tag {
+      display: inline-block;
+      background: rgba(210,168,255,0.2);
+      color: var(--accent-purple);
+      padding: 4px 12px;
+      border-radius: 16px;
+      font-size: var(--font-xs);
+      margin-bottom: 8px;
+    }
+
+    .ai-insight {
+      background: rgba(99,179,237,0.08);
+      border-left: 3px solid var(--accent-primary);
+      padding: 12px 16px;
+      margin: 12px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* ===== 热议话题 ===== */
+    .hot-topic-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .heat-stats {
+      font-size: var(--font-xs);
+      background: #f78166;
+      border-radius: 12px;
+      padding: 4px 10px;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      font-size: var(--font-md);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .analysis-box {
+      background: rgba(255,166,87,0.06);
+      border: 1px solid rgba(255,166,87,0.2);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 12px;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* ===== 荣誉时刻 ===== */
+    .honor-item {
+      background: linear-gradient(135deg, rgba(227,179,65,0.08), rgba(255,215,0,0.05));
+      border: 1px solid rgba(227,179,65,0.3);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 600;
+      text-align: center;
+      color: var(--accent-yellow);
+      margin-bottom: 8px;
+    }
+
+    .honor-prize {
+      font-size: var(--font-md);
+      text-align: center;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+
+    .honor-desc {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    /* ===== AI资讯 ===== */
+    .ai-item {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+      font-family: monospace;
+      font-size: var(--font-sm);
+      background: rgba(0,0,0,0.2);
+    }
+
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #1a1410;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    .ai-data-number {
+      font-size: var(--font-data);
+      color: var(--accent-orange);
+      font-weight: 700;
+    }
+
+    .ai-highlight {
+      color: var(--accent-orange);
+      font-weight: 600;
+    }
+
+    /* ===== 社群动态 ===== */
+    .community-grid {
+      column-count: 2;
+      column-gap: 12px;
+    }
+
+    .community-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+      break-inside: avoid;
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      margin-bottom: 6px;
+    }
+
+    .community-content {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    .mood-summary {
+      background: rgba(99,179,237,0.06);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 16px;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+      margin-top: 32px;
+    }
+
+    /* ===== 主题切换按钮 ===== */
+    .theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      background: var(--bg-card);
+      cursor: pointer;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      z-index: 1000;
+    }
+
+    .theme-toggle:hover {
+      background: var(--bg-card-hover);
+      transform: scale(1.05);
+    }
+
+    /* ===== 浅色主题 ===== */
+    [data-theme="light"] {
+      --bg-primary:    #f5f3ee;
+      --bg-card:       #ffffff;
+      --bg-card-hover: #f8f6f1;
+      --border:        #e0d8c8;
+      --text-primary:  #2d2820;
+      --text-secondary:#6b6560;
+      --accent-primary:#5a9bd4;
+      --accent-red:    #e87a6f;
+      --accent-green:  #5fa370;
+      --accent-purple: #9b7dd4;
+      --accent-orange: #d4925a;
+      --accent-yellow: #d4a52a;
+    }
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()" title="切换主题">☀️</button>
+
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第XX期 · 2026年04月13日 星期一</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 112 条消息 · 18 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <main class="newspaper-grid">
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
+    <aside class="col-left">
+      <section class="block-section block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span>重要公告</h2>
+
+        <div class="alert-bar">平台版本升级预告</div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">2026-04-13 20:00</div>
+          <blockquote>
+            <strong>@所有人 海艺AI平台重大升级通知</strong><br><br>
+
+            为了持续提升您的创作体验，我们将于本周三对 haiyi.art 进行一次重大的底层代码升级与全站改版。<br><br>
+
+            <strong>重点更新内容：</strong><br>
+            ● 底层架构重构：代码全面升级，极大地提升了页面加载与创作响应速度<br>
+            ● 创作流与界面焕新：页面结构更清晰，操作体验更顺滑、更高效<br>
+            ● 模型能力全面进化：模型库与核心创作能力同步升级，探索更多可能<br>
+            ● 功能无缝对齐：全站核心功能与个人数据将平滑迁移至全新版本<br><br>
+
+            <em>—— 逆流而上 lu-xh @全员</em>
+          </blockquote>
+
+          <ul class="announcement-list">
+            <li>升级时间：本周三（具体时间待公布）</li>
+            <li>影响范围：全站功能短暂波动</li>
+            <li>备用方案：可访问 beta.haiyi.art 继续创作</li>
+            <li>数据迁移：个人数据将平滑迁移，无需担心</li>
+          </ul>
+        </div>
+
+        <div class="ai-insight">
+          <strong>🤖 AI行动建议：</strong><br>
+          本次升级对日常创作影响较小，但建议在本周三前完成重要项目的导出备份。Beta版已稳定运行，可提前熟悉新界面操作流程。升级后首个版本建议进行小范围测试，确认功能正常后再投入大规模创作。
+        </div>
+      </section>
+
+      <section class="block-section block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span>荣誉时刻</h2>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">真异</div>
+          <div class="honor-prize">成功创作人脸AI视频作品</div>
+          <div class="honor-desc">
+            <blockquote>
+              "终于憋出了一个来，全是人脸，用Wan生的。讲了我和我歪果仁老公的生活瞬间。"
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="ai-insight">
+          <strong>💡 作品亮点：</strong><br>
+          真异克服了即梦平台"不能露脸"的限制，通过Wan模型成功生成全人脸视频，讲述跨文化家庭生活场景。这种AI视频叙事方式为个人故事创作提供了新可能，展现了AI工具在生活记录领域的应用潜力。对其他学员的启发是：遇到平台限制时，可尝试切换模型或工具，找到最适合的创作路径。
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏：师说 + 热议话题 -->
+    <article class="col-center">
+      <section class="block-section block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span>师说</h2>
+        <p style="color: var(--text-secondary); font-size: var(--font-sm);">今日两位老师暂无重要发言，期待明日精彩内容。</p>
+      </section>
+
+      <section class="block-section block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span>热议话题</h2>
+
+        <div class="hot-topic-card">
+          <div class="hot-topic-title">话题一：即梦平台"变脸"争议</div>
+          <span class="heat-stats">🔥 12人参与 · 32条讨论</span>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">Jennie</div>
+            今天有人用即梦成功了吗？不知受什么刺激了，不要放脸，放脸就是直接打回，也不管是不是真人了。那这视频还做个屁啊，全把脸糊上。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">饮悦小站</div>
+            免费的几天视频都出不来了。可能得冲钱。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">Echo 🎶（Ekho迴)</div>
+            即梦现在一次最多只让跑两个任务，太恶心了。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">真异</div>
+            天下苦即梦久已。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">koori</div>
+            我也差不多，周五晚上的还没出来。4天了。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">V.</div>
+            基础会员不是会员现在，只出出图。
+          </div>
+
+          <div class="analysis-box">
+            <strong>📊 AI分析结论：</strong><br><br>
+
+            <strong>话题背景：</strong>即梦平台近期调整策略，免费用户视频生成排队时间长达4天，且新增"人脸限制"规则，引发学员强烈不满。<br><br>
+
+            <strong>各方观点梳理：</strong><br>
+            ● 情绪派（Jennie、饮悦小站）：认为平台"变脸"，体验严重下降，"视频还做个屁啊"<br>
+            ● 理性派（逆流而上 lu-xh）：平台涨价是大势所趋，"想方便就VIP，不急就小火慢炖"<br>
+            ● 寻找替代（由纪、简约）：转向SD2.0手搓、小云雀等其他工具<br><br>
+
+            <strong>AI判断与建议：</strong>平台商业化是必然趋势，但策略激进程度值得商榷。建议学员：<br>
+            1. 短期：多平台备用，避免单一依赖<br>
+            2. 中期：关注海艺、可灵等替代工具的优惠活动<br>
+            3. 长期：学习ComfyUI等本地部署方案，掌握自主权
+          </div>
+        </div>
+
+        <div class="hot-topic-card">
+          <div class="hot-topic-title">话题二：海艺AI平台测评与对比</div>
+          <span class="heat-stats">🔥 8人参与 · 18条讨论</span>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">兜兜里＊有糖</div>
+            我用可灵生的视频跟智障一样，不如Seedance。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            海艺5秒1200积分。我攒了1.5w，每天打卡做图做视频…每天都有任务。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">设计师lucia（周末不接新单）</div>
+            那还不如直接用即梦的VIP，15秒也就165积分。
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            海艺积分不要钱，VIP15分，不是210分。
+          </div>
+
+          <div class="analysis-box">
+            <strong>📊 AI分析结论：</strong><br><br>
+
+            <strong>话题背景：</strong>学员们在寻找即梦的替代方案，对比海艺、可灵、Seedance等平台的性价比。<br><br>
+
+            <strong>各平台性价比对比：</strong><br>
+            ● 海艺AI：5秒1200积分，但积分可通过免费任务获取，适合长期薅羊毛<br>
+            ● 即梦VIP：15秒165积分，需要付费会员，速度快但成本高<br>
+            ● Seedance：质量优于可灵，但目前状况不明<br>
+            ● 可灵：被评价为"跟智障一样"，不推荐<br><br>
+
+            <strong>AI建议：</strong>根据紧急程度选择工具——急单用即梦VIP，日常练手用海艺免费积分，实验性项目可尝试SD2.0手搓。关键是要多平台布局，避免被单一平台政策绑架。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏：AI资讯 + 社群动态 -->
+    <aside class="col-right">
+      <section class="block-section block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span>AI资讯</h2>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">工具对比</span>
+          <strong>今日AI焦点：</strong>视频生成平台集体"变脸"，即梦排队、海艺升级、可灵质量参差
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">即梦</span>
+          <strong>排队时长：</strong><span class="ai-data-number">4天</span><br>
+          <span class="ai-highlight">限制：</span>免费用户视频排队4天，人脸内容直接打回，同时任务限制2个
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">海艺AI</span>
+          <strong>版本升级：</strong>本周三全站改版<br>
+          <span class="ai-highlight">积分获取：</span>每日任务免费获取，5秒视频1200积分
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">可灵</span>
+          <strong>用户评价：</strong>视频质量"跟智障一样"<br>
+          <span class="ai-highlight">对比：</span>不如Seedance稳定
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">Seedance</span>
+          <strong>用户反馈：</strong>质量优于可灵，但目前未提及排队问题
+        </div>
+
+        <div class="ai-insight">
+          <strong>📈 趋势判断：</strong><br><br>
+          AI视频平台进入商业化深水区，免费午餐逐渐减少。即梦激进策略可能流失用户，海艺通过免费任务留存用户，两者路线不同。预计未来平台分化加剧——付费平台拼速度质量，免费平台拼用户粘性。<br><br>
+
+          <strong>💡 使用建议：</strong><br>
+          1. 建立<span class="highlight-blue">3平台备份策略</span>：主力+备用+本地<br>
+          2. 关注海艺Beta版，新版本可能优化体验<br>
+          3. 学习基础ComfyUI，掌握自主生成能力<br>
+          4. 积极参与平台活动，囤积免费额度
+        </div>
+      </section>
+
+      <section class="block-section block-community">
+        <h2 class="block-title"><span class="icon">💬</span>社群动态</h2>
+
+        <div class="community-grid">
+          <div class="community-card">
+            <div class="community-speaker">兜兜里＊有糖</div>
+            <div class="community-content">亲们，有没有什么去除视频水印的软件呀？</div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">刘凯</div>
+            <div class="community-content">试过剪映会员，去一次300多几分。如果手艺好就搜个教程自己搞，慢点，省钱。</div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">真异</div>
+            <div class="community-content">坐了那么多次飞机，飞行模式，今天才终于理解了。</div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">简约</div>
+            <div class="community-content">确实。（回应：天下苦即梦久已）</div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">ヒーロー見参！</div>
+            <div class="community-content">海艺改版了吗？找不到每日挑战的界面了。遇到bug了，一根筋两头堵。</div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">阿勇</div>
+            <div class="community-content">每日挑战只能用海艺当日生成的视频或图片。</div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">设计师lucia</div>
+            <div class="community-content">想问下，我现在在做首歌，和音部分是rap，我是要单独生成rap部分才行么？</div>
+          </div>
+        </div>
+
+        <div class="mood-summary">
+          <strong>🎭 今日氛围总结：</strong><br><br>
+          社群情绪在<span class="highlight-red">焦虑</span>与<span class="highlight-green">探索</span>间摇摆。下午时段因即梦平台限制引发集体吐槽，"天下苦即梦久已"成为今日金句。晚间讨论转向寻找替代方案，海艺的免费积分策略为大家提供了新的希望。真异成功产出人脸视频作品，为焦虑的氛围带来一丝欣慰。整体而言，这是"困境中寻找出路"的一天，学员们正在用积极的态度应对AI工具的变化无常。<br><br>
+          <em>—— 小编寄语：平台会变，但创作的热情不变。多一个备胎，就少一份焦虑。</em>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-14 04:20:09</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('pusa-theme', next);
+      document.querySelector('.theme-toggle').textContent = next === 'dark' ? '☀️' : '🌙';
+    }
+
+    // 初始化主题
+    const savedTheme = localStorage.getItem('pusa-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    document.querySelector('.theme-toggle').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+  </script>
+</body>
+</html>
