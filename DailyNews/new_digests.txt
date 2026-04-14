@@ -1,0 +1,373 @@
+[
+  {
+    "date": "2026-04-11",
+    "file": "DailyNews/daily-2026-04-11.html",
+    "title": "社群静默日",
+    "messageCount": 0,
+    "speakerCount": 0
+  },
+  {
+    "date": "2026-04-10",
+    "file": "DailyNews/daily-2026-04-10.html",
+    "title": "社群静默日",
+    "messageCount": 0,
+    "speakerCount": 0
+  },
+  {
+    "date": "2026-04-09",
+    "file": "DailyNews/daily-2026-04-09.html",
+    "title": "人物衰老制作·PixVerse C1发布·字节Seeduplex",
+    "messageCount": 44,
+    "speakerCount": 15
+  },
+  {
+    "date": "2026-04-08",
+    "file": "DailyNews/daily-2026-04-08.html",
+    "title": "即梦VIP涨价调整·HappyHorseAI新工具测试",
+    "messageCount": 181,
+    "speakerCount": 36
+  },
+  {
+    "date": "2026-04-07",
+    "file": "DailyNews/daily-2026-04-07.html",
+    "title": "AI斗拱拆解技术探讨·中国美院AI博士招生",
+    "messageCount": 35,
+    "speakerCount": 8
+  },
+  {
+    "date": "2026-04-06",
+    "file": "DailyNews/daily-2026-04-06.html",
+    "title": "Seedance 2.0逐秒提示词·分镜技巧深度探讨",
+    "messageCount": 111,
+    "speakerCount": 5
+  },
+  {
+    "date": "2026-04-05",
+    "file": "DailyNews/daily-2026-04-05.html",
+    "title": "逆流而上高产创作·古建筑还原技术突破",
+    "messageCount": 97,
+    "speakerCount": 24
+  },
+  {
+    "date": "2026-04-04",
+    "file": "DailyNews/daily-2026-04-04.html",
+    "title": "横琴威尼斯AI黑客松征召·组队参赛建议",
+    "messageCount": 48,
+    "speakerCount": 15
+  },
+  {
+    "date": "2026-04-03",
+    "file": "DailyNews/daily-2026-04-03.html",
+    "title": "清明放假通知发布·Seedance 2.0提速热议",
+    "messageCount": 42,
+    "speakerCount": 12
+  },
+  {
+    "date": "2026-04-02",
+    "file": "DailyNews/daily-2026-04-02.html",
+    "title": "Seedance 2.0多模型上线·工具使用热议",
+    "messageCount": 21,
+    "speakerCount": 9
+  },
+  {
+    "date": "2026-04-01",
+    "file": "DailyNews/daily-2026-04-01.html",
+    "title": "捷报频传：利敏获国风音乐大赛铜奖",
+    "messageCount": 104,
+    "speakerCount": 33
+  },
+  {
+    "date": "2026-03-31",
+    "file": "DailyNews/daily-2026-03-31.html",
+    "title": "司尧小红书作品投票热·PixVerse V6上线",
+    "messageCount": 114,
+    "speakerCount": 54
+  },
+  {
+    "date": "2026-03-30",
+    "file": "DailyNews/daily-2026-03-30.html",
+    "title": "0329作业发布·MJ风格参考网站热议·Seedance换行技巧",
+    "messageCount": 48,
+    "speakerCount": 9
+  },
+  {
+    "date": "2026-03-29",
+    "file": "DailyNews/daily-2026-03-29.html",
+    "title": "海艺生图限额调整·SD2.0价格风波·周末即梦提速",
+    "messageCount": 95,
+    "speakerCount": 36
+  },
+  {
+    "date": "2026-03-28",
+    "file": "DailyNews/daily-2026-03-28.html",
+    "title": "沸腾星云极端美学·腾讯灵芽平台热议",
+    "messageCount": 25,
+    "speakerCount": 7
+  },
+  {
+    "date": "2026-03-27",
+    "file": "DailyNews/daily-2026-03-27.html",
+    "title": "B站作品5万播放热潮·Seedance涨价缓解",
+    "messageCount": 85,
+    "speakerCount": 31
+  },
+  {
+    "date": "2026-03-26",
+    "file": "DailyNews/daily-2026-03-26.html",
+    "title": "多社团焦虑与SD工具价值讨论·辰星守望古风赛博系列",
+    "messageCount": 178,
+    "speakerCount": 36
+  },
+  {
+    "date": "2026-03-25",
+    "file": "DailyNews/daily-2026-03-25.html",
+    "title": "果冻风格作业大比拼·Kelly团队140万点赞·音色一致性技术探讨",
+    "messageCount": 327,
+    "speakerCount": 48
+  },
+  {
+    "date": "2026-03-24",
+    "file": "DailyNews/daily-2026-03-24.html",
+    "title": "电影轴线理论与AI糖果色质感深度探讨",
+    "messageCount": 106,
+    "speakerCount": 31
+  },
+  {
+    "date": "2026-03-23",
+    "file": "DailyNews/daily-2026-03-23.html",
+    "title": "风变AI工具故障与即梦审查趋严",
+    "messageCount": 84,
+    "speakerCount": 11
+  },
+  {
+    "date": "2026-03-22",
+    "file": "DailyNews/daily-2026-03-22.html",
+    "title": "AI工具字幕避坑指南·16位新成员加入",
+    "messageCount": 180,
+    "speakerCount": 43
+  },
+  {
+    "date": "2026-03-21",
+    "file": "DailyNews/daily-2026-03-21.html",
+    "title": "liblib工具测评热议·Claude Code新功能上线",
+    "messageCount": 102,
+    "speakerCount": 18
+  },
+  {
+    "date": "2026-03-20",
+    "file": "DailyNews/daily-2026-03-20.html",
+    "title": "三体赛道作品热潮·15名新成员加入",
+    "messageCount": 155,
+    "speakerCount": 18
+  },
+  {
+    "date": "2026-03-19",
+    "file": "DailyNews/daily-2026-03-19.html",
+    "title": "urey柚梨2天神作·小红书封号风波",
+    "messageCount": 217,
+    "speakerCount": 44
+  },
+  {
+    "date": "2026-03-18",
+    "file": "DailyNews/daily-2026-03-18.html",
+    "title": "Maggie组短片交卷·视频号发布坚持讨论",
+    "messageCount": 50,
+    "speakerCount": 24
+  },
+  {
+    "date": "2026-03-17",
+    "file": "DailyNews/daily-2026-03-17.html",
+    "title": "三体赛道作品发布热潮·可灵3.0使用讨论",
+    "messageCount": 50,
+    "speakerCount": 25
+  },
+  {
+    "date": "2026-03-16",
+    "file": "DailyNews/daily-2026-03-16.html",
+    "title": "垫图技巧深度解析·AI视频真假辨别思考",
+    "messageCount": 68,
+    "speakerCount": 20
+  },
+  {
+    "date": "2026-03-15",
+    "file": "DailyNews/daily-2026-03-15.html",
+    "title": "品牌应用直播课·绣骨听雷入围决赛",
+    "messageCount": 80,
+    "speakerCount": 25
+  },
+  {
+    "date": "2026-03-12",
+    "file": "DailyNews/daily-2026-03-12.html",
+    "title": "可灵3.0免费薅羊毛热潮·海艺大赛广撒网策略",
+    "messageCount": 71,
+    "speakerCount": 23
+  },
+  {
+    "date": "2026-03-13",
+    "file": "DailyNews/daily-2026-03-13.html",
+    "title": "课代表机制启动·可灵3.0动作控制实测",
+    "messageCount": 112,
+    "speakerCount": 77
+  },
+  {
+    "date": "2026-03-14",
+    "file": "DailyNews/daily-2026-03-14.html",
+    "title": "3D建模工具大讨论·Prompt Battle 176预告",
+    "messageCount": 51,
+    "speakerCount": 21
+  },
+  {
+    "date": "2026-03-11",
+    "file": "DailyNews/daily-2026-03-11.html",
+    "title": "群内静默日·期待明日精彩",
+    "messageCount": 0,
+    "speakerCount": 0
+  },
+  {
+    "date": "2026-03-10",
+    "file": "DailyNews/daily-2026-03-10.html",
+    "title": "辰星守望可灵神作引爆社群·AI平台监管趋严",
+    "messageCount": 105,
+    "speakerCount": 30
+  },
+  {
+    "date": "2026-03-08",
+    "file": "DailyNews/daily-2026-03-08.html",
+    "title": "三八妇女节群友献礼·Aria清解答港剧配音",
+    "messageCount": 69,
+    "speakerCount": 25
+  },
+  {
+    "date": "2026-03-07",
+    "file": "DailyNews/daily-2026-03-07.html",
+    "title": "Prompt Battle擂台赛与AI时代焦虑讨论",
+    "messageCount": 68,
+    "speakerCount": 20
+  },
+  {
+    "date": "2026-03-06",
+    "file": "DailyNews/daily-2026-03-06.html",
+    "title": "B班学员加入A班欢迎活动与保罗老师直播预告",
+    "messageCount": 144,
+    "speakerCount": 48
+  },
+  {
+    "date": "2026-03-05",
+    "file": "DailyNews/daily-2026-03-05.html",
+    "title": "PBS擂台赛预告与短剧作品交流",
+    "messageCount": 11,
+    "speakerCount": 8
+  },
+  {
+    "date": "2026-03-04",
+    "file": "DailyNews/daily-2026-03-04.html",
+    "title": "年前AI视频比赛获奖名单公布·总奖金6500元",
+    "messageCount": 130,
+    "speakerCount": 53
+  },
+  {
+    "date": "2026-03-02",
+    "file": "DailyNews/daily-2026-03-02.html",
+    "title": "AI三方实测与战争哲学夜话",
+    "messageCount": 423,
+    "speakerCount": 37
+  },
+  {
+    "date": "2026-03-03",
+    "file": "DailyNews/daily-2026-03-03.html",
+    "title": "元宵节·Claude宕机风波与即梦水印危机",
+    "messageCount": 163,
+    "speakerCount": 38
+  },
+  {
+    "date": "2026-03-01",
+    "file": "DailyNews/daily-2026-03-01.html",
+    "title": "Livecoding代码音乐首课与Claude登顶App Store",
+    "messageCount": 120,
+    "speakerCount": 31
+  },
+  {
+    "date": "2026-02-28",
+    "file": "DailyNews/daily-2026-02-28.html",
+    "title": "昭陵六骏×15元素编剧框架与反诈骗识别指南",
+    "messageCount": 188,
+    "speakerCount": 30
+  },
+  {
+    "date": "2026-02-27",
+    "file": "DailyNews/daily-2026-02-27.html",
+    "title": "Seedance排队困境与Livecoding音乐预告",
+    "messageCount": 166,
+    "speakerCount": 27
+  },
+  {
+    "date": "2026-02-26",
+    "file": "DailyNews/daily-2026-02-26.html",
+    "title": "Gemini音乐首测与海艺大赛颁奖",
+    "messageCount": 175,
+    "speakerCount": 29
+  },
+  {
+    "date": "2026-02-25",
+    "file": "DailyNews/daily-2026-02-25.html",
+    "title": "老张400万播放爆款复盘与IP运营建议",
+    "messageCount": 68,
+    "speakerCount": 30
+  },
+  {
+    "date": "2026-02-24",
+    "file": "DailyNews/daily-2026-02-24.html",
+    "title": "机器人时代畅想与剪映兼容性解答",
+    "messageCount": 64,
+    "speakerCount": 17
+  },
+  {
+    "date": "2026-02-23",
+    "file": "DailyNews/daily-2026-02-23.html",
+    "title": "Seedance真人限制与多工具切换策略",
+    "messageCount": 119,
+    "speakerCount": 23
+  },
+  {
+    "date": "2026-02-22",
+    "file": "DailyNews/daily-2026-02-22.html",
+    "title": "新年第一课与Seedance真人限制讨论",
+    "messageCount": 232,
+    "speakerCount": 30
+  },
+  {
+    "date": "2026-02-21",
+    "file": "DailyNews/daily-2026-02-21.html",
+    "title": "老张万赞爆款与Seedance打戏提示词",
+    "messageCount": 114,
+    "speakerCount": 13
+  },
+  {
+    "date": "2026-02-20",
+    "file": "DailyNews/daily-2026-02-20.html",
+    "title": "春节档电影审美讨论与AI动画震动",
+    "messageCount": 43,
+    "speakerCount": 12
+  },
+  {
+    "date": "2026-02-19",
+    "file": "DailyNews/daily-2026-02-19.html",
+    "title": "Seedance 2.0 vs 可灵 3.0 深度解读",
+    "messageCount": 42,
+    "speakerCount": 14
+  },
+  {
+    "date": "2026-02-12",
+    "file": "DailyNews/daily-2026-02-12.html",
+    "title": "即梦2.0更新与Seedance会员讨论",
+    "messageCount": 238,
+    "speakerCount": 25
+  },
+  {
+    "date": "2026-02-11",
+    "file": "DailyNews/daily-2026-02-11.html",
+    "title": "社群价值大讨论与莓瑰Stella获奖",
+    "messageCount": 500,
+    "speakerCount": 48
+  }
+]

@@ -3,66 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-09</title>
+  <title>野菩萨AI社团 · 日报 2026-04-09</title>
   <style>
     :root {
       /* ===== 字体大小系统 ===== */
-      --font-base:        16px;
-      --font-xs:          14px;
-      --font-sm:          15px;
-      --font-md:          16px;
-      --font-lg:          18px;
-      --font-xl:          21px;
-      --font-2xl:         27px;
-      --font-3xl:         31px;
-      --font-data:        23px;
+      --font-base: 16px;
+      --font-xs: 14px;
+      --font-sm: 15px;
+      --font-md: 16px;
+      --font-lg: 18px;
+      --font-xl: 21px;
+      --font-2xl: 27px;
+      --font-3xl: 31px;
 
-      /* ===== 星期四：星空紫 ===== */
-      --bg-primary:      #13111a;
-      --bg-card:         #1a1725;
-      --bg-card-hover:   #231f30;
-      --border:          #3d3654;
-      --text-primary:    #f0e6fa;
-      --text-secondary:  #9f8fbf;
-      --accent-primary:  #9f7aea;
-      --accent-red:      #f687b3;
-      --accent-green:    #68d391;
-      --accent-purple:   #d6bcfa;
-      --accent-orange:   #fbd38d;
-      --accent-yellow:   #f6e05e;
-      --gradient-title:  linear-gradient(90deg, #9f7aea, #805ad5);
+      /* ===== 星空紫配色方案（星期四） ===== */
+      --bg-primary: #13111a;
+      --bg-card: #1a1725;
+      --bg-card-hover: #231f30;
+      --border: #3d3654;
+      --text-primary: #f0e6fa;
+      --text-secondary: #9f8fbf;
+      --accent-primary: #9f7aea;
+      --accent-red: #f687b3;
+      --accent-green: #68d391;
+      --accent-purple: #d6bcfa;
+      --accent-orange: #fbd38d;
+      --accent-yellow: #f6e05e;
+      --gradient-title: linear-gradient(90deg, #9f7aea, #805ad5);
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
-      font-size: var(--font-base);
       line-height: 1.7;
+      font-size: var(--font-base);
       padding: 20px;
     }
 
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    /* ===== 报纸头部 ===== */
     .newspaper-header {
       text-align: center;
+      padding: 30px 20px;
       margin-bottom: 30px;
-      padding: 25px 0;
-      background: linear-gradient(135deg, rgba(159,122,234,0.08), rgba(128,90,213,0.04));
-      border-radius: 12px;
-      border: 1px solid var(--border);
-    }
-
-    .header-top {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .issue-info, .stats-badge {
-      font-size: var(--font-xs);
-      color: var(--text-secondary);
-      letter-spacing: 1px;
+      border-bottom: 2px solid var(--border);
     }
 
     .newspaper-title {
@@ -72,143 +63,133 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+      margin-bottom: 10px;
     }
 
-    .header-divider {
-      width: 200px;
-      height: 2px;
-      background: var(--gradient-title);
-      margin: 15px auto 0;
-      border-radius: 1px;
+    .newspaper-meta {
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
     }
 
+    /* ===== 三栏布局 ===== */
     .newspaper-grid {
       display: grid;
       grid-template-columns: 25% 45% 28%;
       gap: 20px;
-      max-width: 1600px;
-      margin: 0 auto;
+      align-items: start;
     }
 
-    @media (max-width: 1200px) {
-      .newspaper-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    section {
+    /* ===== 板块通用样式 ===== */
+    .block {
       background: var(--bg-card);
+      border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
       margin-bottom: 20px;
-      border: 1px solid var(--border);
       transition: all 0.3s ease;
     }
 
-    section:hover {
+    .block:hover {
       border-color: var(--accent-primary);
-      box-shadow: 0 4px 20px rgba(159,122,234,0.15);
+      box-shadow: 0 4px 12px rgba(159, 122, 234, 0.15);
     }
 
     .block-title {
       font-size: var(--font-lg);
       font-weight: 600;
       margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--accent-primary);
       display: flex;
       align-items: center;
       gap: 8px;
-      color: var(--text-primary);
     }
 
-    .block-title .icon {
-      font-size: var(--font-xl);
-    }
+    .block-title.emoji { color: var(--accent-primary); }
+    .block-title.red { border-color: var(--accent-red); color: var(--accent-red); }
+    .block-title.purple { border-color: var(--accent-purple); color: var(--accent-purple); }
+    .block-title.green { border-color: var(--accent-green); color: var(--accent-green); }
+    .block-title.orange { border-color: var(--accent-orange); color: var(--accent-orange); }
+    .block-title.yellow { border-color: var(--accent-yellow); color: var(--accent-yellow); }
 
-    blockquote {
-      border-left: 3px solid var(--accent-purple);
-      padding: 10px 16px;
-      margin: 12px 0;
-      background: rgba(214,188,250,0.06);
+    .block-content {
+      font-size: var(--font-sm);
       color: var(--text-secondary);
-      font-style: italic;
-      border-radius: 0 6px 6px 0;
     }
 
-    .chat-bubble {
-      background: rgba(159,122,234,0.08);
-      border-radius: 18px;
+    .block-content p {
+      margin-bottom: 12px;
+      line-height: 1.8;
+    }
+
+    .block-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ===== 引用块样式 ===== */
+    blockquote {
+      border-left: 3px solid var(--accent-primary);
       padding: 12px 16px;
+      margin: 15px 0;
+      background: rgba(159, 122, 234, 0.1);
+      border-radius: 0 8px 8px 0;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+    }
+
+    blockquote strong {
+      color: var(--accent-primary);
+    }
+
+    /* ===== 聊天气泡样式 ===== */
+    .chat-bubble {
+      background: rgba(159, 122, 234, 0.08);
+      border-radius: 12px;
+      padding: 12px 15px;
       margin: 10px 0;
-      font-size: var(--font-md);
+      border: 1px solid rgba(159, 122, 234, 0.2);
     }
 
     .bubble-sender {
       font-size: var(--font-xs);
       color: var(--accent-primary);
       font-weight: 600;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
-    .hot-topic-title {
-      font-size: var(--font-lg);
-      color: var(--accent-orange);
-      margin: 15px 0 10px;
+    .bubble-content {
+      font-size: var(--font-sm);
+      line-height: 1.6;
+    }
+
+    /* ===== 高亮样式 ===== */
+    .highlight {
+      color: var(--accent-primary);
       font-weight: 600;
     }
 
-    .heat-stats {
+    /* ===== 话题标题 ===== */
+    .topic-title {
+      font-size: var(--font-md);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin: 20px 0 10px;
+    }
+
+    .topic-meta {
       font-size: var(--font-xs);
-      background: rgba(251,146,60,0.15);
-      color: var(--accent-orange);
-      padding: 4px 10px;
-      border-radius: 12px;
-      display: inline-block;
+      color: var(--text-secondary);
       margin-bottom: 10px;
     }
 
-    .analysis-box {
-      background: rgba(251,211,141,0.08);
-      border-left: 3px solid var(--accent-orange);
-      padding: 12px 16px;
-      margin: 15px 0;
-      font-size: var(--font-sm);
-      border-radius: 0 6px 6px 0;
+    /* ===== 分隔线 ===== */
+    hr {
+      border: none;
+      border-top: 1px dashed var(--border);
+      margin: 25px 0;
     }
 
-    .ai-tool-tag {
-      display: inline-block;
-      background: rgba(251,211,141,0.2);
-      color: var(--accent-orange);
-      padding: 3px 10px;
-      border-radius: 6px;
-      font-size: var(--font-xs);
-      margin: 5px 5px 5px 0;
-      font-weight: 600;
-    }
-
-    .ai-data-number {
-      font-size: var(--font-data);
-      color: var(--accent-orange);
-      font-weight: 700;
-    }
-
-    .honor-name {
-      font-size: var(--font-md);
-      color: var(--accent-yellow);
-      font-weight: 600;
-    }
-
-    .honor-medal {
-      font-size: var(--font-2xl);
-      text-shadow: 0 0 10px rgba(246,229,94,0.3);
-    }
-
-    .community-speaker {
-      font-size: var(--font-xs);
-      color: var(--accent-purple);
-      font-weight: 600;
-    }
-
+    /* ===== 页脚 ===== */
     footer {
       text-align: center;
       margin-top: 40px;
@@ -218,227 +199,285 @@
       border-top: 1px solid var(--border);
     }
 
-    .highlight { color: var(--accent-primary); font-weight: 600; }
-    .tag { background: rgba(159,122,234,0.15); padding: 2px 8px; border-radius: 4px; font-size: var(--font-xs); }
+    /* ===== 响应式 ===== */
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
-  <header class="newspaper-header">
-    <div class="header-top">
-      <span class="issue-info">2026年04月09日 · 星期四</span>
-      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
-      <span class="stats-badge">今日 44 条消息 · 15 人发言</span>
+  <div class="container">
+    <div class="newspaper-header">
+      <h1 class="newspaper-title">📰 野菩萨AI社团 · 每日资讯</h1>
+      <p class="newspaper-meta">2026年04月09日 · 星期四 | 今日 66 条消息 · 17 人发言</p>
     </div>
-    <div class="header-divider"></div>
-  </header>
 
-  <main class="newspaper-grid">
-    <!-- 左栏 -->
-    <aside class="col-left">
-      <section class="block-announcement">
-        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
-        <p>今日群内暂无重要公告，社群运营平稳进行中。</p>
-      </section>
-
-      <section class="block-honor">
-        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
-        <p>今日暂无荣誉表彰，继续加油，期待下一位闪光时刻！</p>
-      </section>
-    </aside>
-
-    <!-- 中栏 -->
-    <article class="col-center">
-      <section class="block-teacher">
-        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
-        <p style="color: var(--text-secondary); margin-bottom: 12px;">今日 Aria清 老师对学员问题进行了针对性指导。</p>
-
-        <blockquote>
-          [14:35] Aria清: 把你的图，提示词，使用平台发出来
-        </blockquote>
-
-        <div class="analysis-box">
-          <strong>💡 AI 延伸解读：</strong><br><br>
-          Aria清 老师这句话体现了问题诊断的<span class="highlight">系统化思维</span>。当学员遇到技术难题时，老师并未直接给出答案，而是要求提供<span class="highlight">完整的三要素</span>：图像素材、提示词、使用平台。这种做法具有三重价值：<br><br>
-          第一，能够精准定位问题根源——是提示词不够精准、平台功能限制，还是操作方式不当；<br>
-          第二，让其他学员也能参与讨论，形成<span class="highlight">社群协作学习</span>的氛围；<br>
-          第三，积累真实案例库，为后续遇到类似问题的学员提供参考。<br><br>
-          这种"授人以渔"的指导方式，正是AI社群学习的精髓——不只是解决单个问题，更要培养学员<span class="highlight">独立排查和解决技术问题</span>的能力。
-        </div>
-      </section>
-
-      <section class="block-hot">
-        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
-
-        <div class="hot-topic-title">话题一：人物衰老过程制作技巧探讨</div>
-        <span class="heat-stats">👥 5人参与 · 💬 8条讨论</span>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">🍊欣想事成🍊</div>
-          大神们，请教下怎么能做出来人衰老的过程<br>
-          试过用首尾帧，提示词整段写人物从几岁到几岁，或是逐秒写，每段人物年龄加10岁，结果都是瞬间变老[叹气]
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">A瑞湫Rachel</div>
-          延时摄影试试？
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">🦉GoingZen</div>
-          香蕉生成不同年龄的图做参考
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">🍊欣想事成🍊</div>
-          7秒，长50岁左右，算短不…<br>
-          即梦2.0只看到能加首尾帧，没找到参考图在哪加，我再研究研究
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">视频课代表-南山</div>
-          看效果，如果你觉得变得太快了可以把时长加长，使用的时候再做个变速。<br>
-          那就是提示词喽，按理说这个需求对现在的模型来说很基础。
-        </div>
-
-        <div class="analysis-box">
-          <strong>🎯 AI 分析总结：</strong><br><br>
-          这是一个典型的<span class="highlight">AI视频生成技术问题讨论</span>，展现了社群成员间的互助精神和集体智慧。问题的核心在于：如何让AI生成<span class="highlight">渐进式的人物衰老过程</span>，而不是"瞬间变老"。<br><br>
-          <strong>技术要点梳理：</strong><br>
-          • <strong>延时摄影思维</strong>：Rachel提出的建议借鉴了传统摄影手法，通过拉长时间跨度来展现渐进变化<br>
-          • <strong>参考图策略</strong>：GoingZen建议使用"香蕉"（指某个AI绘图工具）生成多张不同年龄的人物图作为参考，这是一个巧妙的解决方案<br>
-          • <strong>平台功能探索</strong>：学员提到"即梦2.0只看到能加首尾帧"，说明需要更深入地研究平台的高级功能<br>
-          • <strong>提示词优化</strong>：南山指出"按理说这个需求对现在的模型来说很基础"，暗示问题可能出在提示词的表述方式上<br><br>
-          <strong>实践建议：</strong><br>
-          尝试将衰老过程拆分为多个阶段（青年-中年-老年-暮年），每个阶段单独生成后通过剪辑软件进行过渡处理，或使用"逐帧参考"功能让AI渐进式学习年龄变化特征。
-        </div>
-
-        <div class="hot-topic-title" style="margin-top: 25px;">话题二：AI视频生成等待时长吐槽</div>
-        <span class="heat-stats">👥 4人参与 · 💬 5条讨论</span>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">ヒーロー見参！</div>
-          这个视频搞了两天了 还有7个小时。。笑死
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">雾（May雾）</div>
-          你这不算啥了，给你看下我的2天前的
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">记忆碎片</div>
-          我的也是前天晚上的 到现在还有10个小时
-        </div>
-
-        <div class="chat-bubble">
-          <div class="bubble-sender">ヒーロー見参！</div>
-          即梦真有你的
-        </div>
-
-        <div class="analysis-box">
-          <strong>📊 行业观察：</strong><br><br>
-          这段讨论折射出当前AI视频生成行业的<span class="highlight">普遍痛点</span>——算力资源紧张导致的排队等待问题。即梦作为国内主流AI视频平台，其用户量激增使得算力供给出现瓶颈。<br><br>
-          <strong>现象背后：</strong><br>
-          • 从"两天"、"还有7个小时"、"10个小时"等描述可见，部分项目的等待时间已长达<span class="highlight">48-72小时</span><br>
-          • 社群成员以调侃方式表达不满（"笑死"、"真有你的"），既体现了对平台现状的无奈，也展现了社群的轻松氛围<br><br>
-          <strong>应对策略：</strong><br>
-          建议学员错峰提交任务（深夜或清晨通常排队较少）、多平台并行测试（如可灵、PixVerse等）、或提前规划项目时间线，预留充足的生成等待期。
-        </div>
-      </section>
-    </article>
-
-    <!-- 右栏 -->
-    <aside class="col-right">
-      <section class="block-ai">
-        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
-
-        <p style="margin-bottom: 12px;">今日社群内AI资讯焦点集中在<span class="highlight">两大新模型发布</span>和<span class="highlight">主流平台对比</span>讨论。</p>
-
-        <div style="margin: 15px 0;">
-          <span class="ai-tool-tag">PixVerse C1</span>
-          <span class="ai-tool-tag">Seeduplex</span>
-          <span class="ai-tool-tag">快乐小马</span>
-          <span class="ai-tool-tag">即梦2.0</span>
-        </div>
-
-        <blockquote>
-          [13:55] 逆流而上 lu-xh: c1是啥？<br>
-          [13:55] 逆流而上 lu-xh: 比v6好吧？
-        </blockquote>
-
-        <p style="margin: 14px 0; font-size: var(--font-sm); color: var(--text-secondary);">
-          逆流而上 分享了<span class="highlight">PixVerse C1</span>发布的消息——作为"全球首个影视行业大模型"，C1支持文生、图生、参考生、首尾帧能力，最高支持<span class="ai-data-number">15秒</span> 1080p和音画同出。这引发了对C1与V6版本对比的讨论。
-        </p>
-
-        <blockquote>
-          [10:56] 雾（May雾）: 那个快乐小马有人用过吗？听说超越2.0，排名第一，真的吗，还是吹的
-        </blockquote>
-
-        <p style="margin: 14px 0; font-size: var(--font-sm); color: var(--text-secondary);">
-          社群成员对新兴AI工具"快乐小马"表示好奇，传说它"超越2.0，排名第一"，但真实性待验证。这反映了AI工具领域<span class="highlight">快速迭代</span>和<span class="highlight">营销宣传</span>并存的现状。
-        </p>
-
-        <blockquote>
-          [16:29] 逆流而上 lu-xh 分享：<br>
-          字节跳动推出原生全双工语音大模型<span class="highlight">Seeduplex</span>，已在豆包全量上线，交互体验的自然感、顺畅度大幅提升
-        </blockquote>
-
-        <div class="analysis-box">
-          <strong>🚀 趋势判断：</strong><br><br>
-          <strong>1. PixVerse C1的战略意义</strong><br>
-          PixVerse C1定位为"影视行业大模型"，这标志着AI视频生成从<span class="highlight">通用场景向垂直行业深耕</span>。15秒1080p音画同出的能力，已接近短视频创作的基本需求，有望成为专业创作者的生产力工具。<br><br>
-          <strong>2. 全双工语音交互突破</strong><br>
-          字节跳动的Seeduplex采用"原生全双工"技术，意味着AI可以<span class="highlight">同时听和说</span>，不再需要"等待对方说完"的传统对话模式。这将大幅提升语音交互的自然度，为AI配音、语音生成等领域带来新的可能性。<br><br>
-          <strong>3. 工具选择建议</strong><br>
-          面对层出不穷的新工具，建议学员：<br>
-          • 关注<span class="highlight">核心能力</span>而非营销排名（如C1的15秒1080p、Seeduplex的全双工）<br>
-          • 优先选择有<span class="highlight">明确应用场景</span>的工具（影视、配音、短视频等）<br>
-          • 保持<span class="highlight">多工具备份</span>策略，避免单一平台依赖
-        </div>
-      </section>
-
-      <section class="block-community">
-        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
-
-        <div style="display: flex; flex-direction: column; gap: 12px;">
-          <div class="chat-bubble" style="background: rgba(159,122,234,0.05);">
-            <div class="community-speaker">逆流而上 lu-xh</div>
-            <div style="font-size: var(--font-sm); margin-top: 4px;">
-              登顶行业第一之日，往往是僵化自身，创新停滞，对手前行之时.巅峰滋生傲慢 傲慢生迟钝 迟钝生裂隙 所有颠覆 都从缝隙中生长.<br><br>
-              当你向世界展示无可匹敌的力量，也会教会世界如何超越你.
-            </div>
-          </div>
-
-          <div class="chat-bubble" style="background: rgba(159,122,234,0.05);">
-            <div class="community-speaker">ヒーロー見参！、雾（May雾）、记忆碎片、Kelly、棉花糖泡沫</div>
-            <div style="font-size: var(--font-sm); margin-top: 4px;">
-              [上午时段] 群友们吐槽AI视频生成等待时间长，分享各自"排队"经历，气氛轻松活跃。
-            </div>
-          </div>
-
-          <div class="chat-bubble" style="background: rgba(159,122,234,0.05);">
-            <div class="community-speaker">wendy</div>
-            <div style="font-size: var(--font-sm); margin-top: 4px;">
-              [强][强]
-            </div>
+    <div class="newspaper-grid">
+      <!-- ===== 左栏：公告 + 荣誉 ===== -->
+      <div class="col-left">
+        <!-- 板块一：重要公告 -->
+        <div class="block block-announcement">
+          <h2 class="block-title red">📢 重要公告</h2>
+          <div class="block-content">
+            <p>今日群内有新成员加入,社群持续壮大中。</p>
+            <blockquote>
+              <strong>[14:47] 系统:</strong> "Andy老师｜野菩萨社团@风变科技（深圳）有限公司"邀请<strong>韩立秀</strong>加入了群聊
+            </blockquote>
+            <blockquote>
+              <strong>[16:11] 系统:</strong> "Andy老师｜野菩萨社团@风变科技（深圳）有限公司"邀请<strong>马尔代夫的清晨</strong>加入了群聊
+            </blockquote>
+            <p style="font-size: var(--font-xs); margin-top: 10px;">
+              欢迎新成员加入！社群持续壮大,期待新同学积极参与讨论和创作。
+            </p>
           </div>
         </div>
 
-        <div style="margin-top: 15px; padding: 12px; background: rgba(159,122,234,0.06); border-radius: 8px; font-size: var(--font-sm);">
-          <strong>🌈 今日社群氛围：</strong><br><br>
-          今日社群呈现<span class="highlight">技术探讨与轻松互动并存</span>的特点。上午时段以吐槽AI工具等待时长为主，释放了成员们对算力瓶颈的不满情绪；下午转向技术问题深度讨论，展现了社群互助学习的核心价值。逆流而上分享的哲学思考引发群友共鸣，为技术交流增添了人文色彩。<br><br>
-          整体而言，虽然消息数量不多（44条），但<span class="highlight">讨论质量较高</span>，每个话题都有实质性的内容输出，符合社群"少而精"的交流风格。
+        <!-- 板块四：荣誉时刻 -->
+        <div class="block block-honor">
+          <h2 class="block-title green">🏆 荣誉时刻</h2>
+          <div class="block-content">
+            <p style="text-align: center; padding: 30px 10px;">
+              🌟 今日暂无荣誉表彰,继续加油,期待下一位闪光时刻！
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 中栏：师说 + 热议 ===== -->
+      <div class="col-center">
+        <!-- 板块二：师说 -->
+        <div class="block block-teacher">
+          <h2 class="block-title purple">👨‍🏫 师说</h2>
+          <div class="block-content">
+            <p>今日 Aria清 老师对学员问题进行了针对性指导。</p>
+            <blockquote>
+              <strong>[14:35] Aria清:</strong> 把你的图,提示词,使用平台发出来
+            </blockquote>
+            <p style="margin-top: 15px;">
+              <span class="highlight">💡 AI 延伸解读：</span><br>
+              Aria清 老师这句话体现了问题诊断的<span class="highlight">系统化思维</span>。当学员遇到技术难题时,老师并未直接给出答案,而是要求提供完整的<span class="highlight">三要素</span>：图像素材、提示词、使用平台。这种做法具有三重价值：
+            </p>
+            <p style="margin-top: 10px;">
+              第一,能够精准定位问题根源——是提示词不够精准、平台功能限制,还是操作方式不当；<br>
+              第二,让其他学员也能参与讨论,形成<span class="highlight">社群协作学习</span>的氛围；<br>
+              第三,积累真实案例库,为后续遇到类似问题的学员提供参考。
+            </p>
+            <p style="margin-top: 10px; font-size: var(--font-xs); color: var(--text-secondary);">
+              这种"授人以渔"的指导方式,正是 AI 社群学习的精髓——不只是解决单个问题,更要培养学员<span class="highlight">独立排查和解决技术问题</span>的能力。
+            </p>
+          </div>
         </div>
 
-        <div style="margin-top: 12px; padding: 10px; background: linear-gradient(135deg, rgba(159,122,234,0.08), rgba(128,90,213,0.04)); border-radius: 8px; font-size: var(--font-sm); color: var(--accent-purple); font-style: italic;">
-          💬 小编寄语：技术在进步，等待是暂时的。保持耐心，多平台尝试，总会找到适合你的创作节奏。
+        <!-- 板块三：热议话题 -->
+        <div class="block block-hot">
+          <h2 class="block-title orange">🔥 热议话题</h2>
+          <div class="block-content">
+            <h3 class="topic-title">话题一：人物衰老过程制作技巧探讨</h3>
+            <p class="topic-meta">👥 6人参与 · 💬 12条讨论</p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">🍊欣想事成🍊</div>
+              <div class="bubble-content">大神们,请教下怎么能做出来人衰老的过程<br>试过用首尾帧,提示词整段写人物从几岁到几岁,或是逐秒写,每段人物年龄加10岁,结果都是瞬间变老[叹气]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">A瑞湫Rachel</div>
+              <div class="bubble-content">延时摄影试试？</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">🦉GoingZen</div>
+              <div class="bubble-content">香蕉生成不同年龄的图做参考</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">🍊欣想事成🍊</div>
+              <div class="bubble-content">7秒,长50岁左右,算短不…<br>即梦2.0只看到能加首尾帧,没找到参考图在哪加,我再研究研究</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">视频课代表-南山</div>
+              <div class="bubble-content">看效果,如果你觉得变得太快了可以把时长加长,使用的时候再做个变速。<br>那就是提示词喽,按理说这个需求对现在的模型来说很基础。</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">🍊欣想事成🍊</div>
+              <div class="bubble-content">现在出的结果不是变的太快,是直接从20变到70,没有中间人物变老的过程🙈</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">A瑞湫Rachel</div>
+              <div class="bubble-content">中间再加一个中年的？</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">设计师lucia</div>
+              <div class="bubble-content">这里要选多参还是全能</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">视频课代表-南山</div>
+              <div class="bubble-content">提示词也不是越长越好,试试简单点,中间让AI自由发挥。</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎯 AI 分析总结：</span><br>
+              这是一个典型的<span class="highlight">AI 视频生成技术问题讨论</span>,展现了社群成员间的互助精神和集体智慧。问题的核心在于：如何让 AI 生成<span class="highlight">渐进式的人物衰老过程</span>,而不是"瞬间变老"。
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">技术要点梳理：</span><br>
+              • <strong>延时摄影思维</strong>：Rachel 提出的建议借鉴了传统摄影技法,通过延长视频时长来表现渐进变化<br>
+              • <strong>参考图引导</strong>：GoingZen 建议用香蕉等工具生成不同年龄的参考图,这实际上是"图生视频"的高级应用<br>
+              • <strong>中间帧插入</strong>：Rachel 提议在青年和老年之间插入一个中年阶段,这是一个非常实用的分镜技巧<br>
+              • <strong>提示词优化</strong>：视频课代表-南山 强调"提示词不是越长越好",建议简洁描述,给 AI 留出自由发挥空间
+            </p>
+
+            <p style="margin-top: 10px;">
+              <span class="highlight">平台功能探索：</span><br>
+              • <strong>即梦 2.0</strong>：支持首尾帧,但"全能参考"功能隐藏较深<br>
+              • <strong>可灵</strong>：支持首尾帧和 omni3 功能<br>
+              • <strong>排队时间</strong>：即梦排队时间长达 2-3 天,严重影响创作效率
+            </p>
+
+            <p style="margin-top: 10px; font-size: var(--font-xs); color: var(--text-secondary);">
+              这场讨论充分体现了社群的学习氛围：从问题提出到方案探讨,从工具功能到优化建议,形成了一个完整的知识闭环。特别是老师的最后提醒——"中间让 AI 自由发挥",揭示了 AI 创作的一个重要原则：<span class="highlight">适度引导,而非过度控制</span>。
+            </p>
+
+            <hr>
+
+            <h3 class="topic-title">话题二：PixVerse C1 发布与行业动态</h3>
+            <p class="topic-meta">👥 3人参与 · 💬 5条讨论</p>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享 PixVerse C1 上线新闻]<br>c1是啥？比v6好吧？</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">逆流而上 lu-xh</div>
+              <div class="bubble-content">[分享字节 Seeduplex 语音大模型新闻]</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">🎯 AI 资讯解读：</span><br>
+              今日群内分享了两条重要的 AI 行业动态：
+            </p>
+
+            <p style="margin-top: 10px;">
+              <strong>1. PixVerse C1 正式上线</strong><br>
+              爱诗科技发布 PixVerse C1,定位为"全球首个影视行业大模型"。核心能力包括：<br>
+              • 文生、图生、参考生、首尾帧能力<br>
+              • 最高支持 15 秒 1080p 和音画同出<br>
+              • 所有能力可跟随提示词指令自动分镜<br>
+              • 官网：pai.video
+            </p>
+
+            <p style="margin-top: 10px;">
+              <strong>2. 字节 Seeduplex 全双工语音大模型</strong><br>
+              字节跳动推出原生全双工语音大模型 Seeduplex,已在豆包全量上线。特点：<br>
+              • 交互体验的自然感、顺畅度大幅提升<br>
+              • 支持实时语音对话,无需等待对方说完
+            </p>
+
+            <p style="margin-top: 10px; font-size: var(--font-xs); color: var(--text-secondary);">
+              这两个产品代表了 AI 行业的不同发展方向：PixVerse C1 专注于<span class="highlight">专业级视频创作</span>,而 Seeduplex 则致力于<span class="highlight">提升交互体验</span>。对于创作者而言,工具的多元化选择是好消息——可以根据具体需求选择最合适的工具。
+            </p>
+          </div>
         </div>
-      </section>
-    </aside>
-  </main>
+      </div>
+
+      <!-- ===== 右栏：AI资讯 + 社群 ===== -->
+      <div class="col-right">
+        <!-- 板块五：AI工具讨论 -->
+        <div class="block block-ai">
+          <h2 class="block-title yellow">🤖 AI 工具讨论</h2>
+          <div class="block-content">
+            <h3 class="topic-title">即梦排队时间痛点</h3>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">ヒーロー見参！</div>
+              <div class="bubble-content">这个视频搞了两天了 还有7个小时。。笑死</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">雾（May雾）</div>
+              <div class="bubble-content">你这不算啥了,给你看下我的2天前的<br>[图片]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">Kelly</div>
+              <div class="bubble-content">[图片]<br>[表情包]</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">记忆碎片</div>
+              <div class="bubble-content">315投诉吧</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">ヒーロー見参！</div>
+              <div class="bubble-content">即梦真有你的</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">记忆碎片</div>
+              <div class="bubble-content">我的也是前天晚上的 到现在还有10个小时</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">雾（May雾）</div>
+              <div class="bubble-content">那个快乐小马有人用过吗？听说超越2.0,排名第一,真的吗,还是吹的</div>
+            </div>
+
+            <div class="chat-bubble">
+              <div class="bubble-sender">棉花糖泡沫</div>
+              <div class="bubble-content">我还没用过呢,还不知道呢[害羞]</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              <span class="highlight">💡 使用建议：</span><br>
+              即梦的排队时间已经成为影响创作效率的主要瓶颈。建议学员们：<br>
+              1. <strong>合理安排时间</strong>：在晚上提交任务,利用夜间排队时间<br>
+              2. <strong>多平台备用</strong>：同时准备可灵等其他工具作为备选<br>
+              3. <strong>关注新工具</strong>：如群友提到的"快乐小马",可以尝试测试新平台
+            </p>
+          </div>
+        </div>
+
+        <!-- 板块六：社群动态 -->
+        <div class="block block-community">
+          <h2 class="block-title emoji">💬 社群动态</h2>
+          <div class="block-content">
+            <div class="chat-bubble">
+              <div class="bubble-sender">WA</div>
+              <div class="bubble-content">⚡ PB Showdown EP.70<br>
+              🧠 WA哇哦,周四了,来碰一碰！<br>
+              📢 2026年04月09日 20:00,准时开打！<br>
+              🔊 今日MC：巧 & 森一様<br>
+              ✅ 点击链接入场观战：https://meeting.tencent.com/dm/Ei0oPFimMDEs<br>
+              💪 本期守关大将：WA</div>
+            </div>
+
+            <p style="margin-top: 15px;">
+              PBS（Prompt Battle Showdown）擂台赛每周四 20:00 准时开打,是社群成员展示 AI 创作能力的重要平台。
+            </p>
+
+            <div style="background: rgba(159, 122, 234, 0.1); padding: 15px; border-radius: 8px; margin-top: 20px;">
+              <p style="font-size: var(--font-xs); color: var(--text-secondary); font-style: italic;">
+                💬 小编寄语：今日社群围绕技术问题展开了深入讨论,展现了浓厚的学习氛围。新成员的加入为社群注入了新鲜血液,期待更多精彩的创作分享！
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-12 03:08:04</p>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-12 04:50:00</p>
   </footer>
 </body>
 </html>

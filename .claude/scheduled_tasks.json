@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "48ecfc8d",
+      "cron": "30 0 * * *",
+      "prompt": "/wechat-daily-digest",
+      "createdAt": 1775968413597,
+      "lastFiredAt": 1776135986153,
+      "recurring": true
+    }
+  ]
+}
