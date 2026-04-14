@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-14</title>
+  <style>
+    :root {
+      /* ===== 星期一：深空蓝配色 ===== */
+      --bg-primary:    #0a0e14;
+      --bg-card:       #11151c;
+      --bg-card-hover: #1a1f2a;
+      --border:        #2d3748;
+      --text-primary:  #e2e8f0;
+      --text-secondary:#718096;
+      --accent-primary:#63b3ed;
+      --accent-red:    #fc8181;
+      --accent-green:  #68d391;
+      --accent-purple: #b794f4;
+      --accent-orange: #f6ad55;
+      --accent-yellow: #ecc94b;
+      --gradient-title: linear-gradient(90deg, #63b3ed, #4299e1);
+
+      /* ===== 字体大小系统 ===== */
+      --font-base:        16px;
+      --font-xs:          14px;
+      --font-sm:          15px;
+      --font-md:          16px;
+      --font-lg:          18px;
+      --font-xl:          21px;
+      --font-2xl:         27px;
+      --font-3xl:         31px;
+      --font-data:        23px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      background: linear-gradient(135deg, #0f1419 0%, #1a202c 100%);
+      border-bottom: 3px solid var(--accent-primary);
+      padding: 24px 40px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    .header-top {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .issue-info {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 900;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin: 12px 0;
+      letter-spacing: 4px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      background: rgba(99, 179, 237, 0.15);
+      border: 1px solid var(--accent-primary);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+    }
+
+    .header-divider {
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+      margin-top: 20px;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== 板块通用样式 ===== */
+    .block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .block:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 4px 20px rgba(99, 179, 237, 0.1);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    /* ===== 重要公告 ===== */
+    .block-announcement {
+      border-left: 3px solid var(--accent-red);
+    }
+
+    .block-announcement .block-title {
+      color: var(--accent-red);
+    }
+
+    .announcement-item {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      border-left: 2px solid rgba(252, 129, 129, 0.3);
+    }
+
+    .announcement-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent-red);
+      box-shadow: 0 0 10px var(--accent-red);
+    }
+
+    .announcement-time {
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .announcement-content {
+      font-size: var(--font-sm);
+      line-height: 1.7;
+    }
+
+    .alert-banner {
+      background: linear-gradient(90deg, #fc8181, #ff9580);
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: var(--font-sm);
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    /* ===== 师说 ===== */
+    .block-teacher {
+      background: linear-gradient(135deg, #161b22, #1a1f2e);
+      border-left: 4px solid var(--accent-purple);
+    }
+
+    .block-teacher .block-title {
+      color: var(--accent-purple);
+    }
+
+    .teacher-quote {
+      border-left: 4px solid var(--accent-purple);
+      padding: 16px 20px;
+      margin: 16px 0;
+      background: rgba(183, 148, 244, 0.08);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      font-size: var(--font-sm);
+      line-height: 1.8;
+    }
+
+    .teacher-name {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--accent-purple);
+      color: #fff;
+      font-weight: 700;
+      font-size: var(--font-sm);
+      margin-right: 12px;
+    }
+
+    .teacher-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .analysis-box {
+      background: rgba(99, 179, 237, 0.06);
+      border: 1px solid rgba(99, 179, 237, 0.2);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+      font-size: var(--font-sm);
+      line-height: 1.8;
+    }
+
+    .analysis-box strong {
+      color: var(--accent-primary);
+    }
+
+    /* ===== 热议话题 ===== */
+    .block-hot .block-title {
+      color: var(--accent-orange);
+    }
+
+    .hot-topic {
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hot-topic:last-child {
+      border-bottom: none;
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+
+    .heat-stats {
+      display: inline-block;
+      background: var(--accent-red);
+      color: #fff;
+      border-radius: 12px;
+      padding: 4px 10px;
+      font-size: var(--font-xs);
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      border-radius: 18px;
+      padding: 12px 16px;
+      margin: 10px 0;
+      font-size: var(--font-md);
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .chat-bubble.left {
+      border-left: 3px solid var(--accent-primary);
+    }
+
+    .chat-bubble.right {
+      border-right: 3px solid var(--accent-orange);
+      text-align: right;
+    }
+
+    /* ===== 荣誉时刻 ===== */
+    .block-honor {
+      border: 2px solid var(--accent-yellow);
+      box-shadow: 0 0 20px rgba(236, 201, 75, 0.15);
+    }
+
+    .block-honor .block-title {
+      color: var(--accent-yellow);
+    }
+
+    .honor-item {
+      background: rgba(236, 201, 75, 0.08);
+      border: 1px solid rgba(236, 201, 75, 0.3);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      text-align: center;
+      margin-bottom: 12px;
+      filter: drop-shadow(0 0 10px rgba(236, 201, 75, 0.5));
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-yellow);
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .honor-prize {
+      font-size: var(--font-md);
+      color: var(--text-primary);
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .ai-comment {
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    /* ===== AI资讯 ===== */
+    .block-ai {
+      border: 1px solid var(--border);
+      font-family: 'Consolas', 'Monaco', monospace;
+    }
+
+    .block-ai .block-title {
+      color: var(--accent-orange);
+    }
+
+    .ai-tool-tag {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: #fff;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: var(--font-xs);
+      font-weight: 700;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    .ai-item {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 12px;
+      font-size: var(--font-sm);
+    }
+
+    .ai-highlight {
+      color: var(--accent-orange);
+      font-weight: 700;
+    }
+
+    .ai-data-number {
+      font-size: var(--font-data);
+      font-weight: 900;
+      color: var(--accent-orange);
+      text-align: center;
+      margin: 12px 0;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+      color: var(--accent-primary);
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin-top: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .link-pill:hover {
+      background: var(--accent-primary);
+      color: #fff;
+    }
+
+    /* ===== 社群动态 ===== */
+    .block-community {
+      background: var(--bg-card);
+    }
+
+    .community-bubbles {
+      column-count: 2;
+      column-gap: 16px;
+    }
+
+    .community-bubble {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+      break-inside: avoid;
+      font-size: var(--font-sm);
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .community-summary {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    /* ===== 文字强调 ===== */
+    .highlight-blue {
+      color: var(--accent-primary);
+      font-weight: 700;
+    }
+
+    .highlight-red {
+      color: var(--accent-red);
+      font-weight: 700;
+    }
+
+    .highlight-green {
+      color: var(--accent-green);
+      font-weight: 700;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 16px;
+      margin: 12px 0;
+      background: rgba(183, 148, 244, 0.1);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      line-height: 1.7;
+    }
+
+    mark.blue {
+      background: rgba(99, 179, 237, 0.25);
+      color: var(--accent-primary);
+    }
+
+    mark.orange {
+      background: rgba(246, 173, 85, 0.25);
+      color: var(--accent-orange);
+    }
+
+    mark.green {
+      background: rgba(104, 211, 145, 0.25);
+      color: var(--accent-green);
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: var(--font-xs);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent-primary);
+      color: #fff;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 报头 -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第20260414期 · 2026年04月14日 星期一</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 157 条消息 · 26 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+    <!-- 左栏：重要公告 + 荣誉时刻 -->
+    <aside class="col-left">
+      <!-- 重要公告 -->
+      <section class="block block-announcement">
+        <h2 class="block-title"><span class="icon">📢</span> 重要公告</h2>
+
+        <div class="alert-banner">📌 明晚八点半：野菩萨AI视频社团课</div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">17:01</div>
+          <div class="announcement-content">
+            <strong>团团老师 @全员</strong>
+            <blockquote>
+              🏫 主讲老师：菩萨老师<br>
+              🎯 菩萨老师将亲手给大家"解剖"一条神秘新片！<br>
+              🤔 赶紧来猜猜，菩萨老师要拆解的是哪部"神作"？<br>
+              📅 时间：4月15日明晚 20:30
+            </blockquote>
+            <span class="link-pill">🔗 直播链接</span>
+          </div>
+        </div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">17:01</div>
+          <div class="announcement-content">
+            <strong>🎯 VB比赛（自愿参与）</strong>
+            <p style="margin-top: 8px; font-size: var(--font-sm);">⏰ 提交时间：4月19日 周日晚 21:00 前</p>
+            <p style="font-size: var(--font-xs); color: var(--text-secondary);">⚠ 特别强调：超时提交的作品将不予采纳</p>
+          </div>
+        </div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">19:15</div>
+          <div class="announcement-content">
+            <strong>视频课代表—紫薯有范 @全员</strong>
+            <blockquote>
+              🌌 TapTV Arena 全球创作大赛启航！<br>
+              大赛时间：04-02 至 07-16<br>
+              三大赛道：动画世界、真人电影、MV维度<br>
+              💰 入场即有机会领取大额积分奖励加持！
+            </blockquote>
+            <span class="link-pill">🔗 立即入场创作</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 荣誉时刻 -->
+      <section class="block block-honor">
+        <h2 class="block-title"><span class="icon">🏆</span> 荣誉时刻</h2>
+
+        <div class="honor-item">
+          <div class="honor-icon">🏆</div>
+          <div class="honor-name">MOBIUS_Lab 老张</div>
+          <div class="honor-prize">再次获奖！靠着在社群学的知识斩获佳绩</div>
+          <div class="ai-comment">
+            AIMV《Say Go》作品，复古未来主义风格，创意源自美剧《辐射》。
+            使用 Seko 平台制作，生图：蕉2，视频：Kling3Omni。
+          </div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🥈</div>
+          <div class="honor-name">方方方</div>
+          <div class="honor-prize">Video Battle Vol.68&69 银奖</div>
+          <div class="ai-comment">
+            风变学员在 Video Battle 中表现优异，方方方荣获银奖，
+            展现了出色的AI视频创作能力。
+          </div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎖️</div>
+          <div class="honor-name">磨磨大王momoking、AliceBlue、Ekho迴</div>
+          <div class="honor-prize">Video Battle Vol.68&69 入围</div>
+          <div class="ai-comment">
+            多位学员作品成功入围，展现了社团整体的创作实力。
+            每一份作品都凝聚了创作者的心血与创意。
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏：师说 + 热议话题 -->
+    <article class="col-center">
+      <!-- 师说 -->
+      <section class="block block-teacher">
+        <h2 class="block-title"><span class="icon">👨‍🏫</span> 师说</h2>
+
+        <div class="analysis-box">
+          <strong>📝 本日师说总结</strong><br><br>
+          今日两位老师暂无重要发言，社群讨论主要围绕学员作品分享展开。
+          Aria清老师在群内活跃互动，用表情包表达对学员获奖的祝贺之情。
+          虽无深度教学内容，但社群学习氛围浓厚，学员间互助交流频繁。
+        </div>
+
+        <blockquote style="margin-top: 20px;">
+          💡 <strong>AI学习建议</strong>：即使老师没有直接授课，
+          积极参与社群讨论、向优秀学员请教、分享自己的创作心得，
+          同样是提升AI视频创作技能的重要途径。
+          每一次交流都是学习的机会。
+        </blockquote>
+      </section>
+
+      <!-- 热议话题 -->
+      <section class="block block-hot">
+        <h2 class="block-title"><span class="icon">🔥</span> 热议话题</h2>
+
+        <div class="hot-topic">
+          <h3 class="hot-topic-title">Seko vs Lib：AI创作平台深度对比</h3>
+          <span class="heat-stats">热度：15人参与 · 30条讨论</span>
+
+          <div class="chat-bubble left">
+            <div class="bubble-sender">MOBIUS_Lab 老张</div>
+            <div class="bubble-content">交互不一样，seko是对话式，但是seko也马上要上画布了。区别就是seko有自研的agent，可以根据选题去发散创意。</div>
+          </div>
+
+          <div class="chat-bubble right">
+            <div class="bubble-sender">肚弱小心</div>
+            <div class="bubble-content">lib确实好贵，不做项目我都不敢用。</div>
+          </div>
+
+          <div class="chat-bubble left">
+            <div class="bubble-sender">MOBIUS_Lab 老张</div>
+            <div class="bubble-content">只能说比tapnow便宜，跟其他价格差不多。lib我目前就是用香蕉，还有偶尔急用SD2。但是lib的可灵是api当中界面最还原官网的。</div>
+          </div>
+
+          <div class="analysis-box" style="margin-top: 16px;">
+            <strong>🔍 AI分析总结</strong><br><br>
+            本日社群围绕AI创作平台展开了深入讨论。学员们对比了Seko、Lib、TapNow等平台的特点：
+            <mark class="blue">Seko</mark>采用对话式交互，即将推出画布功能，具备自研Agent可根据选题发散创意；
+            <mark class="orange">Lib</mark>价格较高但可灵API界面还原度最佳，适合项目需求；
+            <mark class="green">TapNow</mark>相对性价比更高。
+            学员们根据自身需求和预算选择合适的工具，体现了工具理性的使用态度。
+          </div>
+        </div>
+
+        <div class="hot-topic">
+          <h3 class="hot-topic-title">多图参考技巧：提升AI创作效率</h3>
+          <span class="heat-stats">热度：8人参与 · 12条讨论</span>
+
+          <div class="chat-bubble left">
+            <div class="bubble-sender">ヒーロー見参！</div>
+            <div class="bubble-content">这部分一半有颜色一半黑白是ai生成的吗？还是自己做了遮罩？</div>
+          </div>
+
+          <div class="chat-bubble right">
+            <div class="bubble-sender">MOBIUS_Lab 老张</div>
+            <div class="bubble-content">没那么复杂，主体多参，上传了一个西部场景，一个黑白场景，然后是两个人物，就四张参考图。</div>
+          </div>
+
+          <div class="chat-bubble left">
+            <div class="bubble-sender">肚弱小心</div>
+            <div class="bubble-content">喔 很聪明的办法 这样提示词也容易写</div>
+          </div>
+
+          <div class="chat-bubble right">
+            <div class="bubble-sender">MOBIUS_Lab 老张</div>
+            <div class="bubble-content">效率高很多，赶稿必备</div>
+          </div>
+
+          <div class="analysis-box" style="margin-top: 16px;">
+            <strong>💡 创作技巧总结</strong><br><br>
+            老张分享了高效创作的实用技巧：<mark class="green">多图参考</mark>比复杂的蒙版控制更高效。
+            通过上传场景图、风格图、人物图等多张参考图，AI能够更好理解创作意图，
+            提示词编写也更加简单直接。这种"主体多参"的方法特别适合赶稿场景，
+            是提升创作效率的必备技能。视频参考虽然效果好但成本较高，
+            学员们普遍选择在关键时刻使用。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏：AI资讯 + 社群动态 -->
+    <aside class="col-right">
+      <!-- AI资讯 -->
+      <section class="block block-ai">
+        <h2 class="block-title"><span class="icon">🤖</span> AI资讯</h2>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">Seko</span>
+          <span class="ai-tool-tag">Lib</span>
+          <span class="ai-tool-tag">TapNow</span>
+          <p style="margin-top: 12px; line-height: 1.7;">
+            AI创作平台竞争激烈，各平台特色鲜明：
+          </p>
+          <ul style="margin: 10px 0 10px 20px; font-size: var(--font-sm); line-height: 1.8;">
+            <li><strong>Seko</strong>：对话式交互 + 自研Agent</li>
+            <li><strong>Lib</strong>：可灵API还原度高，适合项目</li>
+            <li><strong>TapNow</strong>：性价比之选</li>
+          </ul>
+          <div class="ai-data-number">3+</div>
+          <p style="text-align: center; font-size: var(--font-xs); color: var(--text-secondary);">主流平台对比</p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">海艺</span>
+          <p style="margin-top: 12px; line-height: 1.7;">
+            <strong>海艺平台重大升级预告</strong><br>
+            <span style="font-size: var(--font-xs); color: var(--text-secondary); display: block; margin-top: 6px;">
+              本周三进行底层代码升级与全站改版，测试版将替换正式版。
+              升级内容包括：底层架构重构、界面焕新、模型能力进化。
+            </span>
+          </p>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-tag">Kling3Omni</span>
+          <span class="ai-tool-tag">蕉2</span>
+          <p style="margin-top: 12px; line-height: 1.7;">
+            <strong>老张获奖作品工具栈</strong><br>
+            <span style="font-size: var(--font-xs); color: var(--text-secondary); display: block; margin-top: 6px;">
+              生图：蕉2 | 视频：Kling3Omni | 全流程：Seko AIMV<br>
+              复古未来主义风格，创意源自美剧《辐射》
+            </span>
+          </p>
+          <a href="#" class="link-pill">🔗 查看作品</a>
+        </div>
+
+        <div class="analysis-box" style="margin-top: 12px;">
+          <strong>📈 趋势判断</strong><br><br>
+          AI创作平台正在快速迭代，<mark class="orange">对话式交互</mark>成为新趋势，
+          Agent辅助创意生成逐渐普及。学员们根据项目需求灵活选择工具，
+          <mark class="blue">成本控制</mark>与<mark class="blue">效果平衡</mark>成为关键考量。
+        </div>
+      </section>
+
+      <!-- 社群动态 -->
+      <section class="block block-community">
+        <h2 class="block-title"><span class="icon">💬</span> 社群动态</h2>
+
+        <div class="community-bubbles">
+          <div class="community-bubble">
+            <div class="community-speaker">MOBIUS_Lab 老张</div>
+            <div class="bubble-content">靠着在社群学的知识再次获奖，谢谢各位老师的专业授课，野菩萨社群真是太让人长知识啦🙏</div>
+          </div>
+
+          <div class="community-bubble">
+            <div class="community-speaker">Nina、孟超超、New soul 等</div>
+            <div class="bubble-content">恭喜恭喜，厉害的！哇哦，厉害厉害，恭喜～恭喜恭喜🎉</div>
+          </div>
+
+          <div class="community-bubble">
+            <div class="community-speaker">肚弱小心</div>
+            <div class="bubble-content">得奖作品可不可以分享大家学习学习呀 @MOBIUS_Lab 老张</div>
+          </div>
+
+          <div class="community-bubble">
+            <div class="community-speaker">wxid_auzs3u4x966g21</div>
+            <div class="bubble-content">tapnow咱们社团有优惠活动吗？现在想做数字人</div>
+          </div>
+
+          <div class="community-bubble">
+            <div class="community-speaker">Alan</div>
+            <div class="bubble-content">Video Battle Vol.68&69 风变学员战报🎉 银奖：方方方 入围：磨磨大王momoking、AliceBlue、Ekho迴</div>
+          </div>
+        </div>
+
+        <div class="community-summary">
+          <strong>🎊 今日氛围</strong><br><br>
+          今日社群氛围<mark class="green">热烈喜庆</mark>！MOBIUS_Lab 老张再次获奖引发全群祝贺，
+          Video Battle比赛结果公布后，方方方等学员的优异成绩也获得群友热烈祝贺。
+          学员间积极请教创作技巧，分享使用经验，体现了良好的互助学习氛围。
+          虽然老师今日无正式授课，但学员们的自发交流依然精彩纷呈。
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-15 00:01:25</p>
+    <p style="margin-top: 8px; font-size: 12px; color: var(--text-secondary);">📰 本日报由AI自动生成，如有遗漏或错误，敬请谅解</p>
+  </footer>
+</body>
+</html>
