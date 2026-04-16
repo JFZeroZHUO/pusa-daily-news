@@ -5,7 +5,7 @@
       "cron": "30 0 * * *",
       "prompt": "/wechat-daily-digest",
       "createdAt": 1775968413597,
-      "lastFiredAt": 1776135986153,
+      "lastFiredAt": 1776272400379,
       "recurring": true
     }
   ]
