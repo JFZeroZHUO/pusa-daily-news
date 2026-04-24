@@ -1,0 +1,2054 @@
+[
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "00:14:17",
+    "content": "请问大佬们，这个视频里这种像说悄悄话的声音，能在剪映里面调出来吗？我用自带的音色出了部分配音，这一部分想要用讲悄悄话感觉的该怎么弄？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "00:14:50",
+    "content": "![视频](http://127.0.0.1:5030/video/5cad802e18945e81f3a974e1feb19c16,5959e21ac32ae2e3190ad678efa80385)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "00:30:37",
+    "content": "@Jennie 海淀和朝阳我小时候都住过，豆汁儿我是真的没有喝过但听说很难喝[裂开][捂脸]",
+    "quotedMsg": {
+      "sender": "Jennie(wxid_n8hloow0rhgz22)",
+      "time": "04-22 17:36:41",
+      "content": "![图片](http://127.0.0.1:5030/image/3a8872ff8c070f5f708c79c9bb0c905e)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_cgo9gxywdua022",
+    "senderName": "视频课代表—紫薯有范",
+    "time": "00:37:57",
+    "content": "📢重磅更新｜GPT Image2.0上线🔥\n✅文字渲染升级，多语言清晰不糊\n✅细节质感拉满，光影高度还原\n✅生图效率翻倍，快速节省时间",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:20:33",
+    "content": "> @Jennie 海淀和朝阳我小时候都住过，豆汁儿我是真的没有喝过但听说很难喝[裂开][捂脸]\n馊的",
+    "quotedMsg": {
+      "sender": "棉花糖泡沫(wxid_wawv723oijny22)",
+      "time": "04-23 00:30:37",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:24:57",
+    "content": "气声",
+    "quotedMsg": {
+      "sender": "ヒーロー見参！（ヒーロー見参！）(wxid_7301023053611)",
+      "time": "04-23 00:14:17",
+      "content": "请问大佬们，这个视频里这种像说悄悄话的声音，能在剪映里面调出来吗？我用自带的音色出了部分配音，这一部分想要用讲悄悄话感觉的该怎么弄？"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:26:27",
+    "content": "剪映够呛，veo3.1可以直接生成这种asmr声音",
+    "quotedMsg": {
+      "sender": "ヒーロー見参！（ヒーロー見参！）(wxid_7301023053611)",
+      "time": "04-23 00:14:17",
+      "content": "请问大佬们，这个视频里这种像说悄悄话的声音，能在剪映里面调出来吗？我用自带的音色出了部分配音，这一部分想要用讲悄悄话感觉的该怎么弄？"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:27:06",
+    "content": "气声怎么弄？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:27:30",
+    "content": "> 剪映够呛，veo3.1可以直接生成这种asmr声音\n要在提示词里添加这种声音的描述是吗？",
+    "quotedMsg": {
+      "sender": "Jennie(wxid_n8hloow0rhgz22)",
+      "time": "04-23 01:26:27",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:29:48",
+    "content": "是",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:30:33",
+    "content": "seedance2.0，提示词写气声，跟台词，就能出来",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:31:12",
+    "content": "我和小逆那个国宝回家的视频里就有，就是这样出来的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:31:22",
+    "content": "哦哦 这样 那还得生视频的时候就都写好了，后面就不好改了[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:31:29",
+    "content": "原来如此",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:32:26",
+    "content": "好久以前就有人做这种了，但是现在查的严，小红书上这种都给禁了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:32:42",
+    "content": "啊？这种为什么禁？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:33:31",
+    "content": "小红书现在AI都禁得厉害[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:34:05",
+    "content": "这种声音可以制造颅内高潮",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:34:08",
+    "content": "我之前发了个视频，不知道怎么就说我发布低质量视频给我限流了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:34:16",
+    "content": "有点儿擦边",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:34:25",
+    "content": "淦 再也不在上面发东西了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:34:32",
+    "content": "你可以问问豆包",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:34:36",
+    "content": "ASMR音频：通过特定声效触发深度放松反应",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:34:39",
+    "content": "我做的ai猫咪讨论铲屎的问题",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:35:12",
+    "content": "颅内高潮会怎么样？我好像听了没啥感觉[破涕为笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:36:04",
+    "content": "你看过那种擦边或者那种诱人那种你就知道了[让我看看]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "01:36:29",
+    "content": "（我没看过）[旺柴]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:37:27",
+    "content": "是不是夹子音那种？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:39:28",
+    "content": "![图片](http://127.0.0.1:5030/image/159f22f2e561e122c07e1f7180c06f4f,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/7b414c7905f1cadc3d60dbbb0deb8d96.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/1a09467dbf0ee8b6bbeaa8676402249a_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "01:40:37",
+    "content": "小红书上都是什么，是得好好整顿",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "01:43:53",
+    "content": "懂了懂了[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "06:00:58",
+    "content": "[链接|GPT-image-2上线24小时，设计圈已经没人睡得着觉了](https://mp.weixin.qq.com/s?__biz=MzAwNjAyMzczNQ==&mid=2651415168&idx=1&sn=9fa91b39826edb83d905f391368fac3c&chksm=819ea2f894e6b027b671298fcc937727c690e0ef2b69aaea93f13b863dfb91d18d8849ced5ab&mpshare=1&scene=1&srcid=0423f4657OxFzxY4cyww1bhU&sharer_shareinfo=31bbb56bac509917fdf36c2b016bd17c&sharer_shareinfo_first=31bbb56bac509917fdf36c2b016bd17c#rd)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "06:33:36",
+    "content": "[链接|碎片化刷短视频，正悄悄伤害你的大脑！](https://mp.weixin.qq.com/s?__biz=MTI0MDU3NDYwMQ==&mid=2657914517&idx=1&sn=b0d2d5d46d02e3cfdd556ff25fcd78ba&chksm=7bf8cccd349a62362517ed76bfef9c4971aa7f9cddbf88eadf2a95c1b5c135e5d2e2e55f5174&mpshare=1&scene=1&srcid=0422vYawuWE4VMWwA8LZwTlF&sharer_shareinfo=97a35a78061daa676f70c67a5182c2e8&sharer_shareinfo_first=c682a3393aed12368ced573fa2ce043e#rd)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "09:45:57",
+    "content": "华强买出新高度[破涕为笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "09:45:57",
+    "content": "[链接|唱着山歌来买瓜](https://b23.tv/5Rp9qYl?share_medium=android&share_source=weixin&bbid=XXA5FC1ABB98DF3195ABC755CEFF82250060C&ts=1776908740330)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "09:52:38",
+    "content": "改编的真好啊 艺术成分很高",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "09:53:12",
+    "content": "[呲牙]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "09:53:48",
+    "content": "样板戏的唱法",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_gxfzjzl6rhag21",
+    "senderName": "New soul",
+    "time": "09:59:13",
+    "content": "三月三的感觉",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "10:06:17",
+    "content": "后面还有升华[破涕为笑]感觉都能上央视做公益广告了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "a40806883",
+    "senderName": "李鸿",
+    "time": "13:11:09",
+    "content": "#无限英雄城 星辰心月篇 第一回",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "a40806883",
+    "senderName": "李鸿",
+    "time": "13:11:09",
+    "content": "![视频](http://127.0.0.1:5030/video/02851a0177df390613aa2bf97345ab8a)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:17:57",
+    "content": "你把买瓜的变成这样了？ 还唱歌了？[裂开][捂脸][强]",
+    "quotedMsg": {
+      "sender": "ヒーロー見参！（ヒーロー見参！）(wxid_7301023053611)",
+      "time": "04-23 09:45:57",
+      "content": "[链接|唱着山歌来买瓜](https://b23.tv/5Rp9qYl?share_medium=android&share_source=weixin&bbid=XXA5FC1ABB98DF3195ABC755CEFF82250060C&ts=1776908740330)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "13:18:25",
+    "content": "> [引用]\n[强][强]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:20:56",
+    "content": "@ヒーロー見参！（ヒーロー見参！）你可以上电视台了，就像你说的[裂开][捂脸]",
+    "quotedMsg": {
+      "sender": "ヒーロー見参！（ヒーロー見参！）(wxid_7301023053611)",
+      "time": "04-23 10:06:17",
+      "content": "后面还有升华[Lol]感觉都能上央视做公益广告了"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:26:54",
+    "content": "如果你真的上了电视台，你先放你做的这个然后我给你唱歌，跳舞，或者唱跳什么的…[裂开][捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "13:30:11",
+    "content": "[强]",
+    "quotedMsg": {
+      "sender": "李鸿(a40806883)",
+      "time": "04-23 13:11:09",
+      "content": "![视频](http://127.0.0.1:5030/video/02851a0177df390613aa2bf97345ab8a)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_7301023053611",
+    "senderName": "ヒーロー見参！（ヒーロー見参！）",
+    "time": "13:30:47",
+    "content": "不是我做的[捂脸]我转发的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "13:36:38",
+    "content": "[链接|Seed3D 2.0发布：几何与材质生成能力升级](https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ==&mid=2247535453&idx=1&sn=afe3d2a49c6c32877c15db541dcf2972&chksm=e8bd202bffa7c357309589acb8ca48ec0a35998782b58d20f9a68122b43ffd2cc5b599e3a49a&mpshare=1&scene=1&srcid=04233P0KM7P30im8YPlkYgag&sharer_shareinfo=fec5fe7b66f2c5131689ecdd20e00c01&sharer_shareinfo_first=fec5fe7b66f2c5131689ecdd20e00c01#rd)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "13:36:44",
+    "content": "有时做梦时挺想去好莱坞学习一下怎么讲故事，他那整套工业体系，确实很有效的制造出记忆点，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:40:05",
+    "content": "我说的是做b站的作者哈哈哈哈哈哈",
+    "quotedMsg": {
+      "sender": "ヒーロー見参！（ヒーロー見参！）(wxid_7301023053611)",
+      "time": "04-23 13:30:47",
+      "content": "不是我做的[捂脸]我转发的"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:41:34",
+    "content": "我不是在开完笑嘛[裂开][捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "13:42:17",
+    "content": "[链接|读书究竟让人越读越聪明，还是越读越傲慢？｜罗翔x刘震云x刘旸教主【2026读书日特别策划】](https://b23.tv/Gmk4aRI)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:56:03",
+    "content": "我也有b站号了，但我的全是歌",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:56:47",
+    "content": "但我小红书上什么都有",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "13:57:00",
+    "content": "![动画表情](http://mmbiz.qpic.cn/mmemoticon/ajNVdqHZLLCSGzU8cqeRmKOIdOjmxMev00s54IKpyLwzJE6qibPFQ2gZujQGSW2bM/0)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_lm7tfrvoyvtx12",
+    "senderName": "GiGi🌸LZY",
+    "time": "14:13:03",
+    "content": "我两三年前也做过这个梦",
+    "quotedMsg": {
+      "sender": "Jennie(wxid_n8hloow0rhgz22)",
+      "time": "04-23 13:36:44",
+      "content": "有时做梦时挺想去好莱坞学习一下怎么讲故事，他那整套工业体系，确实很有效的制造出记忆点，"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "14:23:56",
+    "content": "[链接|bili_72684699796的个人空间](https://b23.tv/QkGpPnW)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "14:24:21",
+    "content": "[链接|@超级爱玩‘s profile](https://www.xiaohongshu.com/user/profile/622e67da0000000010005588?xsec_token=YBjKakyesqxVzrCPoIZjAq7tu071PvNA7v8RE9gqT9wXI=&xsec_source=app_share&xhsshare=WeixinSession&appuid=622e67da0000000010005588&apptime=1776925458&share_id=96b7aa51659348649312317583ac3b7b)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "14:34:27",
+    "content": "> 我两三年前也做过这个梦\n有同事很优秀的被交换到美国跟诺兰团队拍的奥德赛，全实拍，很长见识，不过这种就是走大运了",
+    "quotedMsg": {
+      "sender": "GPrompt🌸LZY(wxid_lm7tfrvoyvtx12)",
+      "time": "04-23 14:13:03",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_lm7tfrvoyvtx12",
+    "senderName": "GiGi🌸LZY",
+    "time": "14:54:00",
+    "content": "哇哦，这是真幸运啊",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_lm7tfrvoyvtx12",
+    "senderName": "GiGi🌸LZY",
+    "time": "14:55:00",
+    "content": "群里能出个诺兰吗哈哈",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_lm7tfrvoyvtx12",
+    "senderName": "GiGi🌸LZY",
+    "time": "14:55:04",
+    "content": "合作一下",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "14:55:25",
+    "content": "哈哈，菩萨老师",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_lm7tfrvoyvtx12",
+    "senderName": "GiGi🌸LZY",
+    "time": "15:01:02",
+    "content": "为自己加把油哈哈",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "15:05:58",
+    "content": "真是优秀",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:06:49",
+    "content": "大家好，我是克里斯托夫·懦弱",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tutuer8024",
+    "senderName": "G.邹",
+    "time": "15:08:10",
+    "content": "你好，[呲牙]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "15:08:13",
+    "content": "约翰·坚强",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "15:11:28",
+    "content": "撕票伯格",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:12:04",
+    "content": "要剪片子了。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r36i3ouw7wxk22",
+    "senderName": "MOBIUS_Lab 老张",
+    "time": "15:12:12",
+    "content": "非常感兴趣",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "15:12:28",
+    "content": "感兴趣",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tutuer8024",
+    "senderName": "G.邹",
+    "time": "15:12:35",
+    "content": "坐等",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "15:12:36",
+    "content": "🙋‍",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wq0wg1bnz4p321",
+    "senderName": "空灵（空灵）",
+    "time": "15:12:40",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=07052654940b3bcba606bd50a1c8daf1&filekey=30350201010421301f0202011304025348041007052654940b3bcba606bd50a1c8daf1020301682c040d00000004627466730000000132&hy=SH&storeid=26479e77900018783000000000000011300004f5053482af69b40b71e46df0&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "doublej2005",
+    "senderName": "成都金杰13408487713",
+    "time": "15:13:20",
+    "content": "卡没聋表示同意",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_eel41y763fil22",
+    "senderName": "墨墨memory",
+    "time": "15:13:49",
+    "content": "啥时候开始",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:16:45",
+    "content": "太一时兴起，风变的同事们估计在下午会。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:16:47",
+    "content": "我们稍等一下。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:16:54",
+    "content": "我今天应该要工作到半夜的。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_20lgjk4seq4422",
+    "senderName": "大鹏坚持住",
+    "time": "15:17:29",
+    "content": "",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "15:18:02",
+    "content": "半夜不怕就怕早高峰",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "15:18:04",
+    "content": "我之前学插画的时候有个自习室，老师直播自己画画，同学们跟着安静的看。我想我们可以么？[让我看看]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "梅紫清歌）(wxid_5e4105isf9ek21",
+    "senderName": "紫蝶",
+    "time": "15:22:40",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=759677bf7a96be2327fe4f1f87e18abf&filekey=30350201010421301f02020113040253480410759677bf7a96be2327fe4f1f87e18abf0203016849040d00000004627466730000000132&hy=SH&storeid=26479c7df0001f9d9000000000000011300004f5053481390a8b0b66efe602&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:24:55",
+    "content": "3:30 开始",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wq0wg1bnz4p321",
+    "senderName": "空灵（空灵）",
+    "time": "15:25:13",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=a91aa70611f2397d1bbf30ede7347061&filekey=30340201010420301e020201060402535a0410a91aa70611f2397d1bbf30ede734706102023f8f040d00000004627466730000000132&hy=SZ&storeid=264f84126000aa2766b6aceab0000010600004f50535a23364bc1e6707d42c&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "15:25:51",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=5ccb0e3ed390773ab113d1dda9108bbb&filekey=30350201010421301f020201060402534804105ccb0e3ed390773ab113d1dda9108bbb02030d7784040d00000004627466730000000132&hy=SH&storeid=2630f75fa00076415000000000000010600004f5053482fe67b40b6477f657&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "15:27:07",
+    "content": "是24日早晨3:30，对吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:27:48",
+    "content": "3 分钟后",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "15:27:51",
+    "content": "不是过多几分钟吗",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_wawv723oijny22",
+    "senderName": "棉花糖泡沫",
+    "time": "15:28:21",
+    "content": "![动画表情](http://snsvideo.c2c.wechat.com/262/20304/stodownload?m=8922726040ec0fe3bfd49063629745c4&filekey=30350201010421301f020201060402484b04108922726040ec0fe3bfd49063629745c4020301b09b040d00000004627466730000000132&hy=HK&storeid=2686e40d800036f73b4764c5d0000010600004f50484b06f9bba0b6df197a7&dotrans=0&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "15:28:26",
+    "content": "好吧，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_5w62wx3wuvaj22",
+    "senderName": "俊",
+    "time": "15:28:46",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=ccd28a2ece65d5793e728b5f78b85de6&filekey=30340201010420301e020201060402535a0410ccd28a2ece65d5793e728b5f78b85de60202648d040d00000004627466730000000131&hy=SZ&storeid=32303231303632363035323733383030306166393864303031613737373365643261353030393030303030313036&bizid=1023)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_uvmafk6vp5j721",
+    "senderName": "Mr insulation",
+    "time": "15:29:20",
+    "content": "现在开始工作到半夜  是这样吗野老师",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "unclered",
+    "senderName": "菩萨",
+    "time": "15:29:34",
+    "content": "看情况吧，可能吃个饭啥的。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "linggan206",
+    "senderName": "雪山胖狐",
+    "time": "15:29:54",
+    "content": "哈？现在开播？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9optm43vpwl22",
+    "senderName": "简约",
+    "time": "15:29:58",
+    "content": "有没有录播老师",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "vip138233003",
+    "senderName": "LLLLLL",
+    "time": "15:29:59",
+    "content": "有没有回放？！！",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_3627726277311",
+    "senderName": "视频课代表-南山",
+    "time": "15:30:36",
+    "content": "没事，不要停，继续播，地址发来，提供帮点外卖服务",
+    "quotedMsg": {
+      "sender": "菩萨(unclered)",
+      "time": "04-23 15:29:34",
+      "content": "看情况吧，可能吃个饭啥的。"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "15:31:10",
+    "content": "我手机进先",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_uvmafk6vp5j721",
+    "senderName": "Mr insulation",
+    "time": "15:31:17",
+    "content": "这样强度会不会太高  我很担心老师的身体健康",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "15:33:37",
+    "content": "突然惊喜",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_tsgef1wzrwft12",
+    "senderName": "陈小览",
+    "time": "15:33:46",
+    "content": "耳机戴起了 [烟花]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_uvmafk6vp5j721",
+    "senderName": "Mr insulation",
+    "time": "15:35:14",
+    "content": "有回放的吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "vip138233003",
+    "senderName": "LLLLLL",
+    "time": "15:39:13",
+    "content": "那就好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_f9optm43vpwl22",
+    "senderName": "简约",
+    "time": "15:39:24",
+    "content": "那就好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7p6zbm2s1ydr12",
+    "senderName": "饮悦小站",
+    "time": "15:46:14",
+    "content": "",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "16:23:35",
+    "content": "![图片](http://127.0.0.1:5030/image/5749aceb8d9fb23f26a93123625050cf,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/a75abe401cdf575ef519c44cd2d47228.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/3c72e03ac57655b06261a2349d909cdc_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_yjftwyh37ygc22",
+    "senderName": "周周有钱花",
+    "time": "16:47:47",
+    "content": "用老师的提示词出的图质感很棒啊[偷笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_yjftwyh37ygc22",
+    "senderName": "周周有钱花",
+    "time": "16:47:48",
+    "content": "![图片](http://127.0.0.1:5030/image/7a0a6bb98662dd029aa34863e327253b,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/87af01ff9fb6e2a86d7dff87c0c88568.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/1d4f8a0c2f5e15da12b0a8834b2bb201_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_yjftwyh37ygc22",
+    "senderName": "周周有钱花",
+    "time": "16:47:49",
+    "content": "![图片](http://127.0.0.1:5030/image/84a01b8a62b2abb0b1580de1e0d7ea38,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/f3dd7af60f776da058e60eb7f3dd8d08.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/0639f695c75b9e485b037beda32ab575_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "16:52:50",
+    "content": "即梦还是banana?",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_gxfzjzl6rhag21",
+    "senderName": "New soul",
+    "time": "16:55:10",
+    "content": "老师应该是香蕉",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "17:50:36",
+    "content": "[链接|AI短剧爆火，最低成本仅10元每分钟；有短剧男主今年前三月仅接到1部戏，为拍戏刚做完手术也得节食，而短剧“抽卡师”月薪3万难求](https://mp.weixin.qq.com/s?__biz=MzI3MTQzNjYxNw==&mid=2247963997&idx=1&sn=05aec258217fc0bd5b6ed1fd66e38621&chksm=eb18e06e032364e67ae93f51f55c96ed489f71a67d7ffaa84c6b823c10c33326e49f5e9ae595&mpshare=1&scene=1&srcid=0423EV5wIYH1l6j6ndhSeOKJ&sharer_shareinfo=57371def9162089e1d64322d601d39d5&sharer_shareinfo_first=57371def9162089e1d64322d601d39d5#rd)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:06:23",
+    "content": "https://www.jiaotuai.cn/?invite=6LQVN 邀请码 6LQVN 支持🍌和GPTimage2，激活后各得100积分",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:17:27",
+    "content": "![图片](http://127.0.0.1:5030/image/e5ca319a603ede61268c0e2e3f22189e,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/1519848eb546d498205589516f8415d4.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/f9c008dba39c6fd6aa9282569492dbf5_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:18:06",
+    "content": "椒图有2种image2",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "18:18:38",
+    "content": "一个是10积分，一个好像是20积分",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7459mwhwiwco22",
+    "senderName": "WA",
+    "time": "19:39:41",
+    "content": "⚡ PB Showdown EP.72",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_7459mwhwiwco22",
+    "senderName": "WA",
+    "time": "19:39:42",
+    "content": "PBS (Prompt Battle Showdown 擂台赛） ⚔️\n⏰ 每周四 20:00 一起来玩！\n1️⃣ 限时创作：根据主题限时AI出图，每人每轮1张\n2️⃣ 每轮票选：作品提交后2分钟投票（禁投自己），得票高者进入下一轮\n3️⃣ 层层晋级：初赛→次轮→复活赛→终极对决，杀出重围者挑战擂主\n4️⃣ 擂主PK：挑战者VS擂主，率先赢下两轮者加冕新擂主\n💬 规则没看懂？加入腾讯会议，主持人在线答疑",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "20:52:12",
+    "content": "各位老师各位同学，你们好，现在即梦有生成视频赚取积分的活动，但我按照活动要求：1、在即梦上生成视频直接发到抖音 。2、在即梦上生成视频，直接上传到即梦平台。活动里都说可以赠送积分，可我这样做了，便没有赠到积分，是什么原因，群里哪位高手能指点一二，谢谢[抱拳]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "oOfishbabyOo",
+    "senderName": "urey柚梨",
+    "time": "20:53:22",
+    "content": "怎么不去即梦群里问问～",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "20:58:56",
+    "content": "即梦群怎么进去？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "oOfishbabyOo",
+    "senderName": "urey柚梨",
+    "time": "20:59:59",
+    "content": "你是如何获取的活动，应该是有个运营联系方式吧？\n因为我在的群不能自己拉人，所以建议你找一下你当时的对接运营哦～",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "laz1314",
+    "senderName": "MK",
+    "time": "21:00:27",
+    "content": "通过即梦成长计划  就可以进入了",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "04-23 20:58:56",
+      "content": "即梦群怎么进去？"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:01:02",
+    "content": "我只知道上传官网，即梦看中的有888分，其他的不知道了",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "04-23 20:52:12",
+      "content": "各位老师各位同学，你们好，现在即梦有生成视频赚取积分的活动，但我按照活动要求：1、在即梦上生成视频直接发到抖音 。2、在即梦上生成视频，直接上传到即梦平台。活动里都说可以赠送积分，可我这样做了，便没有赠到积分，是什么原因，群里哪位高手能指点一二，谢谢[抱拳]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:01:13",
+    "content": "啥还有即梦群[嘿哈]在哪带我一个.",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:01:28",
+    "content": "我也想去[呲牙]",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:01:13",
+      "content": "啥还有即梦群[嘿哈]在哪带我一个."
+    },
+    "type": 1
+  },
+  {
+    "sender": "laz1314",
+    "senderName": "MK",
+    "time": "21:01:51",
+    "content": "不能拉人，这都是运营拉的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:02:19",
+    "content": "哦，我有积分，但没有群…",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "oOfishbabyOo",
+    "senderName": "urey柚梨",
+    "time": "21:02:26",
+    "content": "可以申请，但是不保证都能入群，都得运营自己决定[皱眉]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:02:38",
+    "content": "属于编外人士[流泪]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:02:55",
+    "content": "哈哈哈哈，开个玩笑",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:03:04",
+    "content": "哥，你还有积分，我好几个月没有积分了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:03:10",
+    "content": "有分就很满足啦",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:03:28",
+    "content": "表现不行",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "laz1314",
+    "senderName": "MK",
+    "time": "21:03:29",
+    "content": "![图片](http://127.0.0.1:5030/image/61183311ab3de2c43bfc501d189c25cc,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/18c05d8c734a93ab7197ba303e32bc2a.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/9a046ee030626cfb477e3182d176c056_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:03:39",
+    "content": "都不从会员",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "laz1314",
+    "senderName": "MK",
+    "time": "21:03:41",
+    "content": "抓紧时间申请，通过了 就可以入群了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:03:42",
+    "content": "参加即梦活动，活动评奖结束公布比赛结果后才有积分拿",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:03:57",
+    "content": "平时上传的视频，即梦是看缘分给的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:04:01",
+    "content": "填过表，没入说明我能力不达标",
+    "quotedMsg": {
+      "sender": "MK(laz1314)",
+      "time": "04-23 21:03:29",
+      "content": "![图片](http://127.0.0.1:5030/image/61183311ab3de2c43bfc501d189c25cc)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:04:13",
+    "content": "是吧",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:03:57",
+      "content": "平时上传的视频，即梦是看缘分给的"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:04:17",
+    "content": "原来如此",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:04:43",
+    "content": "我觉得MJ种子生成的就给分",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:04:44",
+    "content": "我就说，我都没传作品，",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:05:06",
+    "content": "悠船？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:05:14",
+    "content": "[叹气]我怎么就没这运气",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:04:44",
+      "content": "我就说，我都没传作品，"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:05:20",
+    "content": "> 填过表，没入说明我能力不达标\n这个我填了一年多了都没有进",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "04-23 21:04:01",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:05:32",
+    "content": "即梦进群好像有一定的门槛",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:05:35",
+    "content": "你有积分吧",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:05:39",
+    "content": "> 这个我填了一年多了都没有进\n我应该也差不了多少",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:05:20",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:05:44",
+    "content": "![图片](http://127.0.0.1:5030/image/cbd66efca01f28ae2c4e3468bbfb3871,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/99e385c25dc46f6dc3f45c72c1481e09.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/c7693c955a9ac1a3b61854afc38f1bf0_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:06:32",
+    "content": "我有积分得，得积分有两种方式，一种是参加即梦活动获奖了，第二种就是直接上传短片，即梦随缘给积分",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:05:35",
+      "content": "你有积分吧"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:06:37",
+    "content": "一般是888",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:06:40",
+    "content": "原来买过积分，都用完了，现在每天送80积分",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:05:35",
+      "content": "你有积分吧"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:07:11",
+    "content": "原来即梦送积分是看心情的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:07:17",
+    "content": "> 原来买过积分，都用完了，现在每天送80积分\n可以了，前阵子每天60，现在运气好有100分[偷笑]",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "04-23 21:06:40",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:07:18",
+    "content": "我不止这么多[捂脸]",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:06:37",
+      "content": "一般是888"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:07:45",
+    "content": "> 我不止这么多[捂脸]\n那证明你的作品被即梦认可了",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "04-23 21:07:18",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:07:54",
+    "content": "比我们会员还多，现在是88，我是基础会员",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:07:58",
+    "content": "> 那证明你的作品被即梦认可了\n+1",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:07:45",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:08:04",
+    "content": "一般刚达标是888，优秀的是1776",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:08:30",
+    "content": "我只拿过两个月888，后面再没了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:08:50",
+    "content": "你投得少，我都投了好几十个了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:09:01",
+    "content": "好像是2747",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:09:13",
+    "content": "我之前传的0人观看，石沉大海🌊.",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:09:35",
+    "content": "那更优秀了",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "04-23 21:09:01",
+      "content": "好像是2747"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:09:36",
+    "content": "观看没啥，有分就行",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:09:40",
+    "content": "怎么样才能达标啊",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:08:04",
+      "content": "一般刚达标是888，优秀的是1776"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:09:46",
+    "content": "反正做了都要上传的",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:09:53",
+    "content": "只要即梦人员看了就行了",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:09:13",
+      "content": "我之前传的0人观看，石沉大海🌊."
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:09:57",
+    "content": "给积分的也是他们",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:10:04",
+    "content": "> 怎么样才能达标啊\n这个我不知道",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "04-23 21:09:40",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:10:15",
+    "content": "不知道标准，很佛系的上传。然后突然就有分了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:10:21",
+    "content": "抽卡式送积分？",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:10:34",
+    "content": "对这种的期待不要太高",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:10:40",
+    "content": "那就是大力出奇迹了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:10:43",
+    "content": "估计是看平台心情[偷笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:10:44",
+    "content": "你还不如直接参加即梦活动",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:11:00",
+    "content": "即梦活动给的有标准点",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:11:13",
+    "content": "达标的要求每个活动中都有说",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:11:38",
+    "content": "每天送88，没用就过期了，用的话只有视频是165的又要损我自己的积分，即梦算盘真会打[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:12:34",
+    "content": "投稿有得给已经不错了，像可灵，投稿也没有即分",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:13:04",
+    "content": "创作者成长计划要求很高",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:13:05",
+    "content": "![图片](http://127.0.0.1:5030/image/0c1da9bf129470d6928cb2366e4357fa,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Image/2026-04/4cdc1d8eb51232b5ad310d5ea520db44.dat,FileStorage/MsgAttach/33aca03212da961a86ccce649af5dcec/Thumb/2026-04/b6ef91a81011cb04cd7c4c7a999ca12e_t.dat)",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:13:10",
+    "content": "Vidu比拍我还傻了，我后续买年会员了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:13:15",
+    "content": "那确实",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:13:49",
+    "content": "你填就对了，这个是针对进群的人的",
+    "quotedMsg": {
+      "sender": "江河(wxid_mto4x2zel7o422)",
+      "time": "04-23 21:13:05",
+      "content": "![图片](http://127.0.0.1:5030/image/0c1da9bf129470d6928cb2366e4357fa)"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:14:05",
+    "content": "不过我抖音粉丝2600+了也没进去",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:14:49",
+    "content": "我抖音有6个粉丝[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:15:03",
+    "content": "现在都限制Ai了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:15:15",
+    "content": "[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:15:17",
+    "content": "只有视频号好",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:15:25",
+    "content": "我抖音粉丝都还是以前做带货的粉丝[捂脸]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:15:30",
+    "content": "我之前听隔壁兔班说她在小红书，即梦看中了直接找她的，成优创好像",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:14:05",
+      "content": "不过我抖音粉丝2600+了也没进去"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:15:32",
+    "content": "现在流量好差了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:16:09",
+    "content": "即梦很多推广人员，我小红书也加过，后来就不了了之了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:16:18",
+    "content": "要不不是即梦要抖音账号登陆，我都不下抖音.",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:16:26",
+    "content": "> 我之前听隔壁兔班说她在小红书，即梦看中了直接找她的，成优创好像\n反正不清楚即梦的优创条件到底是什么",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "04-23 21:15:30",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:16:57",
+    "content": "超创15000积分",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:17:00",
+    "content": "> 反正不清楚即梦的优创条件到底是什么\n我反正成不了，纯自嗨[呲牙]",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:16:26",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:17:22",
+    "content": "> 我反正成不了，纯自嗨[呲牙]\n我是为了得积分才投的",
+    "quotedMsg": {
+      "sender": "雾（May雾）(wxid_mpf7c42aoe7i22)",
+      "time": "04-23 21:17:00",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:17:37",
+    "content": "啊，那我不是错过了[捂脸]年少不知即梦贵",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:16:57",
+      "content": "超创15000积分"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:18:03",
+    "content": "[憨笑]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:18:10",
+    "content": "我是为了剪映，才下的抖音，我连粉都没[呲牙]",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:16:18",
+      "content": "要不不是即梦要抖音账号登陆，我都不下抖音."
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:18:53",
+    "content": "> 啊，那我不是错过了[捂脸]年少不知即梦贵\n现在好像只有优创吧",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "04-23 21:17:37",
+      "content": "> [引用]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mto4x2zel7o422",
+    "senderName": "江河",
+    "time": "21:19:07",
+    "content": "老师们，能不能出一期当下即梦入门到精通的课程。教我们如何拿积分，如何参加活动。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "oOfishbabyOo",
+    "senderName": "urey柚梨",
+    "time": "21:19:27",
+    "content": "老师都不太爱用即梦[裂开]",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_u8zyda6klf1g21",
+    "senderName": "楼蓝（嘎嘎嘣嘣）",
+    "time": "21:19:37",
+    "content": "我10个[捂脸]",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:14:49",
+      "content": "我抖音有6个粉丝[捂脸]"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:20:49",
+    "content": "老师在干啊，从下午3点半干到现在，我只听了开头，中间干活被催得啥似的，断层",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:21:16",
+    "content": "我也是",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "oOfishbabyOo",
+    "senderName": "urey柚梨",
+    "time": "21:21:23",
+    "content": "正在搓音乐，准备剪片子",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "21:21:25",
+    "content": "直播没有声音么",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:21:32",
+    "content": "快下班了还叫我做测试报告",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:21:35",
+    "content": "有啊，正常",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "21:22:00",
+    "content": "哦， 我刚才有，突然没有了，好了好了",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "21:22:05",
+    "content": "刷新了一下",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:22:41",
+    "content": "我觉得还是把ai当娱乐吧，不能把它当成工作，太煎熬啦…",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:23:00",
+    "content": "我早上开始叫他们排队，要么找领导安排插队",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:21:32",
+      "content": "快下班了还叫我做测试报告"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:23:43",
+    "content": "能者多劳",
+    "quotedMsg": {
+      "sender": "由纪（由纪AIGC）(wxid_r9c0x4kotomo22)",
+      "time": "04-23 21:21:32",
+      "content": "快下班了还叫我做测试报告"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:23:46",
+    "content": "老师们都 不是很看得上即梦的。虽然我现在也不是很喜欢用即梦出初稿了。质感确实没法比。",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:23:52",
+    "content": "我也是这么觉得，不然直接不干了，",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:22:41",
+      "content": "我觉得还是把ai当娱乐吧，不能把它当成工作，太煎熬啦…"
+    },
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "21:23:52",
+    "content": "在赶工",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "21:24:10",
+    "content": "真的是这样",
+    "quotedMsg": {
+      "sender": "逆流而上 lu-xh(wxid_531c1a5cxpuj11)",
+      "time": "04-23 21:22:41",
+      "content": "我觉得还是把ai当娱乐吧，不能把它当成工作，太煎熬啦…"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wozj81",
+    "senderName": "设计师lucia（周末不接新单）",
+    "time": "21:24:17",
+    "content": "我在边画图边看老师剪辑",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_ey0lagg1wayu22",
+    "senderName": "Nina",
+    "time": "21:24:29",
+    "content": "啥想干好都是辛苦熬人的，对付对付相对容易",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_n8hloow0rhgz22",
+    "senderName": "Jennie",
+    "time": "21:24:35",
+    "content": "如果不计算成本，真的不比实拍轻松，看生成的东西不可控绝对打击心态",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "21:25:07",
+    "content": "我是边图生视频边听老师讲课",
+    "quotedMsg": {
+      "sender": "设计师lucia（周末休息）(wozj81)",
+      "time": "04-23 21:24:17",
+      "content": "我在边画图边看老师剪辑"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_531c1a5cxpuj11",
+    "senderName": "逆流而上 lu-xh",
+    "time": "21:25:14",
+    "content": "你们加油👏，我睡觉了🛌",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "wxid_mpf7c42aoe7i22",
+    "senderName": "雾（May雾）",
+    "time": "21:26:14",
+    "content": "我的拍我明天过期，我得去把分花完",
+    "quotedMsg": null,
+    "type": 1
+  },
+  {
+    "sender": "tiantrose",
+    "senderName": "A瑞湫Rachel",
+    "time": "22:27:40",
+    "content": "心态爆炸，看到那些失控画面",
+    "quotedMsg": {
+      "sender": "Jennie(wxid_n8hloow0rhgz22)",
+      "time": "04-23 21:24:35",
+      "content": "如果不计算成本，真的不比实拍轻松，看生成的东西不可控绝对打击心态"
+    },
+    "type": 1
+  },
+  {
+    "sender": "wxid_r9c0x4kotomo22",
+    "senderName": "由纪（由纪AIGC）",
+    "time": "22:43:26",
+    "content": "[视频号|带什么回家 三月三，带回家的，不只是礼。更是惦记，是团圆。五粮液——团圆有分量，回家最像样。#光影酿情人生有味 #五粮液 #IDAEXPO #以片会友 #ai创作浪潮计划  #野神殿  #风变ai #广西三月三](https://finder.video.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQAzHg07oicR49nfthic8LZ9aUQzJkX41MGNCAh3JPhiaz3E9eibO3esCETFiabWhmY6ibsJ6apcUhRicbjiaMyLibpyNLNiaj&bizid=1023&dotrans=0&hy=SH&idx=1&m=&uzid=7a1fc)",
+    "quotedMsg": null,
+    "type": 1
+  }
+]
