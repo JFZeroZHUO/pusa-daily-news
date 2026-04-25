@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-23</title>
+  <style>
+    :root {
+      /* ===== 星期四：星空紫配色 ===== */
+      --bg-primary:    #13111a;
+      --bg-card:       #1a1725;
+      --bg-card-hover: #231f30;
+      --border:        #3d3654;
+      --text-primary:  #f0e6fa;
+      --text-secondary: #9f8fbf;
+
+      /* 强调色 */
+      --accent-primary: #9f7aea;
+      --accent-red:     #f687b3;
+      --accent-green:   #68d391;
+      --accent-purple:  #d6bcfa;
+      --accent-orange:  #fbd38d;
+      --accent-yellow:  #f6e05e;
+
+      /* 渐变 */
+      --gradient-title: linear-gradient(90deg, #9f7aea, #805ad5);
+      --gradient-announcement: linear-gradient(90deg, #f687b3, #d6bcfa);
+
+      /* ===== 字体大小系统 ===== */
+      --font-base:   16px;
+      --font-xs:     14px;
+      --font-sm:     15px;
+      --font-md:     16px;
+      --font-lg:     18px;
+      --font-xl:     21px;
+      --font-2xl:    27px;
+      --font-3xl:    31px;
+      --font-data:   23px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      max-width: 1600px;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+
+    .header-top {
+      padding: 30px 40px;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .issue-info {
+      display: block;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 900;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+      letter-spacing: 3px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      font-size: var(--font-xs);
+      background: rgba(159, 122, 234, 0.15);
+      color: var(--accent-primary);
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+    }
+
+    .header-divider {
+      height: 3px;
+      background: var(--gradient-title);
+      margin-top: 20px;
+      border-radius: 2px;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== 通用板块样式 ===== */
+    .block-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .block-section:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 8px 24px rgba(159, 122, 234, 0.15);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    .block-title .badge {
+      margin-left: auto;
+      font-size: var(--font-xs);
+      padding: 3px 10px;
+      border-radius: 12px;
+      background: var(--accent-primary);
+      color: white;
+    }
+
+    /* ===== 文字强调 ===== */
+    .highlight-blue {
+      color: #58a6ff;
+      font-weight: 700;
+    }
+
+    .highlight-red {
+      color: var(--accent-red);
+      font-weight: 700;
+    }
+
+    .highlight-green {
+      color: var(--accent-green);
+      font-weight: 700;
+    }
+
+    .bg-highlight {
+      background: rgba(88, 166, 255, 0.12);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 18px;
+      margin: 16px 0;
+      background: rgba(214, 188, 250, 0.08);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      border-radius: 0 8px 8px 0;
+    }
+
+    mark.blue {
+      background: rgba(88, 166, 255, 0.25);
+      color: #58a6ff;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    mark.orange {
+      background: rgba(255, 166, 87, 0.25);
+      color: var(--accent-orange);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    mark.green {
+      background: rgba(63, 185, 80, 0.25);
+      color: var(--accent-green);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #58a6ff;
+      color: #58a6ff;
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .link-pill:hover {
+      background: #58a6ff;
+      color: white;
+    }
+
+    /* ===== 板块一：重要公告 ===== */
+    .block-announcement {
+      border-left: 3px solid var(--accent-red);
+    }
+
+    .announcement-banner {
+      background: var(--gradient-announcement);
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: var(--font-sm);
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .announcement-item {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 20px;
+      border-left: 2px solid var(--accent-red);
+    }
+
+    .announcement-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent-red);
+      border: 2px solid var(--bg-card);
+    }
+
+    .announcement-time {
+      font-size: var(--font-xs);
+      color: var(--accent-red);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .announcement-content {
+      font-size: var(--font-sm);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .announcement-links {
+      margin-top: 12px;
+    }
+
+    /* ===== 板块二：师说 ===== */
+    .block-teacher {
+      border-left: 3px solid var(--accent-purple);
+      background: linear-gradient(135deg, var(--bg-card), rgba(26, 31, 46, 0.8));
+    }
+
+    .teacher-quote {
+      border-left: 4px solid var(--accent-purple);
+      background: rgba(214, 188, 250, 0.1);
+      padding: 16px 20px;
+      margin: 16px 0;
+      border-radius: 8px;
+    }
+
+    .teacher-speaker {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .speaker-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent-purple), #805ad5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: white;
+    }
+
+    .speaker-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-purple);
+    }
+
+    .teacher-content {
+      font-size: var(--font-sm);
+      line-height: 1.8;
+      color: var(--text-primary);
+    }
+
+    .ai-insight {
+      background: rgba(107, 70, 193, 0.15);
+      border-left: 3px solid var(--accent-purple);
+      padding: 14px 18px;
+      margin-top: 16px;
+      border-radius: 6px;
+      font-size: var(--font-sm);
+    }
+
+    .ai-insight strong {
+      color: var(--accent-purple);
+      display: block;
+      margin-bottom: 8px;
+      font-size: var(--font-xs);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ===== 板块三：热议话题 ===== */
+    .hot-topic {
+      margin-bottom: 24px;
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: var(--accent-primary);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent-primary);
+    }
+
+    .heat-stats {
+      display: inline-block;
+      font-size: var(--font-xs);
+      background: var(--accent-red);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      padding: 12px 16px;
+      border-radius: 18px;
+      margin-bottom: 12px;
+      position: relative;
+      font-size: var(--font-sm);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .bubble-content {
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .topic-analysis {
+      background: rgba(159, 122, 234, 0.1);
+      border-left: 3px solid var(--accent-primary);
+      padding: 14px 18px;
+      margin-top: 12px;
+      border-radius: 6px;
+      font-size: var(--font-sm);
+    }
+
+    .topic-analysis strong {
+      color: var(--accent-primary);
+      display: block;
+      margin-bottom: 8px;
+      font-size: var(--font-xs);
+    }
+
+    /* ===== 板块四：荣誉时刻 ===== */
+    .honor-item {
+      text-align: center;
+      padding: 20px;
+      background: rgba(246, 224, 94, 0.08);
+      border: 1px solid rgba(246, 224, 94, 0.3);
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      margin-bottom: 12px;
+      text-shadow: 0 0 20px rgba(246, 224, 94, 0.5);
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-yellow);
+      margin-bottom: 8px;
+    }
+
+    .honor-prize {
+      font-size: var(--font-md);
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+
+    .honor-quote {
+      font-style: italic;
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
+      margin-bottom: 12px;
+    }
+
+    .ai-comment {
+      font-size: var(--font-sm);
+      color: var(--text-primary);
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+    }
+
+    /* ===== 板块五：AI资讯 ===== */
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: var(--bg-primary);
+      font-size: var(--font-xs);
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+
+    .ai-item {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: var(--font-sm);
+    }
+
+    .ai-data-number {
+      font-size: var(--font-data);
+      font-weight: 700;
+      color: var(--accent-orange);
+      margin: 8px 0;
+    }
+
+    .ai-trend {
+      background: rgba(251, 211, 141, 0.15);
+      border-left: 3px solid var(--accent-orange);
+      padding: 12px 16px;
+      margin-top: 12px;
+      font-size: var(--font-sm);
+      border-radius: 4px;
+    }
+
+    .ai-trend strong {
+      color: var(--accent-orange);
+      display: block;
+      margin-bottom: 6px;
+      font-size: var(--font-xs);
+    }
+
+    /* ===== 板块六：社群动态 ===== */
+    .community-cards {
+      column-count: 2;
+      column-gap: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .community-cards {
+        column-count: 1;
+      }
+    }
+
+    .community-card {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+      break-inside: avoid;
+      font-size: var(--font-sm);
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .community-content {
+      color: var(--text-primary);
+      line-height: 1.5;
+    }
+
+    .community-summary {
+      background: rgba(159, 122, 234, 0.08);
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-top: 16px;
+      font-size: var(--font-sm);
+    }
+
+    .editor-note {
+      text-align: center;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      max-width: 1600px;
+      margin: 40px auto 20px;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid var(--border);
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <!-- 报头 -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第35期 · 2026年04月23日 星期四</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 246 条消息 · 0 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <!-- 重要公告 -->
+      <section class="block-section block-announcement">
+        <div class="block-title">
+          <span class="icon">📢</span>
+          <span>重要公告</span>
+          <span class="badge">3条</span>
+        </div>
+
+        <div class="announcement-banner">加餐直播 + 擂台赛</div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">📅 15:30 - 21:26</div>
+          <div class="announcement-content">
+            <strong>菩萨老师加餐直播</strong><br>
+            👨‍🏫 主讲老师：菩萨老师赠送加餐🤭<br>
+            <div style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px;">
+              从下午3点半持续到晚间9点半，长达6小时的深度教学直播。老师边讲课边剪辑，展现真正的"能者多劳"精神。
+            </div>
+          </div>
+        </div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">📅 20:00</div>
+          <div class="announcement-content">
+            <strong>PB Showdown EP.72 擂台赛</strong><br>
+            🔥 最新战报：一头象素，两连胜，守擂ing<br>
+            🎙️ 今日MC：Alan & 巧<br>
+            🛡️ 本期守关大将：一头象素<br>
+            <div style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px;">
+              擂主获胜可获得价值💰388 BattleSuit兢技戰装*1件 或 现金奖励，二选一；擂主获得2️⃣个PB积分；参与出图者/投票者都有机会抽中红包奖励！
+            </div>
+          </div>
+        </div>
+
+        <div class="ai-insight" style="margin-top: 16px; background: rgba(246, 135, 179, 0.1); border-left-color: var(--accent-red);">
+          <strong>🤖 AI行动建议</strong>
+          菩萨老师今日长达6小时的加餐直播，展现了对教学的热忱和投入。对于学员来说，这是难得的学习机会，建议认真观看回放，边看边实践。PB擂台赛是每周固定的AI创作赛事，建议学员们积极参与，既能锻炼技能，又能赢取积分和奖励。
+        </div>
+      </section>
+
+      <!-- 荣誉时刻 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">🏆</span>
+          <span>荣誉时刻</span>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">ヒーロー見参！</div>
+          <div class="honor-prize">创意作品：《华强买瓜》改编版</div>
+          <blockquote class="honor-quote">
+            "华强买出新高度[破涕为笑]"<br>
+            "改编的真好啊 艺术成分很高"<br>
+            "后面还有升华[破涕为笑]感觉都能上央视做公益广告了"<br>
+            "你把买瓜的变成这样了？ 还唱歌了？[裂开][捂脸][强]"<br>
+            —— 社群成员集体点赞
+          </blockquote>
+          <div class="ai-comment">
+            <strong>✨ AI点评推荐：</strong><br>
+            ヒーロー見参！今日分享的《华强买瓜》改编视频获得了社群成员的一致好评。从"唱着山歌来买瓜"到"样板戏的唱法"，再到"三月三的感觉"，这个创意改编不仅保留了原梗的幽默感，还融入了更多艺术元素。成员们甚至打趣说"感觉都能上央视做公益广告了"，虽然夸张但足见作品质量。这种将经典梗与AI技术结合的创作方式，值得其他学员学习借鉴。
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏 -->
+    <article class="col-center">
+      <!-- 师说 -->
+      <section class="block-section block-teacher">
+        <div class="block-title">
+          <span class="icon">👨‍🏫</span>
+          <span>师说</span>
+          <span class="badge" style="background: var(--accent-purple);">幽默互动</span>
+        </div>
+
+        <div class="teacher-quote">
+          <div class="teacher-speaker">
+            <div class="speaker-avatar">菩</div>
+            <div class="speaker-name">Pusa 老师</div>
+          </div>
+          <div class="teacher-content">
+            <blockquote>
+              [15:30] "没事，不要停，继续播，地址发来，提供帮点外卖服务"
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="ai-insight">
+          <strong>🤖 AI延伸解读</strong><br>
+          Pusa老师今日在加餐直播开始前，用一句轻松幽默的话展现了亲和力："没事，不要停，继续播，地址发来，提供帮点外卖服务"。这句话虽然简短，但透露出几个关键信息：<br><br>
+          1. **高强度教学**：老师从15:30一直播到21:26，长达6小时，真正的"能者多劳"<br>
+          2. **学员关怀**：老师关心学员的体验，甚至愿意"帮点外卖"，细节见温度<br>
+          3. **教学热情**：原计划可能只是简短加餐，但实际变成了超长直播<br><br>
+          **对学员的实践建议：** 老师用实际行动告诉我们，创作和学习都需要投入和坚持。6小时的直播不是作秀，而是真正的倾囊相授。学员们在观看回放时，不仅要学技术，更要学这种敬业精神。
+        </div>
+      </section>
+
+      <!-- 热议话题 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">🔥</span>
+          <span>热议话题</span>
+          <span class="badge">2个</span>
+        </div>
+
+        <div class="hot-topic">
+          <div class="hot-topic-title">话题一：ASMR音频制作技巧深度讨论</div>
+          <span class="heat-stats">💬 多人参与 · 技术干货</span>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              请问大佬们，这个视频里这种像说悄悄话的声音，能在剪映里面调出来吗？我用自带的音色出了部分配音，这一部分想要用讲悄悄话感觉的该怎么弄？
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">ヒーロー見参！</div>
+            <div class="bubble-content">
+              气声<br>
+              剪映够呛，veo3.1可以直接生成这种asmr声音
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              seedance2.0，提示词写气声，跟台词，就能出来<br>
+              我和小逆那个国宝回家的视频里就有，就是这样出来的
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              好久以前就有人做这种了，但是现在查的严，小红书上这种都给禁了<br>
+              这种声音可以制造颅内高潮<br>
+              我之前发了个视频，不知道怎么就说我发布低质量视频给我限流了<br>
+              有点儿擦边
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              淦 再也不在上面发东西了
+            </div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>🤖 AI分析结论：</strong><br>
+            今日上午的讨论围绕ASMR音频制作展开，从技术实现到平台政策都有涉及。核心收获：<br><br>
+            **技术层面：** seedance2.0可以通过在提示词中添加"气声"描述来生成ASMR效果，这是关键技巧。剪映在这方面能力有限，而即将推出的veo3.1据说可以直接生成ASMR声音，值得期待。<br><br>
+            **平台政策：** 小红书对"擦边"内容审核严格，ASMR视频容易被判定为低质量内容并限流。这提醒创作者需要在不同平台之间做好内容平衡，避免因平台政策影响创作积极性。<br><br>
+            **创作建议：** ASMR是增强视频沉浸感的有效手段，但使用时需要考虑平台规范和受众接受度。在合规的前提下，适度使用可以提升作品质量。
+          </div>
+        </div>
+
+        <div class="hot-topic">
+          <div class="hot-topic-title">话题二：即梦积分机制与入群门槛探秘</div>
+          <span class="heat-stats">💬 多人参与 · 热烈讨论</span>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              各位老师各位同学，你们好，现在即梦有生成视频赚取积分的活动，但我按照活动要求做了，便没有赠到积分，是什么原因，群里哪位高手能指点一二
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">江河</div>
+            <div class="bubble-content">
+              我只知道上传官网，即梦看中的有888分，其他的不知道了<br>
+              可以了，前阵子每天60，现在运气好有100分[偷笑]
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              怎么不去即梦群里问问～<br>
+              即梦群怎么进去？
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              通过即梦成长计划就可以进入了<br>
+              参加即梦活动，活动评奖结束公布比赛结果后才有积分拿<br>
+              平时上传的视频，即梦是看缘分给的
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">由纪（由纪AIGC）</div>
+            <div class="bubble-content">
+              我不只这么多[捂脸]<br>
+              怎么样才能达标啊<br>
+              我之前听隔壁兔班说她在小红书，即梦看中了直接找她的，成优创好像<br>
+              我反正成不了，纯自嗨[呲牙]
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            <div class="bubble-content">
+              我有积分得，得积分有两种方式，一种是参加即梦活动获奖了，第二种就是直接上传短片，即梦随缘给积分<br>
+              啊，那我不是错过了[捂脸]年少不知即梦贵
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">雾（May雾）</div>
+            <div class="bubble-content">
+              这个我填了一年多了都没有进<br>
+              我是为了得积分才投的
+            </div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>🤖 AI分析结论：</strong><br>
+            关于即梦积分机制的讨论持续了近1小时，揭示了平台生态的几个关键点：<br><br>
+            **积分获取方式：** 1. 参加即梦活动获奖（888-2747分）；2. 直接上传短片，即梦"随缘"给分（通常是888分，优秀1776分，超创2747分）。每日赠送积分从60分涨到88-100分。<br><br>
+            **入群门槛：** 需要通过"创作者成长计划"申请，由运营审核决定。很多成员表示填表一年多仍未通过，说明门槛较高。<br><br>
+            **平台策略：** 即梦似乎更倾向于从小红书等平台主动发掘创作者，而非被动接受申请。这提示创作者需要多平台经营，增加被发掘的机会。<br><br>
+            **社群价值：** 虽然讨论中没有明确答案，但成员们的分享帮助彼此澄清了即梦的运作机制，避免了盲目摸索。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <!-- AI资讯 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">🤖</span>
+          <span>AI资讯</span>
+          <span class="badge" style="background: var(--accent-orange);">工具更新</span>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">GPT Image 2.0</span>
+          <div class="ai-data-number">重磅更新</div>
+          <blockquote>
+            "📢重磅更新｜GPT Image2.0上线🔥<br>
+            ✅文字渲染升级，多语言清晰不糊<br>
+            ✅细节质感拉满，光影高度还原<br>
+            ✅生图效率翻倍，快速节省时间"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>📊 技术突破：</strong><br>
+            GPT Image 2.0今日宣布上线，主要升级点在文字渲染、细节质感和生成效率。特别是在汉字渲染方面有显著提升，解决了之前版本在中文处理上的不足。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">seedance2.0</span>
+          <blockquote>
+            "seedance2.0，提示词写气声，跟台词，就能出来"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>💡 使用技巧：</strong><br>
+            seedance2.0支持通过提示词控制音频效果，如添加"气声"描述可以生成ASMR风格的声音。这为视频创作者提供了更多音频表现力的可能性。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">veo3.1</span>
+          <blockquote>
+            "veo3.1可以直接生成这种asmr声音"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>🔮 即将推出：</strong><br>
+            veo3.1被提及将支持ASMR声音直接生成，如果属实，将为创作者提供更便捷的音频制作方案，值得期待。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">即梦</span>
+          <blockquote>
+            "即梦手段真是一套一套的，同样的参考图，用普通的2.0就一直提示说有人脸，用2.0vip秒过"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>⚠️ 注意事项：</strong><br>
+            有成员发现即梦2.0 VIP版本在审核上明显宽松于普通版，同样的参考图，VIP版"秒过"而普通版"一直提示说有人脸"。这提示创作者在使用时需要选择合适的版本。
+          </div>
+        </div>
+      </section>
+
+      <!-- 社群动态 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">💬</span>
+          <span>社群动态</span>
+          <span class="badge" style="background: var(--accent-green);">轻松活跃</span>
+        </div>
+
+        <div class="community-cards">
+          <div class="community-card">
+            <div class="community-speaker">群成员</div>
+            <div class="community-content">
+              感觉要临时开一个沉浸式办公，大家感不感兴趣<br>
+              非常感兴趣<br>
+              坐等
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">群成员</div>
+            <div class="community-content">
+              大家好，我是克里斯托夫·懦弱<br>
+              你好，<br>
+              约翰·坚强<br>
+              撕票伯格
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">群成员</div>
+            <div class="community-content">
+              江河：有同事很优秀的被交换到美国跟诺兰团队拍的奥德赛，全实拍，很长见识<br>
+              群里能出个诺兰吗哈哈
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">群成员</div>
+            <div class="community-content">
+              有时做梦时挺想去好莱坞学习一下怎么讲故事，他那整套工业体系，确实很有效的制造出记忆点
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">由纪（由纪AIGC）</div>
+            <div class="community-content">
+              我早上开始叫他们排队，要么找领导安排插队<br>
+              能者多劳
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">Jennie</div>
+            <div class="community-content">
+              心态爆炸，看到那些失控画面<br>
+              如果不计算成本，真的不比实拍轻松，看生成的东西不可控绝对打击心态
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">设计师lucia（周末休息）</div>
+            <div class="community-content">
+              我是边图生视频边听老师讲课<br>
+              那证明你的作品被即梦认可了
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">逆流而上 lu-xh</div>
+            <div class="community-content">
+              我是边图生视频边看老师剪辑<br>
+              我觉得还是把ai当娱乐吧，不能把它当成工作，太煎熬啦…
+            </div>
+          </div>
+        </div>
+
+        <div class="community-summary">
+          <strong>🎭 今日氛围总结：</strong><br>
+          今日社群氛围轻松活跃，从上午的技术讨论到下午的加餐直播，再到晚上的平台政策探讨，话题丰富多元。成员们在讨论中互相帮助（解答ASMR制作技巧、即梦积分机制），也在调侃中释放压力（"克里斯托夫·懦弱"、"约翰·坚强"、"撕票伯格"等幽默网名）。菩萨老师长达6小时的直播展现了教学热情，成员们在"边图生视频边听老师讲课"、"边画图边看老师剪辑"中学习，形成了一种"陪伴式学习"的独特氛围。虽然也有"心态爆炸，看到那些失控画面"的吐槽，但整体上社群保持了积极向上的学习态度。
+        </div>
+
+        <div class="editor-note">
+          ✨ 小编寄语：AI创作是一场马拉松，不是短跑。保持心态，享受过程，与社群伙伴一起成长。
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-25 09:28:00</p>
+  </footer>
+</body>
+</html>
