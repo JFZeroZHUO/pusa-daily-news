@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>风变野菩萨AI视频社团A班 · 日报 2026-04-22</title>
+  <style>
+    :root {
+      /* ===== 星期三：暖阳橙配色 ===== */
+      --bg-primary:    #1a1410;
+      --bg-card:       #231c16;
+      --bg-card-hover: #2d241c;
+      --border:        #4a3f35;
+      --text-primary:  #faf5f0;
+      --text-secondary: #a89888;
+
+      /* 强调色 */
+      --accent-primary: #ed8936;
+      --accent-red:     #fc8181;
+      --accent-green:   #68d391;
+      --accent-purple:  #d6bcfa;
+      --accent-orange:  #fbd38d;
+      --accent-yellow:  #f6e05e;
+
+      /* 渐变 */
+      --gradient-title: linear-gradient(90deg, #ed8936, #dd6b20);
+      --gradient-announcement: linear-gradient(90deg, #fc8181, #fbd38d);
+
+      /* ===== 字体大小系统 ===== */
+      --font-base:   16px;
+      --font-xs:     14px;
+      --font-sm:     15px;
+      --font-md:     16px;
+      --font-lg:     18px;
+      --font-xl:     21px;
+      --font-2xl:    27px;
+      --font-3xl:    31px;
+      --font-data:   23px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: var(--font-base);
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    /* ===== 报头 ===== */
+    .newspaper-header {
+      max-width: 1600px;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+
+    .header-top {
+      padding: 30px 40px;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .issue-info {
+      display: block;
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .newspaper-title {
+      font-size: var(--font-3xl);
+      font-weight: 900;
+      background: var(--gradient-title);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+      letter-spacing: 3px;
+    }
+
+    .stats-badge {
+      display: inline-block;
+      font-size: var(--font-xs);
+      background: rgba(237, 137, 54, 0.15);
+      color: var(--accent-primary);
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-primary);
+    }
+
+    .header-divider {
+      height: 3px;
+      background: var(--gradient-title);
+      margin-top: 20px;
+      border-radius: 2px;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .newspaper-grid {
+      display: grid;
+      grid-template-columns: 25% 45% 28%;
+      gap: 2%;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1200px) {
+      .newspaper-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== 通用板块样式 ===== */
+    .block-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .block-section:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 8px 24px rgba(237, 137, 54, 0.15);
+    }
+
+    .block-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .block-title .icon {
+      font-size: var(--font-xl);
+    }
+
+    .block-title .badge {
+      margin-left: auto;
+      font-size: var(--font-xs);
+      padding: 3px 10px;
+      border-radius: 12px;
+      background: var(--accent-primary);
+      color: white;
+    }
+
+    /* ===== 文字强调 ===== */
+    .highlight-blue {
+      color: #58a6ff;
+      font-weight: 700;
+    }
+
+    .highlight-red {
+      color: var(--accent-red);
+      font-weight: 700;
+    }
+
+    .highlight-green {
+      color: var(--accent-green);
+      font-weight: 700;
+    }
+
+    .bg-highlight {
+      background: rgba(88, 166, 255, 0.12);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--accent-purple);
+      padding: 12px 18px;
+      margin: 16px 0;
+      background: rgba(214, 188, 250, 0.08);
+      color: var(--text-secondary);
+      font-style: italic;
+      font-size: var(--font-sm);
+      border-radius: 0 8px 8px 0;
+    }
+
+    mark.blue {
+      background: rgba(88, 166, 255, 0.25);
+      color: #58a6ff;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    mark.orange {
+      background: rgba(255, 166, 87, 0.25);
+      color: var(--accent-orange);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    mark.green {
+      background: rgba(63, 185, 80, 0.25);
+      color: var(--accent-green);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    .link-pill {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #58a6ff;
+      color: #58a6ff;
+      font-size: var(--font-xs);
+      text-decoration: none;
+      margin: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .link-pill:hover {
+      background: #58a6ff;
+      color: white;
+    }
+
+    /* ===== 板块一：重要公告 ===== */
+    .block-announcement {
+      border-left: 3px solid var(--accent-red);
+    }
+
+    .announcement-banner {
+      background: var(--gradient-announcement);
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: var(--font-sm);
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .announcement-item {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 20px;
+      border-left: 2px solid var(--accent-red);
+    }
+
+    .announcement-item::before {
+      content: '';
+      position: absolute;
+      left: -6px;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent-red);
+      border: 2px solid var(--bg-card);
+    }
+
+    .announcement-time {
+      font-size: var(--font-xs);
+      color: var(--accent-red);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .announcement-content {
+      font-size: var(--font-sm);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .announcement-links {
+      margin-top: 12px;
+    }
+
+    /* ===== 板块二：师说 ===== */
+    .block-teacher {
+      border-left: 3px solid var(--accent-purple);
+      background: linear-gradient(135deg, var(--bg-card), rgba(26, 31, 46, 0.8));
+    }
+
+    .teacher-quote {
+      border-left: 4px solid var(--accent-purple);
+      background: rgba(214, 188, 250, 0.1);
+      padding: 16px 20px;
+      margin: 16px 0;
+      border-radius: 8px;
+    }
+
+    .teacher-speaker {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .speaker-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent-purple), #805ad5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: white;
+    }
+
+    .speaker-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-purple);
+    }
+
+    .teacher-content {
+      font-size: var(--font-sm);
+      line-height: 1.8;
+      color: var(--text-primary);
+    }
+
+    .ai-insight {
+      background: rgba(107, 70, 193, 0.15);
+      border-left: 3px solid var(--accent-purple);
+      padding: 14px 18px;
+      margin-top: 16px;
+      border-radius: 6px;
+      font-size: var(--font-sm);
+    }
+
+    .ai-insight strong {
+      color: var(--accent-purple);
+      display: block;
+      margin-bottom: 8px;
+      font-size: var(--font-xs);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ===== 板块三：热议话题 ===== */
+    .hot-topic {
+      margin-bottom: 24px;
+    }
+
+    .hot-topic-title {
+      font-size: var(--font-lg);
+      font-weight: 700;
+      color: var(--accent-primary);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent-primary);
+    }
+
+    .heat-stats {
+      display: inline-block;
+      font-size: var(--font-xs);
+      background: var(--accent-red);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .chat-bubble {
+      background: var(--bg-card-hover);
+      padding: 12px 16px;
+      border-radius: 18px;
+      margin-bottom: 12px;
+      position: relative;
+      font-size: var(--font-sm);
+    }
+
+    .bubble-sender {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .bubble-content {
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .topic-analysis {
+      background: rgba(237, 137, 54, 0.1);
+      border-left: 3px solid var(--accent-primary);
+      padding: 14px 18px;
+      margin-top: 12px;
+      border-radius: 6px;
+      font-size: var(--font-sm);
+    }
+
+    .topic-analysis strong {
+      color: var(--accent-primary);
+      display: block;
+      margin-bottom: 8px;
+      font-size: var(--font-xs);
+    }
+
+    /* ===== 板块四：荣誉时刻 ===== */
+    .honor-item {
+      text-align: center;
+      padding: 20px;
+      background: rgba(246, 224, 94, 0.08);
+      border: 1px solid rgba(246, 224, 94, 0.3);
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .honor-icon {
+      font-size: var(--font-2xl);
+      margin-bottom: 12px;
+      text-shadow: 0 0 20px rgba(246, 224, 94, 0.5);
+    }
+
+    .honor-name {
+      font-size: var(--font-md);
+      font-weight: 700;
+      color: var(--accent-yellow);
+      margin-bottom: 8px;
+    }
+
+    .honor-prize {
+      font-size: var(--font-md);
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+
+    .honor-quote {
+      font-style: italic;
+      color: var(--text-secondary);
+      font-size: var(--font-sm);
+      margin-bottom: 12px;
+    }
+
+    .ai-comment {
+      font-size: var(--font-sm);
+      color: var(--text-primary);
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+    }
+
+    /* ===== 板块五：AI资讯 ===== */
+    .ai-tool-badge {
+      display: inline-block;
+      background: var(--accent-orange);
+      color: var(--bg-primary);
+      font-size: var(--font-xs);
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+
+    .ai-item {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: var(--font-sm);
+    }
+
+    .ai-data-number {
+      font-size: var(--font-data);
+      font-weight: 700;
+      color: var(--accent-orange);
+      margin: 8px 0;
+    }
+
+    .ai-trend {
+      background: rgba(251, 211, 141, 0.15);
+      border-left: 3px solid var(--accent-orange);
+      padding: 12px 16px;
+      margin-top: 12px;
+      font-size: var(--font-sm);
+      border-radius: 4px;
+    }
+
+    .ai-trend strong {
+      color: var(--accent-orange);
+      display: block;
+      margin-bottom: 6px;
+      font-size: var(--font-xs);
+    }
+
+    /* ===== 板块六：社群动态 ===== */
+    .community-cards {
+      column-count: 2;
+      column-gap: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .community-cards {
+        column-count: 1;
+      }
+    }
+
+    .community-card {
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+      break-inside: avoid;
+      font-size: var(--font-sm);
+    }
+
+    .community-speaker {
+      font-size: var(--font-xs);
+      color: var(--accent-primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .community-content {
+      color: var(--text-primary);
+      line-height: 1.5;
+    }
+
+    .community-summary {
+      background: rgba(237, 137, 54, 0.08);
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-top: 16px;
+      font-size: var(--font-sm);
+    }
+
+    .editor-note {
+      text-align: center;
+      font-size: var(--font-sm);
+      color: var(--text-secondary);
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+    }
+
+    /* ===== 页脚 ===== */
+    footer {
+      max-width: 1600px;
+      margin: 40px auto 20px;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid var(--border);
+      font-size: var(--font-xs);
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <!-- 报头 -->
+  <header class="newspaper-header">
+    <div class="header-top">
+      <span class="issue-info">第34期 · 2026年04月22日 星期三</span>
+      <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+      <span class="stats-badge">今日 264 条消息 · 16 人发言</span>
+    </div>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- 三栏主体 -->
+  <main class="newspaper-grid">
+    <!-- 左栏 -->
+    <aside class="col-left">
+      <!-- 重要公告 -->
+      <section class="block-section block-announcement">
+        <div class="block-title">
+          <span class="icon">📢</span>
+          <span>重要公告</span>
+          <span class="badge">1条</span>
+        </div>
+
+        <div class="announcement-banner">AI视频创作赛事</div>
+
+        <div class="announcement-item">
+          <div class="announcement-time">📅 4月8日 - 4月28日</div>
+          <div class="announcement-content">
+            <strong>Medeo春日AI视频创作大赛</strong><br>
+            🎯 四大赛道：治愈处方、万物百科、春季头条、春日随想<br>
+            🏆 奖品：最高可获得半年Pro会员+海量积分<br>
+            💡 报名福利：扫码报名即领500创作积分+15天Pro会员<br>
+            <div style="font-size: var(--font-xs); color: var(--text-secondary); margin-top: 8px;">
+              提问者：视频课代表—紫薯有范<br>
+              解答：活动截止到4月28日，详情见视频要求
+            </div>
+          </div>
+        </div>
+
+        <div class="ai-insight" style="margin-top: 16px; background: rgba(252, 129, 129, 0.1); border-left-color: var(--accent-red);">
+          <strong>🤖 AI行动建议</strong>
+          Medeo春日赛是近期难得的AI视频赛事机会，建议学员们抓住最后一周时间参与。四大赛道覆盖面广，无论擅长治愈系、科普类还是叙事创作，都能找到适合的方向。500积分+15天Pro会员的报名福利很实用，即使不为获奖，单纯参与也能积累创作经验和素材。
+        </div>
+      </section>
+
+      <!-- 荣誉时刻 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">🏆</span>
+          <span>荣誉时刻</span>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🏆</div>
+          <div class="honor-name">逆流而上 lu-xh</div>
+          <div class="honor-prize">作品：GPT Image 2 海报创作系列</div>
+          <blockquote class="honor-quote">
+            "精美，帅气"<br>
+            "哇哦"<br>
+            "真的比香蕉好很多"<br>
+            "海报真好看🤩"<br>
+            —— 社群成员集体点赞
+          </blockquote>
+          <div class="ai-comment">
+            <strong>✨ AI点评推荐：</strong><br>
+            逆流而上今日使用 GPT Image 2 生成了一系列高质量海报作品，包括人物海报、分镜融合、360度全景图等，展现了新工具在海报设计领域的强大能力。特别是他的"小蓝"角色系列海报，排版专业、字体精美、美学到位，被多位成员称赞"比香蕉好很多"。更重要的是，他无私分享了测试过程和提示词技巧，帮助社群成员快速上手新工具。这种"实践+分享"的精神，正是社群学习的典范。
+          </div>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-icon">🎬</div>
+          <div class="honor-name">MOBIUS_Lab 老张</div>
+          <div class="honor-prize">作品：AI短片《当AI接管情绪》</div>
+          <blockquote class="honor-quote">
+            "劳烦各位大佬支持并点评一下，谢谢啦"<br>
+            —— MOBIUS_Lab 老张
+          </blockquote>
+          <div class="ai-comment">
+            <strong>✨ AI点评推荐：</strong><br>
+            老张今日发布了新作《当AI接管情绪，连崩溃都成了付费功能》，以科幻视角探讨AI时代的情绪议题，创意发人深省。虽然只是分享链接，但作品标题本身就充满想象空间和社会反思。期待老张能在群内分享更多创作思路和幕后故事。
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 中栏 -->
+    <article class="col-center">
+      <!-- 师说 -->
+      <section class="block-section block-teacher">
+        <div class="block-title">
+          <span class="icon">👨‍🏫</span>
+          <span>师说</span>
+          <span class="badge" style="background: var(--accent-purple);">简短发言</span>
+        </div>
+
+        <div class="teacher-quote">
+          <div class="teacher-speaker">
+            <div class="speaker-avatar">菩</div>
+            <div class="speaker-name">Pusa 老师</div>
+          </div>
+          <div class="teacher-content">
+            <blockquote>
+              [14:45] "做影视图不行"
+            </blockquote>
+            <blockquote>
+              [14:48] "是"
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="ai-insight">
+          <strong>🤖 AI延伸解读</strong><br>
+          Pusa老师今日在讨论 GPT Image 2 时给出了简短但精准的评价："做影视图不行"。这句话虽然只有七个字，但蕴含着深刻的行业洞察。<br><br>
+          从语境看，老师是在回应群成员关于"图片可信度崩塌"的话题。GPT Image 2 确实在海报、插画、静态设计领域表现出色，但在影视级别的连续性、动态表现上仍有局限。这一点从后续讨论中也能印证——成员们在测试汉字渲染、人物一致性时都发现了"花"（瑕疵）的问题。<br><br>
+          **对学员的实践建议：** 工具选择要看场景。做海报选GPT Image 2，做影视还是Seedance/SD2.0。专业创作者需要建立自己的"工具箱"，了解每个工具的边界，才能在实际项目中做出最优选择。
+        </div>
+      </section>
+
+      <!-- 热议话题 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">🔥</span>
+          <span>热议话题</span>
+          <span class="badge">2个</span>
+        </div>
+
+        <div class="hot-topic">
+          <div class="hot-topic-title">话题一：GPT Image 2 发布引爆设计圈</div>
+          <span class="heat-stats">💬 16人参与 · 热度爆炸</span>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              今天GPT IMAGE 2各个网站都刷屏了，图片的可信度在崩塌，大家有没有关注呀
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              已经在玩了
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">Pusa</div>
+            <div class="bubble-content">
+              做影视图不行
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              所以才说图片信任崩塌了
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              [分享GPT生成的搞笑图片] 这张够我笑一星期<br>
+              这张逗死了
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              细思极恐的是，我们这十八线开外的小地方，我没给参考，它居然就能生成非常接近我们这地标的建筑了
+            </div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>🤖 AI分析结论：</strong><br>
+            GPT Image 2 的发布是今日最大热点，讨论从14:38持续到20:53，几乎贯穿全天。核心争议点在于"图片可信度崩塌"——AI生成图已经达到以假乱真的地步，对设计师行业形成巨大冲击。<br><br>
+            **技术层面：** 成功之处在于汉字渲染和世界知识推理，"抢了不止一星半点"。但问题是"花"（瑕疵）明显，黑色、蓝色像素点总是出现颗粒感，影视级应用还不成熟。<br><br>
+            **行业影响：** 婚礼设计、海报制作等领域的从业者已经开始考虑从banana转向GPT Image 2，但"做影视图不行"的判断也让大家保持冷静。设计师们的心态是矛盾的：既惊叹于技术进步，又担忧职业前景。<br><br>
+            **社群共识：** 工具只是手段，创意才是核心。未来设计师可能更多转向"创意总监"角色，专注于审美和想法，执行交给AI。
+          </div>
+        </div>
+
+        <div class="hot-topic">
+          <div class="hot-topic-title">话题二：逆流而上 lu-xh 工具实测对比</div>
+          <span class="heat-stats">💬 多人互动 · 技术干货</span>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            <div class="bubble-content">
+              各平台今日秒上image2
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            <div class="bubble-content">
+              [分享椒图平台的GPT Image 2体验]<br>
+              一次10积分，不用翻墙<br>
+              椒图，很稳，十个积分，可以玩玩
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            <div class="bubble-content">
+              [分享香蕉2.0 vs GPT IM2对比测试]<br>
+              左香蕉2、右IM2，同样的参考和提示词<br>
+              6分镜<br>
+              高下立判
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">群成员</div>
+            <div class="bubble-content">
+              下面冲击感好强<br>
+              是那个模型
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            <div class="bubble-content">
+              sd2.0和GPT IM2让我的玩耍又上了一个台阶.[嘿哈]
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">音乐课代表-Open Your Eyes</div>
+            <div class="bubble-content">
+              以后不会有有设计师了 只有创意总监了 [捂脸]
+            </div>
+          </div>
+
+          <div class="chat-bubble">
+            <div class="bubble-sender">逆流而上 lu-xh</div>
+            <div class="bubble-content">
+              [分享SD2.0 9分镜作品]<br>
+              强调角色一的风格时，是可以准从的<br>
+              2.0，我觉得是有导演逻辑的
+            </div>
+          </div>
+
+          <div class="topic-analysis">
+            <strong>🤖 AI分析结论：</strong><br>
+            逆流而上 lu-xh 今日化身"工具测评官"，对香蕉2.0、GPT IM2、SD2.0进行了横向对比测试，贡献了大量实战干货。<br><br>
+            **关键发现：**<br>
+            1. **香蕉2.0：** 严苛按照识别的画风生成，但"好"的判断标准主观；人脸生成弱，都是同一个模样<br>
+            2. **GPT IM2：** 美学遵从很好，可以延续个人审美，做个人专属视觉效果；但在多参考图融合时会改变风格<br>
+            3. **SD2.0：** 被认为"有导演逻辑"，9分镜一致性测试表现优秀；在游戏市场可能有巨大潜力<br><br>
+            **社群价值：** 逆流而上不仅分享了测试结果，还无私展示了提示词写法和参考图使用技巧，这种"授人以渔"的分享精神极大降低了其他成员的上手门槛。从反馈看，New soul、CARY、孟超超等多位成员都受益于这些测试。
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- 右栏 -->
+    <aside class="col-right">
+      <!-- AI资讯 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">🤖</span>
+          <span>AI资讯</span>
+          <span class="badge" style="background: var(--accent-orange);">重磅发布</span>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">GPT Image 2</span>
+          <div class="ai-data-number">今日最大热点</div>
+          <blockquote>
+            "今天GPT IMAGE 2各个网站都刷屏了，图片的可信度在崩塌"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>📊 技术突破：</strong><br>
+            汉字渲染能力大幅提升，世界知识推理丰富。国内平台（椒图等）迅速跟进，不用翻墙即可使用。但对影视级应用仍有限制，"做影视图不行"。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">SD2.0</span>
+          <div class="ai-data-number">导演逻辑</div>
+          <blockquote>
+            "2.0，我觉得是有导演逻辑的"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>🎯 核心优势：</strong><br>
+            9分镜一致性测试表现优秀，被认为具有"导演逻辑"。在游戏市场、复杂动态视频领域有巨大潜力。逆流而上认为让其"玩耍又上了一个台阶"。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">椒图</span>
+          <div class="ai-data-number">国内平台</div>
+          <blockquote>
+            "一次10积分，不用翻墙"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>💡 使用建议：</strong><br>
+            椒图是国内较早上线GPT Image 2的平台之一，积分制（10积分/次），无需翻墙，体验稳定。适合不想折腾网络环境的创作者快速测试。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">即梦</span>
+          <blockquote>
+            "即梦生视频总是卡99"
+          </blockquote>
+          <div class="ai-trend">
+            <strong>⚠️ 问题提醒：</strong><br>
+            即梦平台在视频生成时出现卡顿问题（"卡99"），建议使用时耐心等待或尝试其他时间。可能是因为GPT Image 2上线导致服务器压力增大。
+          </div>
+        </div>
+
+        <div class="ai-item">
+          <span class="ai-tool-badge">Medeo</span>
+          <div class="ai-trend">
+            <strong>🏆 赛事信息：</strong><br>
+            Medeo春日AI视频创作大赛正在进行（4.8-4.28），四大赛道：治愈处方、万物百科、春季头条、春日随想。扫码报名即领500积分+15天Pro会员。
+          </div>
+        </div>
+      </section>
+
+      <!-- 社群动态 -->
+      <section class="block-section">
+        <div class="block-title">
+          <span class="icon">💬</span>
+          <span>社群动态</span>
+          <span class="badge" style="background: var(--accent-green);">学习氛围</span>
+        </div>
+
+        <div class="community-cards">
+          <div class="community-card">
+            <div class="community-speaker">ヒーロー見参！</div>
+            <div class="community-content">
+              哇 这海报好看<br>
+              也是gpt生的啊？<br>
+              解决了不会做短片海报的一大难题[破涕为笑]
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">New soul</div>
+            <div class="community-content">
+              哇，好简单就出了这么高级的海报
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">CARY</div>
+            <div class="community-content">
+              海报真好看🤩
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">Young</div>
+            <div class="community-content">
+              下面冲击感好强<br>
+              是那个模型
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">孟超超</div>
+            <div class="community-content">
+              [表情包]<br>
+              期待海艺小马
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">Jennie</div>
+            <div class="community-content">
+              nanobanana可以弃了<br>
+              太有意思了，各种玩儿<br>
+              金瓶梅，吓我一跳，还以为下一步就是不合规要出来了
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">音乐课代表-Open Your Eyes</div>
+            <div class="community-content">
+              以后不会有有设计师了 只有创意总监了 [捂脸]
+            </div>
+          </div>
+
+          <div class="community-card">
+            <div class="community-speaker">雾（May雾）</div>
+            <div class="community-content">
+              这么真，他不怕肖像权的吗？
+            </div>
+          </div>
+        </div>
+
+        <div class="community-summary">
+          <strong>🎭 今日氛围总结：</strong><br>
+          今日社群因GPT Image 2的发布而格外活跃，从上午14:38开始，讨论持续到晚间22:27，横跨近8小时。16位发言人的构成中，既有技术实践者（逆流而上 lu-xh、MOBIUS_Lab老张），也有设计师视角的观察者（设计师lucia），还有大量测试者和学习者在跟进。<br><br>
+          讨论氛围兼具专业性和幽默感——既深入分析技术优劣，也分享GPT生成的搞笑图片，甚至还聊到了职业转型的焦虑（"建筑设计师还有乐园可以干到退休"）。整体呈现出一个成熟学习社群的特征：信息密集、互助性强、笑声不断。
+        </div>
+
+        <div class="editor-note">
+          ✨ 小编寄语：技术迭代快，学习脚步要更快。但请记住，工具再强大，创意和审美永远是你最核心的竞争力。
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-04-25 08:50:00</p>
+  </footer>
+</body>
+</html>
