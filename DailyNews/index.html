@@ -1206,19 +1206,6 @@ let digests = [
       return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }
 
-    function fuzzyMatch(text, keyword) {
-      let i = 0;
-      for (const ch of text) {
-        if (ch === keyword[i]) {
-          i += 1;
-          if (i === keyword.length) {
-            return true;
-          }
-        }
-      }
-      return false;
-    }
-
     function highlightSnippet(snippet, keyword) {
       if (!keyword) {
         return escapeHtml(snippet);
@@ -1418,9 +1405,7 @@ let digests = [
 
       docs.forEach((doc) => {
         const at = doc.lowerText.indexOf(qLower);
-        const includeHit = at >= 0;
-        const fuzzyHit = includeHit ? true : fuzzyMatch(doc.lowerText, qLower);
-        if (!includeHit && !fuzzyHit) {
+        if (at < 0) {
           return;
         }
         results.push({
