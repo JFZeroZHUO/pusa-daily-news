@@ -4,7 +4,10 @@
       "Bash(node -e \"console.log\\(process.env.PATH.split\\('';''\\).join\\(''\\\\n''\\)\\)\")",
       "Bash(MSYS_NO_PATHCONV=1 powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\92860\\\\AppData\\\\Local\\\\Programs\\\\Trae\\\\resources\\\\app\\\\bin'' -ErrorAction SilentlyContinue | Select-Object Name\")",
       "Bash(node -e \":*)",
-      "Bash(mcp add:*)"
+      "Bash(mcp add:*)",
+      "Bash(cp \"C:/Users/92860/.claude/skills/wechat-daily-digest/skill.md\" \"C:/Users/92860/Desktop/AI编程项目-个人合集/测试ClaudeCode/wechat-daily-digest-skill/\")",
+      "Bash(cp \"C:/Users/92860/.claude/skills/wechat-daily-digest/fetch-chatlog.js\" \"C:/Users/92860/Desktop/AI编程项目-个人合集/测试ClaudeCode/wechat-daily-digest-skill/\")",
+      "Bash(cp \"C:/Users/92860/.claude/skills/wechat-daily-digest/generate-with-ai.js\" \"C:/Users/92860/Desktop/AI编程项目-个人合集/测试ClaudeCode/wechat-daily-digest-skill/\")"
     ]
   }
 }

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>风变野菩萨AI视频社团A班 · 日报 2026-04-26</title>
+<style>
+:root{
+  /* 玫瑰粉（星期日） */
+  --bg-primary:#1a1015; --bg-card:#251620; --bg-card-hover:#301c28;
+  --border:#5c3a4a; --text-primary:#fef2f6; --text-secondary:#c9a0b0;
+  --accent-primary:#ed64a6; --accent-red:#f687b3; --accent-green:#68d391;
+  --accent-purple:#d6bcfa; --accent-orange:#fbd38d; --accent-yellow:#f6e05e;
+  --gradient-title:linear-gradient(90deg,#ed64a6,#d53f8c);
+  /* 字体系统 */
+  --font-base:16px; --font-xs:14px; --font-sm:15px; --font-md:16px;
+  --font-lg:18px; --font-xl:21px; --font-2xl:27px; --font-3xl:31px; --font-data:23px;
+}
+html[data-theme="light"]{
+  --bg-primary:#f5f3ee; --bg-card:#ffffff; --bg-card-hover:#faf6f8;
+  --border:#e3d5db; --text-primary:#3a2a30; --text-secondary:#8a6a76;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:var(--bg-primary); color:var(--text-primary);
+  font-family:"PingFang SC","Microsoft YaHei",-apple-system,sans-serif;
+  font-size:var(--font-base); line-height:1.7; padding:24px;
+}
+/* 报头 */
+.newspaper-header{max-width:1600px;margin:0 auto 24px;}
+.header-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+.issue-info{font-size:var(--font-xs);color:var(--text-secondary);}
+.newspaper-title{
+  font-size:var(--font-3xl);font-weight:800;letter-spacing:2px;
+  background:var(--gradient-title);-webkit-background-clip:text;
+  background-clip:text;-webkit-text-fill-color:transparent;
+}
+.stats-badge{
+  font-size:var(--font-xs);color:var(--accent-primary);
+  border:1px solid var(--accent-primary);border-radius:20px;padding:4px 14px;
+}
+.header-tagline{font-size:var(--font-xs);color:var(--text-secondary);margin-top:6px;}
+.header-divider{height:3px;background:var(--gradient-title);border-radius:2px;margin-top:14px;opacity:.8;}
+/* 三栏 */
+.newspaper-grid{
+  max-width:1600px;margin:0 auto;display:grid;
+  grid-template-columns:25% 45% 28%;gap:2%;
+}
+@media(max-width:1200px){.newspaper-grid{grid-template-columns:1fr;}}
+section{
+  background:var(--bg-card);border:1px solid var(--border);border-radius:14px;
+  padding:18px 20px;margin-bottom:20px;
+}
+.block-title{
+  font-size:var(--font-lg);font-weight:700;display:flex;align-items:center;
+  gap:8px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);
+}
+.block-title .icon{font-size:var(--font-xl);}
+p{margin-bottom:10px;}
+blockquote{
+  border-left:3px solid var(--accent-purple);padding:8px 16px;margin:12px 0;
+  background:rgba(214,188,250,.08);color:var(--text-primary);
+  font-style:italic;font-size:var(--font-sm);border-radius:0 8px 8px 0;
+}
+.highlight-blue{color:var(--accent-primary);font-weight:700;}
+.highlight-red{color:var(--accent-red);font-weight:700;}
+.highlight-green{color:var(--accent-green);font-weight:700;}
+.bg-highlight{background:rgba(237,100,166,.14);padding:2px 6px;border-radius:3px;}
+mark.blue{background:rgba(237,100,166,.25);color:var(--accent-primary);padding:1px 4px;border-radius:3px;}
+mark.orange{background:rgba(251,211,141,.25);color:var(--accent-orange);padding:1px 4px;border-radius:3px;}
+mark.green{background:rgba(104,211,145,.25);color:var(--accent-green);padding:1px 4px;border-radius:3px;}
+.analysis-box{
+  background:rgba(237,100,166,.06);border:1px dashed var(--accent-primary);
+  border-radius:10px;padding:12px 14px;margin-top:12px;font-size:var(--font-sm);
+}
+.analysis-box .tag{color:var(--accent-primary);font-weight:700;}
+.link-pill{
+  display:inline-block;padding:3px 12px;border-radius:20px;
+  border:1px solid var(--accent-primary);color:var(--accent-primary);
+  font-size:var(--font-xs);text-decoration:none;margin:4px 6px 4px 0;
+}
+/* 公告 */
+.announce-bar{
+  background:linear-gradient(90deg,#f687b3,#ed64a6);color:#fff;
+  font-size:var(--font-xs);font-weight:700;text-align:center;
+  border-radius:8px;padding:6px;margin-bottom:14px;
+}
+.timeline-item{border-left:2px solid var(--accent-red);padding:4px 0 4px 14px;margin-bottom:10px;position:relative;}
+.timeline-item::before{content:'';position:absolute;left:-5px;top:10px;width:8px;height:8px;border-radius:50%;background:var(--accent-red);}
+.points li{margin-left:18px;margin-bottom:6px;font-size:var(--font-sm);}
+/* 师说 */
+.block-teacher{background:linear-gradient(135deg,var(--bg-card),#2a1822);}
+.teacher-head{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.avatar{
+  width:42px;height:42px;border-radius:50%;flex:none;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;color:#fff;font-size:var(--font-md);
+  background:linear-gradient(135deg,#ed64a6,#9f7aea);
+}
+.teacher-name{font-weight:700;font-size:var(--font-md);}
+.teacher-role{font-size:var(--font-xs);color:var(--text-secondary);}
+.lang-list li{margin-left:18px;margin-bottom:6px;font-size:var(--font-sm);}
+.sub-h{font-size:var(--font-md);font-weight:700;color:var(--accent-primary);margin:14px 0 8px;}
+/* 热议 */
+.hot-topic-title{font-size:var(--font-lg);font-weight:700;text-decoration:underline;text-decoration-color:var(--accent-primary);text-underline-offset:5px;margin-bottom:6px;}
+.heat-stats{font-size:var(--font-xs);background:var(--accent-red);color:#fff;border-radius:12px;padding:2px 10px;display:inline-block;margin-bottom:10px;}
+.chat-bubble{
+  background:var(--bg-card-hover);border:1px solid var(--border);
+  border-radius:18px;padding:10px 14px;margin:8px 0;font-size:var(--font-md);
+}
+.chat-bubble.alt{background:rgba(237,100,166,.08);}
+.bubble-sender{font-size:var(--font-xs);color:var(--accent-primary);font-weight:700;display:block;margin-bottom:3px;}
+/* 荣誉 */
+.honor-card{background:rgba(246,224,94,.10);border:1px solid var(--accent-yellow);border-radius:10px;padding:12px 14px;margin-bottom:12px;}
+.honor-icon{font-size:var(--font-2xl);text-shadow:0 0 14px rgba(246,224,94,.6);}
+.honor-name{font-size:var(--font-md);font-weight:700;color:var(--accent-yellow);}
+/* AI资讯 */
+.ai-box{border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-bottom:12px;background:rgba(0,0,0,.12);}
+.ai-tool-tag{
+  display:inline-block;font-size:var(--font-xs);font-family:monospace;
+  background:rgba(251,211,141,.18);color:var(--accent-orange);
+  border:1px solid var(--accent-orange);border-radius:6px;padding:1px 8px;margin:2px 4px 2px 0;
+}
+.ai-data-number{font-size:var(--font-data);font-weight:800;color:var(--accent-orange);}
+.ai-item{font-size:var(--font-sm);margin-bottom:8px;}
+/* 社群 */
+.community-grid{column-count:1;}
+.comm-card{background:var(--bg-card-hover);border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin-bottom:10px;}
+.community-speaker{font-size:var(--font-xs);color:var(--accent-primary);font-weight:700;}
+footer{max-width:1600px;margin:20px auto 0;text-align:center;font-size:var(--font-xs);color:var(--text-secondary);padding-top:16px;border-top:1px solid var(--border);}
+/* 主题按钮 */
+#theme-toggle{position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;border:1px solid var(--border);background:var(--bg-card);color:var(--text-primary);font-size:20px;cursor:pointer;z-index:99;box-shadow:0 4px 12px rgba(0,0,0,.3);}
+</style>
+</head>
+<body>
+<header class="newspaper-header">
+  <div class="header-top">
+    <span class="issue-info">第 26 期 · 2026年04月26日 星期日</span>
+    <h1 class="newspaper-title">野菩萨AI社团 · 每日资讯</h1>
+    <span class="stats-badge">今日 80 条消息 · 25 人发言</span>
+  </div>
+  <p class="header-tagline">风变野菩萨AI视频社团A班 · 玫瑰粉特刊 · 王超老师《短剧课》专题</p>
+  <div class="header-divider"></div>
+</header>
+
+<main class="newspaper-grid">
+  <!-- 左栏 -->
+  <aside class="col-left">
+    <!-- 重要公告 -->
+    <section class="block-announcement">
+      <div class="block-title"><span class="icon">📢</span>重要公告</div>
+      <div class="announce-bar">今晚 20:30 直播 · 王超老师《短剧课》</div>
+      <div class="timeline-item">
+        <strong class="highlight-red">15:17 · 课程预告</strong>
+        <blockquote>【📌今晚八点半：野菩萨AI视频社团课】<br>👨主讲老师：王超老师<br>🎯课程内容：《短剧课》<br>📅时间：4月26日 今晚20:30<br>今晚不见不散哦~🙌</blockquote>
+      </div>
+      <div class="timeline-item">
+        <strong class="highlight-red">20:20 / 20:30 · @所有人 开课提醒</strong>
+        <blockquote>@所有人 【📌开始上课啦！野菩萨AI视频社团课】⏰要上课啦~~~ 老师要开讲咯！📢 还没到场的同学快快入座啦！</blockquote>
+      </div>
+      <p style="font-size:var(--font-sm)">同步发布的还有 <span class="bg-highlight">VB 比赛（自愿参与）</span> 新一期更新通知，鼓励同学参与命题创作练习。</p>
+      <ul class="points">
+        <li>📺 直播主题：短剧创作系统方法论</li>
+        <li>👨‍🏫 主讲：王超老师（资深影视/短剧方向）</li>
+        <li>🏆 配套活动：VB 比赛新一期上线，附参考视频</li>
+        <li>🔗 直播间：fclive.pandacollege.cn/p/6YMtTE</li>
+      </ul>
+      <div class="analysis-box">
+        <span class="tag">🤖 AI 行动建议：</span>本期短剧课是承接上一讲的进阶内容，信息密度高。建议同学课前先把上次课的"人设+场景+分镜"练习成果整理好，带着具体作品进直播间对照听课；课后第一时间把老师的"黄金前段抓人""剪辑力挽狂澜"等要点落到自己手上的项目里，并报名 VB 比赛把方法论转化为实战输出。
+      </div>
+    </section>
+
+    <!-- 荣誉时刻 -->
+    <section class="block-honor">
+      <div class="block-title"><span class="icon">🏆</span>荣誉时刻</div>
+      <div class="honor-card">
+        <span class="honor-icon">🏆</span>
+        <div class="honor-name">楼蓝（嘎嘎嘣嘣）· 课后坚持出片</div>
+        <blockquote>> ヒーロー見参！：这是按照老师的方法出的吗<br>楼蓝回应：<span class="highlight-green">是的，上次课完就一直做，才完工</span></blockquote>
+        <p style="font-size:var(--font-sm)">学员持续把课堂方法转化为完整作品，是社团最值得表扬的"长期主义"。</p>
+      </div>
+      <div class="honor-card">
+        <span class="honor-icon">🎬</span>
+        <div class="honor-name">视频课代表-南山 · 大赛参赛新片</div>
+        <blockquote>小南山的新片，跪求支持[偷笑]<br>（参赛：NEXTGEN高校AIGC创作大赛 · 可灵AI高校原力计划 · 影像创作赛道）</blockquote>
+        <p style="font-size:var(--font-sm)">题材取自崇祯帝朱由检，史诗叙事 + AI 影像，敢于挑战长篇历史题材，值得鼓励。</p>
+      </div>
+      <div class="analysis-box">
+        <span class="tag">🤖 AI 点评：</span>两位同学一个"把课练到底"，一个"把作品送上赛场"，正好示范了从学习到产出的完整闭环。鼓励更多同学把作品投向 VB、NEXTGEN 等比赛——参赛本身就是最快的成长路径。
+      </div>
+    </section>
+  </aside>
+
+  <!-- 中栏 -->
+  <article class="col-center">
+    <!-- 师说 -->
+    <section class="block-teacher">
+      <div class="block-title"><span class="icon">👨‍🏫</span>师说</div>
+
+      <div class="teacher-head">
+        <div class="avatar">王</div>
+        <div><div class="teacher-name">王超老师</div><div class="teacher-role">本期主讲 · 短剧创作（语录由学员「真异」整理）</div></div>
+      </div>
+      <p><strong>核心观点：</strong>短剧的胜负从<span class="highlight-blue">剧本阶段</span>就已注定——编剧能力第一、开篇就要抓住观众、剪辑是最后的"力挽狂澜"。</p>
+      <p class="sub-h">关于剧本</p>
+      <blockquote>
+        - 编剧的能力最重要<br>
+        - 剧本阶段就要有剪辑思路（如何抓住观众）<br>
+        - Gemini 很好用，但不能直接用<br>
+        - 分镜和脚本花的时间会长，重要的是审美和看片量<br>
+        - <mark class="green">大模型的智商取决于我们的智商，我们才是质量的关键</mark>
+      </blockquote>
+      <p class="sub-h">关于美术风格与剪辑</p>
+      <blockquote>
+        - 主角的塑造很重要（人设、静止与动态时的表达）<br>
+        - 场景：与人设分开做会好一点<br>
+        - 时代背景要落到服装、说话方式、长相、房子、摆设、外部环境<br>
+        - <mark class="orange">剪辑是呈现的关键，可以力挽狂澜</mark>
+      </blockquote>
+      <p style="font-size:var(--font-sm)">课堂中关于"开篇抓人"出现一处口误，经 <span class="highlight-blue">G.邹</span> 与学员澄清更正：</p>
+      <blockquote>
+        > 真异 04-26 21:45<br>
+        G.邹 回应：<span class="highlight-red">是 10 到 90 秒，不是分钟</span><br>
+        真异补充：老师说的是传统电影 90 分钟、前 10 分钟要抓住观众，再讲到短剧现在 1 分钟就要抓人。
+      </blockquote>
+      <div class="analysis-box">
+        <span class="tag">🤖 AI 延伸解读：</span>王老师这套方法论的精髓，是把"AI 工具"重新摆回辅助位——<span class="highlight-blue">"大模型的智商取决于我们的智商"</span> 一句点破了当下 AI 创作的最大误区：以为换个更强的模型就能出爆款。真正的护城河仍是编剧的叙事力、审美与看片量。对学员的三条实践建议：① 写脚本时同步标注剪辑点和"钩子"，别等成片再补；② 把人设与场景拆开打磨，再合成，画面一致性更稳；③ 用"黄金 8 秒/前 10%"原则反复审视开头，能不能在最短时间内勾住观众，决定了短剧的完播率。
+      </div>
+
+      <div class="teacher-head" style="margin-top:18px;">
+        <div class="avatar">菩</div>
+        <div><div class="teacher-name">菩萨（野菩萨）</div><div class="teacher-role">社团主理人</div></div>
+      </div>
+      <p>清晨与 lu-xh 关于"语文课本插画"的互动中，菩萨老师虽寥寥数语，却传递出社团一贯的氛围：</p>
+      <blockquote>逆流而上：菩萨老师这么早<br>菩萨：早啊，干活呢 / 不错</blockquote>
+      <div class="analysis-box">
+        <span class="tag">🤖 延伸思考：</span>主理人清晨在线"干活"、随手点评学员作品，是社群活力的隐形引擎。这种"老师也在持续创作"的示范，比任何口号都更能带动学员保持手感。
+      </div>
+    </section>
+
+    <!-- 热议话题 -->
+    <section class="block-hot">
+      <div class="block-title"><span class="icon">🔥</span>热议话题</div>
+
+      <div class="hot-topic-title">话题一：短剧课"意犹未尽"——大家想要更多干货</div>
+      <span class="heat-stats">🔥 10+ 人参与 · 15+ 条讨论</span>
+      <p style="font-size:var(--font-sm)">21:30 后下课，群里立刻被"没听够"刷屏，引出关于课程节奏与内容深度的集体讨论：</p>
+      <div class="chat-bubble"><span class="bubble-sender">灵芝孢子粉</span>感觉刚要听到精彩的地方……被打断了。很多人都不是影视从业者，这些都不知道啊，讲讲挺好的。</div>
+      <div class="chat-bubble alt"><span class="bubble-sender">雾（May雾）</span>好想老师讲多点，老师的第一次课多爽[大哭]</div>
+      <div class="chat-bubble"><span class="bubble-sender">Nina</span>估计老师今天有捉急的事要处理没讲太深入，那个课件量得讲到 10 点半都未必讲完。</div>
+      <div class="chat-bubble alt"><span class="bubble-sender">逆流而上 lu-xh</span>建议还是按老师授课节奏来，不要打断[抱拳]，思维是金。王老师啥时加个餐，我饿。</div>
+      <div class="analysis-box">
+        <span class="tag">🤖 AI 分析结论：</span>"没听够"是优质课程最好的口碑。讨论里有两种声音：一种希望加深加长（雾、灵芝孢子粉），一种提醒尊重授课节奏、自行消化（lu-xh）。两者并不矛盾——建议社团把"课后加餐/答疑"常态化，让意犹未尽的同学有去处，同时鼓励大家先把当堂要点落地。课件是否分享也引发小讨论，运营方可考虑统一发放精简版要点，既满足需求又不喧宾夺主。
+      </div>
+
+      <div class="hot-topic-title" style="margin-top:18px;">话题二：GPT 官网"免费一个月"——薅羊毛还是先观望？</div>
+      <span class="heat-stats">🔥 3 人参与 · 8 条讨论</span>
+      <div class="chat-bubble"><span class="bubble-sender">逆流而上 lu-xh</span>GPT 官网，一个月免费（打开就有，之前没在官网等过）。</div>
+      <div class="chat-bubble alt"><span class="bubble-sender">小满花开</span>你弄到一个月免费的账号吗？这个是不是要绑定国外的银行卡呀？免费一个月哦，你可以领一个啊。</div>
+      <div class="chat-bubble"><span class="bubble-sender">逆流而上 lu-xh</span>用谷歌邮箱再注册一个不就行了；先不领，现在没有这么大的用量。</div>
+      <div class="analysis-box">
+        <span class="tag">🤖 AI 判断与建议：</span>海外 AI 工具的限时免费名额确实值得关注，但 lu-xh "按需领取、不囤号" 的态度很理性。建议同学：① 真有高频需求再注册，避免占用名额又闲置；② 注意绑卡与到期自动扣费风险；③ 国内同学优先评估即梦、可灵等合规工具的免费额度是否已够用。
+      </div>
+    </section>
+  </article>
+
+  <!-- 右栏 -->
+  <aside class="col-right">
+    <!-- AI资讯 -->
+    <section class="block-ai">
+      <div class="block-title"><span class="icon">🤖</span>AI资讯</div>
+      <p style="font-size:var(--font-sm)"><strong>今日 AI 焦点：</strong>工具讨论围绕<span class="highlight-blue">图像生成 + AI 音乐</span>展开，多位同学晒出用免费工具完成的作品。</p>
+      <div class="ai-box">
+        <span class="ai-tool-tag">海艺 SD2.0</span><span class="ai-tool-tag">Coze</span><span class="ai-tool-tag">GPT</span><span class="ai-tool-tag">Gemini</span><span class="ai-tool-tag">可灵AI</span>
+        <p class="ai-item" style="margin-top:8px;">lu-xh 用<mark class="orange">海艺 SD2.0</mark>生成语文课本风插画：</p>
+        <blockquote>今早闪过的画面，用海艺 sd2.0 出的；可以做语文课本插画；图比视频更好看[捂脸]</blockquote>
+      </div>
+      <div class="ai-box">
+        <p class="ai-item">春天用<span class="highlight-blue">全免费工具</span>做了一首"出海战歌"，主动求指点：</p>
+        <blockquote>想做一首有劲的歌；全用的免费的做的；不太会做，大家给指点指点[合十]</blockquote>
+        <p class="ai-item">作品方向：#中国制造 #品牌出海 #AI音乐，致敬广交会中国企业。</p>
+      </div>
+      <p style="font-size:var(--font-sm)"><span class="ai-data-number">100%</span> 免费工具产出，是今日 AI 创作的关键词。</p>
+      <div class="analysis-box">
+        <span class="tag">🤖 趋势判断 & 使用建议：</span>从"海艺出插画"到"免费做战歌"，群内验证了一件事——<span class="highlight-green">免费 AI 工具的下限已足够支撑完整作品</span>。建议学员：① 图像优先打磨提示词与风格统一，"图比视频好看"说明静帧仍是性价比最高的练习场；② AI 音乐善用免费额度先做 Demo，再决定是否付费精修；③ 像春天一样"做完就发群求反馈"，是进步最快的方式。
+      </div>
+      <a class="link-pill" href="http://www.battleverse.cn/" target="_blank">Prompt Battle 报名</a>
+      <a class="link-pill" href="https://fclive.pandacollege.cn/p/6YMtTE" target="_blank">短剧课直播间</a>
+    </section>
+
+    <!-- 社群动态 -->
+    <section class="block-community">
+      <div class="block-title"><span class="icon">💬</span>社群动态</div>
+      <div class="community-grid">
+        <div class="comm-card">
+          <span class="community-speaker">真异</span>
+          <p style="font-size:var(--font-sm)">课后主动整理《王超老师语录》分享全群，"觉得很受用，结果结束了"，乐于分享的精神获 <span class="highlight-green">雾[强][强]</span> 点赞。</p>
+        </div>
+        <div class="comm-card">
+          <span class="community-speaker">WA</span>
+          <p style="font-size:var(--font-sm)">发布 Prompt Battle 187 周末赛事预告，8 轮对战、悠船 GPU 时长 + 会员福利，号召同学晚间限时出图练手。</p>
+        </div>
+        <div class="comm-card">
+          <span class="community-speaker">楼蓝 · Rachel瑞湫</span>
+          <p style="font-size:var(--font-sm)">"今天没听够，期待老师下次上课[抱拳]""每次王老师的课程越挖越有"——满满的好评与期待。</p>
+        </div>
+        <div class="comm-card">
+          <span class="community-speaker">早间互动</span>
+          <p style="font-size:var(--font-sm)">lu-xh 与菩萨老师清晨"早安"对话，棉花糖泡沫、GiGi🌸LZY、😎吟风😎 等以表情包热情互动，氛围轻松。</p>
+        </div>
+      </div>
+      <div class="analysis-box">
+        <span class="tag">🤖 氛围总结：</span>今日社群从清晨晒图到深夜课评，活跃度极高、情绪饱满。白天是"作品交流场"——晒插画、做音乐、互相点赞；晚上是"学习共振场"——一堂短剧课点燃了集体求知欲，"没听够"的遗憾恰恰证明内容打动了人。乐于整理分享（真异）、理性提醒节奏（lu-xh）、暖心点赞（雾）共同织成了健康的学习社群生态。
+      </div>
+      <p style="font-size:var(--font-sm);text-align:center;color:var(--accent-primary);margin-top:10px;">📮 小编寄语：意犹未尽，正是热爱开始的地方。带着今晚的钩子，去做属于你的第一帧。</p>
+    </section>
+  </aside>
+</main>
+
+<footer>
+  <p>风变野菩萨AI视频社团A班 · 每日资讯 · 生成时间：2026-06-18（历史补录）· 本期共 80 条消息 · 25 人发言</p>
+</footer>
+
+<button id="theme-toggle" onclick="(function(){var h=document.documentElement;var t=h.getAttribute('data-theme')==='dark'?'light':'dark';h.setAttribute('data-theme',t);try{localStorage.setItem('pusa-theme',t);}catch(e){}document.getElementById('theme-toggle').textContent=t==='dark'?'☀️':'🌙';})()">☀️</button>
+<script>
+(function(){try{var t=localStorage.getItem('pusa-theme')||'dark';document.documentElement.setAttribute('data-theme',t);document.getElementById('theme-toggle').textContent=t==='dark'?'☀️':'🌙';}catch(e){}})();
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "野菩萨AI社团日报中心",
   "description": "风变AI视频社团A班每日资讯存档",
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-06-18",
   "digests": [
     {
       "date": "2026-04-27",
@@ -9,6 +9,13 @@
       "title": "可灵4K新作品《雾海上的旅人》引发深度艺术讨论",
       "messageCount": 143,
       "speakerCount": 64
+    },
+    {
+      "date": "2026-04-26",
+      "file": "daily-2026-04-26.html",
+      "title": "王超老师《短剧课》专题·短剧创作方法论",
+      "messageCount": 80,
+      "speakerCount": 25
     },
     {
       "date": "2026-04-24",
